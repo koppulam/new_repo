@@ -1,0 +1,949 @@
+.engraving {
+    @include MediaQueries($desktop-and-below) {
+        overflow: auto;
+    }
+
+    .product-preview {
+
+        &__carousel-holder {
+            .slick-slider {
+                .slick-arrow{
+                    &.slick-next {
+                        right: 0;
+                    }
+                    &.slick-prev {
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-band--60x40 {
+        padding-left: 0;
+
+        @include MediaQueries($desktop-and-below) {
+            padding-bottom: 0;
+        }
+
+        .band-item {
+
+            @include MediaQueries($desktop-and-below) {
+                height: auto;
+                &:nth-child(2) {
+                    padding: 0 getUnitValue(2);
+                }
+            }
+
+            .engraving-wrapper {
+                max-width: getUnitValue(50);
+                width: 100%;
+
+                @include MediaQueries($desktop-and-below) {
+                    max-width: 100%;
+                    width: 100%;
+                    margin: 0 auto;
+                }
+
+                .engraving-customization,
+                .engraving-confirmation {
+                    &__content {
+                        margin-top: getUnitValue(8);
+                        margin-bottom: getUnitValue(7);
+
+                        @include MediaQueries($desktop-and-below) {
+                            margin-top: getUnitValue(3);
+                            margin-bottom: getUnitValue(5);
+                        }
+
+                        &_heading.tiffany-rte {
+                            @include font($font-size-32, false, $black, 1.25, false);
+                            @include font-family($font_sterling_display_roman);
+                            margin-bottom: getUnitValue(5);
+
+                            h3 {
+                                line-height: 1.25;
+                            }
+
+                            @include MediaQueries($desktop-and-below) {
+                                @include font($font-size-16, false, $black, 1.5, false);
+                                margin-bottom: getUnitValue(0);
+                            }
+                        }
+
+                        &_option {
+                            border-bottom: 1px solid $black;
+                            padding: getUnitValue(3) 0;
+
+                            .cta {
+                                background: none;
+                                padding: 0;
+
+                                .keyboard--focussed & {
+                                    &:focus {
+                                        border: solid 1px $bondiBlue;
+                                    }
+                                }
+                            }
+
+                            .cta-content {
+                                @include font($font-size-14, false, $black, 1.71, false);
+                                @include font-family($font_santral_regular);
+                            }
+
+                            .icon-dropdown-right-arrow:before,
+                            .icon-dropdown-left:before {
+                                font-size: 0.5rem;
+                                position: relative;
+                                top: -2px;
+                            }
+                        }
+                    }
+
+
+                    &__bottom-wrapper{
+                        &_custom-btn {
+                            padding: getUnitValue(2);
+                            @include font($font-size-14, $font-weight-normal, $white, 1.14, 0);
+                            @include font-family($font_santral_regular);
+                        }
+                        &_custom-btn-price {
+                            @include font($font-size-14, $font-weight-normal, $white, 1.14, 0);
+                            @include font-family($font_santral_regular);
+                            padding-top: 0;
+                            padding-bottom: 0;
+                            margin: auto 0;
+                            align-items: center;
+
+                            &:hover {
+                                color: $black;
+                            }
+                        }
+
+                        &_edit-btn {
+                            @include font($font-size-14, $font-weight-normal, $white, 1.14, 0);
+                            @include font-family($font_santral_regular);
+                        }
+                    }
+
+                    &__footer {
+                        .delivery_note {
+                            @include font($font-size-12, $font-weight-normal, $black, 1.5, false);
+                            letter-spacing: 0;
+
+                            .orderby {
+                                @include font($font-size-12, $font-weight-normal, $black, 1.33, false);
+                                @include font-family($font_santral_regular);
+                                margin-bottom: getUnitValue(2);
+                            }
+
+                            .delivery {
+                                .information-text-component {
+                                    .text-phnumber .cta {
+                                        line-height: 1.33;
+                                        font-size: $font-size-12;
+                                    }
+                                }
+                                &.toggle {
+                                    .cta-content {
+                                        h1, h2, h3, h4, h5 {
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .engraving-customization {
+                    &__content {
+                        margin-bottom: 0;
+
+                        &_option {
+                            &:last-child {
+                                border: none;
+                            }
+                        }
+                    }
+
+                    &__footer {
+                        margin-top: 38px;
+                    }
+                }
+
+                .engraving-confirmation {
+                    .engraving-customization__footer {
+                        margin-top: 62px;
+
+                        @include MediaQueries($desktop-and-below) {
+                            margin-top: getUnitValue(3);
+                        }
+                    }
+                }
+
+                .custom-engraving {
+
+                    &__wrapper{
+                        align-content: space-between;
+
+                        &_content {
+                            margin-top: getUnitValue(8);
+                            margin-bottom: getUnitValue(10);
+
+                            @include MediaQueries($desktop-and-below) {
+                                margin-top: getUnitValue(4);
+                                margin-bottom: getUnitValue(2);
+                            }
+
+                            &_heading {
+                                @include font($font-size-32, $font-weight-normal, $black, 1.25, false);
+                                @include font-family($font_sterling_display_roman);
+                                margin-bottom: getUnitValue(4);
+
+                                @include MediaQueries($desktop-and-below) {
+                                    @include font($font-size-32, $font-weight-normal, $black, 1.25, false);
+                                    margin-bottom: getUnitValue(2);
+                                }
+                            }
+
+                            &_desc {
+                                @include font($font-size-14, $font-weight-normal, $black, 1.71, false);
+                                @include font-family($font_santral_regular);
+
+                                p, ul li {
+                                    font-size: $font-size-14;
+                                    line-height: 1.71;
+                                }
+                            }
+                        }
+
+                        &_footer {
+
+                            width: 100%;
+
+                            &_contact-info {
+                                @include font($font-size-12, $font-weight-normal, $black, 1.33, false);
+                                @include font-family($font_santral_regular);
+
+                                &_number {
+                                    font-weight: $font-weight-600;
+                                }
+                            }
+
+                            .information-text-component {
+                                margin-bottom: getUnitValue(3);
+
+                                p {
+                                    font-size: $font-size-14;
+                                }
+                            }
+
+                            &_actions {
+                                @include MediaQueries($desktop-and-below) {
+                                    margin-bottom: getUnitValue(5);
+                                }
+                                &_btn {
+                                    padding: getUnitValue(2.5) getUnitValue(6.8);
+                                    word-break: break-all;
+                                    height: auto;
+                                    &:active {
+                                        box-shadow: none;
+                                        border: 1px solid $black;
+                                    }
+                                }
+
+                                &_back {
+                                    word-break: break-all;
+                                    height: auto;
+                                    @include MediaQueries($desktop-and-below) {
+                                        padding: getUnitValue(2);
+                                    }
+                                }
+
+                                &_contact {
+                                    padding: getUnitValue(2.5) getUnitValue(6.8);
+                                    font-size: $font-size-14;
+                                    font-weight: 600;
+                                    line-height: 1.14;
+                                    word-break: break-all;
+                                    height: auto;
+                                    @include font-family($font_santral_semi_bold);
+
+                                    @include MediaQueries($desktop-and-below) {
+                                        padding: getUnitValue(2);
+                                    }
+                                }
+
+                                &.gutter {
+                                    .custom-engraving__wrapper_footer_actions_contact {
+                                        margin-left: getUnitValue(2);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .engraving-initials {
+
+                    &__body {
+                        padding-top: getUnitValue(8);
+
+                        @include MediaQueries($desktop-and-below) {
+                            padding-top: getUnitValue(3);
+                        }
+
+                        &_section {
+                            padding-bottom: 46px;
+
+                            &_title {
+                                @include font($font-size-16, false, $black, 1.5, false);
+                                @include font-family($font_sterling_display_roman);
+                                padding-bottom: getUnitValue(2);
+                            }
+
+                            &.font-section {
+                                @include MediaQueries($desktop-tablet-and-above) {
+                                    min-height: 350px;
+                                }
+                            }
+
+                            .type-wrapper {
+                                &__type {
+                                    padding-bottom: getUnitValue(2);
+
+                                    &:last-child {
+                                        padding-bottom: 0;
+                                    }
+
+                                    &_heading {
+                                        @include font($font-size-16, false, $black, 1.5, false);
+                                        @include font-family($font_santral_semi_bold);
+
+                                        &_text {
+                                            cursor: pointer;
+                                        }
+
+                                        &_price {
+                                            @include font($font-size-16, $font-weight-light, $black, 1.5, false);
+                                            @include font-family($font_santral_light);
+                                            padding-left: getUnitValue(2);
+                                        }
+
+                                        .custom-radio-wrapper {
+                                            &__radio {
+                                                width: 17px;
+                                                height: 17px;
+                                                border: 1px solid $black;
+                                                border-radius: 50%;
+                                                margin-right: getUnitValue(2);
+                                                padding: 1px;
+                                                position: relative;
+                                                top: -3px;
+                                                left: 1px;
+
+                                                &.checked {
+                                                    .blue-dot {
+                                                        width: 13px;
+                                                        height: 13px;
+                                                        background-color: $bondiBlue;
+                                                        border-radius: 50%;
+                                                        position: absolute;
+                                                        top: 1px;
+                                                        left: 1px;
+                                                    }
+                                                }
+                                            }
+
+                                            &:focus {
+                                                outline: none;
+
+                                                .custom-radio-wrapper__radio{
+                                                    box-shadow: 0 0 0 1px $bondiBlue;
+                                                }
+                                            }
+                                        }
+
+                                        @include MediaQueries($above-tablet-and-below-desktop) {
+                                            @include font($font-size-14, false, $black, 1.71, false);
+                                            @include font-family($font_santral_semi_bold);
+
+                                            &_price {
+                                                @include font-family($font_santral_light);
+                                            }
+                                        }
+                                    }
+
+                                    &_description,
+                                    &_description p {
+                                        @include font($font-size-12, false, $black, 1.41, false);
+                                        @include font-family($font_santral_light);
+
+                                        @include MediaQueries($above-tablet-and-below-desktop) {
+                                            line-height: 1.33;
+                                        }
+                                    }
+
+                                    &_description {
+                                        padding: getUnitValue(1) 0 getUnitValue(1) getUnitValue(4);
+                                    }
+
+                                    .monograming {
+                                        margin: getUnitValue(3) 0 0 getUnitValue(4);
+                                        border-top: 1px solid $black;
+                                        padding-top: getUnitValue(3);
+                                        width: calc(100% - #{getUnitValue(4)});
+
+                                        .type-wrapper__type_description {
+                                            padding: 0;
+                                            padding-left: getUnitValue(1.25);
+
+                                            @include MediaQueries($desktop-and-above) {
+                                                width: 75%;
+                                                padding-left: getUnitValue(1);
+                                            }
+                                        }
+
+                                        @include MediaQueries($desktop-and-above) {
+                                            .custom-checkbox__input + .custom-checkbox__text::before {
+                                                top: getUnitValue(3.5);
+                                            }
+                                        }
+
+
+                                        &__wrapper {
+                                            &_thumbnail {
+                                                width: 25%;
+                                                max-width: getUnitValue(9);
+                                                max-height: getUnitValue(9);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .text-wrapper {
+                                display: flex;
+                                justify-content: center;
+                                padding-bottom: getUnitValue(1);
+
+                                &__holder {
+                                    margin-right: 8%;
+                                    width: 30.67%;
+
+                                    @include MediaQueries($desktop-and-below) {
+                                        margin-right: getUnitValue(2);
+                                    }
+
+                                    &:last-child {
+                                        margin-right: 0;
+                                    }
+
+                                    &_text {
+                                        @include font($font-size-40, $font-weight-normal, $black, 1.2, 0);
+                                        @include font-family($font_sterling_display_roman);
+                                        max-width: getUnitValue(12);
+                                        height: getUnitValue(9);
+                                        outline: none;
+                                        text-align: center;
+                                        border: 1px solid $placeholder-gray;
+                                        padding: 0;
+                                        margin-bottom: getUnitValue(1);
+                                        font-size: 2.5rem !important;
+
+                                        &:last-child {
+                                            margin-right: 0;
+                                        }
+
+                                        &.large {
+                                            height: getUnitValue(11);
+                                            font-size: $font-size-64;
+                                        }
+
+                                        &.error {
+                                            border: 1px solid $crimson-red;
+                                        }
+
+
+                                        @include placeholder {
+                                            color: $boulder;
+                                        }
+
+                                        &:focus {
+                                            text-align: left;
+                                            padding-left: getUnitValue(3);
+
+                                            @include placeholder{
+                                                color: transparent;
+                                            }
+                                        }
+
+                                        &:last-child {
+                                            margin-right: 0;
+                                        }
+                                    }
+
+                                    &_label {
+                                        @include font($font-size-10, false, $filter-gray, 1.6, false);
+                                        @include font-family($font_santral_regular);
+                                    }
+                                }
+                            }
+
+                            .error-message-holder {
+                                @include font($font-size-10, false, $crimson-red, 1.6, false);
+                                @include font-family($font_santral_regular);
+                            }
+
+                        }
+                    }
+
+                    &__actions {
+                        margin-bottom: getUnitValue(2);
+                        &_back {
+                            padding: getUnitValue(2);
+                        }
+                        &_next {
+                            padding: getUnitValue(2);
+                            font-weight: $font-weight-normal;
+                        }
+
+                        &.gutter {
+                            .engraving-initials__actions_next{
+                                margin-left: getUnitValue(2);
+                            }
+                        }
+                    }
+                }
+
+                .engraving-symbols {
+                    &__body {
+                        padding-top: getUnitValue(8);
+                        padding-bottom: getUnitValue(8);
+
+                        @include MediaQueries($desktop-and-below) {
+                            padding-top: getUnitValue(3);
+                            padding-bottom: getUnitValue(6);
+
+                            .engraving-symbols__body_section {
+                                padding-bottom: 0;
+
+                                &_body {
+                                    overflow: hidden;
+                                    padding-bottom: 0;
+
+                                    .ps{
+                                        display: inherit;
+                                        padding-bottom: getUnitValue(2);
+                                        .ps__rail-x {
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &_section {
+                            max-height: getUnitValue(49);
+                            overflow-y: auto;
+
+                                @include MediaQueries($desktop-and-above) {
+                                &_body {
+                                    .font-wrapper__font.btn.selected {
+                                        .font-wrapper__font-preview {
+                                            border: 2px solid $black;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &_title {
+                            @include font($font-size-16, false, $black, 1.5, false);
+                            @include font-family($font_sterling_display_roman);
+                            padding-bottom: getUnitValue(2);
+                        }
+
+                        &_category {
+                            margin-bottom: getUnitValue(5);
+
+                            @include MediaQueries($desktop-and-below) {
+                                margin-bottom: getUnitValue(2);
+                            }
+
+                            @include MediaQueries($desktop-and-above) {
+                                display: inline-block;
+
+                                &:focus {
+                                    border: 1px solid $bondiBlue;
+                                }
+                            }
+
+                            &_title {
+                                @include font($font-size-16, false, $black, 1.5, false);
+                                @include font-family($font_santral_regular, $important);
+                                background: transparent;
+                                border: none;
+                                padding: 0;
+                                text-transform: capitalize;
+
+                               .keyboard--focussed & {
+                                    &:focus {
+                                        border: solid 1px $bondiBlue;
+                                    }
+                                }
+
+                                &:focus {
+                                    border: solid 1px $bondiBlue;
+                                }
+
+
+                                &::after {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    margin-left: getUnitValue(1);
+                                    margin-top: -4px;
+                                }
+                            }
+
+                            .select-arrow::after {
+                                @include MediaQueries($desktop-and-below) {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    margin-left: getUnitValue(1);
+                                    margin-top: -4px;
+                                }
+                            }
+
+                            &_options {
+                                margin-top: getUnitValue(2);
+                            }
+
+                            &_label {
+                                @include font($font-size-16, false, $black, 1.5, false);
+                                @include font-family($font_santral_light);
+                                background: transparent;
+                                border: none;
+                                padding: 0;
+                                text-transform: capitalize;
+                                cursor: pointer;
+
+                                .keyboard--focussed & {
+                                    &:focus {
+                                        border: solid 1px $bondiBlue;
+                                    }
+                                }
+
+                                &:focus {
+                                    border: solid 1px $bondiBlue;
+                                }
+                            }
+
+                            &_select {
+                                @include font($font-size-16, false, $black, 1.5, false);
+                                @include font-family($font_santral_regular);
+                                outline: none;
+                                margin-left: 0;
+                                background: none;
+                                border: none;
+                                appearance: none;
+                                text-transform: capitalize;
+
+                                &::-ms-expand {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    &__actions {
+                        margin-bottom: getUnitValue(2);
+
+                        &_back {
+                            padding: getUnitValue(2);
+                        }
+                        &_next {
+                            padding: getUnitValue(2);
+                            font-weight: $font-weight-normal;
+                        }
+
+                        &.gutter {
+                            .engraving-symbols__actions_next{
+                                margin-left: getUnitValue(2);
+                                @include font-family($font_santral_regular);
+                            }
+                        }
+                    }
+                }
+
+                .font-wrapper {
+                    @extend %grid-layout, .tiffany-blue-custom-scroll-bar;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: getUnitValue(1);
+                    height: auto;
+
+                    .ie & {
+                        display: flex;
+                        width: 100%;
+                        flex-wrap: wrap;
+
+                        .font-wrapper--sm {
+                            width: 33%;
+                            padding: 0 8px 4px 0;
+                            .font-wrapper__font.symbol-engraving {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    &__font {
+                        position: relative;
+                        padding: 0;
+                        background: transparent;
+                        cursor: pointer;
+                        min-width: calc(34% - 8px);
+                        min-height: calc(106% - 8px);
+
+                        @include MediaQueries($desktop-and-below) {
+                            min-width: calc(31vw - 8px);
+                            height: calc(31vw - 8px);
+                            min-height: 1vw;
+                        }
+
+                        @include MediaQueries($mobile) {
+                            min-width: calc(30vw - 8px);
+                            height: calc(30vw - 8px);
+                        }
+
+                        .ie & {
+                            display: inline-block;
+                            width: calc(33% - 8px);
+                            margin-right: getUnitValue(0.5);
+                            margin-bottom: getUnitValue(0.5);
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        &-preview {
+                            display: block;
+                            width: 100%;
+                        }
+
+                        img {
+                            vertical-align: middle;
+                            width: 100%;
+                            height: auto;
+                        }
+
+                        &_name{
+                            @include font($font-size-16, $font-weight-600, $black, 1.5, 0);
+                            @include font-family($font_santral_regular);
+                            position: relative;
+                            display: none;
+                            background: $white;
+                            height: 100%;
+                            width: 100%;
+                            padding-bottom: 0;
+                            box-sizing: border-box;
+                            text-align: center;
+
+                            @include MediaQueries($desktop-and-below) {
+                                @include font($font-size-14, $font-weight-normal, $black, 1.33, 0);
+                                @include font-family($font_santral_regular);
+                                justify-content: center;
+                                padding-bottom: 0;
+                            }
+
+                            @include MediaQueries($mobile) {
+                                @include font($font-size-14, $font-weight-normal, $black, 1.33, 0);
+                                @include font-family($font_santral_regular);
+                                justify-content: center;
+                                padding-bottom: 0;
+                            }
+
+
+                            &_text {
+                                padding-top: 0;
+
+                                @include MediaQueries($desktop-and-below) {
+                                    padding: 0;
+                                }
+
+                                @include MediaQueries($mobile) {
+                                    padding: 0;
+                                }
+
+                                &--sm {
+                                    @include font($font-size-14, $font-weight-normal, $black, 1.33, 0);
+                                    @include font-family($font_santral_regular);
+                                    padding: 15px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+
+                        &.selected {
+
+                            &:active,
+                            &:focus {
+                                outline: none;
+                                border: none;
+                            }
+                            .font-wrapper__font-preview {
+                                @include MediaQueries($desktop-and-above) {
+                                    display: none;
+                                }
+                            }
+
+                            .font-wrapper {
+                                @include MediaQueries($desktop-and-above) {
+                                    &__font_name {
+                                        display: flex;
+                                        z-index: 1;
+                                        border: 2px solid $black;
+
+                                        &_text {
+                                            .ie & {
+                                                display: flex;
+                                                align-items: center;
+                                                height: 96%;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                @include MediaQueries($desktop-and-below) {
+                                    &__font-preview {
+                                        width: 100%;
+
+                                        img {
+                                            width: 100%;
+                                            min-width: calc(34% - 8px);
+                                            height: auto;
+                                            border: 2px solid $black;
+                                        }
+                                    }
+
+                                    &__font_name {
+                                        display: flex;
+                                        border: 2px solid $black;
+                                        z-index: 1;
+                                    }
+                                }
+                            }
+                        }
+
+                        &.symbol-engraving.selected {
+                            @include MediaQueries($desktop-and-above) {
+                                .font-wrapper {
+                                    &__font_name {
+                                        display: none;
+                                    }
+
+                                    &__font-preview {
+                                        display: flex;
+                                    }
+                                }
+                            }
+                        }
+
+                        &.symbol-engraving:hover {
+                            @include MediaQueries($desktop-and-above) {
+                                .font-wrapper {
+                                    &__font_name {
+                                        display: none;
+                                    }
+
+                                    &__font-preview {
+                                        display: flex;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            @include MediaQueries($desktop-and-above) {
+                                .font-wrapper__font_name {
+                                    z-index: 1;
+                                    display: flex;
+                                }
+                                .font-wrapper__font-preview {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    @include MediaQueries($desktop-and-below) {
+                        display: flex !important;
+                        overflow-x: hidden;
+                        padding-bottom: getUnitValue(2);
+                        align-items: flex-start;
+                        .ios & {
+                            overflow: auto;
+                        }
+
+                        .btn {
+                            margin-right: getUnitValue(1);
+
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                    .ps {
+                        display: inherit;
+                        padding-bottom: getUnitValue(2);
+                        .ps__rail-y {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__close {
+        padding: 0;
+        position: absolute;
+        right: getUnitValue(3);
+        top: getUnitValue(3);
+        font-size: $font-size-24;
+        background: transparent;
+        border: none;
+
+        &:before {
+            color: $filter-gray;
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            right: getUnitValue(2);
+            top: getUnitValue(2);
+            z-index: $modal-maxZIndex + 2;
+        }
+
+        .keyboard--focussed & {
+            &:focus {
+                border: 1px solid $bondiBlue;
+            }
+        }
+
+        img, svg {
+            width: getUnitValue(3);
+            height: getUnitValue(3);
+        }
+    }
+
+    .engraving-status {
+        @include font($font-size-16, $font-weight-600, $black, 1.5, false);
+        padding: getUnitValue(2) 0;
+        text-align: center;
+
+        &.error {
+            color: $crimson-red;
+        }
+    }
+}

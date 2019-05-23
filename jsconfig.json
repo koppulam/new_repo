@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "allowSyntheticDefaultImports": false,
+      "baseUrl": "./",
+      "paths": {
+        "components/*": ["src/react-app/components/*"],
+        "actions/*": ["src/react-app/actions/*"],
+        "constants/*": ["src/react-app/constants/*"],
+        "config/*": ["src/react-app/config/*"],
+        "services/*": ["src/react-app/services/*"],
+        "types/*": ["src/react-app/types/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  }

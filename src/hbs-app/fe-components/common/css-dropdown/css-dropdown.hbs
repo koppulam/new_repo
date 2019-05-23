@@ -1,0 +1,16 @@
+<article class="css-dropdown {{className}}">
+    <input type="checkbox"
+        class="css-dropdown__trigger"
+        id="{{id}}" role="link" 
+        {{#if active}}checked{{/if}}/>
+
+    <label
+        class="css-dropdown__text-button {{checkboxClassName}}"
+        for="{{dataAutomationId}}"
+        aria-label="{{label}}">
+        {{showHideBtnText}}
+        <span class="css-dropdown__arrow icon-Up"></span>
+    </label>
+
+    <div class="css-dropdown__content">{{expandContent}}</div>
+</article>

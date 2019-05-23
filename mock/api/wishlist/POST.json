@@ -1,0 +1,36 @@
+{
+  "resultDto": [
+    {
+      "isVisible": false,
+      "priceMarketId": 5,
+      "listItemID": 90248,
+      "listTypeId": 1,
+      "siteId": 5,
+      "sku": 10000111,
+      "assortmentId": 101,
+      "catalogID": "WEB1",
+      "catalogItemId": "66I7Q",
+      "categoryID": 471,
+      "quantity": 1,
+      "size": "4",
+      "dateCreated": "2018-06-04T08:31:56.627",
+      "dateLastModified": "2018-06-04T08:31:56.627"
+    },
+    {
+      "isVisible": false,
+      "priceMarketId": 5,
+      "listItemID": 90248,
+      "listTypeId": 1,
+      "siteId": 5,
+      "sku": 61624775,
+      "assortmentId": 101,
+      "catalogID": "WEB1",
+      "catalogItemId": "66I7Q",
+      "categoryID": 471,
+      "quantity": 1,
+      "size": "4",
+      "dateCreated": "2018-06-04T08:31:56.627",
+      "dateLastModified": "2018-06-04T08:31:56.627"
+    }
+  ]
+}

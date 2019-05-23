@@ -1,0 +1,349 @@
+// Browse Grid styles
+
+%grid-layout {
+    display: grid !important;
+    display: -ms-grid;
+    grid-auto-flow: dense;
+    grid-row-gap: getUnitValue(1);
+    grid-column-gap: getUnitValue(1);
+    overflow: visible;
+    height: 100%;
+
+    .ios &, .safari & {
+        height: auto;
+    }
+
+    @include MediaQueries($desktop-and-below) {
+        grid-row-gap: getUnitValue(1);
+    }
+
+    .layout_1x1,
+    .layout_1x2,
+    .layout_2x1,
+    .layout_3x1,
+    .layout_4x1,
+    .layout_2x2,
+    .layout_2x3,
+    .layout_3x3 {
+        @extend .tf-g, .tf-g__middle, .col__full;
+        position: relative;
+
+        article {
+            max-width: 100%;
+
+            &.text-with-image-marketing-carousel {
+                position: relative;
+                overflow: hidden;
+            }
+        }
+    }
+
+    div[id^="EL__"] {
+        &.layout_2x1,
+        &.layout_2x2,
+        &.layout_2x3 {
+            width: calc(50% - 4px) !important;
+
+            @include MediaQueries($below-desktop-tablet) {
+                width: calc(33.33% - 2px) !important;
+            }
+
+            @include MediaQueries($mobile) {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .marketing-content-tile {
+        height:100%;
+        display: flex;
+
+        @include MediaQueries($desktop-and-above) {
+            padding: getUnitValue(5);
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            padding: 0 getUnitValue(2);
+        }
+
+        .content-tile {
+
+            padding: 0px;
+            align-content: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+
+            .heading {
+
+                padding-bottom: 0;
+                h2{
+                  @include font($font-size-32, $font-weight-normal, $black, normal, normal);
+                  @include font-family($font_sterling_display_roman);
+                }
+
+                @include MediaQueries($desktop-and-below) {
+                    line-height: 1.47;
+                    padding-bottom: 0;
+                }
+
+                .tiffany-rte{
+
+                    ul {
+                        text-align: left;
+                    }
+
+                    @include MediaQueries($desktop-and-below) {
+                        padding-bottom: 0;
+                    }
+                }
+            }
+
+            .description {
+
+                @include font($font-size-14, $font-weight-light, $icon-gray, 1.72, normal);
+                @include font-family($font_santral_light);
+                padding-top:getUnitValue(1);
+
+                @include MediaQueries($desktop-and-below) {
+                    font-size: $font-size-14;
+                    line-height: 1.71;
+                }
+            }
+        }
+    }
+
+    .layout_2x2 {
+        grid-column: auto / span 2;
+        grid-row: auto / span 2;
+        -ms-grid-column-span: 2;
+        -ms-grid-row-span: 2;
+    }
+
+    .layout_2x3 {
+        grid-column: auto / span 2;
+        grid-row: auto / span 3;
+        -ms-grid-column-span: 2;
+        -ms-grid-row-span: 3;
+    }
+
+    .layout_3x3 {
+        grid-column: auto / span 3;
+        grid-row: auto / span 3;
+        -ms-grid-column-span: 3;
+        -ms-grid-row-span: 3;
+    }
+
+    .layout_2x1 {
+        grid-column: auto / span 2;
+        -ms-grid-column-span: 2;
+
+    }
+
+    .layout_1x2 {
+        grid-column: auto / span 1;
+        grid-row: auto / span 2;
+        -ms-grid-column-span: 1;
+        -ms-grid-row-span: 2;
+
+    }
+
+    .layout_3x1 {
+        grid-column: auto / span 3;
+        -ms-grid-column-span: 3;
+    }
+
+    .layout_4x1 {
+        grid-column: auto / span 4;
+        -ms-grid-column-span: 4;
+    }
+    .mobile_layout_2x1 {
+
+        @include MediaQueries($mobile) {
+            grid-column: auto / span 2;
+            grid-row: auto / span 1;
+            -ms-grid-column-span: 2;
+            -ms-grid-row-span: 1;
+        }
+    }
+
+    @include MediaQueries($desktop-and-below) {
+        .marketing-content-picture-tile, .text-with-image-marketing-carousel {
+            .adjust-position {
+                padding: getUnitValue(2) getUnitValue(2) 0 getUnitValue(2) !important;
+            }
+        }
+    }
+
+    @include MediaQueries($desktop-tablet-and-above) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        // grid-auto-rows: aspect-ratio(1, 1, 4);
+        // grid-template-rows: repeat(2, minmax(aspect-ratio(1, 1, 4), auto));
+
+        .marketing-content-picture-tile {
+            .adjust-position {
+                padding: 0 !important;
+            }
+
+            .content-tile {
+                padding: 0 16.8% 0;
+
+                .heading {
+                    line-height: 1.2;
+                }
+
+                a.cta {
+                    // @extend .cta;
+                    font-weight: $font-weight-normal;
+                }
+            }
+        }
+
+        .text-with-image-marketing-carousel {
+            .content-item {
+                padding: 0;
+
+                .adjust-position {
+                    padding: 0 !important;
+                }
+
+                .content-tile {
+                    padding: 8%;
+                    width: auto;
+                }
+
+                & + a {
+                    display: flex;
+                    justify-content: center;
+
+                    .picture-item {
+                        width: 75%;
+                    }
+                }
+
+                & + .picture-item {
+                    width: 75%;
+                }
+            }
+
+            .picture-item {
+                padding: 0 !important;
+            }
+
+            .image-item {
+                & > .picture-tile {
+                    padding: 10% !important;
+                }
+            }
+        }
+    }
+
+
+    @include MediaQueries($below-desktop-tablet) {
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-columns: 1fr 1fr;
+
+        .layout_4x1 {
+            grid-column: auto / span 2;
+            -ms-grid-column-span: 2;
+        }
+
+        .layout_3x1 {
+            grid-column: auto / span 2;
+            -ms-grid-column-span: 2;
+        }
+
+        .marketing-content-picture-tile {
+            @include MediaQueries($tablet-and-below) {
+                .content-tile {
+                    padding: getUnitValue(2) getUnitValue(2) 0 getUnitValue(2);
+                }
+            }
+        }
+
+        .text-with-image-marketing-carousel {
+
+            .content-item {
+                padding: 0;
+
+                & + a {
+                    display: flex;
+                    justify-content: center;
+
+                    .picture-item {
+                        width: 75%;
+                    }
+                }
+
+                & + .picture-item {
+                    width: 75%;
+                }
+            }
+
+            .picture-item {
+                padding: 0 !important;
+            }
+
+            .image-item {
+                & > .picture-tile {
+                    padding: 10% !important;
+                }
+            }
+        }
+    }
+    @include MediaQueries($desktop-tablet-above-and-mini-desktop) {
+        .marketing-content-picture-tile {
+            .content-tile {
+                padding: 5%;
+                width: auto !important;
+            }
+        }
+        .content-tile {
+            padding: 5% !important;
+            width: auto !important;
+        }
+    }
+
+    .marketing-content-picture-tile {
+        margin: auto;
+    }
+
+    @include MediaQueries($mobile) {
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-columns: 1fr 1fr;
+
+        .layout_4x1 {
+            grid-column: auto / span 2;
+            -ms-grid-column-span: 2;
+        }
+
+        .layout_3x1 {
+            grid-column: auto / span 2;
+            -ms-grid-column-span: 2;
+        }
+    }
+
+    @include MediaQueries("#{$screen} and #{$internetExplorer}") {
+        .layout_1x1,
+        .layout_1x2,
+        .layout_2x1,
+        .layout_3x1,
+        .layout_4x1,
+        .layout_2x2 {
+            padding-left: getUnitValue(1);
+            padding-top: getUnitValue(1);
+        }
+    }
+
+    @supports (-ms-ime-align: auto) {
+        .layout_1x1,
+        .layout_1x2,
+        .layout_2x1,
+        .layout_3x1,
+        .layout_4x1,
+        .layout_2x2 {
+            padding: 0;
+        }
+    }
+}

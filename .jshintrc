@@ -1,0 +1,33 @@
+{
+    "predef": [
+        "window",
+        "document",
+
+        "describe",
+        "it",
+        "beforeEach",
+        "afterEach",
+        "sinon",
+
+        "Handlebars",
+        "jQuery",
+        "Vue",
+        "Angular",
+        "React",
+        "resyWidget"
+    ],
+    "globals": {
+        "matchMedia": true,
+        "jQuery": true,
+        "Modernizr": true,
+        "grecaptcha": true,
+        "google": true,
+        "resyWidget": true
+    },
+    "esversion": 6,
+    "strict": true,
+    "sub": true,
+    "unused": true,
+    "browser": true,
+    "node": true
+}

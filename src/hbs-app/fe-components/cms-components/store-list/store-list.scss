@@ -1,0 +1,88 @@
+// ****************************************
+// store-list
+// ****************************************
+
+.store-list {
+    padding: 0 getUnitValue(6.5);
+
+    @include MediaQueries($tablet-and-below) {
+        padding: 0 getUnitValue(2);
+        margin-bottom: getUnitValue(5);
+    }
+
+    &__state-store-list {
+        @extend .tf-g;
+    }
+
+    &__heading {
+        @extend .h3;
+
+        margin-bottom: getUnitValue(5);
+        @include MediaQueries($desktop-and-below) {
+            margin-top: getUnitValue(3);
+        }
+    }
+
+    &__store-item {
+        @extend .col__full, .display__inline-block;
+
+        a.cta{
+            display: inline-block !important;
+        }
+
+        // >1279
+        @include MediaQueries($desktop-min) {
+            width: 25%;
+            margin-bottom: getUnitValue(7);
+            padding-right: 16px;
+        }
+        // 1024px - 1279px
+        @include MediaQueries($desktop-tablet-above-and-tablet-max) {
+            width: 33.33%;
+            margin-bottom: getUnitValue(5);
+            padding-right: 16px;
+        }
+
+        // 800px - 1024px
+        @include MediaQueries($between-desktop-tablet) {
+            width: 50%;
+            margin-bottom: getUnitValue(4);
+            padding-right: 16px;
+        }
+
+        // <800
+        @include MediaQueries($tablet-and-below) {
+            margin-bottom: getUnitValue(3);
+        }
+
+        &::not(:first-child) {
+            padding-left: getUnitValue(1);
+        }
+
+        &-heading {
+            @include font($font-size-14, false, $black, 1.71, normal);
+            @include font-family($font_santral_semi_bold);
+            line-height: 1.1;
+            padding-bottom: getUnitValue(1);
+        }
+
+        &-content, &-phonenumber {
+            @include font($font-size-14, $font-weight-light, $black, 1.5, normal);
+            @include font-family($font_santral_light);
+            margin-bottom: getUnitValue(1);
+        }
+
+        &-email {
+            text-decoration: underline;
+
+            &.cta-underline {
+                @extend .hover-transparent
+            }
+        }
+    }
+}
+
+
+
+
+

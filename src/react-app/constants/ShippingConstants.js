@@ -1,0 +1,3 @@
+export default {
+    UPDATE_SHIPPING_FLYOUT: 'UPDATE_SHIPPING_FLYOUT'
+};

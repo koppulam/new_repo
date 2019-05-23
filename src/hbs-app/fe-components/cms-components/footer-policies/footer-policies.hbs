@@ -1,0 +1,73 @@
+<article class="footer-policies app-js__footer-policies">
+    <h1 class="footer-policies__heading">{{heading}}</h1>
+    <div class="footer-policies__container">
+        <div class="footer-policies__left {{#unless toggleMenu}}hidden{{/unless}}">
+            <ul class="footer-policies__left-list">
+                {{#each firstLevel}}
+                    <li class="footer-policies__left-list-item" role="tab" aria-checked="{{#if activeMenu}}true{{/if}}">
+                        {{#if toggleMenu}}
+                            <a href="#{{subheading}}" class="footer-policies__left-list-item-btn cta">
+                                <span class="cta-content">
+                                    <span class="cta-text">{{subheading}}<span class="icon-Right" /></span>
+                                </span>
+                            </a>
+                        {{else}}
+                            <a href="google.com" class="footer-policies__left-list-item-link cta">
+                                <span class="cta-content">
+                                    <span class="cta-text">{{subheading}}</span>
+                                    <span class="icon-Right" />
+                                </span>
+                            </a>
+                        {{/if}}
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="footer-policies__right {{#unless toggleMenu}}shown{{/unless}}">
+            {{#each firstLevel}}
+                {{#if secondLevel}}
+                    <div class="footer-policies__right-container {{#if toggleMenu}}hide{{/if}}">
+                        <div class="footer-policies__right-container-info">
+                            {{#if policyHeading}}
+                                <h2 class="footer-policies__right-container-subheading">{{subheading}}</h2>
+                                <p class="footer-policies__right-container-updated">Last Updated: {{lastUpdated}}</p>
+                            {{/if}}
+                            <button type="button" class="footer-policies__right-container-back cta">
+                                <span
+                                    class="icon-Left"
+                                />
+                                <span class="back-cta-text">Back to Website Policies</span>
+                            </button>
+                        </div>
+                        <ul class="footer-policies__right-list">
+                            {{#each secondLevel}}
+                                <li class="footer-policies__right-list-item">
+                                    {{#if policyHeading}}
+                                        <button type="button" class="footer-policies__right-list-heading cta">
+                                            <span class="cta-content">
+                                            <span class="cta-text">{{policyHeading}}</span>
+                                            <span
+                                                class="icon-dropdown-down"
+                                            />
+                                            </span>
+                                        </button>
+                                        <p class="footer-policies__right-list-description tiffany-rte hide">
+                                            {{policyDescription}}
+                                        </p>
+                                    {{else}}
+                                        <a href="{{url}}" class="cta">
+                                            <span class="cta-content">
+                                                <span class="cta-text">{{question}}</span>
+                                                <span class="icon-Right"></span>
+                                            </span>
+                                        </a>
+                                    {{/if}}
+                                </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                {{/if}}
+            {{/each}}
+        </div>
+    </div>
+</article>

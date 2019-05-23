@@ -1,0 +1,151 @@
+// all the rules will be comppiled to IE specific non-responsive css file.
+@mixin ModernBrowser() {
+    @content;
+}
+
+// all the rules will be comppiled to IE specific non-responsive css file.
+@mixin OldIE() {
+    @content;
+}
+
+@mixin MediaQueries($mediaquery) {
+    @media #{$mediaquery} {
+        @content;
+    }
+}
+
+@function get-font($font, $santral_font, $sterling_font) {
+    @if (str-index($font, 'SterlingDisplay')) {
+        @return $sterling_font;
+    }
+    @return $santral_font;
+}
+
+@mixin font-family($font, $important: '') {
+    $font_weight: map-get((
+        $font_sterling_display_roman: $font-weight-normal,
+        $font_sterling_display_italic: $font-weight-normal,
+        $font_santral_bold: $font-weight-bold,
+        $font_santral_bold_italic: $font-weight-bold,
+        $font_santral_regular: $font-weight-normal,
+        $font_santral_regular_italic: $font-weight-normal,
+        $font_santral_semi_bold: $font-weight-600,
+        $font_santral_semi_bold_italic: $font-weight-600,
+        $font_santral_light: $font-weight-light,
+        $font_santral_light_italic: $font-weight-light
+    ), $font);
+
+    $font_style: map-get((
+        $font_sterling_display_roman: $font_style_normal,
+        $font_sterling_display_italic: $font_style_italic,
+        $font_santral_bold: $font_style_normal,
+        $font_santral_bold_italic: $font_style_italic,
+        $font_santral_regular: $font_style_normal,
+        $font_santral_regular_italic: $font_style_italic,
+        $font_santral_semi_bold: $font_style_normal,
+        $font_santral_semi_bold_italic: $font_style_italic,
+        $font_santral_light: $font_style_normal,
+        $font_santral_light_italic: $font_style_italic
+    ), $font);
+
+    font-family: get-font($font, $font_santral, $font_sterling_display) unquote($important);
+    font-weight: $font_weight;
+    font-style: $font_style;
+
+    .zh_cn & {
+        font-family: get-font($font, $china-font-santral, $china-font-sterling) unquote($important);
+    }
+    .zh_hk & {
+        font-family: get-font($font, $hongkong-font-santral, $hongkong-font-sterling) unquote($important);
+    }
+    .ja_jp & {
+        font-family: get-font($font, $japan-font-santral, $japan-font-sterling) unquote($important);
+    }
+    .ko_kr & {
+        font-family: get-font($font, $korea-font-santral, $korea-font-sterling) unquote($important);
+    }
+    .ru_ru & {
+        font-family: get-font($font, $russia-font-santral, $russia-font-sterling) unquote($important);
+    }
+}
+
+@mixin font($fontSize, $fontWeight, $color, $line-height, $letter-spacing) {
+    @if $fontSize {
+        font-size: $fontSize;
+    }
+
+    @if $color {
+        color: $color;
+    }
+
+    @if $line-height {
+        line-height: $line-height;
+    }
+    @if $letter-spacing {
+        letter-spacing: $letter-spacing;
+    }
+}
+
+@mixin optional-at-root($sel) {
+    @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+        @content;
+    }
+}
+
+@mixin placeholder {
+    @include optional-at-root('::-webkit-input-placeholder') {
+        @content;
+    }
+
+    @include optional-at-root(':-moz-placeholder') {
+        @content;
+    }
+
+    @include optional-at-root('::-moz-placeholder') {
+        @content;
+    }
+
+    @include optional-at-root(':-ms-input-placeholder') {
+        @content;
+    }
+}
+
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+      @content; 
+    }
+    @-moz-keyframes #{$name} {
+      @content;
+    }
+    @-ms-keyframes #{$name} {
+      @content;
+    }
+    @keyframes #{$name} {
+      @content;
+    } 
+}
+/* mixin for multiline */
+@mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white){
+    overflow: hidden;
+    position: relative;
+    line-height: $lineHeight;
+    max-height: $lineHeight * $lineCount; 
+    text-align: justify;
+    padding-right: 1em;
+    &:before {
+      content: '...';
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      width: 1em;
+      height: 1em;
+      margin-top: 0.2em;
+      background: $bgColor;
+    }
+  }

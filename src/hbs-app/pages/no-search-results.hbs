@@ -1,0 +1,21 @@
+---
+title: No search results Page
+type: page
+layout: grid
+description: No search Page
+sortOrder: 0
+---
+
+<div class="wrapper home-page">
+    <div class="hero-banner container">
+        {{> text-with-image
+            browse-grid.banner2
+        }}
+    </div>
+    <div class="no-results-container hide-no-results-container">
+         {{> hero-component
+            hero-components-variations.no-results-heroBanner
+        }}
+    </div>
+    <tiffany-grid config="noSearchResultsConfig" type="BROWSE"></tiffany-grid>
+</div>

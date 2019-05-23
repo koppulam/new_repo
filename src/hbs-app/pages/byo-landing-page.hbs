@@ -1,0 +1,89 @@
+---
+title: BYO landing Page
+type: page
+layout: base
+description: BYO Landing Page for App
+sortOrder: 0
+---
+
+<div class="wrapper byo-landing-page">
+
+     <div class="hero-banner container with-splash-image">
+        {{#if byo-landing-page.heroBanner.isForeGroundImage}}
+            <div class="foreground-image {{#if byo-landing-page.heroBanner.isTransperantForeground}}blend-mode{{/if}}" data-pos-left="{{byo-landing-page.heroBanner.foreGroundImgDesktopLeftPos}}" data-pos-top="{{byo-landing-page.heroBanner.foreGroundImgDesktopTopPos}}" data-mobile-pos-left="{{byo-landing-page.heroBanner.foreGroundImgMobileLeftPos}}" data-mobile-pos-top="{{byo-landing-page.heroBanner.foreGroundImgMobileTopPos}}">
+                {{> picture
+                    desktopSrc = byo-landing-page.heroBanner.foreGroundImgSrc
+                    mobileSrc  = byo-landing-page.heroBanner.foreGroundmobileSrc
+                }}
+            </div>
+        {{/if}}
+
+        {{> text-with-image
+            byo-landing-page.heroBanner
+        }}
+    </div>
+
+
+    <!--PDP Marketing Component-->
+    <div class="pdp-marketing-component container no-default-padding">
+        <div class="pdp-content-tile">
+            {{> content-tile
+                byo-landing-page.banner.content-tile
+            }}
+        </div>
+        <div class="hero-banner container">
+            {{> text-with-image
+                byo-landing-page.banner
+            }}
+        </div>
+    </div>
+
+    <div class="container container--2">
+        <div class="overarching-content">
+            <div class="overarching-item">
+                {{#if byo-landing-page.2x1_responsive-component.overarching-content}}
+                    {{> content-tile
+                        textAlignment = byo-landing-page.2x1_responsive-component.overarching-content.textAlignment
+                        heading       = byo-landing-page.2x1_responsive-component.overarching-content.heading
+                        description   = byo-landing-page.2x1_responsive-component.overarching-content.description
+                        ctaLink       = byo-landing-page.2x1_responsive-component.overarching-content.ctaLink
+                        ctaTarget     = byo-landing-page.2x1_responsive-component.overarching-content.ctaTarget
+                        ctaText       = byo-landing-page.2x1_responsive-component.overarching-content.ctaText
+                        cta1Style     = byo-landing-page.2x1_responsive-component.overarching-content.cta1Style
+                        cta2Link      = byo-landing-page.2x1_responsive-component.overarching-content.cta2Link
+                        cta2Target    = byo-landing-page.2x1_responsive-component.overarching-content.cta2Target
+                        cta2Text      = byo-landing-page.2x1_responsive-component.overarching-content.cta2Text
+                        cta2Style     = byo-landing-page.2x1_responsive-component.overarching-content.cta2Style
+                        noChevron     = byo-landing-page.2x1_responsive-component.overarching-content.noChevron
+                        colorLabel    = byo-landing-page.2x1_responsive-component.overarching-content.colorLabel
+                        width         = byo-landing-page.2x1_responsive-component.overarching-content.width
+                        isTextOverlay = byo-landing-page.2x1_responsive-component.overarching-content.isTextOverlay
+                    }}
+                {{/if}}
+            </div>
+
+            <div class="splash-item-section">
+                {{#if byo-landing-page.2x1_responsive-component.overarching-content.showSplashImg}}
+                    <div class="text-with-image__image splash-image">
+                        {{> picture
+                            isLazyLoad = byo-landing-page.2x1_responsive-component.overarching-content.splashIsLazyLoad
+                            desktopSrc = byo-landing-page.2x1_responsive-component.overarching-content.splashImageSrc
+                            mobileSrc  = byo-landing-page.2x1_responsive-component.overarching-content.splashImageSrc
+                            altText    = byo-landing-page.2x1_responsive-component.overarching-content.splashImageAlt
+                        }}
+                    </div>
+                {{/if}}
+            </div>
+        </div>
+
+        <div class="content-band--2">
+            {{#each byo-landing-page.2x1_responsive-component.text-with-images}}
+                <div class="band-item {{#if showSplashImg}}splash-band-item{{/if}}">
+                    {{> text-with-image }}
+                </div>
+            {{/each}}
+        </div>
+
+    </div>
+</div>
+</div>

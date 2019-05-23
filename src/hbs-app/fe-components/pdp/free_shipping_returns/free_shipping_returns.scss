@@ -1,0 +1,95 @@
+// ****************************************
+// free_shipping_returns
+// ****************************************
+
+.free_shipping_returns {
+    @extend .container;
+    padding-bottom: getUnitValue(11);
+
+    @include MediaQueries($below-ipad) {
+        margin-top: -40px;
+    }
+
+    .row-container {
+        @extend .tf-g__wrap, .col__full, .tf-g__start;
+        max-width: getUnitValue(128);
+        margin: 0 auto;
+
+        .no-engraving-section {
+            .hidden-heading {
+                @extend .display__none;
+            }
+        }
+
+        .text-heading, .hidden-heading {
+            @include font($font-size-16, $font-weight-600, $black, 1, 0);
+            @include font-family($font_santral_regular);
+            padding: getUnitValue(3) 0;
+        }
+
+        .text-strong {
+            @include font-family($font_santral_semi_bold);
+            font-weight: $font-weight-600;
+            font-size: $font-size-12;
+        }
+
+        p {
+            @include font($font-size-12, $font-weight-normal, $black, 1.5, 0);
+            @include font-family($font_santral_regular);
+            padding: getUnitValue(1) 0;
+        }
+
+        .col-left, .col-right {
+            @extend .col-lg__6-12;
+        }
+
+        .col-left {
+            padding-right: getUnitValue(10);
+        }
+
+        .col-right {
+            padding-left: getUnitValue(10);
+        }
+
+        .show-more {
+            @extend .col__full, .tf-g__center;
+            border: none;
+            margin-top: getUnitValue(3);
+            @include font($font-size-12, $font-weight-light, $black, 2, 0);
+            background-color: transparent;
+        }
+    }
+
+    @include MediaQueries($desktop-and-below) {
+        .row-container{
+            padding: 0 getUnitValue(3);
+
+            h5 {
+                @include font($font-size-18, $font-weight-light, $black, 1.33, 0);
+                padding: getUnitValue(5) 0 getUnitValue(3);
+            }
+
+            .false-heading {
+                display: none;
+            }
+
+            p {
+                @include font($font-size-16, $font-weight-light, $black, 1.5, 0);
+                padding: 0;
+            }
+
+            .col-left {
+                padding-right: 0;
+            }
+
+            .col-right {
+                padding-left: 0;
+            }
+
+            .show-more {
+                @include font($font-size-16, $font-weight-light, $black, 1.5, 0);
+                text-align: left;
+            }
+        }
+    }
+}

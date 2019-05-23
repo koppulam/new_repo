@@ -1,0 +1,342 @@
+// ****************************************
+// store-information
+// ****************************************
+
+.store-information {
+    @extend .tf-g, .tf-g__between;
+    padding: getUnitValue(7) 0;
+    padding-left: getUnitValue(6.5);
+    padding-right: 0;
+    
+    .iPad & {
+        padding: 0;
+    }
+
+    &__info {
+        @extend .col-5-12, .col-md__full, .col-sm__full, .tf-g;
+
+        &_img {
+            @extend .col-5-12, .col-md__full, .col-sm__full;
+
+            .store-image {
+                @extend .col__full;
+                line-height: 0;
+                font-size: 0;
+                img {
+                    width: 100%;
+                    margin-bottom: 28px;
+
+                    @include MediaQueries($desktop-and-above) {
+                        max-width: getUnitValue(30);
+                    }
+
+                    &.error {
+                        min-width: 0 !important;
+                        min-height: 0 !important;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            &_link {
+                @extend .tiff-semi-bold;
+                display: block;
+                border: 0;
+                background: transparent;
+                padding: 0;
+
+                &_icon {
+                    img {
+                        width: getUnitValue(2);
+                        height: getUnitValue(2);
+                        max-height: 24px;
+                    }
+                }
+
+                .cta-content {
+                    text-align: left;
+                    background: none !important;
+
+                    &:hover {
+                        background: none;
+                        background-size: 0 !important;
+                        transition: none;
+                    }
+
+                    .cta-text {
+                        @extend .hover-cta;
+                        @include font($font-size-18, false, $black, 1.33, false);
+                        @include font-family($font_santral_semi_bold);
+                    }
+                }
+            }
+
+            button.cta {
+                display: flex;
+                align-items: baseline;
+            }
+
+            &_details {
+                @extend .tf-g__col;
+
+                &_txt {
+                    @include font($font-size-18, 300, $black, 1.5, false);
+                    @include font-family($font_santral_semi_bold);
+                    padding-top: getUnitValue(5);
+                }
+            }
+
+            .cta-link {
+                padding-top: getUnitValue(2);
+            }
+
+            .heading {
+                @extend .tiff-semi-bold;
+            }
+        }
+
+        &-buttons {
+            @extend .display__block, .hide__desktop-and-below;
+        }
+
+        &_services {
+            @extend .col-7-12, .col-md__full, .col-sm__full;
+            padding-left: getUnitValue(5);
+            padding-right: getUnitValue(5);
+
+            @include MediaQueries($desktop-and-below) {
+                font-size: $font-size-14;
+                padding: getUnitValue(2);
+            }
+
+            .heading {
+                padding-bottom: getUnitValue(1);
+                font-size: $font-size-32;
+            }
+
+            .store-address {
+                padding: getUnitValue(2) 0 getUnitValue(3) 0;
+
+                a.cta {
+                    @include font($font-size-14, 300, $black, 1.71, false);
+                    @include font-family($font_santral_light);
+                    border-bottom: 1px solid transparent;
+                    text-decoration: underline;
+                    display: inline-block !important;
+
+                    .cta-content {
+                        display: inline-grid;
+                        text-decoration: underline;
+
+                        .cta-text {
+                            display: block;
+                            font-weight: 300;
+                        }
+                    }
+
+                    &:active {
+                            border-bottom: none;
+                    }
+                    &:focus {
+                        border: 1px solid $bondiBlue !important;
+                    }
+                    &:hover {
+                        background: none;
+                    }
+                }
+            }
+
+            .store-timings {
+                @include font($font-size-14, 300, $black, 24px, false);
+                @include font-family($font_santral_light);
+            }
+
+            .store-contact {
+                padding: getUnitValue(3) 0 getUnitValue(6) 0;
+
+                a.cta {
+                    .cta-text {
+                        @include font($font-size-14, 300, $black, 1.71, false);
+                        @include font-family($font_santral_light);
+                    }
+                }
+
+                .email-link {
+                    text-decoration: underline;
+
+                    &.cta-underline {
+                        &:hover {
+                            border-bottom: 1px solid transparent;
+                        }
+                        .cta-text {
+                            @include font($font-size-14, 300, $black, 1.71, false);
+                            @include font-family($font_santral_light);
+                        }
+                    }
+                }
+                @include MediaQueries($desktop-and-below) {
+                    padding-bottom: getUnitValue(1);
+                }
+            }
+
+            .store-service {
+                @extend .tiff-text, .col-sm__hide, .col-md__hide;
+
+                .heading {
+                    @extend .tiff-semi-bold;
+                    @include font-family($font_santral_semi_bold);
+                    font-size: 16px;
+                    line-height: 1.5;
+                    padding-bottom: getUnitValue(2);
+                }
+
+                li {
+                    @extend .line-height-24;
+                    @include font-family($font_santral_light);
+                    padding-bottom: getUnitValue(1);
+                    font-size: 14px;
+                }
+            }
+
+            p {
+                @extend .line-height-24;
+                font-size: 14px;
+               }
+        }
+
+        &-buttons {
+            @extend .col-sm__hide, .col-md__hide;
+        }
+    }
+
+    &__map {
+        @extend .col-7-12, .col-md__full, .col-sm__full;
+        &:focus {
+            border: 2px solid $bondiBlue;
+        }
+    }
+
+    .text-with-image__image {
+        position: relative;
+        max-width: 240px;
+
+        @include MediaQueries($desktop-and-below) {
+            max-width: 100%;
+        }
+
+        &_logo {
+            bottom: 0px;
+            left: -getUnitValue(8);
+        }
+    }
+
+    .map-container {
+        .locator_map {
+            @extend .col__full;
+            height: getUnitValue(86);
+
+            @include MediaQueries($desktop-and-below) {
+                height: getUnitValue(40);
+            }
+        }
+    }
+
+    &__store-service {
+        display: none;
+        padding: getUnitValue(2);
+
+        @include MediaQueries($desktop-and-below) {
+            display: block;
+        }
+
+        .heading {
+            @extend .tiff-semi-bold;
+            padding-bottom: getUnitValue(2);
+            @include MediaQueries($desktop-and-below) {
+                font-size: $font-size-16;
+            }
+        }
+
+        li {
+            padding-bottom: getUnitValue(2);
+            @include MediaQueries($desktop-and-below) {
+                font-size: $font-size-14;
+                line-height: 16px;
+            }
+        }
+    }
+
+    &__info-buttons {
+        .btn--outline {
+            @extend .col__full;
+            @include font($font-size-14, 600, $black, 1.14, false);
+            max-width: getUnitValue(30);
+            margin-bottom: getUnitValue(3);
+            border: 1px solid $black;
+            padding: getUnitValue(2.5) getUnitValue(4);
+            margin-top: getUnitValue(3);
+
+            @include MediaQueries($desktop-and-below) {
+                max-width: 100%;
+            }
+            &:active{
+                box-shadow: none;
+                border: 2px solid $black;
+            }
+        }
+    }
+
+
+    &__stores-nearby {
+        margin-top: getUnitValue(5);
+
+        .heading {
+            display: block;
+            @extend .tiff-semi-bold;
+            font-size: 16px;
+            @include MediaQueries($desktop-and-below) {
+                font-size: 14px;
+            }
+        }
+
+        .cta {
+            margin-top: getUnitValue(2);
+            display: block !important;
+            .cta-text {
+                word-break: normal;
+            }
+
+            .icon-dropdown-right {
+                margin-right: -14px;
+                display: inline-block;
+            }
+        }
+
+        .cta-content {
+            @extend .display__inline-block;
+            word-break: break-all;
+        }
+    }
+
+    &__bottom {
+        @include MediaQueries($desktop-and-below) {
+            width: 100%;
+        }
+
+        &-mobile {
+            @extend .hide, .show__desktop-and-below;
+
+            @include MediaQueries($desktop-and-below) {
+                padding: getUnitValue(2);
+                .btn--outline {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    @include MediaQueries($mobile) {
+        padding: 0;
+    }
+}

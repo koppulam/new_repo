@@ -1,0 +1,614 @@
+// ****************************************
+// Header Flyout
+// ****************************************
+tiffany-header-flyout {
+    height: 100%;
+
+    .user-account {
+        @include MediaQueries($tablet-large-and-below) {
+            display: none;
+        }
+    }
+}
+
+.flyout {
+    height: 100%;
+
+    a.shoppingbag {
+        position: static;
+        
+        @include MediaQueries($desktop-and-below) {
+            position: relative;
+            display: inline-block;
+        } 
+    }
+
+    &-content {
+        @extend .tf-g, .tf-g__middle;
+        height: 100%;
+
+        .cta-content {
+            div svg {
+                pointer-events: none;
+            }
+        }
+    }
+
+    &-content:hover &-container.active,
+    .expand-overlay &-container,
+    &-content.item-add-anim &-container {
+        @extend .tiffany-blue-custom-scroll-bar;
+        padding-top: 2.5vw;
+        bottom: 0;
+        visibility: visible;
+        overflow: hidden;
+        max-height: 100%;
+        &.active {
+            transition-delay: .5s;
+            z-index:$maxZIndex + 1;
+        }
+        .ps__rail-x {
+            @extend .hide;
+        }
+    }
+
+    .keyboard--focussed & {
+        &-content:focus-within {
+           .flyout-container {
+            padding-top: 2.5vw;
+            bottom: 0;
+            visibility: visible;
+            overflow-y: auto;
+            max-height: 100%;
+           }
+        }
+    }
+
+    &-content.active:hover ~ &-backdrop,
+    .expand-overlay ~ &-backdrop {
+        visibility: visible;
+        animation: fade-in 2000ms ease backwards;
+    }
+
+    .keyboard--focussed & {
+        &-content:focus-within {
+            ~.flyout-backdrop {
+                visibility: visible;
+                animation: fade-in 2000ms ease forwards;
+            }
+        }
+    }
+
+    &-content.item-add-anim ~ &-backdrop {
+        visibility: visible;
+        animation: fade-in 2000ms ease forwards;
+    }
+
+    &-backdrop {
+        @extend .hide__desktop-and-below;
+        visibility: hidden;
+        position: fixed;
+        top: getUnitValue(8);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $tiffanyBackdrop;
+        z-index: $modal-maxZIndex + 1;
+        animation: fade-in 2000ms ease forwards;
+    }
+
+    &-non-mask {
+        @extend .hide__desktop-and-below;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: calc(100% - #{getUnitValue(58)});
+        z-index: $maxZIndex + 2;
+        height: 100vh;
+    }
+
+    &-non-mask_top {
+        @extend .hide__desktop-and-below;
+        position: absolute;
+        top: -40px;
+        right: 0;
+        height: 36px;
+        width: 100%;
+    }
+
+    &-non-mask_bottom {
+        @extend .hide__desktop-and-below;
+        position: absolute;
+        top: 64px;
+        bottom: 0;
+        right: -24px;
+        height: 100vh;
+        width: getUnitValue(58);
+    }
+
+    .active-icon {
+        display: none;
+        margin-top: 2px;
+        width: getUnitValue(2);
+    }
+    .active-icon-revised{
+        margin-top:0;
+    }
+
+    .icon {
+        display: block;
+        width: getUnitValue(2);
+    }
+
+    &-content:hover,
+    .expand-overlay,
+    &-content.item-add-anim &-container
+    {
+        .bag-items, .top-content, .active-icon, .flyout-items__description {
+            visibility: visible;
+            animation: bottom-to-top 800ms ease forwards;
+        }
+
+        .icon {
+            display: none;
+        }
+    }
+
+    &-content:hover,
+    .expand-overlay,
+    &-content.item-add-anim &-container
+    {
+       .flyout-items__heading {
+            visibility: visible;
+            @include font($font-size-32, $font-weight-normal, $black, 1.5, false);
+            @include font-family($font_sterling_display_roman);
+            margin: 7vw 0 0;
+            animation: bottom-to-top 800ms ease forwards;
+        }
+    }
+
+    .keyboard--focussed & {
+        &-content:focus-within {
+            .flyout-items__heading {
+                visibility: visible;
+                @include font($font-size-32, $font-weight-normal, $black, 1.5, false);
+                @include font-family($font_sterling_display_roman);
+                margin: 7vw 0 0;
+                animation: bottom-to-top 800ms ease forwards;
+            }
+        }
+    }
+
+    .item-add-anim &-content {
+        .flyout-items__heading, .flyout-items__description, .bag-items, .top-content, .active-icon {
+            visibility: visible;
+        }
+
+        .icon {
+            display: none;
+        }
+    }
+
+    .keyboard--focussed & {
+        &-content:focus-within {
+            .flyout-items__heading, .flyout-items__description, .bag-items, .top-content, .active-icon {
+                visibility: visible;
+            }
+
+            .icon {
+                display: none;
+            }
+        }
+    }
+
+    .total-quantity {
+        position: absolute;
+        cursor: pointer;
+        font-size: $font-size-12;
+        margin-left: 20px;
+        top: getUnitValue(3);
+        display: inline-block;
+
+        .has-bag-items & {
+            @extend .show;
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            top: 2px;
+        }
+
+        .ie & {
+            margin-left: 4px;
+            top: 22px;           
+        }
+    }
+
+    .item-add-anim {
+        visibility: visible;
+        transition: max-height 0.4s ease;
+    }
+
+    &-items {
+        &__heading {
+            @extend .visibility-hide;
+            @include font(false, false, $black, 1.5, false);
+            margin-bottom: getUnitValue(2);
+            animation: bottom-to-top 1700ms ease forwards;
+        }
+
+        &__description {
+            @extend .visibility-hide;
+            @include font($font-size-16, $font-weight-light, $black, 1.5, false);
+            @include font-family($font_santral_light);
+            margin-bottom: getUnitValue(4);
+            animation: bottom-to-top 1700ms ease forwards;
+
+            & p {
+                font-size: $font-size-14;
+                line-height: 1.71;
+                padding-top: getUnitValue(2);
+            }
+        }
+    }
+
+    &-container {
+        @extend .hide__desktop-and-below, .tf-g, .tf-g__no-wrap, .tf-g__col, .tiffany-blue-custom-scroll-bar;
+        text-align: left;
+        overflow: hidden;
+        visibility: hidden;
+        position: fixed;
+        top: getUnitValue(8);
+        bottom: initial;
+        right: 0;
+        width: getUnitValue(58);
+        background-color: $white;
+        z-index: $maxZIndex;
+        overflow: hidden;
+        border-bottom: 4px solid $tiffanyBlue;  
+        max-height:0;
+        transition: 0.4s ease;
+        padding: 0 16px 0 2.5vw;
+
+        .ps {
+            padding-right: 2.5vw;
+            .ps__rail-x {
+                @extend .hide;
+            }
+        }
+
+        .top-content {
+            @extend .visibility-hide;
+            animation: bottom-to-top 1700ms ease forwards;
+        }
+
+        .item-categories_container {
+            @extend .tf-g, .tf-g__between;
+            @include font($font-size-16, $font-weight-normal, $black, 1.5, false);
+            @include font-family($font_santral_regular);
+            margin-bottom: getUnitValue(3);
+
+            .top-content ~ & {
+                padding-top: getUnitValue(1);
+            }
+
+            .saved-items {
+                cursor: pointer;
+                &.selected {
+                    text-decoration: underline;
+                    font-weight: $font-weight-600;
+                    color: $black !important;
+                    &.cta:hover{
+                        transition: none;
+                        background: none;
+                    }
+                }
+                &:focus {
+                    border: 2px solid $bondiBlue;
+                }
+            }
+
+            .custom-designs {
+                cursor: pointer;
+                &.selected {
+                    text-decoration: underline;
+                    font-weight: $font-weight-600;
+                }
+                &:focus {
+                    border: 2px solid $bondiBlue;
+                }
+            }
+        }
+
+        .account-cta-links {
+            padding-top: getUnitValue(2);
+        }
+
+        .flyout-store-details {
+            margin: getUnitValue(1) 0 getUnitValue(5) 0;
+
+            .store-name {
+                @include font-family($font_santral_regular);
+                font-weight: $font-weight-600;
+                margin-top: getUnitValue(1);
+            }
+        }
+
+        .primary-btn_content {
+            @extend .tf-g;
+            justify-content: space-between !important;
+
+            &:hover, &:active {
+                border: 1px solid $black;
+                background-color: $tiffanyBlue;
+                opacity: 1 !important;
+                color: $black;
+            }
+            &:focus {
+                border: 2px solid $bondiBlue;
+                background-color: $black;
+                opacity: 1 !important;
+            }
+        }
+
+        .complimentary-shipping-message {
+            @include font($font-size-16, $font-weight-light, $black, 1.5, false);
+            @include font-family($font_santral_light);
+            margin: 0;
+        }
+
+        .complimentary-shipping-options-link {
+            margin-bottom: getUnitValue(3);
+            margin-top: getUnitValue(1);
+
+            .ie & {
+                a.cta {
+                    &:hover {
+                        background: none;
+                    }
+                }
+            }
+        }
+
+        .cta-link {
+            padding-bottom: getUnitValue(4);
+
+            .cta-content {
+                @include font($font-size-14, $font-weight-normal, $black, 1.71, false);
+                @include font-family($font_santral_regular);
+               
+                & + .icon-dropdown-right:before {
+                    font-size: 0.5rem;
+                }
+
+            }
+            .icon-Right {
+                display: inline;
+                margin-left: getUnitValue(1);
+            }
+        }
+
+        .account-cta-links {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: getUnitValue(4);
+            align-items: flex-start;
+
+            .ie & {
+                a {
+                    &:hover {
+                        background: none;
+                    }
+                }
+            }
+
+            .cta {
+                margin-bottom: getUnitValue(3);
+            }
+
+            .cta-content {
+                @include font($font-size-14, $font-weight-normal, $black, 1.5, false);
+                @include font-family($font_santral_regular);
+               
+                .icon-dropdown-right:before {
+                    font-size: $font-size-12;
+                }
+            }
+
+            .icon-Right {
+                display: inline;
+                margin-left: 5px;
+                &::before {
+                    font-size: $font-size-9;
+                }
+            }
+        }
+
+        .bag-details {
+            margin-top: auto;
+
+            .total {
+                margin-top: getUnitValue(3);
+                overflow: hidden;
+
+                .checkout-button {
+                    position: relative;
+                    margin-bottom: 4px;
+
+                    &_curtain {
+                        @extend .col__full;
+                        position: absolute;
+                        top: 0%;
+                        left: 100%;
+                        height: 100%;
+                        background: $tiffanyBlue;
+                        transition: left 0.5s ease-in-out;
+                        z-index: 1;
+                    }
+
+                    &.active-btn {
+
+                        pointer-events: none;
+                        border: 1px solid $black;
+
+                        .checkout-button_curtain {
+                            left: 0;
+                        }
+
+                        .primary-btn_content {
+                            span {
+                                z-index: 2;
+                                color: $black;
+                            }
+                        }
+                        .primary-btn_content {
+                            border: none;
+                            padding: 19px getUnitValue(4);
+                        }
+                    }
+                    &:hover {
+                        .primary-btn_content {
+                            border: 1px solid $black;
+                            background-color: $tiffanyBlue;
+                            opacity: 1 !important;
+                            color: $black;
+                            padding: 19px 32px;
+                        }
+                    }
+                    &:focus {
+                        border: 2px solid $bondiBlue;
+                        background-color: $black;
+                    }
+                }
+
+                .total-amount {
+                    margin-left: getUnitValue(1);
+                }
+            }
+        }
+
+        .cta-content-2 {
+            @include font($font-size-16, $font-weight-normal, $black, 1.5, false);
+            @include font-family($font_santral_regular);
+
+            .icon-dropdown-right {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .bag-items {
+        @extend .visibility-hide;
+        width: getUnitValue(50);
+        margin-bottom: getUnitValue(3);
+        transition: 1s ease-in;
+        animation: bottom-to-top 1700ms ease forwards;
+    }
+
+    .signin-message ~ .bag-items,
+    .item-categories ~ .bag-items {
+        margin-top: getUnitValue(1);
+    }
+
+    .signin-message {
+        p {
+            padding-bottom: getUnitValue(1);
+            font-size: $font-size-14;
+            line-height: 1.71;
+        }
+
+        .icon-Right {
+            margin-left: 5px;
+            padding-left: 0px;
+            &::before {
+                font-size: $font-size-9;
+            }
+        }
+
+        .ie & {
+            a {
+                &:hover {
+                    background: none;
+                }
+            }
+        }
+    }
+
+    .flyout-content {
+
+        .wishlist {
+            display: inline-block;
+
+            &:focus {
+                border: none;
+            }
+        }
+    }
+
+    .keyboard--focussed {
+
+        .flyout-content {
+
+            .wishlist:focus {
+                border:none;
+            }
+
+        }
+
+    }
+}
+
+@media all and (-ms-high-contrast:none), all and (-ms-ime-align:auto) {
+    .flyout-backdrop {
+        visibility: hidden;
+    }
+
+    .active-icon {
+        display: none;
+        width: getUnitValue(2);
+    }
+
+    .icon {
+        display: block;
+        width: getUnitValue(2);
+    }
+
+    .flyout-content:hover {
+        .active-icon {
+            display: block;
+            margin-top: 0;
+        }
+
+        .concierge-flyout .concierge-cta{
+            visibility:hidden
+        }
+
+        .icon {
+            display: none;
+        }
+    }
+
+    .flyout-content:hover .flyout-container.active,
+    .expand-overlay .flyout-container,
+    .flyout-content.item-add-anim .flyout-container {
+        padding-top: 2.5vw;
+        bottom: 0;
+        visibility: visible;
+        overflow-y: auto;
+        max-height: 100%;
+        &.active {
+            transition-delay: .5s;
+            z-index:$maxZIndex + 1;
+        }
+    }
+
+    .flyout-content.active:hover ~ .flyout-backdrop,
+    .expand-overlay ~ .flyout-backdrop {
+        visibility: visible;
+        animation: fade-in 2000ms ease forwards;
+    }
+
+    .flyout-content.item-add-anim ~ .flyout-backdrop {
+        visibility: visible;
+        animation: fade-in 1700ms ease forwards;
+    }
+}

@@ -1,0 +1,226 @@
+.check-balance {
+    @extend .col__full;
+    height: 100%;
+    position: relative;
+
+    @include MediaQueries($desktop-and-below) {
+        z-index: $modal-maxZIndex !important;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &__group {
+        &.material-input {
+
+            &.card {
+                padding-bottom: getUnitValue(1);
+            }
+            .check-balance__card {
+                @include font($font-size-16, $font-weight-normal, $black, 1.71, false);
+                @extend .col__full;
+                @include font-family($font_santral_regular);
+                padding-top: getUnitValue(2);
+
+                &_error {
+                    color: $crimson-red;
+                    margin-top: getUnitValue(1);
+                }
+            }
+
+            .check-balance__pin {
+                @include font($font-size-16, $font-weight-normal, $black, 1.5, false);
+                @extend .col__full;
+                @include font-family($font_santral_regular);
+                margin-bottom: getUnitValue(3);
+                margin-top: getUnitValue(2);
+
+                &_error {
+                    color: $crimson-red;
+                    margin-top: getUnitValue(1);
+                }
+            }
+
+            label {
+                @include font-family($font_santral_light);
+
+                &:not(.label-icon).active {
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+    &__container {
+        margin-top: getUnitValue(9);
+        background-color: $white;
+
+        @include MediaQueries($desktop-and-below) {
+            margin: getUnitValue(10) getUnitValue(2) getUnitValue(2);
+        }
+    }
+
+    &__heading {
+        @extend .display__inline-block;
+        @include font($font-size-14, false, $black, 1.71, false);
+        @include font-family($font_santral_semi_bold);
+        margin-right: getUnitValue(1);
+    }
+
+    &__close {
+        @extend .icon, .icon-pdp-close, .show__desktop-and-above;
+        position: absolute;
+        border: none;
+        right: 0;
+        top: 0;
+        background: none;
+        
+        img, svg {
+            width: getUnitValue(3);
+            height: getUnitValue(3);
+        }  
+
+
+    }
+
+    &_arrow-btn {
+        @extend .icon, .icon-Left, .hide__desktop-and-above ;
+        background: none;
+        font-size: $font-size-24;
+        border: none;
+        background: none;
+        margin-top: getUnitValue(3);
+        padding: 0;
+        margin-left: -4px;
+    }
+
+    &__submit{
+        background: none;
+        margin-bottom: getUnitValue(4);
+
+        &.secondary-btn {
+            height: getUnitValue(5);
+            width: auto;
+
+            .secondary-btn_content {
+                height: getUnitValue(5);
+                padding: getUnitValue(1) getUnitValue(2);
+            }
+        }
+
+        &_label {
+            @extend .cta-content;
+        }
+
+        &_error {
+            color: $crimson-red;
+            margin-top: getUnitValue(1);
+            margin-bottom: getUnitValue(1);
+        }
+    }
+
+    &__disclaimer {
+        padding-bottom: getUnitValue(3);
+
+        .information-text-component {
+            margin-bottom: 0;
+            .tiffany-rte {
+                p {
+                    @include font($font-size-12, false, $black, 1.33, false);
+                    @include font-family($font_santral_regular);
+                    line-height: 1.33 !important;
+                }
+            }
+        }
+    }
+
+}
+
+.check-balance__cta {
+    border: none;
+    padding: 0;
+    margin-top: getUnitValue(4);
+
+    @include MediaQueries($desktop-and-below) {
+        margin-top: getUnitValue(2);
+    }
+    .icon-dropdown-down {
+        margin-left: getUnitValue(1);
+
+        &:before {
+            font-size: $font-size-8;
+        }
+    }
+}
+
+.show-balance {
+    &__heading {
+        @include font($font-size-14, $font-weight-600, $black, 24px, false);
+        @include font-family($font_santral_semi_bold);
+        margin-top: getUnitValue(8);
+    }
+
+    &__label {
+        @extend .display__block;
+        @include font($font-size-12, $font-weight-normal, $black, 8px, false);
+        @include font-family($font_santral_regular);
+    }
+
+    &__input {
+        @extend .display__block;
+        @include font($font-size-14, $font-weight-normal, $black, 24px, false);
+        @include font-family($font_santral_light);
+        padding-top: getUnitValue(1);
+        padding-left: 0;
+        border: none;
+        background: none;
+        appearance: none;
+    }
+
+    &__group {
+        padding-bottom: getUnitValue(2);
+
+        &-container {
+            margin-top: getUnitValue(3);
+            margin-bottom: getUnitValue(2);
+            padding-left: 3px;
+        }
+    }
+
+    .btn {
+        @extend .cta-noflicker, .cta;
+        padding: 0 getUnitValue(1);
+
+        .icon-Right {
+            font-size: $font-size-8;
+            margin-left: getUnitValue(1);
+        }
+    }
+
+    .tiffany-inline-modal--close {
+        right: 0;
+        img, svg {
+            width: getUnitValue(3);
+            height: getUnitValue(3);
+        }  
+    }
+}
+
+.check-balance-modal-holder{
+    &.product-description__container {
+        @include MediaQueries($desktop-and-below) {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            z-index: $modal-maxZIndex;
+        }
+    }
+
+    &.check-balance__modal-open {
+        & > :not(.tiffany-inline-modal) {
+            @extend .hide;
+        }
+    }
+}

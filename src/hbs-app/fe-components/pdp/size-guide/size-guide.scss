@@ -1,0 +1,326 @@
+// ****************************************
+// size-guide
+// ****************************************
+
+.size-guide {
+
+    &__container {
+
+        &_heading {
+            @extend .h2;
+            @include font($font-size-40, $font-weight-normal, $black, 1, normal);
+
+            @include MediaQueries($tablet-and-below) {
+                @include font($font-size-32, $font-weight-normal, $black, 0.75, normal);
+            }
+        }
+
+        &_itemlist {
+            @extend .col__full;
+            padding-top: getUnitValue(8);
+
+            @include MediaQueries($tablet-and-below) {
+                display: none;
+            }
+
+            &_items {
+                border-bottom: 1px solid $black;
+                list-style-type: none;
+                overflow: hidden;
+
+                &_item {
+                    display: inline-block;
+
+                    &_link {
+                        font-weight: $font-weight-light;
+                        display: block;
+                        margin-right: getUnitValue(7);
+                        padding-bottom: getUnitValue(2.5);
+                        text-decoration: none;
+                        font-size: $font-size-14;
+                    }
+
+                    & .active {
+                        font-weight: $font-weight-600;
+                        border-bottom: 1.5px solid $black;
+                    }
+
+                    & a {
+                        .keyboard--focussed & {
+                            &:focus {
+                                border: 1px solid $bondiBlue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        &_mobileitemlist {
+            @extend .col__full;
+            position: relative;
+            visibility: hidden;
+
+            @include MediaQueries($tablet-above) {
+                display: none;
+            }
+
+            &_items {
+                @extend .col__full;
+                @include font-family($font_santral_regular);
+                font-size: $font-size-14;
+                border: none;
+                border-radius: 0;
+                background: none;
+                padding: getUnitValue(1.5) 0;
+                margin-top: getUnitValue(3);
+                border-bottom: 1px solid $black;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+            }
+
+            & .icon-Dropdown {
+                color: $black;
+                font-size: $font-size-10;
+                position: absolute;
+                right: 0;
+                bottom: getUnitValue(1.5);
+            }
+        }
+
+        .size-guide {
+
+            &__contentswrap {
+                @extend .col__full;
+            }
+
+            &__content {
+                @extend .col__full,
+                .tf-g;
+
+                .content {
+
+                    &_left {
+                        @extend .col-lg__5-12,
+                        .col-md__6-12;
+
+                        @include MediaQueries($tablet-and-below) {
+                            display: flex;
+                            flex-direction: column-reverse;
+                            width: 100%;
+                        }
+
+                        &_us-size {
+                            @extend .tiffany-blue-custom-scroll-bar;
+                            position: relative;
+                            height: getUnitValue(41);
+                            overflow-y: hidden;
+                            overflow-x: hidden;
+                            display: block;
+                            margin-top: getUnitValue(4);
+                            margin-bottom: getUnitValue(8);
+                            .ios & {
+                                overflow: auto;
+                            }
+
+                            @include MediaQueries($tablet-and-below) {
+                                border-top: 1px solid $tiffanyBlue;
+                                height: auto;
+                                padding: getUnitValue(3) 0 getUnitValue(2);
+                                margin: getUnitValue(3) 0 0;
+                            }
+
+                            .ps__rail-x {
+                                @extend .hide;
+                            }
+
+                            .us-size_table {
+                                @extend .col__full,
+                                .tf-g;
+                                @include font($font-size-12, $font-weight-normal, $black, 2.67, normal);
+                                @include font-family($font_santral_regular);
+
+                                &_rowgroup {
+                                    @include font($font-size-12, $font-weight-normal, $black, 2.67, normal);
+                                    @extend .col__full;
+                                }
+
+                                &_rowheader {
+                                    @extend .tf-g;
+                                    font-weight: $font-weight-600;
+
+                                    .icon-Dropdown {
+                                        color: $black;
+                                        cursor: default;
+                                        font-size: $font-size-10;
+                                        padding-left: getUnitValue(1);
+                                    }
+                                }
+
+                                &_row {
+                                    @extend .tf-g;
+                                }
+                            }
+                        }
+
+                        &_find-your-fit {
+                            .find-your-fit {
+
+                                &_header {
+                                    margin-top: getUnitValue(5);
+
+                                    @include MediaQueries($tablet-and-below) {
+                                        @include font($font-size-16, $font-weight-600, $black, 2.5, normal);
+                                        @include font-family($font_santral_semi_bold);
+                                        margin-top: getUnitValue(3);
+                                    }
+                                }
+
+                                &_text {
+                                    margin-top: getUnitValue(1.5);
+                                    margin-bottom: getUnitValue(2);
+                                    @include font($font-size-14, $font-weight-light, $black, 1.71, normal);
+                                    @include font-family($font_santral_light);
+
+                                    .visual-spacing & {
+                                        margin-top: 13px;   
+                                    }
+
+                                    @include MediaQueries($tablet-and-below) {
+                                        margin-top: getUnitValue(2);
+                                    }
+                                }
+
+                                &_link {
+                                    margin-top: getUnitValue(1.5);
+
+                                    .visual-spacing & {
+                                        margin-top: 0;
+                                    }
+
+                                    .icon-right {
+                                        font-size: $font-size-10;
+
+                                        &::before {
+                                            content: "\E922";
+                                            color: $black;
+                                            width: getUnitValue(1);
+                                            height: getUnitValue(1.5);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        @include MediaQueries($tablet-and-below) {
+                            width: 100%;
+                        }
+                    }
+
+                    &_imagecontainer {
+                        @extend .col-lg__7-12,
+                        .col-md__6-12;
+
+                        &_wrap {
+                            padding-top: getUnitValue(4);
+                            padding-left: getUnitValue(8);
+
+                            img {
+                                @extend .col__full;
+                            }
+
+                            @include MediaQueries($tablet-and-below) {
+                                padding: 0;
+                            }
+                        }
+
+                        @include MediaQueries($tablet-and-below) {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .size-guide__content-rings,
+        .size-guide__content-necklaces {
+            .content {
+                &_left {
+                    &_us-size {
+                        .us-size_table {
+                            &_leftcolumn {
+                                @extend .col-5-12;
+                            }
+
+                            &_rightcolumn {
+                                @extend .col-7-12;
+
+                                span:nth-child(2) {
+                                    padding-left: getUnitValue(6);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .size-guide__content-bracelets {
+            .content {
+                &_left {
+                    &_us-size {
+                        .us-size_table {
+                            &_leftcolumn {
+                                width: 40% !important;
+                                margin: 0 !important;
+                            }
+
+                            &_rightcolumn {
+                                margin: 0 !important;
+
+                                span:nth-child(2) {
+                                    padding-left: getUnitValue(6);
+                                }
+                            }
+
+                            &_lastcolumn {
+                                @extend .col-3-12;
+                                margin: 0 !important;
+                                @include MediaQueries($x-small) {
+                                    width: 26% !important;
+                                }
+                            }
+                            
+                            &_column {
+                                @extend .col-3-12;
+                                margin-right: getUnitValue(4);
+                                @include MediaQueries($x-small) {
+                                    width: 27%;
+                                    margin-right: 5%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .size-static & {
+            @extend .col__full,
+            .tf-g;
+            margin: getUnitValue(5) auto getUnitValue(14);
+            max-width: getUnitValue(120);
+
+            @include MediaQueries($tablet-and-below) {
+                margin: getUnitValue(3) getUnitValue(2) getUnitValue(9);
+                width: auto;
+            }
+
+            &_close {
+                @extend .hide;
+            }
+        }
+    }
+}

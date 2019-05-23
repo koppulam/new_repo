@@ -1,0 +1,1043 @@
+{
+   "resultDto":[
+      {
+         "store":{
+            "storeId":640,
+            "companyId":1,
+            "storeName":"Americana Manhasset",
+            "address1":"1980 Northern Boulevard",
+            "address2":"",
+            "address3":"",
+            "city":"Manhasset",
+            "region":"NY",
+            "postalCode":"11030",
+            "country":"United States",
+            "phone":"516 869 0800",
+            "email":"manhasset@tiffany.com",
+            "extraInformation":"",
+            "searchKeywords":"516 869 0800",
+            "storePhoto":"/stores/manhasset.jpg",
+            "visibleDate":"2008-08-01T00:00:00",
+            "geoCodeLattitude":"40.7956049",
+            "geoCodeLongitude":"-73.67385480000001",
+            "dateCreated":"2008-09-12T14:39:50.97",
+            "dateLastModified":"2018-07-03T10:51:14.973",
+            "mapLevel":1,
+            "useCustomGeoCode":false,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"35",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":640,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Wed.: 10:00AM - 6:00PM<br> Thurs.-Sat.: 10:00AM - 7:00PM<br>Sun.: 12:00PM - 6:00PM<br><br>July 4th Store Hours<br>12:00 PM – 5:00 PM<br>"
+            },
+            {
+               "storeId":640,
+               "storeHourTypeId":2,
+               "storeHours":"  "
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":640,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":640,
+               "storeServiceTypeId":2,
+               "storeServiceTypeDisplayName":"Online Appointment Booking",
+               "storeConsultationEmail":"manhasset@tiffany.com",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "appointmentTypeID":2,
+               "isAvailable":true
+            },
+            {
+               "storeID":640,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":640,
+               "siteId":1,
+               "pageTitle":"Americana Manhasset Jewelry Store",
+               "pageH1tag":"Americana Manhasset Jewelry Store",
+               "description":"Shop Tiffany & Co. Americana Manhasset - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"americana-manhasset"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":682,
+            "companyId":1,
+            "storeName":"New York-5th Avenue",
+            "address1":"727 Fifth Avenue ",
+            "address2":"Between Fifth Avenue and 57th Street",
+            "address3":"",
+            "city":"New York",
+            "region":"NY",
+            "postalCode":"10022",
+            "country":"United States",
+            "phone":"212 755 8000",
+            "email":"",
+            "extraInformation":"The Blue Box Cafe is located on the fourth floor. 212 605 4270<br><br>  Mon.–Sat.: 10:00AM–5:30PM *Last seating is at 5:30PM. <br>  Sun.: 12:00PM–4:30PM *Last seating is at 4:30PM.<br><br>  <a class=\"mobile\" href=\"/Mobile/Locations/EventDetail.aspx?eventid=1063#\">Learn More</a>  <a class=\"desktop\" href=\"/Locations/EventDetail.aspx?eventid=1063#\">Learn More</a>      <br><style> dateLocation{display:none}</style><br><style> dateLocation{display:none}</style>      ",
+            "searchKeywords":"212 755 8000|central park|NYC|Tiffany Cafe|Tiffany blue box cafe|Cafe|breakfast at Tiffany|5th avenue café",
+            "storePhoto":"/Stores/727store.jpg",
+            "visibleDate":"2008-08-01T00:00:00",
+            "geoCodeLattitude":"40.7629678",
+            "geoCodeLongitude":"-73.97395670000003",
+            "dateCreated":"2008-09-12T14:39:51.22",
+            "dateLastModified":"2018-07-03T10:39:42.253",
+            "storeNumber":1,
+            "mapLevel":1,
+            "useCustomGeoCode":true,
+            "storePriorityTypeId":1,
+            "mipsstoreNumber":"1",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":682,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Sat.: 10:00AM - 7:00PM<br>Sun.: 12:00PM - 6:00PM<br><br> July 4th Store Hours<br>12:00 PM – 6:00 PM<br>"
+            },
+            {
+               "storeId":682,
+               "storeHourTypeId":2,
+               "storeHours":""
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":682,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":682,
+               "storeServiceTypeId":2,
+               "storeServiceTypeDisplayName":"Online Appointment Booking",
+               "storeConsultationEmail":"personal.shopping@tiffany.com",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "appointmentTypeID":2,
+               "isAvailable":true
+            },
+            {
+               "storeID":682,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":682,
+               "siteId":1,
+               "pageTitle":"New York 5th Avenue Jewelry Store",
+               "pageH1tag":"New York 5th Avenue Jewelry Store",
+               "description":"Shop Tiffany & Co. New York-5th Avenue - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"new-york-5th-avenue"
+            }
+         ],
+         "events":[
+            {
+               "siteId":1,
+               "events":[
+                  {
+                     "eventId":1063,
+                     "storeId":682,
+                     "title":"The Blue Box Cafe<br>",
+                     "eventStartDatetime":"2017-11-10T00:00:00",
+                     "visibleStartDatetime":"2017-11-09T16:00:00",
+                     "visibleEndDatetime":"2025-11-10T09:00:00",
+                     "description":"<img src=\"https://media.tiffany.com/is/image/Tiffany/mobile-event1063\" style=\"width:100%\" class=\"mobile\"><br><div itemscope itemtype=\"https://schema.org/Restaurant\"><br><br><span itemprop=\"description\">Tiffany is proud to present <span itemprop=\"name\">The Blue Box Cafe</span>, located on<br>the 4th floor of our New York flagship store. Serving<br><span itemprop=\"servesCuisine\">American classics</span>  made with the highest quality, regionally<br>sourced ingredients, the menu will evolve through the<br>seasons for a refined take on signature New York dishes<br>reinvented to be uniquely Tiffany.</span><br><br>  <span itemprop=\"openingHours\" content=\"Mo-Sa 10:00-17:30\">  Monday – Saturday<br>  10:00AM – 5:30PM <br>  *Last seating at 5:30PM</span><br>  <br>  <span itemprop=\"openingHours\" content=\"Su 12:00-16:30\">Sunday<br>  12:00PM – 4:30PM<br> *Last seating at 4:30PM</span><br>  <br>  <a itemprop=\"menu\" class=\"avenir type-cta\" href=\"/Shared/Images/FAQAttachments/3581_00003_636650109937293210.pdf\">See Menu</a><br><br><div itemprop=\"address\" itemscope itemtype=\"https://schema.org/PostalAddress\">Tiffany & Co.<br><span itemprop=\"streetAddress\">727 Fifth Avenue</span><br><span itemprop=\"addressLocality\">New York</span>, <span itemprop=\"addressRegion\">NY</span>        <br><br>For more information,<br>please contact <span itemprop=\"telephone\" content=\"+2126054270\">212 605 4270</span>  <br><br>  Reservations are available exclusively through Resy.   <br>  We are unable to accommodate reservations made by phone.  </div></div><style>#eventStoreName,#eventAddressSection,#eventTime,#eventContactSection,#eventDescription #eventStore,#eventDescription #eventAddress,#eventDescription #eventAddressChina,#eventDescription #eventAddressJapan,#eventDescription #eventAddress2,#eventDescription #eventHours,#contentLinkList,#eventDescription .blueBulletList div{display:none}</style><style>#eventHours{display:none}</style><style>.dateLocation{display:none}</style><style>.flashTitle{font-size:40px; margin-top:-50px; margin-bottom:-25px}</style><style>.dateLocation{display:none}</style><style>#resyButton-jqboqqn8{margin-top:20px; padding-left:35px; padding-right:35px} </style><style>.text-container{cursor:initial}</style><style>#eventInfo > div > .btn:not(#resyButton-jqboqqn8){display:none;}</style><style>@media screen and (max-device-width: 478px) {.btn{font-size:11px;}}</style><a href=\"#\" class=\"btn\" id=\"resyButton-jqboqqn8\">MAKE A RESERVATION</a>  <script src=\"https://widgets.resy.com/embed.js\"></script><script>  var noClick = document.querySelector(\".text-container\"); if(noClick != null){noClick.className += \" no-click\";}       resyWidget.config({\"venueId\":1814,\"apiKey\":\"appCl6pM0QHDUIXoD5cE0JS8QasVWDJH\",\"replace\":true});          document.querySelector(\"#resyButton-jqboqqn8\").addEventListener(\"click\", openResy);          function openResy(){resyWidget.openModal();}  </script>",
+                     "showMarketingLink":false,
+                     "marketingLinkText":"",
+                     "marketingLinkUrl":"",
+                     "showRsvpLink":false,
+                     "rsvpEmail":"",
+                     "imagePath":"/Events/Detail/detail_1063.jpg",
+                     "dateCreated":"2017-11-02T18:08:41.207",
+                     "dateLastModified":"2018-06-19T13:53:28.77",
+                     "eventStartTime":"",
+                     "eventTimeZone":"Eastern Standard Time",
+                     "shortDescription":"<br>Tiffany is proud to present The Blue Box Cafe, located on the 4th floor of our New York flagship store. "
+                  },
+                  {
+                     "eventId":1072,
+                     "storeId":682,
+                     "title":"Tiffany Paper Flowers™ Installation",
+                     "eventStartDatetime":"2018-05-01T00:00:00",
+                     "eventEndDatetime":"2018-09-30T00:00:00",
+                     "visibleStartDatetime":"2018-05-04T00:00:00",
+                     "visibleEndDatetime":"2018-10-01T00:00:00",
+                     "description":"<br>  Natural meets industrial and pure meets precious in our newest   <br>jewelry collection. Experience the Tiffany Paper Flowers™ in-store   <br>installation at our Fifth Avenue flagship store from May 1 through   <br>September 30.  <br>  <br>  Tiffany & Co.  <br>  727 Fifth Avenue  <br>  New York, New York  <br>  <br>  Monday–Saturday  <br>  10:00AM–7:00PM  <br>  Sunday  <br>  12:00PM–6:00PM  <br>  <style> #eventStoreName, #eventAddressSection, #eventTime, #eventContactSection, #eventDescription #eventStore, #eventDescription #eventAddress, #eventDescription #eventAddressChina,  #eventDescription #eventAddressJapan, #eventDescription #eventAddress2, #eventDescription #eventHours, #contentLinkList, #eventDescription .blueBulletList div {display:none}</style>     <style>#eventHours{display:none}</style>      ",
+                     "showMarketingLink":false,
+                     "marketingLinkText":"",
+                     "marketingLinkUrl":"",
+                     "showRsvpLink":false,
+                     "rsvpEmail":"",
+                     "imagePath":"/Events/Detail/detail_1072.jpg",
+                     "dateCreated":"2018-05-03T14:47:20.59",
+                     "dateLastModified":"2018-05-03T15:05:50.517",
+                     "eventStartTime":"",
+                     "eventEndTime":"",
+                     "eventTimeZone":"Eastern Standard Time",
+                     "shortDescription":"Tiffany Paper Flowers™ Installation"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":701,
+            "companyId":1,
+            "storeName":"Hackensack - The Shops at Riverside",
+            "address1":"101 Riverside Square",
+            "address2":"",
+            "address3":"",
+            "city":"Hackensack",
+            "region":"NJ",
+            "postalCode":"07601",
+            "country":"United States",
+            "phone":"201 457 1220",
+            "email":"riverside@tiffany.com",
+            "extraInformation":"\t",
+            "searchKeywords":"Hackensack|Hackensack, NJ|New Jersey|Riverside Square|Riverside Square Mall|United States|US|USA|Hackensack,New Jersey|NJ|The Shops at Riverside|07601|Hackensack NJ|",
+            "storePhoto":"/stores/hackensack.jpg",
+            "visibleDate":"2008-08-01T00:00:00",
+            "geoCodeLattitude":"40.9074894",
+            "geoCodeLongitude":"-74.0326986",
+            "dateCreated":"2008-09-12T14:39:51.28",
+            "dateLastModified":"2018-07-03T15:12:11.953",
+            "mapLevel":1,
+            "useCustomGeoCode":false,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"24",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":701,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Sat.: 10:00AM - 8:00PM<br>Sun.: CLOSED<br><br><br> July 4th Store Hours<br>11:00 AM – 5:00 PM<br>"
+            },
+            {
+               "storeId":701,
+               "storeHourTypeId":2,
+               "storeHours":""
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":701,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":701,
+               "storeServiceTypeId":2,
+               "storeServiceTypeDisplayName":"Online Appointment Booking",
+               "storeConsultationEmail":"riversidesquare@tiffany.com",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "appointmentTypeID":2,
+               "isAvailable":true
+            },
+            {
+               "storeID":701,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":701,
+               "siteId":1,
+               "pageTitle":"Hackensack - The Shops at Riverside Jewelry Store",
+               "pageH1tag":"Hackensack - The Shops at Riverside Jewelry Store",
+               "description":"Shop Tiffany & Co. Hackensack - The Shops at Riverside - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"hackensack-the-shops-at-riverside"
+            }
+        ],
+        "events":[
+           {
+              "siteId":1,
+              "events":[
+                 {
+                    "eventId":1063,
+                    "storeId":682,
+                    "title":"The Blue Box Cafe<br>",
+                    "eventStartDatetime":"2017-11-10T00:00:00",
+                    "visibleStartDatetime":"2017-11-09T16:00:00",
+                    "visibleEndDatetime":"2025-11-10T09:00:00",
+                    "description":"<img src=\"https://media.tiffany.com/is/image/Tiffany/mobile-event1063\" style=\"width:100%\" class=\"mobile\"><br><div itemscope itemtype=\"https://schema.org/Restaurant\"><br><br><span itemprop=\"description\">Tiffany is proud to present <span itemprop=\"name\">The Blue Box Cafe</span>, located on<br>the 4th floor of our New York flagship store. Serving<br><span itemprop=\"servesCuisine\">American classics</span>  made with the highest quality, regionally<br>sourced ingredients, the menu will evolve through the<br>seasons for a refined take on signature New York dishes<br>reinvented to be uniquely Tiffany.</span><br><br>  <span itemprop=\"openingHours\" content=\"Mo-Sa 10:00-17:30\">  Monday – Saturday<br>  10:00AM – 5:30PM <br>  *Last seating at 5:30PM</span><br>  <br>  <span itemprop=\"openingHours\" content=\"Su 12:00-16:30\">Sunday<br>  12:00PM – 4:30PM<br> *Last seating at 4:30PM</span><br>  <br>  <a itemprop=\"menu\" class=\"avenir type-cta\" href=\"/Shared/Images/FAQAttachments/3581_00003_636650109937293210.pdf\">See Menu</a><br><br><div itemprop=\"address\" itemscope itemtype=\"https://schema.org/PostalAddress\">Tiffany & Co.<br><span itemprop=\"streetAddress\">727 Fifth Avenue</span><br><span itemprop=\"addressLocality\">New York</span>, <span itemprop=\"addressRegion\">NY</span>        <br><br>For more information,<br>please contact <span itemprop=\"telephone\" content=\"+2126054270\">212 605 4270</span>  <br><br>  Reservations are available exclusively through Resy.   <br>  We are unable to accommodate reservations made by phone.  </div></div><style>#eventStoreName,#eventAddressSection,#eventTime,#eventContactSection,#eventDescription #eventStore,#eventDescription #eventAddress,#eventDescription #eventAddressChina,#eventDescription #eventAddressJapan,#eventDescription #eventAddress2,#eventDescription #eventHours,#contentLinkList,#eventDescription .blueBulletList div{display:none}</style><style>#eventHours{display:none}</style><style>.dateLocation{display:none}</style><style>.flashTitle{font-size:40px; margin-top:-50px; margin-bottom:-25px}</style><style>.dateLocation{display:none}</style><style>#resyButton-jqboqqn8{margin-top:20px; padding-left:35px; padding-right:35px} </style><style>.text-container{cursor:initial}</style><style>#eventInfo > div > .btn:not(#resyButton-jqboqqn8){display:none;}</style><style>@media screen and (max-device-width: 478px) {.btn{font-size:11px;}}</style><a href=\"#\" class=\"btn\" id=\"resyButton-jqboqqn8\">MAKE A RESERVATION</a>  <script src=\"https://widgets.resy.com/embed.js\"></script><script>  var noClick = document.querySelector(\".text-container\"); if(noClick != null){noClick.className += \" no-click\";}       resyWidget.config({\"venueId\":1814,\"apiKey\":\"appCl6pM0QHDUIXoD5cE0JS8QasVWDJH\",\"replace\":true});          document.querySelector(\"#resyButton-jqboqqn8\").addEventListener(\"click\", openResy);          function openResy(){resyWidget.openModal();}  </script>",
+                    "showMarketingLink":false,
+                    "marketingLinkText":"",
+                    "marketingLinkUrl":"",
+                    "showRsvpLink":false,
+                    "rsvpEmail":"",
+                    "imagePath":"/Events/Detail/detail_1063.jpg",
+                    "dateCreated":"2017-11-02T18:08:41.207",
+                    "dateLastModified":"2018-06-19T13:53:28.77",
+                    "eventStartTime":"",
+                    "eventTimeZone":"Eastern Standard Time",
+                    "shortDescription":"<br>Tiffany is proud to present The Blue Box Cafe, located on the 4th floor of our New York flagship store. "
+                 }
+              ]
+           }
+        ]
+      },
+      {
+         "store":{
+            "storeId":717,
+            "companyId":1,
+            "storeName":"The Mall at Short Hills",
+            "address1":"1200 Morris Turnpike",
+            "address2":"Route 24 & JFK Parkway",
+            "address3":"",
+            "city":"Short Hills",
+            "region":"NJ",
+            "postalCode":"07078",
+            "country":"United States",
+            "phone":"973 467 3600",
+            "email":"shorthills@tiffany.com",
+            "extraInformation":"\t.",
+            "searchKeywords":"new jersey|Short Hills|Short Hills Mall|The Mall at Short Hills|United States|US|USA|NJ|Short Hills, New Jersey|Short Hills, NJ|Route 24 & JFK Parkway|1200 Morris Turnpike|",
+            "visibleDate":"2008-08-01T00:00:00",
+            "geoCodeLattitude":"40.740219",
+            "geoCodeLongitude":"-74.363506",
+            "dateCreated":"2008-09-12T14:39:51.33",
+            "dateLastModified":"2018-07-03T15:12:48.033",
+            "mapLevel":1,
+            "useCustomGeoCode":true,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"20",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":717,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Fri.: 10:00AM - 9:00PM<br>Sat.: 10:00AM - 8:00PM<br>Sun.: 11:00AM - 6:00PM<br><br><br>July 4th Store Hours<br>10:00 AM – 6:00 PM<br>"
+            },
+            {
+               "storeId":717,
+               "storeHourTypeId":2,
+               "storeHours":""
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":717,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":717,
+               "storeServiceTypeId":2,
+               "storeServiceTypeDisplayName":"Online Appointment Booking",
+               "storeConsultationEmail":"shorthills@tiffany.com",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "appointmentTypeID":2,
+               "isAvailable":true
+            },
+            {
+               "storeID":717,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":717,
+               "siteId":1,
+               "pageTitle":"The Mall at Short Hills Jewelry Store",
+               "pageH1tag":"The Mall at Short Hills Jewelry Store",
+               "description":"Shop Tiffany & Co. The Mall at Short Hills - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"the-mall-at-short-hills"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":723,
+            "companyId":1,
+            "storeName":"White Plains - The Westchester",
+            "address1":"125 Westchester Avenue",
+            "address2":"",
+            "address3":"",
+            "city":"White Plains",
+            "region":"NY",
+            "postalCode":"10601",
+            "country":"United States",
+            "phone":"914 686 5100",
+            "email":"whiteplains@tiffany.com",
+            "extraInformation":"",
+            "searchKeywords":"New York|United States|US|USA|Westchester|Westchester Avenue|White Plains|White Plains, NY|The Westchester|NY|Westchester, NY|Westchester,New York|10601|",
+            "visibleDate":"2008-08-01T00:00:00",
+            "geoCodeLattitude":"41.0315151",
+            "geoCodeLongitude":"-73.75855150000001",
+            "dateCreated":"2008-09-12T14:39:51.343",
+            "dateLastModified":"2018-07-03T15:13:53.247",
+            "mapLevel":1,
+            "useCustomGeoCode":false,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"19",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":723,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Sat.: 10:00AM- 8:00PM<br>Sun.:11:00AM - 5:00PM<br><br><br> July 4th Store Hours<br>11:00 AM – 5:00 PM<br>"
+            },
+            {
+               "storeId":723,
+               "storeHourTypeId":2,
+               "storeHours":""
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":723,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":723,
+               "storeServiceTypeId":2,
+               "storeServiceTypeDisplayName":"Online Appointment Booking",
+               "storeConsultationEmail":"whiteplains@tiffany.com",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "appointmentTypeID":2,
+               "isAvailable":true
+            },
+            {
+               "storeID":723,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":723,
+               "siteId":1,
+               "pageTitle":"White Plains - The Westchester Jewelry Store",
+               "pageH1tag":"White Plains - The Westchester Jewelry Store",
+               "description":"Shop Tiffany & Co. White Plains - The Westchester - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"white-plains-the-westchester"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":820,
+            "companyId":2,
+            "storeName":"Iridesse - Mall at Short Hills",
+            "address1":"1200 Morris Turnpike",
+            "address2":"Space B-252",
+            "address3":"",
+            "city":"Short Hills",
+            "region":"NJ",
+            "postalCode":"07078",
+            "country":"United States of America",
+            "phone":"973.218.0340",
+            "email":"ShortHills@Iridesse.com",
+            "searchKeywords":"Short Hills Mal",
+            "visibleDate":"2004-11-12T00:00:00",
+            "geoCodeLattitude":"40.960049",
+            "geoCodeLongitude":"-74.294271",
+            "dateCreated":"2008-09-12T14:39:52.173",
+            "dateLastModified":"2012-04-15T23:58:34.08",
+            "isocountryCode":840,
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":820,
+               "storeHourTypeId":1,
+               "storeHours":"M - F: 10am - 9pm  <br />  Sa: 10am - 7pm  <br />  Su: 11am - 6pm"
+            },
+            {
+               "storeId":820,
+               "storeHourTypeId":2,
+               "storeHours":"<br />  M - F: 10am - 9pm  <br />  Sa: 10am - 7pm  <br />  Su: 11am - 6pm  "
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":820,
+               "siteId":1,
+               "pageTitle":"",
+               "pageH1tag":"",
+               "description":"",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"iridesse-mall-at-short-hills"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":839,
+            "companyId":1,
+            "storeName":"New York-Wall Street",
+            "address1":"37 Wall Street",
+            "address2":"",
+            "address3":"",
+            "city":"New York",
+            "region":"NY",
+            "postalCode":"10005",
+            "country":"United States",
+            "phone":"212 514 8015",
+            "email":"",
+            "extraInformation":"  ",
+            "searchKeywords":"New York|Manhattan|wall street| 37 wall Street| ny ny| New York City| NYC, New York New York|nyc| New York NY| NY city New York City NY|10005|Manhattan NY|wall|NY|",
+            "storePhoto":"/stores/839.jpg",
+            "visibleDate":"2008-08-01T00:00:00",
+            "geoCodeLattitude":"40.706336 ",
+            "geoCodeLongitude":"-74.00942 ",
+            "dateCreated":"2008-09-12T14:39:51.843",
+            "dateLastModified":"2018-07-03T10:41:40.45",
+            "storeNumber":124,
+            "mapLevel":1,
+            "useCustomGeoCode":true,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"124",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":839,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Fri.: 10:00AM - 7:00PM<br>Sat.: 11:00AM - 5:00PM<br>Sun.: 12:00PM - 5:00PM<br><br><br> July 4th Store Hours<br>11:00 AM – 4:00 PM<br>"
+            },
+            {
+               "storeId":839,
+               "storeHourTypeId":2,
+               "storeHours":""
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":839,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":839,
+               "storeServiceTypeId":2,
+               "storeServiceTypeDisplayName":"Online Appointment Booking",
+               "storeConsultationEmail":"wallstreet@tiffany.com",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "appointmentTypeID":2,
+               "isAvailable":true
+            },
+            {
+               "storeID":839,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":839,
+               "siteId":1,
+               "pageTitle":"New York Wall Street Jewelry Store",
+               "pageH1tag":"New York Wall Street Jewelry Store",
+               "description":"Shop Tiffany & Co. New York-Wall Street - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"new-york-wall-street"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":1265,
+            "companyId":1,
+            "storeName":"New York-Employee Store",
+            "address1":"200 Fifth Avenue",
+            "address2":"",
+            "address3":"",
+            "city":"New York",
+            "region":"NY",
+            "postalCode":"10010",
+            "country":"United States",
+            "phone":"973-254-7474",
+            "email":"",
+            "extraInformation":"",
+            "searchKeywords":"",
+            "visibleDate":"2012-05-02T09:00:00",
+            "geoCodeLattitude":"40.7417631",
+            "geoCodeLongitude":"-73.9894516",
+            "dateCreated":"2012-05-02T16:42:03.453",
+            "dateLastModified":"2015-10-14T13:38:13.577",
+            "mapLevel":1,
+            "useCustomGeoCode":false,
+            "storePriorityTypeId":6,
+            "mipsstoreNumber":"49",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":1265,
+               "storeHourTypeId":1,
+               "storeHours":"M-F:10-2"
+            },
+            {
+               "storeId":1265,
+               "storeHourTypeId":2,
+               "storeHours":""
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":1265,
+               "siteId":1,
+               "pageTitle":"",
+               "pageH1tag":"",
+               "description":"",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"new-york-employee-store"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":1267,
+            "companyId":1,
+            "storeName":"New York - Soho",
+            "address1":"97 Greene Street",
+            "address2":"",
+            "address3":"",
+            "city":"New York",
+            "region":"NY",
+            "postalCode":"10012",
+            "country":"United States",
+            "phone":"212 226 6136",
+            "email":"",
+            "extraInformation":"",
+            "searchKeywords":"Soho",
+            "visibleDate":"2012-05-07T06:00:00",
+            "geoCodeLattitude":"40.724614",
+            "geoCodeLongitude":"-74.000165",
+            "dateCreated":"2012-05-07T11:03:31.22",
+            "dateLastModified":"2018-08-09T10:19:26.767",
+            "mapLevel":1,
+            "useCustomGeoCode":true,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"149",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "aboutThisStore":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":1267,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Wed.: 11:00AM - 7:00PM<br>Thurs.: 11:00AM - 8:00PM<br>Fri.-Sat.: 11:00AM - 7:00PM<br>Sun.: 11:00AM - 6:00PM<br><br>July 4th Store Hours<br>12:00 PM – 5:00 PM<br>"
+            },
+            {
+               "storeId":1267,
+               "storeHourTypeId":2,
+               "storeHours":"  "
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":1267,
+               "storeServiceTypeId":2,
+               "storeServiceTypeDisplayName":"Online Appointment Booking",
+               "storeConsultationEmail":"soho.inv@tiffany.com",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "appointmentTypeID":2,
+               "isAvailable":true
+            },
+            {
+               "storeID":1267,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":1267,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":1267,
+               "siteId":1,
+               "pageTitle":"New York Soho Jewelry Store",
+               "pageH1tag":"New York Soho Jewelry Store",
+               "description":"Shop Tiffany & Co. New York - Soho - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"new-york-soho"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":1308,
+            "companyId":1,
+            "storeName":"Garden State Plaza",
+            "address1":"One Garden State Plaza",
+            "address2":"",
+            "address3":"",
+            "city":"Paramus",
+            "region":"NJ",
+            "postalCode":"07652",
+            "country":"United States",
+            "phone":"(201) 270-5381",
+            "email":"",
+            "extraInformation":"\t",
+            "searchKeywords":"",
+            "visibleDate":"2013-04-16T05:00:00",
+            "geoCodeLattitude":"40.9184399",
+            "geoCodeLongitude":"-74.07769009999998",
+            "dateCreated":"2013-04-16T16:49:27.59",
+            "dateLastModified":"2018-07-03T10:48:50.983",
+            "mapLevel":1,
+            "useCustomGeoCode":false,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"153",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":1308,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Sat.: 10:00AM - 9:30PM<br>Sun.: CLOSED<br><br><br>July 4th Store Hours<br>10:00 AM – 6:00 PM<br>"
+            },
+            {
+               "storeId":1308,
+               "storeHourTypeId":2,
+               "storeHours":""
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":1308,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":1308,
+               "storeServiceTypeId":2,
+               "storeServiceTypeDisplayName":"Online Appointment Booking",
+               "storeConsultationEmail":"gardenstateplaza@tiffany.com",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "appointmentTypeID":2,
+               "isAvailable":true
+            },
+            {
+               "storeID":1308,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":1308,
+               "siteId":1,
+               "pageTitle":"Garden State Plaza Jewelry Store",
+               "pageH1tag":"Garden State Plaza Jewelry Store",
+               "description":"Shop Tiffany & Co. Garden State Plaza - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"garden-state-plaza"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":1416,
+            "companyId":1,
+            "storeName":"Rockefeller Center",
+            "address1":"610 Fifth Avenue",
+            "address2":"",
+            "address3":"",
+            "city":"New York",
+            "region":"NY",
+            "postalCode":"10020",
+            "country":"United States",
+            "phone":"212-331-3312",
+            "email":"RockefellerCenter@Tiffany.com",
+            "extraInformation":"",
+            "searchKeywords":"",
+            "visibleDate":"2017-10-31T09:00:00",
+            "geoCodeLattitude":"40.758259",
+            "geoCodeLongitude":"-73.978009",
+            "dateCreated":"2017-10-30T10:53:43.587",
+            "dateLastModified":"2018-07-03T10:43:55.283",
+            "mapLevel":1,
+            "useCustomGeoCode":true,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"161",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":1416,
+               "storeHourTypeId":1,
+               "storeHours":"<br>Mon.-Sat.: 10:00AM - 7:00PM<br>Sun: 12:00AM - 5:00PM<br><br> July 4th Store Hours<br>12:00 PM – 6:00 PM<br>"
+            },
+            {
+               "storeId":1416,
+               "storeHourTypeId":2,
+               "storeHours":"  "
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":1416,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":1416,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":1416,
+               "siteId":1,
+               "pageTitle":"Rockefeller Center Jewelry Store",
+               "pageH1tag":"Rockefeller Center Jewelry Store",
+               "description":"Shop Tiffany & Co. Rockefeller Center - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "canonicalTagUrl":"",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"rockefeller-center-nyc"
+            }
+         ]
+      },
+      {
+         "store":{
+            "storeId":1417,
+            "companyId":1,
+            "storeName":"Grand Central Terminal",
+            "address1":"105 East 42nd Street",
+            "address2":"",
+            "address3":"",
+            "city":"New York",
+            "region":"NY",
+            "postalCode":"10017",
+            "country":"United States",
+            "phone":"212-209-3306",
+            "email":"GrandCentralTerminal@Tiffany.com",
+            "extraInformation":"",
+            "searchKeywords":"",
+            "visibleDate":"2017-11-20T09:30:00",
+            "geoCodeLattitude":"40.752349",
+            "geoCodeLongitude":"-73.976208",
+            "dateCreated":"2017-10-30T11:10:20.807",
+            "dateLastModified":"2018-07-03T10:42:58.753",
+            "mapLevel":1,
+            "useCustomGeoCode":true,
+            "storePriorityTypeId":2,
+            "mipsstoreNumber":"162",
+            "isocountryCode":840,
+            "flagshipStoreUrl":"",
+            "isFlagshipStore":false,
+            "storeSiteAttributes":[
+
+            ]
+         },
+         "storeHours":[
+            {
+               "storeId":1417,
+               "storeHourTypeId":1,
+               "storeHours":"<br> Mon-Fri.: 8:00AM - 8:00PM <br>Sat.: 10:00AM - 8:00PM <br>Sun.: 11:00AM - 6:00PM<br><br> July 4th  Store Hours<br>11:00 AM – 6:00 PM<br>"
+            },
+            {
+               "storeId":1417,
+               "storeHourTypeId":2,
+               "storeHours":""
+            }
+         ],
+         "storeServices":[
+            {
+               "storeID":1417,
+               "storeServiceTypeId":1,
+               "storeServiceTypeDisplayName":"Watch Repair & Sales",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":true,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            },
+            {
+               "storeID":1417,
+               "storeServiceTypeId":3,
+               "storeServiceTypeDisplayName":"Real Time Inventory",
+               "storeConsultationEmail":"",
+               "isDefaultStoreService":false,
+               "isAtThisLocationService":false,
+               "isAvailable":true
+            }
+         ],
+         "storeSeoAttributes":[
+            {
+               "storeId":1417,
+               "siteId":1,
+               "pageTitle":"",
+               "pageH1tag":"Grand Central Terminal Jewelry Store",
+               "description":"Grand Central Terminal Jewelry Store",
+               "canonicalTagUrl":"Shop Tiffany & Co. Grand Central Terminal - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+               "metaKeywords":"",
+               "canonicalUrlkeyword":"grand-central-terminal"
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,133 @@
+{
+    "sizeGuide": {
+        "title": "Rings Size Guide",
+        "headings": [{
+            "type": "rings",
+            "selected": true,
+            "title":"Rings",
+            "link":"/rings"
+        },
+        {
+            "type": "bracelets",
+            "title":"Bracelets",
+            "link":"/bracelets"
+        },
+        {
+            "type": "necklaces",
+            "title":"Necklaces & Pendants",
+            "link":"/necklaces"
+        }],
+        "sizes": [{
+                "type": "rings",
+                "sizeGuideTitle": "Rings Size Guide",
+                "sizeList": {
+                    "title": ["US Size", "Inside circumference (mm)"],
+                    "isTwoColumns": false,
+                    "listOfSizes": [{
+                            "listSize": [4, 14.9,34]
+                        },
+                        {
+                            "listSize": [4.5, 15.3,45]
+                        },
+                        {
+                            "listSize": [5, 15.7,45]
+                        },
+                        {
+                            "listSize": [5.5, 16.1,45]
+                        },
+                        {
+                            "listSize": [6, 16.5,23]
+                        },
+                        {
+                            "listSize": [6.5, 16.9,12]
+                        },
+                        {
+                            "listSize": [7, 17.4,45]
+                        },
+                        {
+                            "listSize": [7.5, 17.8,23]
+                        },
+                        {
+                            "listSize": [8, 18.1,12]
+                        },
+                        {
+                            "listSize": [8.5, 18.5,12]
+                        },
+                        {
+                            "listSize": [9, 18.9,46]
+                        },
+                        {
+                            "listSize": [9.5, 19.4,67]
+                        },
+                        {
+                            "listSize": [10, 19.8,21]
+                        },
+                        {
+                            "listSize": [10.5, 20.1,23]
+                        }
+                    ]
+                },
+                "fyftext": "Tiffany & Co. uses standard US rings sizes. Refer to our measurement chart or the ruler found in our size guide.",
+                "fyflink": "/sample",
+                "imageurl": "./images/6277d9d1586cf7063e6328f2fdf905b568dcc876.png"
+            },
+            {
+                "type": "bracelets",
+                "sizeGuideTitle" : "Bracelets Size Guide",
+                "sizeList": {
+                    "title": ["Size", "Wrist measurements"],
+                    "isTwoColumns": true,
+                    "listOfSizes": [{
+                            "listSize": ["Extra small", "4.76-5.25 in.","121-133 mm"]
+                        },
+                        {
+                            "listSize": ["Small", "5.26-5.75 in.", "134-146 mm"]
+                        },
+                        {
+                            "listSize": ["Medium", "5.76-6.25 in.", "146-159 mm"]
+                        },
+                        {
+                            "listSize": ["Large", "6.26-6.75 in.", "159-171 mm"]
+                        },
+                        {
+                            "listSize": ["Extra large", "6.76-7.25 in.", "172-184 mm"]
+                        }
+                    ]
+                },
+                "fyftext": "Tiffany & Co. uses standard Bracelets sizes. Refer to our measurement chart or the ruler found in our size guide.",
+                "fyflink": "/sample",
+                "imageurl": "./images/6277d9d1586cf7063e6328f2fdf905b568dcc876.png"
+            },
+            {
+                "type": "necklaces",
+                "sizeGuideTitle" : "Necklaces & Pendants Size Guide",
+                "sizeList": {
+                    "title": ["Length (in)", "Length (cm)"],
+                    "isTwoColumns": false,
+                    "listOfSizes": [{
+                            "listSize": [16, 40.50]
+                        },
+                        {
+                            "listSize": [18, 45.75]
+                        },
+                        {
+                            "listSize": [20, 50.75]
+                        },
+                        {
+                            "listSize": [24, 61.00]
+                        },
+                        {
+                            "listSize": [30, 76.25]
+                        },
+                        {
+                            "listSize": [36, 91.50]
+                        }
+                    ]
+                },
+                "fyftext": "Tiffany & Co. uses standard US Necklaces & Pendants sizes. Refer to our measurement chart or the ruler found in our size guide.",
+                "fyflink": "/sample",
+                "imageurl": "./images/6277d9d1586cf7063e6328f2fdf905b568dcc876.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "policies": {
+        "heading": "Website Policies",
+        "toggleMenu": false,
+        "firstLevel": [
+            {
+                "subheading": "Privacy Policies",
+                "lastUpdated": "June 12th 2018",
+                "toggleMenu": false,
+                "activeMenu": true,
+                "secondLevel": [
+                    {
+                        "policyHeading": "Introduction",
+                        "policyDescription": "See the list of Tiffany & Co. retail affiliates, as referenced in this Global Privacy Notice.We at Tiffany and Company, along with our subsidiaries and affiliates (collectively, the “Tiffany Group”), respect your concerns about privacy. References in this Global Privacy Notice to “we”, “us”, “our”, “Tiffany” and “Tiffany & Co.” are references to the entity responsible for the processing of your personal information listed here, which generally is the entity that obtains your personal information. This Global Privacy Notice describes the types of personal information we collect about our consumers, how we use the information, with whom we share it and the choices available to our consumers regarding our use of the information. We also describe the measures we take to protect the security of the information and how you can contact us about our privacy practices. Our privacy practices may vary among the countries in which we operate to reflect local practices and legal requirements. You can view certain country-specific information by clicking here.This Global Privacy Notice applies to the personal information we obtain via your transactions and interactions with Tiffany, including through your use of Tiffany websites, mobile applications, social media pages and other platforms that reference this Privacy Notice (“Online Channels”); your visits to our stores, including when you complete our customer information collection cards, and when you connect with us via telephone, at our events and through surveys (“Offline Channels”); and through our third-party sources, including advertising and social media networks (collectively, the “Channels”). This Global Privacy Notice does not govern the collection or use of the information you provide in connection with a Tiffany credit card account where such offering is available. We notify our credit card account holders of our privacy practices annually, or as otherwise required by law. If you are a credit card account holder, you annually receive our Privacy Notice to Tiffany & Co. Credit Card Account Holders by mail. The information you provide in connection with your Tiffany credit card account is managed solely pursuant to that notice."
+                    },
+                    {
+                        "policyHeading": "Information we obtain",
+                        "policyDescription": "Information we See the list of Tiffany & Co. retail affiliates, as referenced in this Global Privacy Notice.We at Tiffany and Company, along with our subsidiaries and affiliates (collectively, the “Tiffany Group”), respect your concerns about privacy. References in this Global Privacy Notice to “we”, “us”, “our”, “Tiffany” and “Tiffany & Co.” are references to the entity responsible for the processing of your personal information listed here, which generally is the entity that obtains your personal information. This Global Privacy Notice describes the types of personal information we collect about our consumers, how we use the information, with whom we share it and the choices available to our consumers regarding our use of the information. We also describe the measures we take to protect the security of the information and how you can contact us about our privacy practices. Our privacy practices may vary among the countries in which we operate to reflect local practices and legal requirements. You can view certain country-specific information by clicking here.This Global Privacy Notice applies to the personal information we obtain via your transactions and interactions with Tiffany, including through your use of Tiffany websites, mobile applications, social media pages and other platforms that reference this Privacy Notice (“Online Channels”); your visits to our stores, including when you complete our customer information collection cards, and when you connect with us via telephone, at our events and through surveys (“Offline Channels”); and through our third-party sources, including advertising and social media networks (collectively, the “Channels”). This Global Privacy Notice does not govern the collection or use of the information you provide in connection with a Tiffany credit card account where such offering is available. We notify our credit card account holders of our privacy practices annually, or as otherwise required by law. If you are a credit card account holder, you annually receive our Privacy Notice to Tiffany & Co. Credit Card Account Holders by mail. The information you provide in connection with your Tiffany credit card account is managed solely pursuant to that notice."
+                    },
+                    {
+                        "policyHeading": "Collection with Cookies and Other",
+                        "policyDescription": "Information we See the list of Tiffany & Co. retail affiliates, as referenced in this Global Privacy Notice.We at Tiffany and Company, along with our subsidiaries and affiliates (collectively, the “Tiffany Group”), respect your concerns about privacy. References in this Global Privacy Notice to “we”, “us”, “our”, “Tiffany” and “Tiffany & Co.” are references to the entity responsible for the processing of your personal information listed here, which generally is the entity that obtains your personal information. This Global Privacy Notice describes the types of personal information we collect about our consumers, how we use the information, with whom we share it and the choices available to our consumers regarding our use of the information. We also describe the measures we take to protect the security of the information and how you can contact us about our privacy practices. Our privacy practices may vary among the countries in which we operate to reflect local practices and legal requirements. You can view certain country-specific information by clicking here.This Global Privacy Notice applies to the personal information we obtain via your transactions and interactions with Tiffany, including through your use of Tiffany websites, mobile applications, social media pages and other platforms that reference this Privacy Notice (“Online Channels”); your visits to our stores, including when you complete our customer information collection cards, and when you connect with us via telephone, at our events and through surveys (“Offline Channels”); and through our third-party sources, including advertising and social media networks (collectively, the “Channels”). This Global Privacy Notice does not govern the collection or use of the information you provide in connection with a Tiffany credit card account where such offering is available. We notify our credit card account holders of our privacy practices annually, or as otherwise required by law. If you are a credit card account holder, you annually receive our Privacy Notice to Tiffany & Co. Credit Card Account Holders by mail. The information you provide in connection with your Tiffany credit card account is managed solely pursuant to that notice."
+                    }
+                ]
+            },
+            {
+                "subheading": "Cookies Policy",
+                "lastUpdated": "June 15th 2018",
+                "toggleMenu": false,
+                "activeMenu": true
+            },
+            {
+                "subheading": "Terms of Use",
+                "lastUpdated": "June 15th 2018",
+                "toggleMenu": false,
+                "activeMenu": false
+            }
+        ]
+    }
+}

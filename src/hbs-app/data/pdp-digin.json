@@ -1,0 +1,34 @@
+{
+    "digInBanner": {
+        "largePadding": true,
+        "carousel-slides" : [
+            {
+                "isTextOverlay": "true",
+                "haveDesktopPadding": true,
+                "haveMobilePadding": true,
+                "smallerHeading": true,
+                "isInsetText": "true",
+                "insetPosition": "inset-center",
+                "textAlignment": "tf-g__center",
+                "heading": "Introducing Paper Flowers",
+                "description": "Inspired by petals scattered by the wind and delicately pinned back together, the new Tiffany Paper Flowers™ collection is a refined balance of femininity and industrial modernity.",
+                "ctaText": "Show more",
+                "ctaLink": "/",
+                "ctaTarget": "_new",
+                "cta2Text": "Know more",
+                "cta2Link": "/",
+                "cta2Target": "_new",
+                "cta1Style": "with-chevron",
+                "cta2Style": "no-chevron",
+                "imageSrc": "images/byo-charms-intro.png",
+                "imageAlt": "sample",
+                "isLazyLoad": false,
+                "isLogo": true,
+                "mobileSrc": "images/mobile-logo.png",
+                "desktopSrc": "images/logo.png",
+                "isHeroBanner": true,
+                "logoRedirect": "index.html"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+	"bannerData": [
+		{
+			"text": "Newsletter signup copy 1 goes here. Lorem ipsum dolar sit amet."
+		},
+		{
+			"text": "Newsletter signup copy 2 goes here. Lorem ipsum dolar sit amet."
+		},
+		{
+			"text": "Newsletter signup copy 3 goes here. Lorem ipsum dolar sit amet."
+		},
+		{
+			"text": "Newsletter signup copy 4 goes here. Lorem ipsum dolar sit amet."
+		},
+		{
+			"text": "Newsletter signup copy 5 goes here. Lorem ipsum dolar sit amet."
+		}
+	],
+	"cookieName": "globalBannerVisited"
+}

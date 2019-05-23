@@ -1,0 +1,17 @@
+// ****************************************
+// sign-out
+// ****************************************
+
+.sign-out {
+    &__container {
+        .tiffany-aem & {
+            background-color: $whiteSmoke;
+            padding: getUnitValue(2.5) getUnitValue(2);
+        }
+    }
+
+    &__cta {
+        @include font($font-size-16, $font_style_normal, $black, 1.5, false);
+        @include font-family($font_santral_regular);
+    }
+}

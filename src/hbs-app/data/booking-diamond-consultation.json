@@ -1,0 +1,70 @@
+{
+    "consultation": {
+        "storeVisit": {
+            "heading": "Schedule a store visit",
+            "description": "To set up an in-store diamond engagement ring consultation, please select a store from our list of locations offering this ervice.",
+            "country": "Country",
+            "countries": [
+                {
+                    "name": "United States",
+                    "value": "1",
+                    "statelabel": "States"
+                },
+                {
+                    "name": "Canada",
+                    "value": "5",
+                    "statelabel": "Province"
+                }
+            ],
+            "states": "States",
+            "store": "Choose Your Store",
+            "countrylabel": "Country",
+            "statelabel": "States",
+            "storelabel": "Choose Your Store",
+            "ctaText": "Schedule a store visit",
+            "ctaLink": "/",
+            "ctaTarget": "_new"
+        },
+        "storeInfo": {
+            "heading": "Learn more from our experts",
+            "description": "Speak to a Tiffany Diamond Expert to learn more about a design, get trusted professional advice or purchase a ring by phone and have it shipped directly to you. Call us during customer service hours or request a phone call or email and chat at your convenience.",
+            "services": [
+                {
+                    "customClass": "chat_service",
+                    "ctaText": "Chat with a Diamond Expert",
+                    "ctaLink": "/",
+                    "imageicon": "./icons/chat.svg",
+                    "imageicon_alt": "Chat with a Diamond Expert",
+                    "isPhoneNumber": false,
+                    "isEmail": false
+                },
+                {
+                    "customClass": "call_service",
+                    "ctaText": "Call us at (212) 456-5656",
+                    "ctaLink": "/",
+                    "imageicon": "./icons/call.svg",
+                    "imageicon_alt": "Call",
+                    "isPhoneNumber": true,
+                    "number": 1234567890,
+                    "isEmail": false
+                },
+                {
+                    "customClass": "contact_service",
+                    "ctaText": "Consult with a Diamond Expert",
+                    "ctaLink": "/",
+                    "imageicon": "./icons/diamondexpert.svg",
+                    "imageicon_alt": "Consult a dimond expert",
+                    "isPhoneNumber": false,
+                    "isEmail": false
+                }
+            ]
+        },
+        "bookingStoreImage": {
+            "imageSrc": "images/blueBoxCafe.png",
+            "mobileSrc": "images/blueBoxCafe.png",
+            "desktopSrc": "images/blueBoxCafe.png",
+            "imageAlt": "sample"
+
+        }
+    }
+}

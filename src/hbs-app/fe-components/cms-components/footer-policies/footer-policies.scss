@@ -1,0 +1,330 @@
+// ****************************************
+// footer-policies
+// ****************************************
+
+.footer-policies {
+    padding-left: getUnitValue(13);
+    padding-top: getUnitValue(7.5);
+
+
+    @include MediaQueries($desktop-and-below) {
+        padding: getUnitValue(3) 0 getUnitValue(2) getUnitValue(2);
+    }
+
+    &__container {
+        @include MediaQueries($desktop-and-above) {
+            display: flex;
+        }
+    }
+
+    &__search {
+        width: getUnitValue(80);
+
+        &.material-input {
+            &>label {
+                font-size: $font-size-32;
+                top: getUnitValue(-3);
+
+                @include MediaQueries($desktop-and-below) {
+                    font-size: $font-size-24;
+                }
+            }
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            width: 100%;
+        }
+
+        &-icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: transparent;
+            border: none;
+            font-size: $font-size-24;
+            padding: 0;
+            width: getUnitValue(3);
+            margin: auto 0;
+
+            &:focus {
+                border: 1px solid $bondiBlue;
+            }
+        }
+    }
+
+    &__heading {
+        @extend .h2;
+        padding-bottom: getUnitValue(7);
+        line-height: 54px;
+        font-size: $font-size-32;
+        line-height: 40px;
+
+        @include MediaQueries($desktop-and-below) {
+            padding-top: 24px;
+            padding-bottom: getUnitValue(4);
+
+            &.hidden {
+                display: none;
+            }
+        }
+    }
+
+    &__left {
+        @include font($font-size-16, normal, $black, 1.5, normal);
+        @include font-family($font_santral_regular);
+
+        @include MediaQueries($desktop-and-above) {
+            min-width: 240px;
+            padding-bottom: getUnitValue(2);
+            margin-right: getUnitValue(5);
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            &.hidden {
+                display: none;
+            }
+        }
+
+        &-list {
+            &-item {
+                padding-bottom: getUnitValue(2);
+                cursor: pointer;
+                word-break: break-all;
+
+                @include MediaQueries($desktop-and-above) {
+                    &.selected {
+                        position: relative;
+
+                        &::before {
+                            content: ".";
+                            position: absolute;
+                            left: -20px;
+                            top: -4px;
+                            font-size: 50px;
+                            line-height: 1px;
+                            color: $bondiBlue;
+                        }
+                    }
+                }
+
+                &-btn {
+                    padding-left: 0;
+                    background: none;
+
+                    &.cta {
+                        font-size: $font-size-14;
+                    }
+
+                    .icon-Right {
+                        font-size: $font-size-8 !important;
+                        color: $black !important;
+                        padding-left: 4px;
+                        position: relative;
+                        top: -1px;
+                    }
+                }
+
+                &-link {
+                    word-break: break-all;
+
+                    &.cta {
+                        font-size: $font-size-14;
+                        .cta-content {
+                            display: inline-block !important;
+                        }
+                    }
+
+                    .icon-Right {
+                        font-size: $font-size-8;
+                        color: $black;
+                        padding-left: 10px;
+                        position: relative;
+                        top: -1px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__right {
+        width: calc(100% - 354px);
+
+        @include MediaQueries($desktop-and-below) {
+            display: none;
+
+            &.shown {
+                width: 100%;
+                display: block;
+                padding: 0 16px 16px 0;
+                overflow-y: auto;
+            }
+        }
+
+        &-container {
+            &-info {
+                @include MediaQueries($desktop-and-above) {
+                    display: flex;
+                    align-items: baseline;
+                }
+            }
+
+            &-subheading {
+                @extend .h3;
+
+                @include MediaQueries($desktop-and-above) {
+                    padding-bottom: getUnitValue(3);
+                }
+            }
+
+            &-back.cta {
+                @include MediaQueries($desktop-and-above) {
+                    display: none !important;
+                }
+
+                padding-bottom: getUnitValue(4);
+                padding-left: 0;
+                background: transparent;
+
+                @include MediaQueries($desktop-and-below) {
+                    padding-bottom: 27px;
+                }
+
+            }
+
+            & .icon-Left {
+                color: $black !important;
+                font-size: $font-size-24;
+
+                &:before {
+                    font-size: 10px;
+                    vertical-align: baseline;
+                    position: relative;
+                    bottom: 1px;
+
+                    @include MediaQueries($desktop-and-above) {
+                        bottom: 5px;
+                    }
+                }
+            }
+
+            & .back-cta-text {
+                @include font-family($font_santral_regular);
+                color: $black !important;
+                font-size: $font-size-32;
+                line-height: getUnitValue(3);
+                @include MediaQueries($desktop-and-below) {
+                    font-size: $font-size-14;
+                    line-height: 1.71;
+                }
+            }
+
+            &-updated {
+                @include font($font-size-14, $font-weight-light, $black, normal, normal);
+                @include font-family($font_santral_regular);
+
+                @include MediaQueries($desktop-and-above) {
+                    padding-left: getUnitValue(2);
+                }
+
+                @include MediaQueries($desktop-and-below) {
+                    margin-bottom: getUnitValue(3);
+                    margin-top: getUnitValue(2);
+                    font-size: $font-size-12;
+                }
+            }
+        }
+
+        &-list {
+            &-item {
+                &.cta {
+                    font-size: $font-size-14;
+                }
+
+                .icon-Right {
+                    font-size: $font-size-8;
+                    color: $black;
+                    padding-left: 4px;
+                    position: relative;
+                    top: -1px;
+                }
+                padding-bottom: getUnitValue(2);
+                &-link {
+                    .icon-Right {
+                        font-size: $font-size-10;
+                        &::before {
+                        content: "\E922";
+                        color: $black;
+                        width: getUnitValue(1);
+                        height: getUnitValue(1.25);
+                        }
+                    }
+                }
+            }
+
+            &-description {
+                ul {
+                    margin-left: 20px;
+                }
+
+                &.tiffany-rte {
+                    @include font($font-size-14, $font-weight-light, $black, 1.7, normal);
+                    @include font-family($font_santral_light);
+
+                    @include MediaQueries($desktop-and-below) {
+                        margin-top: getUnitValue(3);
+                    }
+
+
+                    ol {
+                        padding-left: getUnitValue(2) !important;
+                        margin-left: getUnitValue(2) !important;
+
+                        li {
+                            @include font($font-size-14, false, $black, 1.33, 0);
+                            @include font-family($font_santral_light);
+                        }
+                    }
+
+                    ul {
+                        padding-left: getUnitValue(2) !important;
+                        margin-left: getUnitValue(2) !important;
+
+                        li {
+                            @include font($font-size-14, false, $black, 1.33, 0);
+                            @include font-family($font_santral_light);
+                        }
+
+                    }
+
+                    a {
+                        font-weight: 300;
+                    }
+
+                    p {
+                        @include font($font-size-14, $font-weight-light, $black, 1.7, normal);
+                        @include font-family($font_santral_light);
+                    }
+                }
+            }
+
+            &-heading {
+                @include font($font-size-14, $font-weight-normal, $black, normal, normal);
+                @include font-family($font_santral_regular);
+                padding-left: 0;
+                background: transparent;
+                text-align: left;
+
+                &.cta {
+                    font-size: $font-size-14;
+                }
+                .icon-dropdown-down {
+                    padding-left: getUnitValue(1);
+                }
+
+                .icon-dropdown-up {
+                    padding-left: getUnitValue(1);
+                }
+            }
+        }
+    }
+}

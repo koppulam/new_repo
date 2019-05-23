@@ -1,0 +1,25 @@
+[ignore]
+.*/node_modules/npm/node_modules/config-chain/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+module.file_ext=.css
+module.file_ext=.scss
+module.name_mapper='^components' -> '<PROJECT_ROOT>/src/react-app/components'
+module.name_mapper='^actions' -> '<PROJECT_ROOT>/src/react-app/actions'
+module.name_mapper='^constants' -> '<PROJECT_ROOT>/src/react-app/constants'
+module.name_mapper='^lib' -> '<PROJECT_ROOT>/src/lib'
+module.name_mapper='^stylesheets' -> '<PROJECT_ROOT>/src/stylesheets'
+module.name_mapper='^types' -> '<PROJECT_ROOT>/src/react-app/types'
+module.name_mapper='react-slick' -> '<PROJECT_ROOT>/src/lib/vendor/react-slick.min.js'
+suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe
+
+[strict]

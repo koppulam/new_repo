@@ -1,0 +1,16 @@
+{
+    "resultDto": [
+        {
+            "name": "North America",
+            "id": "HI"
+        },
+        {
+            "name": "South America",
+            "id": "SA"
+        },
+        {
+            "name": "Other",
+            "id": "AO"
+        }
+    ]
+}

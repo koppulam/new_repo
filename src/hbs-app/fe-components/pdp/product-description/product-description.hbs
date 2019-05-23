@@ -1,0 +1,314 @@
+<div class="right-element">
+        <article class="product-description app-js__product-description right-full-element">
+            <div class="product-description__content">
+                {{#if productDescription.eyebrowCtaText}}
+                    <div class="product-description__content_iconsContainer">
+                        <div class="product-description__content_iconsContainer_eyebrowcontainer">
+                            <a class="product-description__content_eyebrow"
+                                href="{{productDescription.eyebrowCtaLink}}"
+                                target="{{productDescription.eyebrowCtaTarget}}"
+                                tabindex="0">
+                                <span class="cta-content">
+                                    <span class="cta-text" tabindex="-1">
+                                        {{productDescription.eyebrowCtaText}}
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                {{/if}}
+
+                <h1 class="product-description__content_title">{{productDescription.productName}}</h1>
+
+            </div>
+            <div class="product-description__modal hide" role="dialog" aria-modal="true" tabindex="0">
+                <div class="product-description__modal_item">
+                    <button type="button" aria-label="Close icon" class="product-description__modal_item_close-btn "></button>
+                    <button type="button" aria-label="Left arrow icon" class="product-description__modal_item_arrow-btn"></button>
+                </div>
+                <div class="product-description__modal_item">
+                    <div class="product-description__modal_item-candle hide">
+                        <tiffany-information-text config="pdpConfig.disclaimerDescriptionKey" />
+                    </div>
+                    <div class="product-description__modal_item-gift-terms hide">
+                        <tiffany-information-text config="pdpConfig.giftCardTermsKey" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-description__container">
+                <div class="product-description__content_iconsContainer_actions-bar">
+                    <div class="product-description__content_iconsContainer_actions-bar_dropahint">
+                        <tiffany-drop-hint />
+                    </div>
+                    <div class="product-description__content_iconsContainer_actions-bar_wishlist">
+                        <tiffany-product-wishlist sku="25508327" isgroup="false"/>
+                    </div>
+                </div>
+                <tiffany-pdp-sales-service config="supplementalLabelsConfig"></tiffany-pdp-sales-service>
+                <div class="product-description__flyout">
+                    <tiffany-product-flyout />
+                </div>
+                <div class="product-description__container_wrapper">
+                    <div class="product-description__container_price">
+                        <tiffany-price />
+                    </div>
+
+                    <!-- Place holder for short description part of next sprints -->
+                    {{#if productDescription.shortDesription}}
+                        <p class="product-description__container_short-desc">{{productDescription.shortDesription}}</p>
+                    {{/if}}
+
+                    {{#if productDescription.pickUpAstoreCtaText}}
+                        <a class="product-description__container_store-link" href="#drop-container" tabindex="0">
+                            <span class="cta-content" tabindex="-1">
+                                {{productDescription.pickUpAstoreCtaText}}
+                            </span>
+                        </a>
+                    {{/if}}
+
+                    <div class="product-description__modifier">
+                        <div class="product-description__modifier_container">
+                        <tiffany-product-modifiers config="modifiersConfig"></tiffany-product-modifiers>
+                        </div>
+                        <tiffany-product-quantity
+                            maxQuantity="{{productDescription.maxQuantity}}"
+                        >
+                        </tiffany-product-quantity>
+                    </div>
+                    <div class="product-description__engraving">
+                        {{#each engraving.inlineVariations}}
+                            {{#is type "inline"}}
+                                <tiffany-engraving
+                                    sku="{{sku}}"
+                                    {{#if hasHCSticky}}
+                                    hc-sticky-enbled
+                                    {{/if}}
+                                >
+                                </tiffany-engraving>
+                            {{/is}}
+                            {{#is type "modal"}}
+                                <tiffany-engraving-in-modal
+                                    sku="{{sku}}"
+                                    button-label="{{buttonLabel}}"
+                                    button-type="{{buttonType}}"
+                                    custom-button-class="{{customButtonClass}}"
+                                    modal-class="{{modalClass}}"
+                                    modal-close-class="{{modalCloseClass}}"
+                                    {{#if restrictBackground}}
+                                    restrict-background
+                                    {{/if}}
+                                    {{#if hasOverlay}}
+                                    has-overlay
+                                    {{/if}}
+                                    {{#if closeonTapOutside}}
+                                    closeon-tap-outside
+                                    {{/if}}
+                                    custom-action-button-class="{{customActionButtonClass}}"
+                                    {{#if hasCustomAction}}
+                                    has-custom-action
+                                    {{/if}}
+                                    {{#if editing}}
+                                    editing-engraving
+                                    initial-one="{{initialsOne}}"
+                                    initial-two="{{initialsTwo}}"
+                                    initial-three="{{initialsThree}}"
+                                    item-service-type-id="{{itemServiceTypeId}}"
+                                    style-code="{{styleCode}}"
+                                    group-id="{{groupId}}"
+                                    product-base-price="{{productBasePrice}}"
+                                    shopping-bag-item-id="{{shoppingBagItemId}}"
+                                    {{/if}}
+                                >
+                                </tiffany-engraving-in-modal>
+                            {{/is}}
+                        {{/each}}
+                    </div>
+                    <div class="product-description__social-sharing">
+                        <div class="product-description__social-sharing_container">
+                            <button type="button" class="product-description__social-sharing_container_accordian cta"> 
+                                <span tabindex="-1" class="cta-content hover-cta">Share</span>
+                            </button>
+                            <span class="product-description__social-sharing_container_arrow icon-dropdown-down"></span>
+
+                        </div>
+                        <div class="product-description__social-sharing_panel">
+                            {{#each productSocialSharing.socialLinks}}
+                                {{#if isWeChat}}
+                                    <tiffany-product-sharing
+                                        product-sharing-config="productSharingConfig"
+                                        product-image-config="productPreviewDetails"
+                                        eyebrow-text="{{productDescription.eyebrowCtaText}}"
+                                        product-name="{{productDescription.productName}}"
+                                        eyebrow-text-url="{{productDescription.eyebrowCtaLink}}"
+                                        eyebrow-text-target="{{productDescription.eyebrowCtaTarget}}"
+                                        button-image="{{icon}}"
+                                        alt-label="{{label}}"
+                                    />
+                                {{else}}
+                                    <a href="#" aria-label="{{label}}" title="{{label}}" tabindex="0" class="cta product-description__social-sharing_weibo" data-url="{{weiboURL}}" data-product-title="{{productDescription.productName}}">
+                                        <span tabindex="-1" class="cta-content hover-cta">
+                                            <img src="{{icon}}" alt="{{label}}" />
+                                        </span>
+                                    </a>
+                                {{/if}}
+                            {{/each}}
+                        </div>
+
+                    </div>
+                    <div class="product-description__buttons">
+
+                        <div class="product-description__buttons_taxinfo">
+                            <tiffany-information-text config="pdpTaxLabel"> </tiffany-information-text>
+                        </div>
+                        
+                        {{#if productDescription.retired}}
+                            <article class="product-description__retired-description">
+                                <tiffany-information-text config="pdpConfig.retiredInformationConfigKey"></tiffany-information-text>
+                            </article>
+                        {{/if}}
+
+                        {{#isnt productDescription.retired "true"}}
+                            {{#if productDescription.isIstatus}}
+                                <div class="product-description__istatus_fiis">
+                                    <div class="product-description__information-text">
+                                        <tiffany-information-text config="pdpConfig.iStatusInformationTextKey"> </tiffany-information-text>
+                                    </div>
+                                    <tiffany-product-variation-availability isfiis="{{productDescription.isFIISLink}}" bops="{{productDescription.isBops}}"></tiffany-product-variation-availability>
+                                </div>
+                            {{/if}}
+
+
+                            {{#if productDescription.isNonPurchasable}}
+                                <div class="product-description__information-text">
+                                    <tiffany-information-text config="pdpConfig.nonPurchasebleInformationTextKey" />
+                                </div>
+                            {{/if}}
+
+                            {{#if productDescription.isFindInstoreButton}}
+                                <div class="product-description__pdp-cta">
+                                    <tiffany-product-action type="FIND_IN_STORE" />
+                                </div>
+                            {{/if}}
+                        {{/isnt}}
+                        
+                        {{#if productDescription.isNotifyButton}}
+                            <div class="product-description__pdp-cta">
+                                <tiffany-product-action type="NOTIFY" productConfig="productNotPurchasableConfig" productName="{{productDescription.productName}}" sku="GRP09947" groupSku="" parentgroupSku="" />
+                            </div>
+                        {{/if}}
+                        {{#if productDescription.isAddTobag}}
+                            <tiffany-pdp-buttons priceConfig="produDetailsConfig" addtocartconfig="addtocartconfig" clickToPayConfig="clickToPayConfig" />
+                        {{/if}}
+                    </div>
+                    <div class="product-bundle-scroll__bundle-scroll_mobile-view">
+                        <tiffany-product-bundle-scroll config="{{pdp.productBundleScrollKey}}" />
+                    </div>
+                    <tiffany-pdp-modal bops="{{productDescription.isBops}}" giftcardconfig="giftCardConfig" ></tiffany-pdp-modal>
+
+
+                </div>
+                <div class="product-description__container_detail">
+                    <div role="heading" aria-level="2" class="product-description__container_detail_title">
+                        Description
+                    </div>
+                    <p class="product-description__container_long-desc">
+                        {{productDescription.longDescription}}
+                    </p>
+                    <p class="product-description__container_long-desc-total">
+                        {{productDescription.longDescription}}
+                    </p>
+                    <ul class="product-description__container_detail_list">
+                        {{#each productDescription.specifications}}
+                        <li class="product-description__container_list">{{this.desc}}</li>
+                        {{/each}}
+                    </ul>
+                    <ul class="product-description__container_detail_list-specs">
+                        {{#each productDescription.specifications}}
+                        <li class="product-description__container_list">
+                            <span class="product-description__container_list-style"></span>
+                            <span class="product-description__container_list-content">{{this.desc}}</span>
+                        </li>
+                        {{/each}}
+                    </ul>
+                    <div class="product-description__container_more">
+
+                        {{#if productDescription.additionalInfo}}
+                        <p class="product-description__container_additional-info">
+                            {{productDescription.additionalInfo}}
+                        </p>
+                        {{/if}}
+                        {{#if productDescription.isCounterfeitWarning}}
+                        <div class="product-description__counterfeit-warn">
+                            <tiffany-information-text config="pdpConfig.counterfeitWarningKey" />
+                        </div>
+                        {{/if}}
+                    </div>
+                    <button type="button" class="product-description__container_show-more">
+                        <span class="cta-content">
+                            <span class="cta-text" tabIndex={-1}>
+                                Read more
+                                {{> picture
+                                    isLazyLoad = false
+                                    desktopSrc = productDescription.dropdown_up
+                                    mobileSrc  = productDescription.dropdown_up
+                                    altText    = productDescription.imageAltUp
+                                    }}
+                            </span>
+                            <span className='icon icon-dropdown-down'></span>
+                        </span>
+                    </button>
+
+                    <button type="button" class="product-description__container_close">
+                        <span class="cta-content">
+                            <span class="cta-text" tabIndex={-1}>
+                                Close
+                                {{> picture
+                                    isLazyLoad = false
+                                    desktopSrc = productDescription.dropdown_down
+                                    mobileSrc  = productDescription.dropdown_down
+                                    altText    = productDescription.imageAltUpDown
+                                }}
+                            </span>
+                        </span>
+                    </button>
+                    <div class="product-bundle-scroll__bundle-scroll_desktop-view">
+                        <tiffany-product-bundle-scroll config="{{pdp.productBundleScrollKey}}"></tiffany-product-bundle-scroll>
+                    </div>
+                    <tiffany-check-balance-cta ></tiffany-check-balance-cta>
+                    {{#if productDescription.giftCartCta}}
+                        <div>
+                            <button type="button" class="product-description__gift-card-terms_cta">
+                                <span class="cta-content">
+                                    <span class="cta-text" tabindex="-1">
+                                        {{productDescription.giftCartCta}}
+                                    </span>
+                                    <span class="icon-dropdown-down" />
+                                </span>
+                            </button>
+                        </div>
+                    {{/if}}
+                </div>
+
+                {{#if productDescription.disclaimerLabelText}}
+                    <div class="product-description__disclaimer">
+                        <p class="product-description__disclaimer_label">{{productDescription.disclaimerLabelText}}</p>
+                        <button type="button" class="product-description__disclaimer_link">
+                            <span class="cta-content">
+                                <span class="cta-text" tabIndex={-1}>
+                                    {{productDescription.disclaimerCtaText}}
+                                        {{> picture
+                                        isLazyLoad = false
+                                        desktopSrc = productDescription.dropdown_down
+                                        mobileSrc  = productDescription.dropdown_down
+                                        altText    = productDescription.imageAltUpDown
+                                    }}
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                {{/if}}
+            </div>
+        </article>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+</div>

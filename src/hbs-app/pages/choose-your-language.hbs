@@ -1,0 +1,18 @@
+---
+title: Chose Your Language | Tiffany Co.
+type: page
+layout: content
+description: Tiffany Co. Choose our Language.
+sortOrder: 0
+---
+<div class="wrapper choose-your-language">
+    {{> choose-language choose-your-language}}
+    {{#if choose-your-language.ribbonImg}}
+        {{> picture
+            isLazyLoad = false
+            desktopSrc = choose-your-language.ribbonImg
+            mobileSrc  = choose-your-language.ribbonImg
+            altText    = choose-your-language.ribbonImgAltText
+        }}
+    {{/if}}
+</div>

@@ -1,0 +1,243 @@
+{
+    "productId": "sku1",
+    "productPreviewDetailsS7": {
+        "images": [
+            {
+                "sources": [
+                    {
+                        "maxMedia": 900,
+                        "src": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-classicwedding-band-ring-33278748_939616_ED_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&"
+                    },
+                    {
+                        "maxMedia": 767,
+                        "src": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-classicwedding-band-ring-33278748_939616_ED_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&"
+                    },
+                    {
+                        "maxMedia": 900,
+                        "src": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-classicwedding-band-ring-33278748_950336_SV_1_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&"
+                    },
+                    {
+                        "maxMedia": 767,
+                        "src": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-classicwedding-band-ring-33278748_950336_SV_1_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&"
+                    }
+                ],
+                "defaultSrc": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-classicwedding-band-ring-33278748_939616_ED_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&",
+                "isLazyLoad": true,
+                "altText": "altText",
+                "customClass": "product-preview-image",
+                "smallImage": {
+                    "src": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-classicwedding-band-ring-33278748_939616_ED_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&"
+                },
+                "largeImage": {
+                    "src": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-classicwedding-band-ring-33278748_939616_ED_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&",
+                    "width": 3840,
+                    "height": 3840
+                },
+                "scene7ViewerConfig": {
+                    "containerId": "33278748_939616_ED_M",
+                    "params": {
+                        "imagereload": "1,breakpoint,200;400;800;1600",
+                        "zoomfactor": "3,-1,1",
+                        "config": "Scene7SharedAssets/Universal_HTML5_Zoom_Inline",
+                        "contenturl": "//media.tiffany.com/skins/",
+                        "asset": "TiffanyDev/EcomItemL/tiffany-classicwedding-band-ring-33278748_939616_ED_M.jpg?&op_usm=1.75,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&",
+                        "serverurl": "//media.tiffany.com/is/image/",
+                        "stageSize": "0,0",
+                        "tip": "0,0,0"
+                    }
+                }
+            }
+        ]
+    },
+    "productPreviewDetails": {
+        "images": [{
+            "sources": [{
+                "maxMedia": 900,
+                "src": "//media.tiffany.com/is/image/Tiffany/62617691_986302_SV_1?$EcomItemL2$&id=5W2r83&fmt=jpg&fit=constrain,1"
+            }, {
+                "maxMedia": 767,
+                "src": "//media.tiffany.com/is/image/Tiffany/62617691_986302_SV_1?$EcomItemL2$&id=5W2r83&fmt=jpg&fit=constrain,1"
+            }],
+            "defaultSrc": "//media.tiffany.com/is/image/Tiffany/62617691_986302_SV_1?$EcomItemL2$&id=5W2r83&fmt=jpg&fit=constrain,1",
+            "isLazyLoad": true,
+            "altText": "Some Image",
+            "customClass": "product-preview-image",
+            "smallImage": {
+                "src": "//media.tiffany.com/is/image/Tiffany/62617691_986302_SV_1?$EcomItemL2$&id=5W2r83&fmt=jpg&fit=constrain,1"
+            },
+            "largeImage": {
+                "src": "//media.tiffany.com/is/image/Tiffany/62617691_986302_SV_1?$EcomItemL2$&id=5W2r83&fmt=jpg&fit=constrain,1",
+                "width": 3840,
+                "height": 3840
+            }
+        }, {
+            "sources": [{
+                "maxMedia": 900,
+                "src": "//media.tiffany.com/is/image/Tiffany/62617691_985524_ED?$EcomItemL2$&id=31GqF1&fmt=jpg&fit=constrain,1"
+            }, {
+                "maxMedia": 767,
+                "src": "//media.tiffany.com/is/image/Tiffany/62617691_985524_ED?$EcomItemL2$&id=31GqF1&fmt=jpg&fit=constrain,1"
+            }],
+            "defaultSrc": "//media.tiffany.com/is/image/Tiffany/62617691_985524_ED?$EcomItemL2$&id=31GqF1&fmt=jpg&fit=constrain,1",
+            "isLazyLoad": true,
+            "altText": "Some Image",
+            "customClass": "product-preview-image",
+            "smallImage": {
+                "src": "//media.tiffany.com/is/image/Tiffany/62617691_985524_ED?$EcomItemL2$&id=31GqF1&fmt=jpg&fit=constrain,1"
+            },
+            "largeImage": {
+                "src": "//media.tiffany.com/is/image/Tiffany/62617691_985524_ED?$EcomItemL2$&id=31GqF1&fmt=jpg&fit=constrain,1",
+                "width": 3840,
+                "height": 3840
+            }
+        }, {
+            "sources": [{
+                "maxMedia": 900,
+                "src": "//media.tiffany.com/is/image/Tiffany/34684456_945591_SV_1?$EcomItemL2$&id=q7gqk2&fmt=jpg&fit=constrain,1"
+            }, {
+                "maxMedia": 767,
+                "src": "//media.tiffany.com/is/image/Tiffany/34684456_945591_SV_1?$EcomItemL2$&id=q7gqk2&fmt=jpg&fit=constrain,1"
+            }],
+            "defaultSrc": "//media.tiffany.com/is/image/Tiffany/34684456_945591_SV_1?$EcomItemL2$&id=q7gqk2&fmt=jpg&fit=constrain,1",
+            "isLazyLoad": true,
+            "altText": "Some Image",
+            "customClass": "product-preview-image",
+            "smallImage": {
+                "src": "//media.tiffany.com/is/image/Tiffany/34684456_945591_SV_1?$EcomItemL2$&id=q7gqk2&fmt=jpg&fit=constrain,1"
+            },
+            "largeImage": {
+                "src": "//media.tiffany.com/is/image/Tiffany/34684456_945591_SV_1?$EcomItemL2$&id=q7gqk2&fmt=jpg&fit=constrain,1",
+                "width": 3840,
+                "height": 3840
+            }
+        }],
+        "logo": {
+            "sources": [{
+                "maxMedia": 900,
+                "src": "/images/mobile-logo.png"
+            }, {
+                "maxMedia": 767,
+                "src": "/images/mobile-logo.png"
+            }],
+            "defaultSrc": "/images/logo.png",
+            "isLazyLoad": true,
+            "altText": "Tiffany Logo",
+            "logoRedirect": "index.html"
+        }
+    },
+    "productDescription": {
+        "productName": "Rings",
+        "eyebrowCtaTarget": "_blank",
+        "eyebrowCtaLink": "http://www.ggogle.com",
+        "eyebrowCtaText": "Everyday Objects",
+        "shortDescription": "some description",
+        "specifications": [
+            "spec1",
+            "spec2",
+            "spec3"
+        ]
+    },
+    "viewDetails": {
+        "ctaText": "",
+        "ctaLink": ""
+    },
+    "modifiers": {
+        "label": "Colors",
+        "isMotif": false,
+        "isColorSwatch": false,
+        "sizeGuideLabel": "What\"s your size?",
+        "variations": [
+            {
+                "label": "A",
+                "imageURL": "/images/collections/red.png",
+                "URL": "www.google.com",
+                "isSelected": true,
+                "sku": "SKU1",
+                "groupId": "group1"
+            }, {
+                "label": "B",
+                "imageURL": "/images/collections/red.png",
+                "URL": "www.google.com",
+                "isSelected": false,
+                "sku": "SKU1",
+                "groupId": "group1"
+            }, {
+                "label": "C",
+                "imageURL": "/images/collections/red.png",
+                "URL": "www.google.com",
+                "isSelected": false,
+                "sku": "SKU1",
+                "groupId": "group1"
+            }, {
+                "label": "D",
+                "imageURL": "/images/collections/red.png",
+                "URL": "www.google.com",
+                "isSelected": false,
+                "sku": "SKU1",
+                "groupId": "group1"
+            }, {
+                "label": "E",
+                "imageURL": "/images/collections/red.png",
+                "URL": "www.google.com",
+                "isSelected": false,
+                "sku": "SKU1",
+                "groupId": "group1"
+            }, {
+                "label": "F",
+                "imageURL": "/images/collections/red.png",
+                "URL": "www.google.com",
+                "isSelected": false,
+                "sku": "SKU1",
+                "groupId": "group1"
+            }, {
+                "label": "G",
+                "imageURL": "/images/collections/red.png",
+                "URL": "www.google.com",
+                "isSelected": false,
+                "sku": "SKU1",
+                "groupId": "group1"
+            }
+        ]
+    },
+    "pdpConfig": {
+        "isGroup": false,
+        "sku": "60929416",
+        "selectedSku": "60929416",
+        "categoryID": 287458,
+        "masterCategoryID": 148204,
+        "partialShip": false,
+        "orderOriginationId": 1,
+        "maxQuantity": 20,
+        "isServiceable": true
+    },
+    "addToCartConfig": {
+        "mysid2Life": 7300,
+        "currency": "$",
+        "url": "/api/addToBag",
+        "method": "POST",
+        "payload": {
+            "assortmentId": 101,
+            "siteId": 1,
+            "groupSku": "GRP02985",
+            "parentGroupSKU": "GRP04077",
+            "sku": 25508327,
+            "quantity": 1,
+            "categoryID": 287465,
+            "masterCategoryID": 148204,
+            "partialShip": false,
+            "orderOriginationId": 1,
+            "webCustomerID": "ca05c84fa7244a6ca554c40e188242c7"
+        }
+    },
+    "productDetailsConfig": {
+        "url": "itemPriceUrl",
+        "groupUrl": "groupPriceUrl",
+        "method": "POST",
+        "payload": {
+            "assortmentId": 101,
+            "priceMarketId": 1,
+            "sku": "37003409",
+            "siteId": 1
+        }
+    }
+}

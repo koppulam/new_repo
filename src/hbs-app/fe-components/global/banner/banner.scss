@@ -1,0 +1,120 @@
+// ****************************************
+// banner
+// ****************************************
+
+.global-banner {
+    &--hide {
+        @extend .hide;
+    }
+    position: relative;
+    &__body {
+        @extend .show__flex;
+        padding: 12px getUnitValue(2) getUnitValue(1) getUnitValue(2);
+        background-color: $tiffanyBlue;
+
+        @include MediaQueries($below-desktop-tablet) {
+            padding-left: getUnitValue(2);
+            padding-right: getUnitValue(2);
+        }
+
+        &-text {
+            @include font($font-size-12, $font-weight-normal, $black, 1.33, false);
+            @include font-family($font_santral_regular);
+            flex-grow: 1;
+            padding-left: getUnitValue(2);
+            margin-left: getUnitValue(2);
+            padding-right: getUnitValue(4);
+
+            @include MediaQueries($below-desktop-tablet){
+                padding: 0 getUnitValue(2);
+                margin-left: 0;
+            }
+        }
+
+        p {
+            @extend .display__inline-block;
+            @include font($font-size-12, $font-weight-normal, $black, initial, false);
+            @include font-family($font_santral_regular);
+            width: 99%;
+        }
+
+        .slick {
+            &-arrow,
+            &-arrow:hover,
+            &-arrow:focus,
+            &-arrow:active {
+                @extend .hide;
+            }
+
+            &-prev {
+                margin-left: getUnitValue(1);
+            }
+
+            &-next {
+                margin-right: getUnitValue(1);
+            }
+
+            &-track{
+                @include MediaQueries($below-desktop-tablet){
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    &__close {
+        @extend .cta-underline;
+        padding: 0 !important;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+
+        img, svg {
+            width: getUnitValue(2);
+            height: getUnitValue(2);
+        }
+    }
+
+    &--left {
+        @extend .tf-g__start;
+    }
+
+    &--center {
+        @extend .tf-g__center;
+    }
+
+    &--right {
+        @extend .tf-g__end;
+    }
+
+    &__prev.btn, &__next.btn {
+        position: absolute;
+        top: 12px;
+        padding: 0;
+        background: transparent;
+        width: getUnitValue(2);
+        height: getUnitValue(2);
+
+        .keyboard--focussed & {
+            &:focus {
+                border: 1px solid $blue;
+            }
+        }
+
+        @include MediaQueries($below-desktop-tablet){
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+
+    &__prev {
+        left: getUnitValue(2);
+        transform: rotate(180deg);
+    }
+
+    &__next {
+        right: getUnitValue(2);
+        transform: rotate(0deg);
+    }
+}

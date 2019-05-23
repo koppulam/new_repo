@@ -1,0 +1,97 @@
+/**
+* Marketing Product tiles:Browse Grid styles for 2x1 2x2 tiles
+*/
+.marketing-product-tiles {
+    @extend .tf-g, .tf-g__col;
+    @include MediaQueries($desktop-and-below) {
+        display: block;
+    }
+
+    &_show-more{
+        @extend .tf-g__center;
+        padding-top: getUnitValue(2);
+    }
+
+    .product-tile {
+        height: 100%;
+
+        @include MediaQueries($below-desktop-tablet) {
+            &__new-title {
+                display: none;
+            }
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            padding-right: getUnitValue(1);
+
+            &__details {
+                padding-left: getUnitValue(2);
+            }
+        }
+    }
+
+
+    .marketing-tile-image {
+
+        @include MediaQueries($tablet-medium-and-below) {
+            padding-right: getUnitValue(1);
+        }
+    }
+
+    .browse-grid {
+        @extend %grid-layout;
+
+        @include MediaQueries($tablet-above) {
+            grid-template-columns: repeat(4,1fr);
+        }
+
+        .layout_1x1 {
+            align-items: unset;
+        }
+
+        .layout_2x2 {
+            div {
+                width: 100%;                               
+            }
+        }
+
+        .product-tile {
+            padding-right: 0;
+
+            .tile-buttons{
+                @include MediaQueries($below-desktop-tablet){
+                    margin-top: -60px;
+                    padding-right: getUnitValue(1);
+                }
+            }
+
+            &__details {
+
+                @include MediaQueries($below-desktop-tablet){
+
+                    padding: getUnitValue(2) 0 0 getUnitValue(2);
+                    &_name{
+                        font-size: .75rem;
+                        margin-top: 0;
+                        line-height: 1.33;
+                    }
+
+                    &_price{
+                        margin: getUnitValue(1) 0;
+                        font-size: .75rem;
+                        color: $filter-gray; //#767676
+                        line-height: 1.33;
+                    }
+                }    
+            }
+        }
+    }
+
+    .grid-page & {
+        .browse-grid {
+            @include MediaQueries($below-desktop-tablet) {
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }
+}

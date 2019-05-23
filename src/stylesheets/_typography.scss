@@ -1,0 +1,126 @@
+.search-text {
+    @include font-family($font_santral_light);
+    font-size:   $font-size-32;
+    font-weight: $font-weight-normal;
+    line-height: 1.5;
+}
+
+.body-regular {
+    @include font-family($font_santral_regular);
+    font-size:   $font-size-14;
+    font-weight: $font-weight-normal;
+    line-height: 1.71;
+}
+
+.body-light {
+    @include font-family($font_santral_light);
+    font-size: $font-size-14;
+    font-weight: $font-weight-normal;
+    line-height: 1.71;
+}
+
+.body-lightitalic {
+    @include font-family($font_santral_light_italic);
+    font-size:   $font-size-14;
+    font-weight: $font-weight-normal;
+    line-height: 1.71;
+}
+
+.body-semibold {
+    @include font-family($font_santral_semi_bold);
+    font-size:   $font-size-14;
+    font-weight: $font-weight-bold;
+    line-height: 1.71;
+}
+
+.body-semibolditalic {
+    @include font-family($font_santral_semi_bold_italic);
+    font-size:   $font-size-14;
+    font-weight: $font-weight-bold;
+    line-height: 1.71;
+}
+
+
+.subtext-regular {
+    @include font-family($font_santral_regular);
+    font-size: $font-size-12;
+    font-weight: $font-weight-normal;
+    line-height: 1.33;
+}
+
+.subtext-italic {
+    @include font-family($font_sterling_display_italic);
+    font-size:   $font-size-12;
+    font-weight: $font-weight-normal;
+    line-height: 1.33;
+}
+
+.subtext-bold {
+    @include font-family($font_santral_bold);
+    font-size: $font-size-12;
+    font-weight: $font-weight-bold;
+    line-height: 1.33;
+}
+
+.subtext-bolditalic {
+    @include font-family($font_santral_semi_bold_italic);
+    font-size: $font-size-12;
+    font-weight: $font-weight-bold;
+    line-height: 1.33;
+}
+
+.flyout-regular {
+    @include font-family($font_santral_regular);
+    font-size: $font-size-12;
+    font-weight: $font-weight-normal;
+    line-height: 1.33;
+}
+
+.flyout-regularitalic {
+    @include font-family($font_santral_regular);
+    font-style: italic;
+    font-size: $font-size-12;
+    font-weight: $font-weight-normal;
+    line-height: 1.33;
+}
+
+
+h1,
+.h1 {
+    @include font-family($font_sterling_display_roman);
+    font-size:   $font-size-56;
+    font-weight: $font-weight-normal;
+    line-height: 1.14;
+}
+
+h2,
+.h2 {
+    @include font-family($font_sterling_display_roman);
+    font-size: $font-size-40;
+    font-weight: $font-weight-normal;
+    line-height: 1.2;
+}
+
+h3,
+.h3 {
+    @include font-family($font_sterling_display_roman);
+    font-size: $font-size-32;
+    font-weight: $font-weight-normal;
+    line-height: 1.25;
+}
+
+h4,
+.h4 {
+    @include font-family($font_santral_semi_bold);
+    font-size: $font-size-24;
+    font-weight: $font-weight-bold;
+    line-height: 1.33;
+}
+
+h5,
+.h5 {
+    @include font-family($font_santral_semi_bold);
+    font-size: $font-size-16;
+    font-weight: $font-weight-bold;
+    line-height: 1.5;
+}

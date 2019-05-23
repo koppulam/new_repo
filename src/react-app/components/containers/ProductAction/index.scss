@@ -1,0 +1,17 @@
+.product-action-component {
+
+    .secondary-btn {
+        margin: 0 auto;
+    }
+
+    &.stick-to-bottom {
+        @extend .col__full;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: $modal-maxZIndex;
+        background: $white;
+        padding: getUnitValue(2);
+        border-top: 1px solid $dusty-gray;
+    }
+}

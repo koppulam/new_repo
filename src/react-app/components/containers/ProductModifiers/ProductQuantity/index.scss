@@ -1,0 +1,162 @@
+// ****************************************
+// quantity
+// ****************************************
+
+.quantity {
+    
+    &__decrement, &__increment {
+        cursor: pointer;
+    }
+    
+    &__container {
+        @extend  .tf-g__between, .tf-g;
+        @include font($font-size-14, $font-weight-normal, $black, 1.5, 0);
+        
+        padding: 12px 0;
+        border-top: 1px solid $black;
+        @include font-family($font_santral_regular);
+        
+        &_value {
+            @extend .col-5-12;
+            @include font($font-size-14, $font_santral_regular, $black, 1.14, 0);
+            @include font-family($font_santral_regular);
+            border: none;
+            text-align: center;
+            margin-right: -24px;
+            margin-left: -24px;
+            transition: all 1ms ease-out;
+            li {
+                font-size: $font-size-14;
+                font-weight: $font-weight-normal;
+                position: absolute;
+                right: 1.4vw;
+                margin-top: 10px;
+                margin-left: 1vw;
+                transform: translateX(-50%) translateY(-50%);
+                visibility: hidden;
+
+                &.active {
+                    visibility: visible;
+                }
+            }
+
+            &.update-inc-count li:last-of-type {
+                animation: inc-qty-enter;
+                animation-direction: forwards;
+                animation-duration: calc( 1ms * #{$quantity-count-delay});
+            }
+            &.update-inc-count li.active {
+                animation: inc-qty-leave;
+			    animation-direction: forwards;
+                animation-duration: calc( 1ms * #{$quantity-count-delay});
+            }
+            &.update-dec-count li:first-of-type {
+                animation: dec-qty-enter;
+			    animation-direction: backwards;
+                animation-duration: calc( 1ms * #{$quantity-count-delay});
+            }
+            &.update-dec-count li.active {
+                animation: dec-qty-leave;
+			    animation-direction: backwards;
+                animation-duration: calc( 1ms * #{$quantity-count-delay});
+            }
+        }
+
+        &_manipulator{
+            @extend .tf-g__between, .tf-g ,.hide__desktop-and-below;
+            
+            &_decrement, &_increment {
+                @extend .btn;
+                @include font(false, $font-weight-normal, $black, false, 0);
+                position: absolute;
+               
+                width: 12px;
+                height: 12px;
+                padding: 0;
+                background: none;
+                margin-top: 4px;
+
+                &.cta {
+                    line-height: 0;
+                    text-align: center;
+                    font-size: $font-size-18;
+
+                    &:before {
+                        content: none;
+                        background: none
+                    }
+                }
+                
+                &:hover {
+                    border: none;
+                }
+            }
+
+            &_increment {
+                right: 0;
+            }
+
+            &_decrement {
+                right: 3.1vw;
+            }
+        }
+
+        &_selector-wrap {
+            @extend .hide__desktop-and-above;
+            position: relative;
+
+            .icon-dropdown-down {
+                font-size: $font-size-8;
+                position: absolute;
+                right: 0;
+                top: getUnitValue(1);
+                pointer-events: none;
+            }
+
+            .keyboard--focussed & {
+                &:focus {
+                    border: 1px solid $tiffanyBlue;
+                }
+            }
+            
+            &_selector {
+                padding: 0 getUnitValue(2);
+                border: 0 !important;
+                appearance: none;
+                background:none;
+                @include font-family($font_santral_semi_bold);
+                font-size: $font-size-16;
+
+                @include MediaQueries($tablet) {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+    
+    &__error {
+        @include MediaQueries($desktop-and-below) {
+            margin-top: getUnitValue(2);
+        }
+        .information-text-component {
+            color: $crimson-red;
+            p {
+                font-size: $font-size-12;
+            }
+            
+            .text-phnumber {
+                a {
+                    @extend .underline-cta;
+                    color: $crimson-red;
+                    text-decoration: underline;
+                    font-size: $font-size-12;
+                    margin-top: 0;
+
+                    &:after {
+                        content: '';
+                    }
+                }
+            }
+        }
+    }
+}

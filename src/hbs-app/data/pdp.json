@@ -1,0 +1,664 @@
+{
+    "retired_description": {
+        "unvailable": "Currently, the product is unavailable",
+        "call_before": "Call Sales Service at ",
+        "call_after": " for more information.",
+        "phoneNum": "800-843-3269"
+    },
+    "product_description": {
+        "view": {
+            "images": [],
+            "logo": {
+                "mobileSrc": "images/mobile-logo.png",
+                "desktopSrc": "images/logo.png"
+            }
+        }
+    },
+    "retired": "true",
+    "strategy_message": "Best-Selling New Arrivals",
+    "strategy_name": "NewArrivalsSiteWideTopSellers",
+    "placement_name": "add_to_cart_page.rr1",
+    "items": [
+        {
+            "sku": "GRP10415",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-keys-modern-keys-open-round-key-pendant-21771953_982112_ED_G_M.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=GRP10415&ind=0&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fnecklaces-pendants%2Ftiffany-keys-modern-keys-open-round-key-pendant-GRP10415",
+            "price": "$250.00",
+            "sale_price": "",
+            "rating": "",
+            "isNew": true
+        },
+        {
+            "sku": "61108254",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/atlas-cube-pendant-61108254_983879_ED.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=61108254&ind=1&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fnecklaces-pendants%2Fatlas-cube-pendant-61108254",
+            "price": "$125.00",
+            "sale_price": "",
+            "rating": "",
+            "isNew": true
+        },
+        {
+            "sku": "GRP10109",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/elsa-peretti-open-heart-ring-37690961_985184_ED_M.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=GRP10109&ind=2&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Frings%2Felsa-peretti-open-heart-ring-GRP10109",
+            "price": "$250.00",
+            "sale_price": "",
+            "rating": "",
+            "isNew": true
+        },
+        {
+            "sku": "61626093",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-paper-flowers-pav-diamond-flower-pendant-61626093_984461_ED.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=61626093&ind=3&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fnecklaces-pendants%2Ftiffany-paper-flowers-pav-diamond-flower-pendant-61626093",
+            "price": "$3,500.00",
+            "sale_price": "",
+            "rating": "",
+            "isNew": true
+        },
+        {
+            "sku": "GRP10474",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-t-two-double-chain-bracelet-62355352_982983_ED_M.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=GRP10474&ind=4&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fbracelets%2Ftiffany-t-two-double-chain-bracelet-GRP10474",
+            "price": "$700.00",
+            "sale_price": "",
+            "rating": ""
+        },
+        {
+            "sku": "61626476",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-paper-flowers-diamond-open-flower-pendant-61626476_984733_ED.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=61626476&ind=5&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fnecklaces-pendants%2Ftiffany-paper-flowers-diamond-open-flower-pendant-61626476",
+            "price": "$2,500.00",
+            "sale_price": "",
+            "rating": "",
+            "isNew": true
+        },
+        {
+            "sku": "61626573",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-paper-flowers-diamond-open-flower-earrings-61626573_984479_ED.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=61626573&ind=6&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fearrings%2Ftiffany-paper-flowers-diamond-open-flower-earrings-61626573",
+            "price": "$4,200.00",
+            "sale_price": "",
+            "rating": ""
+        },
+        {
+            "sku": "GRP10456",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-essential-satin-finish-band-ring-60986037_984150_ED_M.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=GRP10456&ind=7&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Frings%2Ftiffany-essential-satin-finish-band-ring-GRP10456",
+            "price": "$1,925.00",
+            "sale_price": "",
+            "rating": ""
+        },
+        {
+            "sku": "61625690",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-paper-flowers-diamond-and-tanzanite-flower-pendant-61625690_984447_ED.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=61625690&ind=8&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fnecklaces-pendants%2Ftiffany-paper-flowers-diamond-and-tanzanite-flower-pendant-61625690",
+            "price": "$3,200.00",
+            "sale_price": "",
+            "rating": "",
+            "isNew": true
+        },
+        {
+            "sku": "GRP10452",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-jazz-graduated-band-ring-61002588_985052_ED_M.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=GRP10452&ind=9&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Frings%2Ftiffany-jazz-graduated-band-ring-GRP10452",
+            "price": "$2,700.00",
+            "sale_price": "",
+            "rating": ""
+        },
+        {
+            "sku": "61626115",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-paper-flowers-diamond-flower-pendant-61626115_984463_ED.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=61626115&ind=10&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fnecklaces-pendants%2Ftiffany-paper-flowers-diamond-flower-pendant-61626115",
+            "price": "$4,500.00",
+            "sale_price": "",
+            "rating": "",
+            "isNew": true
+        },
+        {
+            "sku": "61626077",
+            "image_url": "https://media.tiffany.com/is/image/Tiffany/EcomItemM/tiffany-paper-flowers-pav-diamond-flower-pendant-61626077_984459_ED.jpg?defaultImage=NoImageAvailable&",
+            "link_url": "https://integration.richrelevance.com/rrserver/click?a=9fcc91a121441cb2&vg=4d1387d9-85f1-468f-9d1a-7558e2f4ec83&pti=13&pa=rr1&hpi=8842&stn=NewArrivalsSiteWideTopSellers&stid=147&rti=1&sgs=&mvtId=34400&mvtTs=1527064711928&uguid=2461a0dd-3366-452f-dfb6-4a58e1c3cf7e&channelId=WEB&s=01B6C2PAFCS92GBV00AKHX1DTSF4105A&pg=3315&p=61626077&ind=11&ct=http%3A%2F%2Flocalhost%3A6565%2Fjewelry%2Fnecklaces-pendants%2Ftiffany-paper-flowers-pav-diamond-flower-pendant-61626077",
+            "price": "$8,000.00",
+            "sale_price": "",
+            "rating": ""
+        }
+    ],
+    "banner": {
+        "textAlignment": "tf-g__start",
+        "heading": "Dig in",
+        "description": "We believe in living with beautiful things every day. Our latest Home & Accessories designs capture the spirit of the garden, a blossoming world bursting with life and color.",
+        "ctaText": "Shop the collection",
+        "ctaLink": "/",
+        "ctaTarget": "_new",
+        "imageSrc": "./images/fdcdfd681ad3bd5c4d221cb634db85159e0ce9d6.png",
+        "imageAlt": "sample",
+        "isLazyLoad": true,
+        "isHeroBanner": true,
+        "leftPos": "12%",
+        "topPos": "50%"
+    },
+    "variation3": {
+        "textAlignment": "tf-g__start",
+        "heading": "Sustainability",
+        "description": "Tiffany gold is 18k gold of uncompromised purity. It comes from a single American mine, which meets the jewelry industry’s highest standards for environmental and social responsibility.",
+        "ctaText": "Learn more",
+        "ctaLink": "/",
+        "ctaTarget": "_new",
+        "imageSrc": "images/responsibleMining.jpg",
+        "imageAlt": "sample",
+        "isLazyLoad": true
+    },
+    "variation4": {
+        "textAlignment": "tf-g__start",
+        "heading": "Everyday Objects",
+        "description": "Beautiful things shouldn’t just live in a drawer. Carefully crafted by Tiffany artisans in sterling silver, enamel and wood, this collection elevates everyday home and garden accessories with a wit that transforms the ordinary into works of art.",
+        "ctaText": "Shop the collection",
+        "ctaLink": "/",
+        "ctaTarget": "_new",
+        "images": [
+            {
+                "imageSrc": "images/6277d9d1586cf7063e6328f2fdf905b568dcc876.png",
+                "imageAlt": "sample",
+                "isLazyLoad": true
+            },
+            {
+                "imageSrc": "images/6277d9d1586cf7063e6328f2fdf905b568dcc876.png",
+                "imageAlt": "sample",
+                "isLazyLoad": true,
+                "hasRte": true,
+                "heading": "Everyday Objects",
+                "description": "Beautiful things shouldn’t just live in a drawer. Carefully crafted by Tiffany artisans in sterling silver, enamel and wood, this collection elevates everyday home and garden accessories with a wit that transforms the ordinary into works of art.",
+                "ctaText": "Shop the collection",
+                "ctaLink": "/",
+                "ctaTarget": "_new"
+            }
+        ]
+    },
+    "breadcrumb": [
+        {
+            "linkText": "Home",
+            "linkUrl": "/",
+            "linkTarget": "_new"
+        },
+        {
+            "linkText": "Home & Accessories",
+            "linkUrl": "/",
+            "linkTarget": "_new"
+        },
+        {
+            "linkText": "New Designs",
+            "linkUrl": "/",
+            "linkTarget": "_new"
+        },
+        {
+            "linkText": "Sterling Silver Flower Pot",
+            "isActive": true
+        }
+    ],
+    "productDescriptionBops": {
+        "isCounterfeitWarning": true,
+        "disclaimerLabelText": "Handle your candle with care.",
+        "dropdown_up": "icons/facebook.svg",
+        "dropdown_down": "icons/twitter.svg",
+        "imageAltUp": "facebook",
+        "imageAltDown": "twitter",
+        "disclaimerCtaText": "Learn more",
+        "isAddTobag": true,
+        "isBops": true,
+        "giftCartCta": "Gift card terms and conditions",
+        "eyebrowCtaText": "Everyday Objects",
+        "eyebrowCtaTarget": "_",
+        "eyebrowCtaLink": "",
+        "maxQuantity": 10,
+        "productName": "Sterling Silver Flower Pot",
+        "longDescription": "Tiffany artisans transform utilitarian items into works of art.Featuring the iconic Tiffany & Co. seal, this decorative sterling",
+        "moreLongDescription": "Tiffany artisans transform utilitarian items into works of art.",
+        "shortDesription": "",
+        "specifications": [
+            {
+                "desc": "The burn time of the candle is between 60 and 70 hours"
+            },
+            {
+                "desc": "Glass"
+            },
+            {
+                "desc": "3.7\" high"
+            },
+            {
+                "desc": "Net weight 9.52 ounces/270 grams"
+            }
+        ],
+        "sizeOptions": [
+            "2",
+            "3",
+            "4",
+            "1",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16"
+        ]
+    },
+    "productDescriptionAddTobag": {
+        "retired": "false",
+        "isIstatus": true,
+        "isFIISLink": true,
+        "isAddTobag": true,
+        "isFindInstoreButton": false,
+        "giftCartCta": "Gift card terms and conditions",
+        "eyebrowCtaText": "Everyday Objects",
+        "eyebrowCtaTarget": "_",
+        "eyebrowCtaLink": "",
+        "maxQuantity": 10,
+        "productName": "Sterling Silver Flower Pot",
+        "longDescription": "Tiffany artisans transform utilitarian items into works of art.Featuring the iconic Tiffany & Co. seal, this decorative sterling silver flowerpot will transform your home or garden.Sterling silver, 4” high",
+        "moreLongDescription": "Tiffany artisans transform utilitarian items into works of art.",
+        "shortDesription": "",
+        "specifications": [
+            {
+                "desc": "The burn time of the candle is between 60 and 70 hours"
+            },
+            {
+                "desc": "Glass"
+            },
+            {
+                "desc": "3.7\" high"
+            },
+            {
+                "desc": "Net weight 9.52 ounces/270 grams"
+            }
+        ],
+        "sizeOptions": [
+            "2",
+            "3",
+            "4",
+            "1",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16"
+        ]
+    },
+    "productDescriptionIstatuswithFiis": {
+        "isNonPurchasable": false,
+        "isFindInstoreButton": false,
+        "isIstatus": true,
+        "isFIISLink": false,
+        "isNotifyButton": true,
+        "eyebrowCtaText": "Everyday Objects",
+        "eyebrowCtaTarget": "_",
+        "eyebrowCtaLink": "",
+        "maxQuantity": 10,
+        "productName": "Sterling Silver Flower Pot",
+        "longDescription": "Tiffany artisans transform utilitarian items into works of art.Featuring the iconic Tiffany & Co. seal, this decorative sterling silver flowerpot will transform your home or garden.Sterling silver, 4” high",
+        "moreLongDescription": "Tiffany artisans transform utilitarian items into works of art.",
+        "shortDesription": "",
+        "specifications": [
+            {
+                "desc": "The burn time of the candle is between 60 and 70 hours"
+            },
+            {
+                "desc": "Glass"
+            },
+            {
+                "desc": "3.7\" high"
+            },
+            {
+                "desc": "Net weight 9.52 ounces/270 grams"
+            }
+        ],
+        "sizeOptions": [
+            "2",
+            "3",
+            "4",
+            "1",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16"
+        ]
+    },
+    "productDescriptionNonPurchasable": {
+        "isNonPurchasable": true,
+        "isFindInstoreButton": true,
+        "eyebrowCtaText": "Everyday Objects",
+        "eyebrowCtaTarget": "_",
+        "eyebrowCtaLink": "",
+        "maxQuantity": 10,
+        "productName": "Sterling Silver Flower Pot",
+        "longDescription": "Tiffany artisans transform utilitarian items into works of art.Featuring the iconic Tiffany & Co. seal, this decorative sterling silver flowerpot will transform your home or garden.Sterling silver, 4” high",
+        "moreLongDescription": "Tiffany artisans transform utilitarian items into works of art.",
+        "shortDesription": "",
+        "specifications": [
+            {
+                "desc": "The burn time of the candle is between 60 and 70 hours"
+            },
+            {
+                "desc": "Glass"
+            },
+            {
+                "desc": "3.7\" high"
+            },
+            {
+                "desc": "Net weight 9.52 ounces/270 grams"
+            }
+        ],
+        "sizeOptions": [
+            "2",
+            "3",
+            "4",
+            "1",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16"
+        ]
+    },
+    "productDescriptionIstatus": {
+        "isNonPurchasable": false,
+        "isFindInstoreButton": false,
+        "isIstatus": true,
+        "isNotifyButton": true,
+        "eyebrowCtaText": "Everyday Objects",
+        "eyebrowCtaTarget": "_",
+        "eyebrowCtaLink": "",
+        "maxQuantity": 10,
+        "productName": "Sterling Silver Flower Pot",
+        "longDescription": "Tiffany artisans transform utilitarian items into works of art.Featuring the iconic Tiffany & Co. seal, this decorative sterling silver flowerpot will transform your home or garden.Sterling silver, 4” high",
+        "moreLongDescription": "Tiffany artisans transform utilitarian items into works of art.",
+        "shortDesription": "",
+        "specifications": [
+            {
+                "desc": "The burn time of the candle is between 60 and 70 hours"
+            },
+            {
+                "desc": "Glass"
+            },
+            {
+                "desc": "3.7\" high"
+            },
+            {
+                "desc": "Net weight 9.52 ounces/270 grams"
+            }
+        ],
+        "sizeOptions": [
+            "2",
+            "3",
+            "4",
+            "1",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16"
+        ]
+    },
+    "product-care": {
+        "textAlignment": "tf-g__start",
+        "heading": "Product Care",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor.",
+        "ctaPresent": false,
+        "productCareCarouselKey": "productCareConfig",
+        "pdpCarouselType": "RICH_REL",
+        "isLazyLoad": true
+    },
+    "pdpCarouselKey": "pdpCarouselConfig",
+    "pdpCarouselType": "RICH_REL",
+    "circleCarouselKey": "circleCarouselConfig",
+    "pdpMarketingCarouselKey": "pdpMarketingCarouselConfig",
+    "textWithCta": [
+        {
+            "customClass": "shipping-returns",
+            "textAlignment": "tf-g__center",
+            "heading": "Free Shipping & Returns",
+            "description": "Enjoy complimentary shipping and returns on your order. Purchases made online may be returned or exchanged within 30 days.",
+            "freeShipping": true,
+            "ctaType": "shippingreturns",
+            "imageicon": "./icons/concierge.svg",
+            "imageicon_alt": "Shipping and returns",
+            "isIcon": true
+        },
+        {
+            "customClass": "shipping-returns",
+            "textAlignment": "tf-g__center",
+            "heading": "Free Shipping & Returns",
+            "description": "Enjoy complimentary shipping and returns on your order. Purchases made online may be returned or exchanged within 30 days.",
+            "freeShipping": true,
+            "ctaType": "shippingreturns",
+            "imageicon": "./icons/concierge.svg",
+            "imageicon_alt": "Shipping and returns",
+            "isIcon": true
+        },
+        {
+            "customClass": "concierge",
+            "textAlignment": "tf-g__center",
+            "heading": "Concierge",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor elita incididunt ut labore et dolore magna aliqua. ",
+            "ctaText": "Call to action",
+            "ctaLink": "/",
+            "ctaTarget": "_new",
+            "imageicon": "./icons/concierge.svg",
+            "imageicon_alt": "Concierge",
+            "isIcon": true
+        },
+        {
+            "customClass": "size-guide",
+            "textAlignment": "tf-g__center",
+            "heading": "Size Guide",
+            "description": "Copy explaining the size guide functionality. Sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet gravida dolor.",
+            "dropAHint": true,
+            "ctaType": "sizeguide",
+            "imageicon": "./icons/size-guide.svg",
+            "imageicon_alt": "Size guide",
+            "drop-a-hint-label": "Size guide",
+            "isIcon": true,
+            "isPhoneNumber": false
+        },
+        {
+            "customClass": "store-locator",
+            "textAlignment": "tf-g__center",
+            "heading": "Store locator",
+            "description": "Find our stores and enjoy shopping. Purchases made online may be returned or exchanged within 30 days.",
+            "freeShipping": true,
+            "ctaText": "Find the store near me",
+            "ctaLink": "/",
+            "ctaType": "storelocator",
+            "imageicon": "./icons/store-locator.svg",
+            "imageicon_alt": "Shipping and returns",
+            "isIcon": true,
+            "isPhoneNumber": true,
+            "Number": 1234567890
+        }
+    ],
+    "productCareConfigKey": "pdpProductCareConfig",
+    "productBundleScrollKey": "productBundleScrollConfig",
+    "productFullFilments": [
+        {
+            "customClass": "shipping-returns",
+            "textAlignment": "tf-g__center",
+            "heading": "Free Shipping & Returns",
+            "description": "Enjoy complimentary shipping and returns on your order. Purchases made online may be returned or exchanged within 30 days.",
+            "freeShipping": true,
+            "ctaType": "shippingreturns",
+            "imageicon": "./icons/concierge.svg",
+            "imageicon_alt": "Shipping and returns",
+            "isIcon": true
+        },
+        {
+            "customClass": "store-locator",
+            "textAlignment": "tf-g__center",
+            "heading": "Store locator",
+            "description": "Find our stores and enjoy shopping. Purchases made online may be returned or exchanged within 30 days.",
+            "freeShipping": true,
+            "ctaText": "Find the store near me",
+            "ctaLink": "/",
+            "imageicon": "./icons/store-locator.svg",
+            "imageicon_alt": "Shipping and returns",
+            "isIcon": true,
+            "isPhoneNumber": true,
+            "Number": 1234567890
+        },
+        {
+            "customClass": "drop-hint",
+            "textAlignment": "tf-g__center",
+            "heading": "Drop a Hint",
+            "description": "Copy explaining the Drop a hint functionality. Sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet gravida dolor.",
+            "dropAHint": true,
+            "ctaType": "dropahint",
+            "imageicon": "./icons/concierge.svg",
+            "imageicon_alt": "Drop a hint",
+            "drop-a-hint-label": "Drop a hint",
+            "isIcon": true
+        },
+        {
+            "customClass": "concierge",
+            "textAlignment": "tf-g__center",
+            "heading": "Concierge",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor elita incididunt ut labore et dolore magna aliqua. ",
+            "ctaText": "Call to action",
+            "ctaLink": "/",
+            "ctaTarget": "_new",
+            "imageicon": "./icons/concierge.svg",
+            "imageicon_alt": "Concierge",
+            "isIcon": true
+        },
+        {
+            "customClass": "size-guide",
+            "textAlignment": "tf-g__center",
+            "heading": "Size Guide",
+            "description": "Copy explaining the size guide functionality. Sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet gravida dolor.",
+            "dropAHint": true,
+            "ctaType": "sizeguide",
+            "imageicon": "./icons/size-guide.svg",
+            "imageicon_alt": "Size guide",
+            "drop-a-hint-label": "Size guide",
+            "isIcon": true
+        }
+    ],
+    "atYourService": {
+        "heading": "At your service",
+        "description": "As experts in all matters of the heart, Tiffany is at your service from start to finish. We’re pleased to assist you every step of the way, beginning with the perfect engagement ring.",
+        "services": [
+            {
+                "customClass": "chat_service",
+                "ctaText": "Chat now",
+                "ctaLink": "/",
+                "imageicon": "./icons/chat.svg",
+                "imageicon_alt": "Chat now",
+                "ctaType": "cta",
+                "isPhoneNumber": false,
+                "isEmail": false,
+                "isChat": true,
+                "chatWidgetID": "marketing-chat",
+                "isContactService": false,
+                "isAppointmentService": false
+            },
+            {
+                "customClass": "call_service",
+                "ctaText": "Call us at (123) 456-5656",
+                "ctaLink": "/",
+                "imageicon": "./icons/call.svg",
+                "imageicon_alt": "Call",
+                "ctaType": "phoneNumber",
+                "number": 1234567890,
+                "isPhoneNumber": true,
+                "isEmail": false,
+                "isChat": false,
+                "isContactService": false,
+                "isAppointmentService": false
+            },
+            {
+                "customClass": "contact_service",
+                "ctaText": "Consult a dimond expert",
+                "ctaLink": "/",
+                "ctaType": "cta",
+                "imageicon": "./icons/diamondexpert.svg",
+                "imageicon_alt": "Consult a dimond expert",
+                "isPhoneNumber": false,
+                "isEmail": false,
+                "isChat": false,
+                "isContactService": true,
+                "isAppointmentService": false
+            },
+            {
+                "customClass": "appointment_service",
+                "ctaText": "Appointment",
+                "ctaLink": "/",
+                "ctaType": "cta",
+                "imageicon": "./icons/email.svg",
+                "imageicon_alt": "Shipping and returns",
+                "isPhoneNumber": false,
+                "isEmail": false,
+                "isChat": false,
+                "isContactService": false,
+                "isAppointmentService": true
+            },
+            {
+                "customClass": "email_service",
+                "ctaText": "write an email",
+                "ctaLink": "/",
+                "ctaType": "email",
+                "imageicon": "./icons/email.svg",
+                "imageicon_alt": "Email",
+                "isPhoneNumber": false,
+                "isEmail": true,
+                "isChat": false,
+                "isContactService": false,
+                "isAppointmentService": false
+            }
+        ]
+    },
+    "productSocialSharing": {
+        "socialLinks": [
+            {
+                "icon": "icons/weibo.png",
+                "label": "weibo",
+                "cta": {
+                    "ctaLink": "#",
+                    "ctaText": "",
+                    "newTab": true
+                },
+                "weiboURL": "http://service.weibo.com/share/share.php"
+            },
+            {
+                "icon": "icons/wechat.png",
+                "label": "wechat",
+                "isWeChat": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+// ****************************************
+// at-your-service
+// ****************************************
+
+.at-your-service {
+    &__container {
+        max-width: getUnitValue(160);
+        margin: 0 auto;
+
+        &_title{
+            @extend .tf-g__center;
+            @include font($font-size-40, $font-weight-normal, $black, 1.2, normal);
+            @include font-family($font_sterling_display_roman);
+            padding-bottom: getUnitValue(2);
+            @include MediaQueries($desktop-tablet-and-above){
+                padding-bottom: 10px;
+            }
+
+        }
+        &_description{
+            @extend .tf-g__center,.col-6-12;
+            @include font($font-size-14, $font-weight-light, $black, 1.71, normal);
+            @include font-family($font_santral_light);
+            padding-bottom: getUnitValue(4);
+            margin:0 auto;
+            @include MediaQueries($below-desktop-tablet){
+                width: 100%;
+            }
+            @include MediaQueries($desktop-tablet-and-above){
+                padding-bottom: getUnitValue(3);
+            }
+        }
+        &_services{
+            @extend .tf-g,.tf-g__center;
+
+            &_category{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: normal;
+                .services-1 &{
+                    @extend .col__full;
+                    @include MediaQueries($below-desktop-tablet){
+                        width: 100%;
+                        padding-top: getUnitValue(4);
+                    }
+                }
+                .services-2 &{
+                    @extend .col-6-12;
+                    @include MediaQueries($below-desktop-tablet){
+                        width: 100%;
+                        padding-top: getUnitValue(4);
+                    }
+                }
+                .services-3 &{
+                    @extend .col-4-12;
+                    @include MediaQueries($below-desktop-tablet){
+                        width: 100%;
+                        padding-top: getUnitValue(4);
+                    }
+                }
+                .services-4 &{
+                    @extend .col-3-12;
+                    @include MediaQueries($below-desktop-tablet){
+                        width: 100%;
+                        padding-top: getUnitValue(4);
+                    }
+                }
+                .services-5 &{
+                    width: 20%;
+                    @include MediaQueries($below-desktop-tablet){
+                        width: 100%;
+                        padding-top: getUnitValue(4);
+                    }
+                }
+
+                &_icon{
+                    width: 100%;
+                    padding-bottom: getUnitValue(2);
+                   
+                    &_link {
+                        @extend .display__inline-block; 
+                        .keyboard--focussed & {
+                            &:focus {
+                               border: 1px solid $bondiBlue;
+                               padding: 1px;
+                            }
+                       }
+                       img {
+                        @extend .display__block;
+                        width: getUnitValue(3);
+                        height: getUnitValue(3);
+                        margin: 0 auto;
+                        }
+                    }
+                    
+                }
+
+                &_link{
+                    @include font($font-size-14, $font-weight-light, $black, 1.71, normal);
+                    @include font-family($font_santral_regular);
+                }
+
+                &_chat_btn {
+                    @include font($font-size-14, $font-weight-light, $black, 1.14, normal);
+                    @include font-family($font_santral_regular);
+                    min-width: 208px;
+
+                    &.btn-primary {
+                        padding: 16px;
+                    }
+                }
+            }
+
+            &.services-5 {
+                .at-your-service__container_services_category {
+                    &.chat_service {
+                        width: auto;
+
+                        @include MediaQueries($below-desktop-tablet) {
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

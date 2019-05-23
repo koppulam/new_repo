@@ -1,0 +1,1096 @@
+{
+    "resultDto": {
+        "numofRecords": 4,
+        "minPrice": "7700.00",
+        "maxPrice": "11000.00",
+        "imageUrlFormat": "https://media.tiffany.com/is/image/TiffanyDev/<Preset>/<ImagePrefix>-<ImageName>.jpg?defaultImage=NoImageAvailableInternal&&",
+        "imagePreset": "EcomBrowseM",
+        "dimensions": [
+            {
+                "endecaDimensionId": 5,
+                "groupName": "Materials",
+                "dimensionValues": [
+                    {
+                        "name": "Gold",
+                        "id": 101323339,
+                        "displayOrder": "2",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "gold"
+                    },
+                    {
+                        "name": "Platinum",
+                        "id": 101323340,
+                        "displayOrder": "3",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "platinum"
+                    },
+                    {
+                        "name": "Sterling Silver",
+                        "id": 101323338,
+                        "displayOrder": "1",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "sterling-silver"
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "endecaDimensionId": 6,
+                "groupName": "Gemstones",
+                "dimensionValues": [
+                    {
+                        "name": "Diamonds",
+                        "id": 101323351,
+                        "displayOrder": "1",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "diamonds"
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "endecaDimensionId": 25,
+                "groupName": "Diamond Color",
+                "dimensionValues": [
+                    {
+                        "name": "D",
+                        "id": 1014359067,
+                        "displayOrder": "1",
+                        "isMultiSelect": true,
+                        "count": 1,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "d"
+                    },
+                    {
+                        "name": "E",
+                        "id": 1014359068,
+                        "displayOrder": "2",
+                        "isMultiSelect": true,
+                        "count": 1,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "e"
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "endecaDimensionId": 27,
+                "groupName": "Diamond Shape",
+                "dimensionValues": [
+                    {
+                        "name": "Cushion",
+                        "id": 1014359086,
+                        "displayOrder": "4",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "cushion"
+                    },
+                    {
+                        "name": "Emerald",
+                        "id": 1014359087,
+                        "displayOrder": "5",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "emerald"
+                    },
+                    {
+                        "name": "Oval",
+                        "id": 1014359088,
+                        "displayOrder": "6",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "oval"
+                    },
+                    {
+                        "name": "Pear",
+                        "id": 1014359089,
+                        "displayOrder": "7",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "pear"
+                    },
+                    {
+                        "name": "Princess",
+                        "id": 1014359085,
+                        "displayOrder": "3",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "princess"
+                    },
+                    {
+                        "name": "Round Brilliant",
+                        "id": 1014359083,
+                        "displayOrder": "1",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "round-brilliant"
+                    },
+                    {
+                        "name": "True",
+                        "id": 1014359084,
+                        "displayOrder": "2",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "true"
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "endecaDimensionId": 28,
+                "groupName": "Diamond Cut",
+                "dimensionValues": [
+                    {
+                        "name": "Excellent",
+                        "id": 1014359091,
+                        "displayOrder": "1",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "excellent"
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "endecaDimensionId": 2,
+                "groupName": "Designers & Collections",
+                "dimensionValues": [
+                    {
+                        "name": "Tiffany Soleste®",
+                        "id": 1011666181,
+                        "displayOrder": "30",
+                        "isMultiSelect": false,
+                        "count": 1,
+                        "selected": "NO",
+                        "lineBreakGroupID": "1",
+                        "layoutID": "1",
+                        "urluniqueId": "tiffany-soleste",
+                        "categoryId": 1666181
+                    },
+                    {
+                        "name": "Tiffany Yellow Diamonds",
+                        "id": 101649502,
+                        "displayOrder": "11",
+                        "isMultiSelect": false,
+                        "count": 1,
+                        "selected": "NO",
+                        "lineBreakGroupID": "1",
+                        "layoutID": "2",
+                        "urluniqueId": "tiffany-yellow-diamonds",
+                        "categoryId": 649502
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "endecaDimensionId": 26,
+                "groupName": "Diamond Clarity",
+                "dimensionValues": [
+                    {
+                        "name": "VS1",
+                        "id": 1014359081,
+                        "displayOrder": "4",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "vs1"
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "endecaDimensionId": 14,
+                "groupName": "GemStoneColor",
+                "dimensionValues": [
+                    {
+                        "name": "Black",
+                        "id": 1013044788,
+                        "displayOrder": "1",
+                        "isMultiSelect": true,
+                        "count": 2,
+                        "selected": "NO",
+                        "lineBreakGroupID": "0",
+                        "urluniqueId": "black"
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "endecaDimensionId": 4,
+                "groupName": "Price Ranges",
+                "dimensionValues": [
+                    {
+                        "name": "$5,000 & Over",
+                        "id": 1015000,
+                        "displayOrder": "6",
+                        "isMultiSelect": true,
+                        "count": 4,
+                        "selected": "NO",
+                        "minPrice": "5000",
+                        "urluniqueId": "price-5000-above"
+                    },
+                    {
+                        "name": "$250 & Under",
+                        "id": 1010025,
+                        "displayOrder": "1",
+                        "isMultiSelect": true,
+                        "count": 0,
+                        "selected": "NO",
+                        "maxPrice": "249.99",
+                        "urluniqueId": "price-0-250"
+                    },
+                    {
+                        "name": "$250 - $500",
+                        "id": 1012550,
+                        "displayOrder": "2",
+                        "isMultiSelect": true,
+                        "count": 0,
+                        "selected": "NO",
+                        "minPrice": "250",
+                        "maxPrice": "499.99",
+                        "urluniqueId": "price-250-500"
+                    },
+                    {
+                        "name": "$500 - $1,000",
+                        "id": 1015010,
+                        "displayOrder": "3",
+                        "isMultiSelect": true,
+                        "count": 0,
+                        "selected": "NO",
+                        "minPrice": "500",
+                        "maxPrice": "999.99",
+                        "urluniqueId": "price-500-1000"
+                    },
+                    {
+                        "name": "$1,000 - $2,000",
+                        "id": 1011020,
+                        "displayOrder": "4",
+                        "isMultiSelect": true,
+                        "count": 0,
+                        "selected": "NO",
+                        "minPrice": "1000",
+                        "maxPrice": "1999.99",
+                        "urluniqueId": "price-1000-2000"
+                    },
+                    {
+                        "name": "$2,000 - $5,000",
+                        "id": 1012050,
+                        "displayOrder": "5",
+                        "isMultiSelect": true,
+                        "count": 0,
+                        "selected": "NO",
+                        "minPrice": "2000",
+                        "maxPrice": "4999.99",
+                        "urluniqueId": "price-2000-5000"
+                    }
+                ],
+                "isHidden": false
+            }
+        ],
+        "productCardBuckets": [
+            {
+                "criteria": "Price 7700.00 - 11000.00",
+                "displayOrder": 1,
+                "productCards": [
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-32368263",
+                        "imageURL": "item-master-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": true,
+                        "isRelevance": true,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.51FI SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.51FI SRW RG",
+                        "price": "11000.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "32368263",
+                        "title": "Item Master",
+                        "titleSplit": [
+                            "Item Master"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "item-master",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "1",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [
+                            "Cushion",
+                            "Emerald",
+                            "Oval",
+                            "Pear",
+                            "Princess",
+                            "Round Brilliant",
+                            "True"
+                        ],
+                        "diamondCut": [
+                            "Excellent"
+                        ],
+                        "diamondColor": [
+                            "E"
+                        ],
+                        "diamondClarity": [
+                            "VS1"
+                        ],
+                        "caratWeight": "2.000000",
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10511",
+                            "GRP10520",
+                            "GRP10541"
+                        ],
+                        "itemMasterNumber": "44730558",
+                        "isIRExperience": true,
+                        "formattedPrice": "$11,000.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-29757135",
+                        "imageURL": "tiffany-soleste-yellow-diamond-ring-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": false,
+                        "isRelevance": false,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.66FY SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.66FY SRW RG",
+                        "price": "10600.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "29757135",
+                        "title": "Tiffany Soleste® Yellow Diamond Ring",
+                        "titleSplit": [
+                            "Tiffany Soleste® Yellow Diamond Ring"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "tiffany-soleste-yellow-diamond-ring",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "2",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [],
+                        "diamondCut": [],
+                        "diamondColor": [
+                            "D"
+                        ],
+                        "diamondClarity": [
+                            "VS1"
+                        ],
+                        "caratWeight": "1.000000",
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10520",
+                            "GRP10541"
+                        ],
+                        "itemMasterNumber": "44730531",
+                        "isIRExperience": true,
+                        "formattedPrice": "$10,600.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-31271398",
+                        "imageURL": "item-master-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": true,
+                        "isRelevance": true,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.50FI SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.50FI SRW RG",
+                        "price": "10900.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "31271398",
+                        "title": "Item Master",
+                        "titleSplit": [
+                            "Item Master"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "item-master",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "3",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [
+                            "Cushion",
+                            "Emerald",
+                            "Oval",
+                            "Pear",
+                            "Princess",
+                            "Round Brilliant",
+                            "True"
+                        ],
+                        "diamondCut": [
+                            "Excellent"
+                        ],
+                        "diamondColor": [],
+                        "diamondClarity": [],
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10511",
+                            "GRP10520"
+                        ],
+                        "itemMasterNumber": "44730558",
+                        "isIRExperience": true,
+                        "formattedPrice": "$10,900.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "criteria": "Price 7700.00 - 11000.00",
+                "displayOrder": 2,
+                "productCards": [
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-32368263",
+                        "imageURL": "item-master-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": true,
+                        "isRelevance": true,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.51FI SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.51FI SRW RG",
+                        "price": "11000.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "32368263",
+                        "title": "Item Master",
+                        "titleSplit": [
+                            "Item Master"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "item-master",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "1",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [
+                            "Cushion",
+                            "Emerald",
+                            "Oval",
+                            "Pear",
+                            "Princess",
+                            "Round Brilliant",
+                            "True"
+                        ],
+                        "diamondCut": [
+                            "Excellent"
+                        ],
+                        "diamondColor": [
+                            "E"
+                        ],
+                        "diamondClarity": [
+                            "VS1"
+                        ],
+                        "caratWeight": "2.000000",
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10511",
+                            "GRP10520",
+                            "GRP10541"
+                        ],
+                        "itemMasterNumber": "44730558",
+                        "isIRExperience": true,
+                        "formattedPrice": "$11,000.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-29757135",
+                        "imageURL": "tiffany-soleste-yellow-diamond-ring-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": false,
+                        "isRelevance": false,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.66FY SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.66FY SRW RG",
+                        "price": "10600.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "29757135",
+                        "title": "Tiffany Soleste® Yellow Diamond Ring",
+                        "titleSplit": [
+                            "Tiffany Soleste® Yellow Diamond Ring"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "tiffany-soleste-yellow-diamond-ring",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "2",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [],
+                        "diamondCut": [],
+                        "diamondColor": [
+                            "D"
+                        ],
+                        "diamondClarity": [
+                            "VS1"
+                        ],
+                        "caratWeight": "1.000000",
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10520",
+                            "GRP10541"
+                        ],
+                        "itemMasterNumber": "44730531",
+                        "isIRExperience": true,
+                        "formattedPrice": "$10,600.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-31271398",
+                        "imageURL": "item-master-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": true,
+                        "isRelevance": true,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.50FI SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.50FI SRW RG",
+                        "price": "10900.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "31271398",
+                        "title": "Item Master",
+                        "titleSplit": [
+                            "Item Master"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "item-master",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "3",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [
+                            "Cushion",
+                            "Emerald",
+                            "Oval",
+                            "Pear",
+                            "Princess",
+                            "Round Brilliant",
+                            "True"
+                        ],
+                        "diamondCut": [
+                            "Excellent"
+                        ],
+                        "diamondColor": [],
+                        "diamondClarity": [],
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10511",
+                            "GRP10520"
+                        ],
+                        "itemMasterNumber": "44730558",
+                        "isIRExperience": true,
+                        "formattedPrice": "$10,900.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "criteria": "Price 7700.00 - 11000.00",
+                "displayOrder": 3,
+                "productCards": [
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-32368263",
+                        "imageURL": "item-master-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": true,
+                        "isRelevance": true,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.51FI SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.51FI SRW RG",
+                        "price": "11000.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "32368263",
+                        "title": "Item Master",
+                        "titleSplit": [
+                            "Item Master"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "item-master",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "1",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [
+                            "Cushion",
+                            "Emerald",
+                            "Oval",
+                            "Pear",
+                            "Princess",
+                            "Round Brilliant",
+                            "True"
+                        ],
+                        "diamondCut": [
+                            "Excellent"
+                        ],
+                        "diamondColor": [
+                            "E"
+                        ],
+                        "diamondClarity": [
+                            "VS1"
+                        ],
+                        "caratWeight": "2.000000",
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10511",
+                            "GRP10520",
+                            "GRP10541"
+                        ],
+                        "itemMasterNumber": "44730558",
+                        "isIRExperience": true,
+                        "formattedPrice": "$11,000.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-29757135",
+                        "imageURL": "tiffany-soleste-yellow-diamond-ring-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": false,
+                        "isRelevance": false,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.66FY SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.66FY SRW RG",
+                        "price": "10600.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "29757135",
+                        "title": "Tiffany Soleste® Yellow Diamond Ring",
+                        "titleSplit": [
+                            "Tiffany Soleste® Yellow Diamond Ring"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "tiffany-soleste-yellow-diamond-ring",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "2",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [],
+                        "diamondCut": [],
+                        "diamondColor": [
+                            "D"
+                        ],
+                        "diamondClarity": [
+                            "VS1"
+                        ],
+                        "caratWeight": "1.000000",
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10520",
+                            "GRP10541"
+                        ],
+                        "itemMasterNumber": "44730531",
+                        "isIRExperience": true,
+                        "formattedPrice": "$10,600.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-31271398",
+                        "imageURL": "item-master-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": true,
+                        "isRelevance": true,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.50FI SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.50FI SRW RG",
+                        "price": "10900.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "31271398",
+                        "title": "Item Master",
+                        "titleSplit": [
+                            "Item Master"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "item-master",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "3",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [
+                            "Cushion",
+                            "Emerald",
+                            "Oval",
+                            "Pear",
+                            "Princess",
+                            "Round Brilliant",
+                            "True"
+                        ],
+                        "diamondCut": [
+                            "Excellent"
+                        ],
+                        "diamondColor": [],
+                        "diamondClarity": [],
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10511",
+                            "GRP10520"
+                        ],
+                        "itemMasterNumber": "44730558",
+                        "isIRExperience": true,
+                        "formattedPrice": "$10,900.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "criteria": "Price 7700.00 - 11000.00",
+                "displayOrder": 4,
+                "productCards": [
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-32368263",
+                        "imageURL": "item-master-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": true,
+                        "isRelevance": true,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.51FI SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.51FI SRW RG",
+                        "price": "11000.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "32368263",
+                        "title": "Item Master",
+                        "titleSplit": [
+                            "Item Master"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "item-master",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "1",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [
+                            "Cushion",
+                            "Emerald",
+                            "Oval",
+                            "Pear",
+                            "Princess",
+                            "Round Brilliant",
+                            "True"
+                        ],
+                        "diamondCut": [
+                            "Excellent"
+                        ],
+                        "diamondColor": [
+                            "E"
+                        ],
+                        "diamondClarity": [
+                            "VS1"
+                        ],
+                        "caratWeight": "2.000000",
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10511",
+                            "GRP10520",
+                            "GRP10541"
+                        ],
+                        "itemMasterNumber": "44730558",
+                        "isIRExperience": true,
+                        "formattedPrice": "$11,000.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-29757135",
+                        "imageURL": "tiffany-soleste-yellow-diamond-ring-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": false,
+                        "isRelevance": false,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.66FY SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.66FY SRW RG",
+                        "price": "10600.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "29757135",
+                        "title": "Tiffany Soleste® Yellow Diamond Ring",
+                        "titleSplit": [
+                            "Tiffany Soleste® Yellow Diamond Ring"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "tiffany-soleste-yellow-diamond-ring",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "2",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [],
+                        "diamondCut": [],
+                        "diamondColor": [
+                            "D"
+                        ],
+                        "diamondClarity": [
+                            "VS1"
+                        ],
+                        "caratWeight": "1.000000",
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10520",
+                            "GRP10541"
+                        ],
+                        "itemMasterNumber": "44730531",
+                        "isIRExperience": true,
+                        "formattedPrice": "$10,600.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalImageUrls": [],
+                        "crop": "0.10,0.10,0.80,0.80",
+                        "displayOrder": 0,
+                        "friendlyUrl": "/jewlery/items/tiffany-soleste-yellow-diamond-ring-31271398",
+                        "imageURL": "item-master-29757135_935344_ED_M",
+                        "isGroup": false,
+                        "isNewProduct": true,
+                        "isRelevance": true,
+                        "isServiceable": false,
+                        "mipsDescription": "PT18Y PSDI.50FI SRW RG",
+                        "name": "Tiffany Soleste® yellow and white diamond ring in platinum and 18k gold.",
+                        "posDescription": "PT18Y PSDI.50FI SRW RG",
+                        "price": "10900.00",
+                        "sharpen": "1.75,1.00,6.00",
+                        "sharpenL": "1.75,1.00,6.00",
+                        "sku": "31271398",
+                        "title": "Item Master",
+                        "titleSplit": [
+                            "Item Master"
+                        ],
+                        "isPurchasable": true,
+                        "showEmailWhenAvailable": false,
+                        "formattedTitle": "item-master",
+                        "isLowInventory": false,
+                        "sortOrderEndeca": "3",
+                        "isMotifEnabled": false,
+                        "color": [],
+                        "setting": [],
+                        "diamondShape": [
+                            "Cushion",
+                            "Emerald",
+                            "Oval",
+                            "Pear",
+                            "Princess",
+                            "Round Brilliant",
+                            "True"
+                        ],
+                        "diamondCut": [
+                            "Excellent"
+                        ],
+                        "diamondColor": [],
+                        "diamondClarity": [],
+                        "isAvailableOnline": true,
+                        "department": "157",
+                        "class": "35",
+                        "style": "54639",
+                        "parentGroups": [
+                            "GRP10511",
+                            "GRP10520"
+                        ],
+                        "itemMasterNumber": "44730558",
+                        "isIRExperience": true,
+                        "formattedPrice": "$10,900.00",
+                        "prodImageUrlSet": [
+                            {
+                                "mediaType": "SkuStraightOn",
+                                "mediaTypeID": 1092,
+                                "url": "29757135_935344_ED_M"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

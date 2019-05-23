@@ -1,0 +1,73 @@
+---
+title: Diamond Jewelers | Jewelry Stores | Fine Jewelry | Tiffany Co.
+type: page
+layout: pdp
+description: Tiffany Co. jewelry stores offer a large selection of high quality jewelry. Everything from certified diamonds and engagement rings to fashion and men&#39;s jewelry. Shop online or in-store.
+sortOrder: 0
+---
+<script language="javascript" type="text/javascript"  src="//s7d9.scene7.com/s7viewers/html5/js/FlyoutViewer.js"></script>
+<div class="wrapper pdp-page">
+    <div class="content-band--60x40 container pdp-container">
+        <div class="band-item base-item">
+            <tiffany-product-preview-carousel-scene7 config="productPreviewDetailsS7"></tiffany-product-preview-carousel-scene7>
+            {{!-- <tiffany-product-preview-carousel config="productPreviewDetails"></tiffany-product-preview-carousel> --}}
+        </div>
+        <div class="band-item base-item">
+            {{> product-description
+                productDescription = pdp.productDescriptionNonPurchasable
+            }}
+        </div>
+    </div>
+
+    <div class="hero-banner container">
+        {{> text-with-image
+            pdp.banner isTextTop=true
+        }}
+    </div>
+
+    <div class="container">
+        <tiffany-product-carousel config="{{pdp.pdpCarouselKey}}" type="{{pdp.pdpCarouselType}}"></tiffany-product-carousel>
+    </div>
+
+    <div class="container--2">
+        {{> text-with-cta pdp}}
+    </div>
+
+    <div class="container--2">
+        <tiffany-marketing-carousel config="{{pdp.pdpMarketingCarouselKey}}"></tiffany-marketing-carousel>
+    </div>
+
+    <div class="container--2">
+        <tiffany-circle-carousel config="{{pdp.circleCarouselKey}}"></tiffany-circle-carousel>
+    </div>
+
+    <div class="content-band hide__desktop-and-below container--2">
+        <div class="band-item">
+            {{> picture
+                isLazyLoad = true
+                desktopSrc = pdp.variation3.imageSrc
+                mobileSrc  = pdp.variation3.imageSrc
+                altText    = pdp.variation3.imageAlt
+            }}
+        </div>
+        <div class="band-item">
+            {{> content-tile
+                textAlignment = pdp.variation3.textAlignment
+                heading       = pdp.variation3.heading
+                description   = pdp.variation3.description
+                ctaLink       = pdp.variation3.ctaLink
+                ctaTarget     = pdp.variation3.ctaTarget
+                ctaText       = pdp.variation3.ctaText
+            }}
+        </div>
+    </div>
+
+    <div class="container--2">
+        <tiffany-product-care config={{pdp.productCareConfigKey}}></tiffany-product-care>
+    </div>
+
+    {{> breadcrumb
+        data = pdp.breadcrumb
+    }}
+
+</div>

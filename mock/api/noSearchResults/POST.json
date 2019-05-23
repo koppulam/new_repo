@@ -1,0 +1,12 @@
+{
+    "resultDto": {
+      "searchEngine": "1",
+      "numofRecords": 0,
+      "minPrice": "0.00",
+      "maxPrice": "0.00",
+      "currentStateURL": "/jewelry/items/bracelets/sort-relevance",
+      "canonicalURL": "/jewelry/items/bracelets",
+      "imageUrlFormat": "https://media.tiffany.com/is/image/TiffanyDev/<Preset>/<ImagePrefix>-<ImageName>.jpg?defaultImage=NoImageAvailableInternal&&",
+      "imagePreset": "EcomBrowseM"
+    }
+  }

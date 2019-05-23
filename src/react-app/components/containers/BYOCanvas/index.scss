@@ -1,0 +1,452 @@
+.byo-canvas {
+    @extend .relative-holder, .unselectable;
+    width: getUnitValue(80);
+    max-width: getUnitValue(80);
+    display: inline-table;
+
+    @include MediaQueries($desktop-and-below) {
+        z-index: 11;
+        width: getUnitValue(52.5); //420px
+    }
+
+    @include MediaQueries($above-tablet-and-below-desktop) {
+        width: getUnitValue(52); //416px
+    }
+
+    @include MediaQueries($desktop-tablet-landscape) {
+        width: getUnitValue(60); //480px
+    }
+
+    > img {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 639px) {
+        width: 100%;
+    }
+
+    &__fixture {
+        @extend .relative-holder, .unselectable;
+        z-index: 1;
+        .keyboard--focussed & {
+            &:focus{
+                border: 1px solid $tiffanyGrayBackgroundBorder;
+            }
+        }
+    }
+
+    &__gradient_overlay {
+        @extend .col__full;
+        height: getUnitValue(10);
+        position: absolute;
+        z-index: 13;
+        top: 0;
+        background-image: linear-gradient(to bottom, $white, rgba(250, 250, 250, 0));
+        @include MediaQueries($desktop-and-below) {
+            height: getUnitValue(7);
+            background-image: linear-gradient(to bottom, $white, rgba(250, 250, 250, 0.2));
+        }
+    } 
+
+    &__drop-zones {
+        @extend .col__full;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 12;
+
+        > div {
+            .keyboard--focussed & {
+                &:focus{
+                    border: 1px solid $tiffanyGrayBackgroundBorder;
+                }
+            }
+        }
+
+        img {
+            pointer-events: none; // For FireFox
+        }
+
+        &_anchor-point {
+            position: absolute;
+            top: -10%;
+            left: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        &_zone {
+            .ios & {
+                -webkit-tap-highlight-color: transparent;
+            }
+            &_charm {
+                .keyboard--focussed & {
+                    &:focus{
+                        border: 1px solid $tiffanyGrayBackgroundBorder !important;
+                    }
+                }
+            }
+            .hotspot {
+                .keyboard--focussed & {
+                    &:focus{
+                        border: 1px solid $tiffanyGrayBackgroundBorder;
+                    }
+                }
+            }
+        }
+
+        &_zone {
+            .keyboard--focussed & {
+                &:focus{
+                    border: 1px solid $tiffanyGrayBackgroundBorder;
+                }
+            }
+        }
+    }
+
+    &__nocharm-messsage, &__drophint-message {
+        @extend .tf-g;
+        position: absolute;
+        left: getUnitValue(7);
+        width: getUnitValue(30);
+        bottom: getUnitValue(9);
+        z-index: 6;
+
+        @include MediaQueries($desktop-and-below) {
+            position: absolute;
+            max-width: 50%;
+            min-width: getUnitValue(30);
+            left: 50%;
+            bottom: 0;
+            top: calc(100% - #{getUnitValue(8)});
+            transform: translate(-50%, -64px);
+        }
+
+        &_author-text {
+            @extend .tf-g, .tf-g--flex-equal;
+            @include font($font-size-14, $font-weight-normal, $black, 24px, 0.6px);
+            @include font-family($font_santral_light);
+            text-align: left;
+
+            @include MediaQueries($desktop-and-below) {
+                font-size: $font-size-12;
+                @include font-family($font_santral_regular);
+            }
+        }
+
+        &_image {
+            width: getUnitValue(2);
+        }
+
+        .tiffany-rte * {
+
+            @include font($font-size-14, $font-weight-normal, $black, 24px, 0.6px);
+            @include font-family($font_santral_light);
+            text-align: left;
+            @include MediaQueries($desktop-and-below) {
+                font-size: $font-size-12;
+                @include font-family($font_santral_regular);
+            }
+        }
+    }
+
+    &__nocharm-messsage {
+        bottom: getUnitValue(16);
+        @include MediaQueries($desktop-and-below) {
+            bottom: 0;
+        }
+    }
+
+    &__tapcharm-messsage {
+        @extend .tf-g;
+        position: absolute;
+        left: getUnitValue(7);
+        width: getUnitValue(30);
+        bottom: getUnitValue(16);
+        z-index: 6;
+
+        @include MediaQueries($desktop-and-below) {
+            position: absolute;
+            max-width: 50%;
+            min-width: getUnitValue(30);
+            left: 50%;
+            bottom: 0;
+            top: calc(100% - #{getUnitValue(8)});
+            width: auto;
+            transform: translate(-50%, -64px);
+            justify-content: center;
+        }
+
+        &_author-text {
+            @extend .tf-g, .tf-g--flex-equal;
+            @include font($font-size-14, $font-weight-normal, $black, 24px, 0.6px);
+            @include font-family($font_santral_light);
+            text-align: left;
+
+            @include MediaQueries($desktop-and-below) {
+                @include font-family($font_santral_regular);
+                font-size: $font-size-12;
+                text-align: center;
+            }
+        }
+
+        &_image {
+            width: getUnitValue(2);
+            height: getUnitValue(2);
+        }
+    }
+
+    &__charm-messsage {
+        @extend .tf-g;
+        position: absolute;
+        left: getUnitValue(30);
+        width: getUnitValue(30);
+        bottom: getUnitValue(5);
+        z-index: 6;
+
+        @include MediaQueries($desktop-and-below) {
+            position: absolute;
+            max-width: 50%;
+            min-width: getUnitValue(30);
+            left: 50%;
+            bottom: 0;
+            top: calc(100% - #{getUnitValue(8)});
+            transform: translate(-50%, -64px);
+        }
+
+        &_author-text {
+            @include font($font-size-14, $font-weight-normal, $black, 24px, 0.6px);
+            @include font-family($font_santral_light);
+            color: $crimson-red;
+
+            @include MediaQueries($desktop-and-below) {
+                font-size: $font-size-12;
+                @include font-family($font_santral_regular);
+            }
+        }
+    }
+
+    &__charms-holder {
+        @extend .col__full, .unselectable;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+    }
+
+    &__canvas_actions {
+        @extend .tf-g, .tf-g--flex-equal;
+        display: inline-block;
+        position: absolute;
+        bottom: getUnitValue(4);
+        left: getUnitValue(7);
+        max-width: getUnitValue(29);
+
+        .cta-content {
+            padding: 0;
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;
+            
+            &.drop-a-hint {
+                width: getUnitValue(3);
+                height: getUnitValue(3);
+                display: inline-block;
+                @include MediaQueries($desktop-and-below) {
+                    width: getUnitValue(2);
+                    height: getUnitValue(2);
+                    margin-right: getUnitValue(2);
+                }
+            }
+
+            &.disabled {
+                cursor: not-allowed;
+            }
+        }
+        .icon > img,
+        .wishlist-icon {
+            margin-right: getUnitValue(4);
+            width: getUnitValue(3);
+        }
+
+        &_message {
+            display: inline-block;
+            margin-bottom: getUnitValue(3);
+            @include font($font-size-14, normal, $black, 1.33, normal);
+            @include font-family($font_santral_light);
+            text-align: left;
+
+            @include MediaQueries($desktop-and-below) {
+                text-align: center;
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: 40px;
+            }
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            top: getUnitValue(2);
+            right: 0;
+            left: inherit;
+            z-index: 20;
+            height: getUnitValue(4);
+
+            .icon > img,
+            .wishlist-icon {
+                margin-right: getUnitValue(2);
+                width: getUnitValue(2);
+            }
+            max-width: 100%;
+            width: 100%;    
+        }
+
+        &-buttons {
+            text-align: left;
+            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+                min-width: getUnitValue(15);
+                display: flex;
+                justify-content: space-between;
+                .icon {
+                    width: getUnitValue(3);
+                    height: getUnitValue(3);
+                    margin: 0;
+                }
+            }
+            .start-over {
+                .keyboard--focussed & {
+                    &:focus {
+                        img {
+                            border: 1px solid $tiffanyGrayBackgroundBorder;
+                        }
+                    }
+                }
+            }
+            @include MediaQueries($desktop-and-below) {
+                text-align: center;
+                max-width: getUnitValue(29);
+                right: 0;
+                position: absolute;
+            }
+        }
+    }
+}
+
+.react-contexify {
+    @extend .unselectable;
+    position: fixed;
+    background-color: $white;
+    box-sizing: border-box;
+    box-shadow: none;
+    z-index: 15;
+
+    &__item {
+        @extend .tf-g, .tf-g__middle;
+        @include font($font-size-12, $font-weight-normal, $black, 1.33, normal);
+        border: 1px solid $black;
+        border-bottom: 0;
+        @include font-family($font_santral_regular);
+
+        &:last-child {
+            border-bottom: 1px solid $black;
+        }
+
+        &:hover {
+            background-color: $tiffanyBlue;
+            cursor: pointer;
+            transition: height 300ms linear, background-color 300ms linear;
+        }
+
+        .ctx-menu-item {
+            @extend .tf-g, .tf-g__middle;
+            width: getUnitValue(18);
+            height: getUnitValue(5);
+            padding-left: getUnitValue(1.5);
+            @include MediaQueries($desktop-and-below) {
+                width: auto;
+                padding-left: 0;
+                height: inherit;
+            }
+        }
+
+        .ctx-menu-item:hover {
+            background-color: $tiffanyBlue;
+            cursor: pointer;
+        }
+
+        .ctx-menu-item:focus {
+            background-color: $tiffanyBlue;
+        }
+    }
+
+    @include MediaQueries($desktop-and-below) {
+        top : 80% !important; // this is to override inline calculated styles
+        left: 0% !important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+
+        > div {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &__item {
+            justify-content: center;
+            width: auto;
+            height: getUnitValue(2.5);
+            padding-left: getUnitValue(1.5);
+            padding-right: getUnitValue(1.5);
+            border: 0;
+            border-right: 1px solid $black;
+            border-bottom: 0;
+
+            &:last-child {
+                border-right: 0;
+                border-bottom: 0;
+            }
+
+            &:hover {
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.charm-max-limit-message {
+    position: absolute;
+    bottom: getUnitValue(16);
+    left: getUnitValue(7);
+    width: getUnitValue(30);
+    z-index: 6;
+    font-size: $font-size-14;
+    text-align: left;
+    @include font-family($font_santral_light);
+
+    @include MediaQueries($desktop-and-below) {
+        @include font-family($font_santral_regular);
+        position: absolute;
+        max-width: 50%;
+        min-width: getUnitValue(30);
+        font-size: $font-size-12;
+        left: 50%;
+        bottom: 0;
+        top: calc(100% - #{getUnitValue(8)});
+        transform: translate(-50%, -64px);
+        z-index: 11;
+        text-align: center;
+    }
+}
+
+.addCharmAnimation {
+    transform-origin: 50% 0;
+    animation: swinging 0.5s ease-in-out forwards;
+    animation-name: swinging;
+}
+
+.charm-drag-blur {
+    filter: blur(1px);
+    opacity: 0.3;
+}

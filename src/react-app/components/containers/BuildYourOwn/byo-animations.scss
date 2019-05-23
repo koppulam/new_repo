@@ -1,0 +1,386 @@
+.byo {
+    &__slideup-and-enter {
+        opacity: 0;
+        transform: translateY(0);
+
+        &_active {
+            opacity: 0;
+            transform: translateY(20%);
+            transition: all $byo-transition-time ease-out;
+        }
+
+        &_complete {
+            opacity: 1;
+            transform: translateY(0);
+            transition: all $byo-transition-time ease-out;
+        }
+    }
+
+    &__fade-out {
+        opacity: 1;
+
+        &_active {
+            opacity: 0;
+            transition: all $byo-transition-time ease-out;
+        }
+
+        &_complete {
+            @extend .hide;
+            opacity: 0;
+            transition: all $byo-transition-time ease-out;
+        }
+    }
+
+    &__fade-in {
+        opacity: 0;
+
+        &_active {
+            opacity: 1;
+            transition: all $byo-transition-time ease-out;
+        }
+
+        &_complete {
+            @extend .show;
+            opacity: 1;
+            transition: all $byo-transition-time ease-out;
+        }
+    }
+}
+
+
+.slide-and-appear-from-bottom {
+    opacity: 1;
+}
+
+.slide-and-appear-from-bottom-enter,
+.hotspot__enter {
+    opacity: 0;
+    transform: translateY(0);
+}
+
+.slide-and-appear-from-bottom-enter-active,
+.hotspot__enter_active {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all $byo-transition-time ease-out;
+}
+
+.slide-and-appear-from-bottom-enter-done,
+.hotspot__enter_complete {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all $byo-transition-time ease-out;
+}
+
+.slide-and-appear-from-bottom-exit,
+.hotspot__fade-out {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-and-appear-from-bottom-exit-active,
+.hotspot__fade-out_active {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all $byo-transition-time ease-out;
+}
+
+.slide-and-appear-from-bottom-exit-done,
+.hotspot__fade-out_complete {
+    opacity: 0;
+}
+
+.slide-and-appear-from-bottom-appear {
+    // background-color: blue;
+}
+
+.slide-and-appear-from-bottom-appear-active {
+    // background-color: black;
+}
+
+.hotspot__enter_active,
+.hotspot__fade-out_active {
+    transform: translateY(5%);
+}
+
+.tray-drop-zone-placeholder {
+
+    &__enter {
+        transition: all $byo-transition-time ease-out;
+        width: getUnitValue(0);
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            width: getUnitValue(5);
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            width: getUnitValue(15);
+        }
+    }
+
+    &__exit {
+        transition: all $byo-transition-time ease-out;
+        width: getUnitValue(14);
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            width: getUnitValue(5);
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            width: getUnitValue(0);
+        }
+    }
+}
+
+.tray-container__header_button {
+
+    &__enter {
+        transition: all $byo-transition-time ease-out;
+        bottom: -55px !important;
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            bottom: 0px !important;
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            bottom: 0 !important;
+        }
+    }
+
+    &__exit {
+        bottom: 0 !important;
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            bottom: -55px !important;
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            bottom: -55px !important;
+        }
+    }
+}
+
+.tray-container__body {
+
+    &__enter {
+        transition: all $byo-transition-time ease-out;
+        height: getUnitValue(0) !important;
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            height: getUnitValue(17) !important;
+
+            @include MediaQueries($desktop-and-below) {
+                height: getUnitValue(10) !important;
+            }
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            height: getUnitValue(17) !important;
+
+            @include MediaQueries($desktop-and-below) {
+                height: getUnitValue(10) !important;
+            }
+        }
+    }
+
+    &__exit {
+        height: getUnitValue(17) !important;
+        @include MediaQueries($desktop-and-below) {
+            height: getUnitValue(10) !important;
+        }
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            height: getUnitValue(0) !important;
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            height: getUnitValue(0) !important;
+        }
+    }
+}
+
+.tray-container__body_fixture_add_charm {
+    &__enter {
+        transition: all $byo-transition-time ease-out;
+        width: getUnitValue(0) !important;
+        overflow: hidden;
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            width: 100px !important;
+            overflow: hidden;
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            width: auto !important;
+        }
+    }
+
+    &__exit {
+        transition: all $byo-transition-time ease-out;
+        width: auto !important;
+        overflow: hidden;
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            width: 100px !important;
+            overflow: hidden;
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            width: 0px !important;
+            overflow: hidden;
+        }
+    }
+}
+
+.byo-filters-bar-animation {
+    &__enter {
+        transition: all 1s ease-out;
+        height: getUnitValue(0) !important;
+        overflow: hidden;
+
+        &_active{
+            transition: all 1s ease-out;
+            height: 50px !important;
+            overflow: hidden;
+        }
+
+        &_complete{
+            transition: all 1s ease-out;
+            height: auto !important;
+        }
+    }
+
+    &__exit {
+        transition: all 1s ease-out;
+        height: auto !important;
+
+        &_active{
+            transition: all 1s ease-out;
+            height: 0px !important;
+            overflow: hidden;
+        }
+
+        &_complete{
+            transition: all 1s ease-out;
+            height: 0px !important;
+            overflow: hidden;
+        }
+    }
+}
+
+.byo-grid-animation {
+    &__enter {
+        transition: all 1s ease-out;
+        transform: translateX(-100%);
+
+        &_active{
+            transition: all 1s ease-out;
+            transform: translateX(0%);
+        }
+
+        &_complete{
+            transition: all 1s ease-out;
+            transform: translateX(0%);
+        }
+    }
+
+    &__exit {
+        transition: all 1s ease-out;
+        transform: translateX(0%);
+
+        &_active{
+            transition: all 1s ease-out;
+            transform: translateX(-100%);
+        }
+
+        &_complete{
+            transition: all 1s ease-out;
+            transform: translateX(-100%);
+        }
+    }
+}
+
+.byo-canvas-animation {
+    &__enter {
+        transition: all 1s ease-out;
+        transform: translateY(-100%);
+
+        &_active{
+            transition: all 1s ease-out;
+            transform: translateY(0%);
+        }
+
+        &_complete{
+            transition: all 1s ease-out;
+            transform: translateY(0%);
+        }
+    }
+
+    &__exit {
+        transition: all 1s ease-out;
+        transform: translateY(0%);
+
+        &_active{
+            transition: all 1s ease-out;
+            transform: translateY(-100%);
+        }
+
+        &_complete{
+            transition: all 1s ease-out;
+            transform: translateY(-100%);
+        }
+    }
+}
+
+.drawer_button_animation {
+    &__enter {
+        transition: all $byo-transition-time ease-out;
+        height: getUnitValue(0);
+        overflow: hidden;
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            height: getUnitValue(7);
+            overflow: hidden;
+        }
+
+        &_complete{
+            transition: all $byo-transition-time ease-out;
+            height: getUnitValue(7);
+            overflow: hidden;
+        }
+    }
+
+    &__exit {
+        transition: all $byo-transition-time ease-out;
+        height: getUnitValue(8);
+        overflow: hidden;
+
+        &_active{
+            transition: all $byo-transition-time ease-out;
+            height: getUnitValue(0);
+            overflow: hidden;
+        }
+
+        &_complete{
+            height: getUnitValue(0);
+            overflow: hidden;
+        }
+    }
+}

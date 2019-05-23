@@ -1,0 +1,465 @@
+// button styles
+.btn,%btn {
+    border: 0;
+    outline: none;
+    padding: getUnitValue(2);
+    font-size: $font-size-14;
+    font-weight: 600;
+    line-height: 1.14;
+    text-align: center;
+
+    .keyboard--focussed & {
+        &:focus {
+            border: 2px solid $bondiBlue;
+            opacity: 1;
+        }
+    }
+}
+
+.btn-primary,%btn-primary {
+    background-color: $black;
+    color: $white;
+    border: none;
+    padding: getUnitValue(4) getUnitValue(2);
+    text-decoration: none;
+    height: getUnitValue(7);
+    &:active {
+        cursor: pointer;
+        box-shadow: none;
+        border: solid 1px $black;
+        background-color: $tiffanyBlue;
+        color: $black;
+    }
+
+    &:hover {
+        box-shadow: none;
+        border: solid 1px $black;
+        background-color: $tiffanyBlue;
+        color: $black;
+    }
+
+    .keyboard--focussed & {
+        &:focus {
+            border: 2px solid $bondiBlue;
+            box-shadow: 0px 0px 0px 1px $white inset;
+        }
+    }
+
+    &:disabled {
+        background-color: $whisper;
+        color: $white;
+    }
+
+    @include MediaQueries($tablet-and-below) {
+        padding-top: getUnitValue(1);
+        height: getUnitValue(6);
+    }
+
+    &-no-hover {
+        &:hover {
+            box-shadow: none;
+            border: none;
+            background-color: $black;
+            color: $white;
+        }
+        &:active {
+            cursor: pointer;
+            box-shadow: none;
+            border: none;
+            background-color: $black;
+            color: $white;
+        }
+    }
+}
+
+.btn-secondary,%btn-secondary {
+    background-color: $white;
+    color: $black;
+
+    &:active {
+        box-shadow: none !important;
+        border: solid 2px $black !important;
+    }
+    &:hover {
+        box-shadow: none;
+        border: solid 1px $black;
+    }
+
+    .keyboard--focussed & {
+        &:focus {
+            border: 2px solid $bondiBlue;
+            box-shadow: 0px 0px 0px 1px $black inset;
+        }
+    }
+    &:disabled {
+        border: solid 1px $whisper;
+        color: $whisper;
+    }
+
+    @include MediaQueries($tablet-and-below) {
+        padding-top: getUnitValue(1);
+    }
+}
+
+.btn--outline {
+    border: solid 1px $black;
+    background-color: $white;
+    color: $black;
+
+    @include font-family($font_santral_semi_bold);
+    height: getUnitValue(7);
+    padding: getUnitValue(2.5) getUnitValue(4);
+
+    &:active {
+        box-shadow: none !important;
+        border: solid 2px $black !important;
+    }
+    &:focus {
+        border: 2px solid $bondiBlue;
+        box-shadow: 0px 0px 0px 1px $black inset;
+    }
+    &:disabled {
+        border: solid 1px $whisper;
+        color: $whisper;
+    }
+    @include MediaQueries($tablet-and-below){
+        height: getUnitValue(6);
+    }
+}
+
+.chevron {
+    @include font($font-size-16, $font_weight_normal, $black, 1.5, normal);
+    @extend .hover-cta;
+    @include font-family($font_santral_regular);
+    &:active {
+        opacity: 0.6
+    }
+    &.disabled {
+        opacity: 0.3
+    }
+}
+
+.chevron-small {
+    padding: getUnitValue(2) getUnitValue(4);
+}
+
+//latest button hover and focus states
+.btn-content {
+
+    &:focus {
+        border: solid 2px $bondiBlue;
+    }
+
+    &:active {
+        box-shadow: none;
+        border: solid 2px $black;
+    }
+
+    .btn-text {
+        outline: none;
+        border: none;
+    }
+}
+
+// To Avoid dashed border on focus in mozilla browser
+button::-moz-focus-inner{
+        border:0;
+}
+
+.hover-cta, .cta-content {
+    .cta:hover & {
+        background-size: 100% 1px;
+    }
+}
+
+.hover-cta{
+    background: linear-gradient(0deg, $bondiBlue, $bondiBlue) bottom left no-repeat;
+    background-color: none !important;
+    background-size: 0px 1px;
+    transition: 0.5s background-size;
+    text-decoration: none;
+    display: inline !important;
+    @supports (-ms-ime-align: auto) {
+        display: inline-block !important;
+        padding-bottom: 2px;
+    }
+    @include MediaQueries($desktop-and-below){
+        background: none !important;
+    }
+
+    &:hover {
+        background-size: 100% 1px;
+    }
+
+    .cta:hover & {
+        background-size: 100% 1px;
+    }
+}
+.hover-transparent{
+    &:hover {
+        border-bottom: 1px solid transparent !important;
+    }
+}
+
+
+button {
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+
+    &.cta {
+        @include font($font-size-14, false, $black, 1.71, false);
+        @include font-family($font_santral_regular);
+        outline: none;
+        border: solid 1px transparent;
+        border-bottom: 1px solid transparent;
+        display: inline-block;
+
+        &-content {
+            outline: none;
+        }
+
+        &:active {
+            border-bottom: 1px solid transparent !important;
+        }
+    }
+
+    &:focus {
+        outline: $tiffanyBlue;
+    }
+
+    .cta-content{
+        .cta-text {
+            outline: none;
+            border: none;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+
+    .keyboard--focussed & {
+        &:focus {
+            outline: $tiffanyBlue;
+        }
+    }
+
+    &.cta {
+        @include font($font-size-14, false, $black, 1.71, false);
+        @include font-family($font_santral_regular);
+        outline: none;
+        border: solid 1px transparent;
+        border-bottom: 1px solid transparent;
+        display: inline-block;
+
+        &-content {
+            outline: none;
+        }
+        .keyboard--focussed & {
+            &:focus {
+                border: solid 1px $bondiBlue;
+                .cta:hover {
+                    border-bottom: none;
+                }
+            }
+        }
+
+        &:active {
+            .cta:hover {
+                border-bottom: none;
+            }
+        }
+
+        .cta-content {
+            @extend .hover-cta;
+            .cta-text {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+
+    &.cta-underline{
+        @include font($font-size-14, false, $black, 1.71, false);
+        @extend .hover-transparent;
+        @include font-family($font_santral_regular);
+        outline: none;
+        border: solid 1px transparent;
+        border-bottom: 1px solid transparent;
+        display: inline-block;
+
+        &-content {
+            outline: none;
+        }
+        .keyboard--focussed & {
+            &:focus {
+                border: solid 1px $bondiBlue;
+                .cta:hover {
+                    border-bottom: none;
+                }
+            }
+        }
+
+        &:active {
+            .cta:hover {
+                border-bottom: none;
+            }
+        }
+
+        .cta-content{
+            .cta-text {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+    &.cta-underline {
+        @include font($font-size-14, false, $black, 1.71, false);
+        @extend .hover-transparent;
+        @include font-family($font_santral_regular);
+        outline: none;
+        border: solid 1px transparent;
+        border-bottom: 1px solid transparent;
+        display: inline-block;
+
+        &-content {
+            outline: none;
+        }
+        .keyboard--focussed & {
+            &:focus {
+                border: solid 1px $bondiBlue;
+                .cta:hover {
+                    border-bottom: none;
+                }
+            }
+        }
+
+        &:active {
+            .cta:hover {
+                border-bottom: none;
+            }
+        }
+
+        &:hover {
+            border-bottom: 1px solid $bondiBlue;
+        }
+
+        .cta-content{
+            .cta-text {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
+
+// to avoid flikering on hover
+button {
+    &.cta-noflicker {
+        border-bottom: 1px solid transparent;
+        padding: 0;
+        background: none;
+    }
+
+    &.primary-btn,
+    &.secondary-btn {
+        @extend .tf-g, .tf-g__center, .tf-g__middle, .col__full;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+        appearance: none;
+    }
+
+    &.primary-btn {
+        height: getUnitValue(7);
+        &:disabled {
+            // opacity: 0.1;
+
+            .primary-btn_content {
+                &:hover {
+                    opacity: 1 !important;
+                }
+            }
+        }
+
+        &:active {
+            .primary-btn_content {
+                opacity: 0.85 !important;
+            }
+        }
+
+        // &:focus {
+        //     border: 4px solid $tiffanyBlue;
+        // }
+
+        .primary-btn_content {
+            @extend .tf-g, .tf-g__center, .tf-g__middle, .col__full;
+            @include font($font-size-14, $font-weight-600, $black, 1.14, normal);
+            @include font-family($font_santral_semi_bold);
+            box-sizing: border-box;
+            padding: getUnitValue(2.5) getUnitValue(4);
+            color: $white;
+            background-color: $black;
+            outline: none;
+
+            // &:hover {
+            //     opacity: 0.7;
+            // }
+        }
+        @include MediaQueries($tablet-and-below){
+            height: getUnitValue(6);
+        }
+    }
+
+    &.secondary-btn {
+        height: getUnitValue(7);
+        background: transparent;
+        &:disabled {
+            .secondary-btn_content {
+                color: $whisper;
+                border: 1px solid $whisper;
+            }
+        }
+
+        &:active {
+            .secondary-btn_content {
+                box-shadow: none;
+                border: 2px solid $black;
+            }
+        }
+
+        .keyboard--focussed & {
+            &:focus {
+                .secondary-btn_content {
+                    border: 2px solid $bondiBlue;
+                    box-shadow: 0px 0px 0px 1px $black inset;
+                }
+            }
+        }
+
+        .secondary-btn_content {
+            @extend .tf-g, .tf-g__center, .tf-g__middle, .col__full;
+            @include font($font-size-14, $font-weight-600, $black, 1.14, normal);
+            @include font-family($font_santral_semi_bold);
+            box-sizing: border-box;
+            border: 1px solid $black;
+            padding: getUnitValue(2) getUnitValue(2);
+            color: $black;
+            background-color: $white;
+            outline: none;
+            height: 55px;
+
+            @include MediaQueries($tablet-and-below) {
+                height: getUnitValue(6);
+            }
+        }
+
+        @include MediaQueries($tablet-and-below){
+            height: getUnitValue(6);
+        }
+    }
+}

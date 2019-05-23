@@ -1,0 +1,587 @@
+{
+    "siteIndex": {
+        "heading": "Site Index",
+        "items": [
+            {
+                "subheading": "Love & Engagement in 5 columns",
+                "fiveColumns": true,
+                "subitems": [
+                    {
+                        "imageSrc": "images/wedding_band.png",
+                        "imageMobSrc": "images/wedding_band.png",
+                        "imageCta": "google.com",
+                        "imageAlt": "aLT",
+                        "imageCtaText": "Browse Engagement Rings",
+                        "imageCtaTarget": "_new"
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            },
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            },
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "subheading": "Love & Engagement in 4 columns",
+                "fourColumns": true,
+                "subitems": [
+                    {
+                        "imageSrc": "images/wedding_band.png",
+                        "imageMobSrc": "images/wedding_band.png",
+                        "imageCta": "google.com",
+                        "imageAlt": "aLT",
+                        "imageCtaText": "Browse Engagement Rings",
+                        "imageCtaTarget": "_new"
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            },
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            },
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "subheading": "Love & Engagement in 3 columns",
+                "threeColumns": true,
+                "subitems": [
+                    {
+                        "imageSrc": "images/wedding_band.png",
+                        "imageMobSrc": "images/wedding_band.png",
+                        "imageCta": "google.com",
+                        "imageAlt": "aLT",
+                        "imageCtaText": "Browse Engagement Rings",
+                        "imageCtaTarget": "_new"
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            },
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "subheading": "Love & Engagement in 2 columns",
+                "twoColumns": true,
+                "subitems": [
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            },
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "subheading": "Love & Engagement in 2 columns",
+                "twentyEightyColumns": true,
+                "subitems": [
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            },
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "list": [
+                            {
+                                "listHeading": "Discover Rings",
+                                "listItems": [
+                                    {
+                                        "text": "Engagement rings",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Women’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    },
+                                    {
+                                        "text": "Men’s wedding bands",
+                                        "url": "google.com",
+                                        "target": "_new"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "twoColumn": {
+        "subheading": "Love & Engagement in 2 columns",
+        "twoColumns": true,
+        "subitems": [
+            {
+                "list": [
+                    {
+                        "listHeading": "Discover Rings",
+                        "listItems": [
+                            {
+                                "text": "Engagement rings",
+                                "url": "google.com",
+                                "target": "_new"
+                            },
+                            {
+                                "text": "Women’s wedding bands",
+                                "url": "google.com",
+                                "target": "_new"
+                            },
+                            {
+                                "text": "Men’s wedding bands",
+                                "url": "google.com",
+                                "target": "_new"
+                            }
+                        ]
+                    },
+                    {
+                        "listHeading": "Discover Rings",
+                        "listItems": [
+                            {
+                                "text": "Engagement rings",
+                                "url": "google.com",
+                                "target": "_new"
+                            },
+                            {
+                                "text": "Women’s wedding bands",
+                                "url": "google.com",
+                                "target": "_new"
+                            },
+                            {
+                                "text": "Men’s wedding bands",
+                                "url": "google.com",
+                                "target": "_new"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": [
+                    {
+                        "listHeading": "Discover Rings",
+                        "listItems": [
+                            {
+                                "text": "Engagement rings",
+                                "url": "google.com",
+                                "target": "_new"
+                            },
+                            {
+                                "text": "Women’s wedding bands",
+                                "url": "google.com",
+                                "target": "_new"
+                            },
+                            {
+                                "text": "Men’s wedding bands",
+                                "url": "google.com",
+                                "target": "_new"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

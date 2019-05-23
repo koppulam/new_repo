@@ -1,0 +1,75 @@
+<article class="text-with-cta app-js__text-with-cta">
+    <div class="text-with-cta-container-{{textWithCta.length}}" data-pdp-carousel="true" data-disabledindesktop="true">
+        {{#each textWithCta}}
+            <div class="text-with-cta__column {{customClass}}">
+                {{#if imageicon}}
+                    <img class="product-tile__body_icon-img" src="{{imageicon}}" alt="{{imageicon_alt}}" />
+                {{/if}}
+
+                {{#if heading}}
+                    <h5 class="text-with-cta__column_heading">{{heading}}</h5>
+                {{/if}}
+
+                {{#if description}}
+                    <p class="text-with-cta__column_description">{{description}} <span class="city"></span></p>
+                    {{#is ctaType "storelocator"}}
+                        {{> nearestStore}}
+                    {{/is}}
+
+                    
+                {{/if}}
+
+                {{#if location}}
+                    <p class="text-with-cta__column_location"><span class="street"></span></p>
+                {{/if}}
+
+                {{#if ctaText}}
+                    {{#if isPhoneNumber}}
+                        <a href="tel: {{Number}}" class="cta" tabindex="0"
+                            data-interaction-context="" data-interaction-type="phone"
+                            data-interaction-name={{Number}}>
+                            <span class="cta-content">
+                                <span class="cta-text" tabIndex="-1">{{ctaText}}</span>
+                            </span>
+                        </a>                    
+                    {{else}}
+                    <a class="text-with-cta__column_makeaptcta {{#is ../isShipping "true"}}{{linkClass}}{{/is}}" href="{{ctaLink}}" tabindex="0">
+                        <span class="cta-content">
+                            <span class="cta-text" tabindex="-1">{{ctaText}}</span>
+                            <span class="icon-dropdown-right"></span>
+                        </span>                        
+                    </a>
+                    {{/if}}
+                {{/if}}
+
+                {{#is ctaType "dropahint"}}
+                    <tiffany-drop-hint dropahintlabel="{{drop-a-hint-label}}"></tiffany-drop-hint>
+                {{/is}}
+
+                {{#is ctaType "shippingreturns"}}
+                    <tiffany-shipping-cta></tiffany-shipping-cta>
+                {{/is}}
+                {{#is ctaType "sizeguide"}}
+                    <button type="button" class="text-with-cta__column_sizeguide" tabindex="0">
+                        <span class="cta-content">
+                            <span class="cta-text" tabindex="-1">{{ctaText}}</span>
+                            <span class="icon-dropdown-right"></span>
+                        </span>                        
+                    </button>
+                {{/is}}
+
+                {{#if ctaText2}}
+                    <p>
+                        <a class="text-with-cta__column_changestorecta" href="{{ctaLink2}}" target="{{ctaTarget2}}" tabindex="0">
+                            <span class="cta-content">
+                                <span class="cta-text" tabindex="-1">{{ctaText2}}</span>
+                            </span>
+                        </a>
+                    </p>
+                {{/if}}
+
+            </div>
+        {{/each}}
+    </div>
+    <tiffany-shipping-flyout config="shippingFlyoutConfig" />    
+</article>

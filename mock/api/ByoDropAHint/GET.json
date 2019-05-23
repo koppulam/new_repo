@@ -1,0 +1,114 @@
+{
+    "dropHint": {
+        "heading": "Drop a Hint",
+        "ariaLabelText": "",
+        "dropHintIcon": "",
+        "dropHintIconAltText": "",
+        "ariaLabels": {
+            "labelOne": "Close",
+            "labelTwo": "left arrow"
+        },
+        "fields": {
+            "recipientFirstName": {
+                "placeholder": "Recipients first name",
+                "maxLength": 16,
+                "mandatoryMessage": "Recipient's First Name is a mandatory field."
+            },
+            "recipientMail": {
+                "placeholder": "Recipient's Email",
+                "maxLength": 16,
+                "mandatoryMessage": "Recipient's Email is a mandatory field.",
+                "missMatchMessage": "Email should be of valid format."
+            },
+            "firstName": {
+                "placeholder": "Your First Name",
+                "maxLength": 16,
+                "mandatoryMessage": "Your First Name is a mandatory field."
+            },
+            "mail": {
+                "placeholder": "Your Email",
+                "maxLength": 16,
+                "mandatoryMessage": "Your Email is a mandatory field.",
+                "missMatchMessage": "Email should be of valid format."
+            }
+        },
+        "cta": {
+            "text": "SEND",
+            "method": "POST",
+            "url": "https://dev-api.tiffco.net/ibmdev/dev01/aememailsexperienceapi/api/experience/v1/aememails/dropahint",
+            "payload": {
+                "assortmentID": 101,
+                "siteId": 1,
+                "webCustomerId": "",
+                "designId": "280b4633c7914bab8a28fff656a3608b",
+                "senderName": "",
+                "senderEmail": "",
+                "recipientName": "",
+                "recipientEmail": "",
+                "DropAHintSource": "4",
+                "imageUrl": "",
+                "customDesignUrl": "",
+                "mailSubject": "{{%receiverName}},  Here's a little hint from {{%senderName}}"
+            }
+        },
+        "captcha": {
+            "heading": "Recaptcha",
+            "icon": {
+                "defaultSrc": "/content/dam/tiffany/re-captcha.png",
+                "altText": ""
+            },
+            "maxCta": 4,
+            "ctas": [
+                {
+                    "text": "Privacy",
+                    "link": "https://policies.google.com/privacy?hl=en",
+                    "target": "_blank"
+                },
+                {
+                    "text": "Terms",
+                    "link": "https://policies.google.com/privacy?hl=en",
+                    "target": "_blank"
+                }
+            ]
+        },
+        "thumbnails": {
+            "images": [
+                {
+                    "defaultSrc": "//media.tiffany.com/is/image/Tiffany/DAH_200x200_Thumb_4",
+                    "isLazyLoad": "true",
+                    "altText": "Dumy post card image",
+                    "ariaLabel": "Thumbnail 1 aria label",
+                    "preview": {
+                        "defaultSrc": "//media.tiffany.com/is/image/Tiffany/DAH_evergreen_mobile?hei=456?wid=456",
+                        "isLazyLoad": "true",
+                        "altText": "Some Image"
+                    }
+                },
+                {
+                    "defaultSrc": "https://media.tiffany.com/is/image/TiffanyDev/?layer=0&size=1734,1586&color=000000&opac=2&anchor=0,0&layer=10&src=24466841_975478_AP&pos=323.000,823.000&anchor=0,0&layer=11&src=36667346_1_FP&pos=0,380&anchor=0,0&layer=12&src=is{Tiffany/24466841_975478_AP?fmt=png-alpha&mask=clasp_mask_420_right}&pos=323.000,823.000&anchor=0,0&$BYOPreview$&hei=80&wid=80",
+                    "isLazyLoad": "true",
+                    "altText": "Dumy image",
+                    "ariaLabel": "Thumbnail 2 aria label",
+                    "preview": {
+                        "defaultSrc": "https://media.tiffany.com/is/image/TiffanyDev/?layer=0&size=1734,1586&color=000000&opac=2&anchor=0,0&layer=10&src=24466841_975478_AP&pos=323.000,823.000&anchor=0,0&layer=11&src=36667346_1_FP&pos=0,380&anchor=0,0&layer=12&src=is{Tiffany/24466841_975478_AP?fmt=png-alpha&mask=clasp_mask_420_right}&pos=323.000,823.000&anchor=0,0&$BYOPreview$&hei=456&wid=456",
+                        "isLazyLoad": "true",
+                        "altText": "Some Image"
+                    }
+                }
+            ],
+            "hint": "<div class=\"tiffany-rte\"><p>Dear RECIPIENT_NAME,<br/>Apparently SENDER_NAME has been daydreaming about this and we thought you’d definitely want to know. A hint from your friends at Tiffany.</p></div>",
+            "isHintRTE": true
+        },
+        "confirmation": {
+            "text": "Your message has been successfully sent!",
+            "showAll": {
+                "text": "See my sent hints",
+                "link": "/content/tiffany-n-co/www",
+                "target": "_blank"
+            }
+        },
+        "captchaConfig": {
+            "siteKey": "6LctKzMUAAAAANf0flHMfxcj9TIalrGl9yuM4I9G"
+        }
+    }
+}

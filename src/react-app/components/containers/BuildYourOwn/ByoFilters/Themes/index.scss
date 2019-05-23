@@ -1,0 +1,83 @@
+.themes-container {
+    margin-top: getUnitValue(0);
+    margin-right: getUnitValue(2);
+
+    &__preview {
+        width: 398px;
+        height: 100%;
+        padding-right: getUnitValue(7);
+
+        img {
+            max-height: getUnitValue(33);
+        }
+
+        @include MediaQueries($desktop-medium) {
+            display: none;
+        }
+    }
+
+    &__options {
+        @extend .tf-g;
+        height: getUnitValue(33);
+        flex-flow: column wrap;
+
+        &_wrapper {
+            @extend .cta;
+            .keyboard--focussed & {
+                &:focus {
+                    .themes-container__options_label {
+                        border: 1px solid $bondiBlue;
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        &_checkbox {
+            @extend .hide;
+
+            &--active {
+                @extend .hide;
+
+                .sub-list--selected & {
+                    @extend .display__inline-block;
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    background-color: $bondiBlue;
+                    position: absolute;
+                    left: -20px;
+                    top: 4px;
+                }
+            }
+        }
+
+        &_label {
+            position: relative;
+            cursor: pointer;
+            font-size: $font-size-12;
+            line-height: 18px;
+        }
+
+        &_count {
+            @include font($font-size-12, $font-weight-normal, $filter-gray, 2.33, 0.6px);
+            @include font-family($font_santral_regular);
+            margin-left: getUnitValue(1);
+            @include MediaQueries($desktop-tablet-and-above) {
+                position: relative;
+            }
+        }
+
+        &_item {
+            @include font($font-size-14, false, $black, 1.71, 0);
+            @include font-family($font_santral_regular);
+            margin-bottom: getUnitValue(1);
+            margin-right: getUnitValue(8);
+            white-space: nowrap;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

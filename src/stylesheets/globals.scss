@@ -1,0 +1,161 @@
+@import "_imports";
+@import "vendor";
+@import "modal";
+@import "toast";
+@import "material-input";
+@import "custom-checkbox";
+
+// reset css
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.modal__wrapper, .tiffany-inline-modal {
+    -webkit-overflow-scrolling: touch;
+
+    & > * {
+        pointer-events: all !important;
+    }
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-size: 16px;
+
+    @include MediaQueries($mobile) {
+        overflow-x: hidden;
+    }
+}
+ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+p {
+    @include font-family($font_santral_light);
+    font-size: $font-size-16;
+    line-height: 1.5;
+}
+
+ul li, ol li {
+    @include font-family($font_santral_light);
+    font-size: $font-size-16;
+    line-height: 1.5;
+}
+
+button, a {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+main:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    min-height: 1px; // blazy is crazy - not loading images if there is no alt text
+    min-width: 1px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.material-input {
+    @extend .input-field;
+    @include font($font-size-14, $font-weight-normal, $black, 1.71, false);
+
+    & > label {
+        @include font($font-size-14, $font-weight-light, $filter-gray, 1.71, false);
+        transform: translateY(6px);
+        @include font-family($font_santral_light);
+        pointer-events: none;
+
+        &:not(.label-icon).active {
+            @include font($font-size-10, $font-weight-normal, $filter-gray, false, 0);
+            transform: translateY(-14px);
+            @include font-family($font_santral_regular);
+        }
+    }
+
+    input.parsley-error{
+        box-shadow: none !important;
+        border-bottom: 1px solid $crimson-red !important;
+        color: $crimson-red;
+        caret-color: $black;
+    }
+    .parsley-error-list{
+        margin-top: getUnitValue(1);
+        li{
+            @include font($font-size-10, $font-weight-normal, $crimson-red, 1.6, 0);
+            @include font-family($font_santral_regular);
+        }
+    }
+}
+
+.tiffany-tooltip {
+    .information-text-component {
+        border: 1px solid transparent;
+    }
+    .keyboard--focussed & {
+        &:focus {
+            .information-text-component {
+                border: 1px solid $bondiBlue;
+            }
+        }
+    }
+}
+
+
+a {
+    &::after {
+        background: none;
+    }
+}
+
+.temp-select-width {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+}

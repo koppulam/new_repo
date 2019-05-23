@@ -1,0 +1,61 @@
+@font-face {
+    font-family: $font_sterling_display;
+    src:url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/28BE9D2ED224F761A.woff2') format('woff2'),url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/28BE9D2ED224F761A.woff') format('woff'),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/SterlingDisplay Roman.ttf") format("truetype");
+    font-weight: $font-weight-normal;
+    font-style: $font_style_normal;
+}
+
+@font-face {
+    font-family: $font_sterling_display;
+    src:url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/D9C3059284DF226D6.woff2') format('woff2'),url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/D9C3059284DF226D6.woff') format('woff');
+    font-weight: $font-weight-normal;
+    font-style: $font_style_italic;
+}
+
+@font-face{
+    font-family: $font_santral;
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/1ddb5582-a8f8-46b0-b7a9-3df14a5bc89d.eot?#iefix");
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/1ddb5582-a8f8-46b0-b7a9-3df14a5bc89d.eot?#iefix") format("eot"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/b4a84c70-ff6f-45d2-89c0-9d94369ebe03.woff2") format("woff2"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/0acba49e-a779-4427-b8dd-6739df1eee39.woff") format("woff"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/55104715-f529-451a-9a4c-e0c58faaa68b.ttf") format("truetype");
+    font-weight: $font-weight-bold;
+    font-style: $font_style_normal;
+}
+
+@font-face{
+    font-family: $font_santral;
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/9c8a9420-7062-4a0b-a944-0c11195dca30.eot?#iefix");
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/9c8a9420-7062-4a0b-a944-0c11195dca30.eot?#iefix") format("eot"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/3218b0c1-3588-481d-b813-0ac1c93e3547.woff2") format("woff2"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/829c3cc6-3901-4b89-b99e-0877b7a7ba67.woff") format("woff"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/a143092e-4b93-45db-89d8-241e1986b3d9.ttf") format("truetype");
+    font-weight: $font-weight-normal;
+    font-style: $font_style_normal;
+}
+
+@font-face{
+    font-family: $font_santral;
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/6d24cad4-78b8-438b-ba86-6981ee26b89a.eot?#iefix");
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/6d24cad4-78b8-438b-ba86-6981ee26b89a.eot?#iefix") format("eot"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/5f4c3fed-252b-4389-9953-0eb951318278.woff2") format("woff2"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/7a49e77a-ad94-4a5d-b2c9-224ef3ce497c.woff") format("woff"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/27a43598-4f2b-45a9-bb9c-38bd1c0626fc.ttf") format("truetype");
+    font-weight: $font-weight-600;
+    font-style: $font_style_normal;
+}
+
+@font-face{
+    font-family: $font_santral;
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/0ccf91b4-7997-4c52-8705-99466c1e682b.eot?#iefix");
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/0ccf91b4-7997-4c52-8705-99466c1e682b.eot?#iefix") format("eot"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/87802d34-0491-4469-81d5-644e0c41df3d.woff2") format("woff2"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/e55d63a0-3ce6-4ad1-9863-9f21d7b376a1.woff") format("woff"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/0bb3e45a-68e8-4d3b-8d19-b9eb3b309420.ttf") format("truetype");
+    font-weight: $font-weight-light;
+    font-style: $font_style_italic;
+}
+
+@font-face{
+    font-family: $font_santral;
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/4e01eac7-f8bb-4872-80cb-f1bfeb99b026.eot?#iefix");
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/4e01eac7-f8bb-4872-80cb-f1bfeb99b026.eot?#iefix") format("eot"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/3434236f-1863-4480-80df-e8b135a29ba8.woff2") format("woff2"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/7e9451f9-b1cb-4dd6-b3f6-5f2ec89759c1.woff") format("woff"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/154cf479-bbd6-4a3b-84b6-e899d028f23d.ttf") format("truetype");
+    font-weight: $font-weight-light;
+    font-style: $font_style_normal;
+}
+
+@font-face{
+    font-family: $font_santral;
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/0e4c0a37-2a25-4767-a860-1b7a5b399a7d.eot?#iefix");
+    src:url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/0e4c0a37-2a25-4767-a860-1b7a5b399a7d.eot?#iefix") format("eot"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/4baf1557-0d1b-4810-ab03-c138a14cd2d8.woff2") format("woff2"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/cbf70cc5-8e9d-4235-bf7a-8744f0551ca3.woff") format("woff"),url("/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/2eba881c-4149-46af-aea7-fafa3a94f5f0.ttf") format("truetype");
+    font-weight: $font-weight-600;
+    font-style: $font_style_italic;
+}

@@ -1,0 +1,138 @@
+{
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended"
+    ],
+    "parser": "babel-eslint",
+    "plugins": [
+        "flowtype"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "allowImportExportEverywhere": true,
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "r3_common": true,
+        "r3": true,
+        "RR": true,
+        "IS_DEV": true,
+        "AbortController": true,
+        "resyWidget": true
+    },
+    "rules": {
+        "flowtype/define-flow-type": 1,
+        "no-undef": 2,
+        "no-undef-init": 2,
+        "no-console": 0,
+        "no-tabs": 0,
+        "indent": [
+            2,
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "newline-after-var": [
+            "error",
+            "always"
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "args": "none"
+            }
+        ],
+        "max-len": 0,
+        "arrow-body-style": 0,
+        "linebreak-style": 0,
+        "no-param-reassign": [
+            2,
+            {
+                "props": false
+            }
+        ],
+        "arrow-parens": [
+            0,
+            "as-needed"
+        ],
+        "function-paren-newline": [
+            2,
+            "consistent"
+        ],
+        "strict": 0,
+        // Temporary
+        "operator-linebreak": 0,
+        "react/destructuring-assignment": 0,
+        "react/jsx-wrap-multilines": 0,
+        "react/no-access-state-in-setstate": 0,
+        "react/prop-types": 0,
+        "react/jsx-one-expression-per-line": 0,
+        // React Plugin
+        "react/jsx-indent": 4,
+        "react/jsx-indent-props": 4,
+        "valid-jsdoc": [
+            2,
+            {
+                "prefer": {
+                    "return": "returns"
+                },
+                "requireReturnDescription": true,
+                "requireParamDescription": true
+            }
+        ],
+        "require-jsdoc": [
+            "error",
+            {
+                "require": {
+                    "FunctionDeclaration": true,
+                    "MethodDefinition": true,
+                    "ClassDeclaration": true,
+                    "ArrowFunctionExpression": false,
+                    "FunctionExpression": false
+                }
+            }
+        ],
+        "react/prefer-stateless-function": 0,
+        "react/jsx-filename-extension": 0,
+        "react/forbid-prop-types": 0,
+        "class-methods-use-this": 0,
+        // "react/jsx-max-props-per-line": [2, { "maximum": 2, "when": "always" }],
+        // "react/jsx-closing-bracket-location": [2, "after-props"],
+        // Import Plugin
+        "import/extensions": 0,
+        "import/no-extraneous-dependencies": 0,
+        "import/no-unresolved": 0,
+        "import/no-named-default": 0,
+        "import/prefer-default-export": 1,
+        // jsx-a11y
+        // "jsx-a11y/label-has-for": 0
+        "jsx-a11y/label-has-for": [
+            2,
+            {
+                "components": [
+                    "Label"
+                ],
+                "required": {
+                    "every": [
+                        "id"
+                    ]
+                },
+                "allowChildren": false
+            }
+        ],
+        "react/no-danger": 0
+    }
+}

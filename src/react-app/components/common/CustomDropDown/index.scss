@@ -1,0 +1,119 @@
+.custom-dropdown {
+    position: relative;
+
+    .icon-dropdown-down, .icon-dropdown-up {
+        padding-left: 8px;
+        text-decoration: underline;
+        text-decoration-color: $white;
+    }
+
+    &_category {
+        margin-bottom: getUnitValue(5);
+
+        @include MediaQueries($desktop-and-below) {
+            margin-bottom: getUnitValue(2);
+        }
+
+        &_title {
+            @include font($font-size-14, false, $black, 1.5, false);
+            @include font-family($font_santral_regular, $important);
+            padding: 0;
+            cursor: pointer;
+
+            &:active {
+                border-bottom:1px solid $bondiBlue;
+            }
+            &:focus {
+                .keyboard--focussed & {
+                    border: 2px solid $bondiBlue;
+                }
+            }
+        }
+
+        .select-arrow::after {
+            @include MediaQueries($desktop-and-below) {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: getUnitValue(1);
+                margin-top: -4px;
+            }
+        }
+
+        &_options {
+            @include font-family($font_santral_light);
+            @extend .tiffany-blue-custom-scroll-bar;
+            position: absolute;
+            background: $white;
+            z-index: 1;
+            width: 100%;
+            max-height: 200px;
+
+            .scrollbar-container.ps {
+                height: inherit;
+                max-height: inherit;
+
+                .custom-dropdown_category_list {
+                    padding-left : getUnitValue(1);
+                }
+            }
+        }
+
+        &_label {
+            @include font($font-size-14, false, $black, 1.5, false);
+            background: transparent;
+            border: none;
+            @include font-family($font_santral_regular);
+            padding: 0;
+            padding-bottom: 16px;
+            cursor: pointer;
+
+            &:focus {
+                padding-top: 0;
+                border: 2px solid $bondiBlue;
+            }
+        }
+
+        &_list {
+            .keyboard--focussed & {
+                &:focus {
+                    padding-top: 0;
+                    border: 2px solid $bondiBlue;
+                }
+            }
+        }
+
+        &_select {
+            @include font($font-size-16, false, $black, 1.5, false);
+            @include font-family($font_santral_regular);
+            outline: none;
+            margin-left: -4px;
+            background: none;
+            border: none;
+            appearance: none;
+
+            &::-ms-expand {
+                display: none;
+            }
+        }
+
+        .custom-dropdown_body_category_select.default {
+            appearance: none;
+            border-bottom: 1px solid $gray;
+            @include MediaQueries($desktop-and-below) {
+               border: none;
+            }
+        }
+    }
+
+    &_selected {
+        &::before {
+            content: ".";
+            font-size: 40px;
+            vertical-align: super;
+            line-height: 1px;
+            color: $bondiBlue;
+            position: absolute;
+            left: -10px;
+        }
+    }
+}

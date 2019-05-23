@@ -1,0 +1,49 @@
+// ****************************************
+// Marketing-tile component
+// ****************************************
+
+.marketing-tile {
+
+    display: inline-block !important;
+    position: relative;
+    // max-width: getUnitValue($marketing-tile_width_multiple);
+
+    &__body {
+        position: relative;
+
+        &:hover {
+            border: none;
+        }
+
+        &_anchor {
+            .keyboard--focussed & {
+                &:focus {
+                    border: 1px solid $bondiBlue;
+                }
+            }
+        }
+
+        // a:focus{
+        //     outline: 1px solid $bondiBlue;
+        // }
+
+        &_image{
+            display: inline !important;
+            // max-width: getUnitValue($marketing-tile_width_multiple);
+            // max-height: getUnitValue($marketing-tile_height_multiple);
+        }
+    }
+
+    &__actions-bar {
+        bottom: getUnitValue(3);
+        padding-left: getUnitValue(2);
+        margin-top: getUnitValue(-6);
+
+        &_shop-cta{
+            font-size: $font-size-16;
+            @include font-family($font_santral_regular);
+            width: getUnitValue(8);
+            height: getUnitValue(3);
+        }
+    }
+}

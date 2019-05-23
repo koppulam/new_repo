@@ -1,0 +1,278 @@
+// Fonts
+$font_sterling_display_roman: 'SterlingDisplay Roman';
+$font_sterling_display_italic: 'SterlingDisplay Italic';
+$font_santral_bold: 'Taner Ardali - Santral Bold';
+$font_santral_bold_italic: 'Taner Ardali - Santral BoldItalic';
+$font_santral_regular: 'Taner Ardali - Santral Regular';
+$font_santral_regular_italic: 'Taner Ardali - Santral RegularItalic';
+$font_santral_semi_bold: 'Taner Ardali - Santral SemiBold';
+$font_santral_semi_bold_italic: 'Taner Ardali - Santral SemiBoldItalic';
+$font_santral_light: 'Taner Ardali - Santral-Light';
+$font_santral_light_italic: 'Taner Ardali - Santral-LightItalic';
+
+// Font Styles
+$font_style_normal: normal;
+$font_style_italic: italic;
+
+// Font Names(Only for mapping purpose)
+$font_sterling_display: 'Sterling Display A';
+$font_santral: 'Santral W01';
+//china fomnts
+$china-font-santral: Tahoma, Arial, Helvetica, 'Microsoft YaHei New', 'Microsoft Yahei', 微软雅黑, 宋体, SimSun, STXihei, 华文细黑, sans-serif;
+$china-font-sterling: 'Sterling Display A', 'Sterling Display B', NSimSun, 新宋体, STSong, 华文宋体, serif;
+
+//Japan Fonts
+$japan-font-santral: Meiryo, 'Arial Unicode MS', 'Hiragino Sans', 'Hiragino Kaku Gothic Std', 'MS Gothic', sans-serif;
+$japan-font-sterling: 'Sterling Display A', 'Sterling Display B', 'Hiragino Mincho ProN', ヒラギノ明朝 Pro W3, 'MS PMincho', 'MS PMing', serif;
+
+//Korea Fonts
+$korea-font-santral: 'Arial Unicode MS', Arial, GulimChe, 굴림체, 'Apple SD Gothic Neo', 애플SD 산돌고딕Neo, sans-serif;
+$korea-font-sterling: "Sterling SSm 3r", "Sterling SSm A", "Sterling SSm B", AppleMyungjo, Batang, 바탕, serif;
+
+//Russia Fonts
+$russia-font-santral: 'Noto Sans', sans-serif;
+$russia-font-sterling: 'Noto Serif', serif;
+
+//Hong Kong Fonts
+$hongkong-font-santral: 'Arial Unicode MS', Arial, Helvetica, 微正黑軟體, 'Microsoft JhengHei', STHeit, sans-serif;
+$hongkong-font-sterling: 'Sterling Display A', 'Sterling Display B', PMingLiU, 'Apple LiSung Light', serif;
+
+// tiffany fornt family
+$tiffany-icons-font-family: "tiffany-icons" !default;
+
+//! important
+$important: '!important';
+
+// Font Sizes
+// 1rem = 16px;
+// use https://www.ninjaunits.com/converters/pixels/pixels-rem/ to convert
+$font-size-8: 0.5rem;
+$font-size-9: 0.562rem;
+$font-size-10: 0.625rem;
+$font-size-12: 0.75rem;
+$font-size-14: 0.875rem;
+$font-size-16: 1rem;
+$font-size-18: 1.125rem;
+$font-size-20: 1.250rem;
+$font-size-22: 1.375rem;
+$font-size-24: 1.5rem;
+$font-size-32: 2rem;
+$font-size-40: 2.5rem;
+$font-size-48: 3rem;
+$font-size-56: 3.5rem;
+$font-size-64: 4rem;
+$font-weight-light: 300;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-weight-500: 500;
+$font-weight-600: 600;
+
+// line Height
+$line-height-16: 1;
+
+// Colors
+// Variables Name Tool `Name That Color`
+// http://chir.ag/projects/name-that-color/
+// Blues
+$blue: rgb(0, 0, 255); //#0000FF
+$tiffanyBlue: rgb(129, 216, 208); //#81d8d0;
+$tiffanyBlueAlmostOpaque: rgba(129, 216, 208, 0.9);
+$product-slider: rgb(0, 195, 202); //#00c3ca;
+$changeStore:rgb(0,120,197);//#0078c5
+$noSearchBold: rgb(56,125,162 ); //#387DA2
+$filterColorImageBorder: rgb(0, 195, 202); //#00c3ca;
+$bondiBlue: rgb(0, 164, 183); //#00a4b7
+$tiffanyGrayBackgroundBorder: rgba(0, 156, 173, 1); //#009CAD;
+$tiffantBgBlue: rgb(134, 202, 201); // #86cac9
+$tiffanyBackdrop: rgba(0, 0, 0, 0.1);
+$videoModalBackdrop: rgba(0, 0, 0, 0.25);
+$transparent:  rgba(0, 0, 0, 0);
+$tiffanyGrayBackgroundBorder: rgba(0, 156, 173, 1); //#009CAD;
+// Whites
+$white: rgb(255, 255, 255); //#ffffff;
+$whiteSmoke: rgb(245, 245, 245); //#f5f5f5;
+$dullWhite: rgb(229,229,229); //#e5e5e5
+// Gray
+$snow: rgb(250, 250, 250); //#fafafa;
+$whisper: rgb(228, 228, 228); //#e4e4e4;
+$dim-gray: rgb(112, 112, 112); //#707070;
+$mineshaft: rgb(56, 56, 56); // #383838
+$gray: rgb(126, 126, 126); // #7E7E7E
+$grayshade: rgba(0, 0, 0, 0.04);
+$grayshade-two: rgba(249,249,249,0);
+$boulder: rgb(118, 118, 118);//#767676;
+$filter-gray:rgb(118, 118, 118);//#767676;
+$icon-gray: rgb(118, 118, 118);//#767676;
+$greyNickel:rgb(181, 179, 173);//#b5b3ad
+$placeholder-gray: rgb(149, 149, 149); // #959595
+$suva-gray: rgb(147, 147, 147); // #939393
+$friar-gray: rgb(118, 118, 111); //#76766F
+$dusty-gray: rgb(149, 149, 149); //#959595
+
+//Blacks
+$black: rgb(0, 0, 0); //#000000;
+// Whites
+$white: rgb(255, 255, 255); // #FFFFF
+$warm-gray: rgb(151,151,151); //#979797
+$warm-gray-two: rgb(149,149,149); //#959595
+$dim-white: rgb(216,216,216); // #d8d8d8
+$dim-white-shade: rgba(216,216,216,0.4); // #d8d8d8
+// Red
+$red: rgb(255, 0, 0); // #ff0000
+$monza: rgb(208, 2, 27); //#D0021B
+$crimson-red: rgb(227, 31, 38); //#e31f26
+$clasp-red: rgba(208, 2, 27, 1); //#d0021b
+$venetian-red: rgb(191,7,17); //#BF0711
+
+// ****************************************
+// media-queries
+// ****************************************
+/*
+Mobile: Small
+min: 320 portrait
+max: 600 landscape
+
+Tablet: Medium
+601 - 800 portrait
+
+Tablet landscape / Desktop: Large
+801 - 900
+
+Desktop: xLarge
+901 - 1600
+*/
+
+// breakpoints
+$mq__iphone-se-min: 20em; // 20x16 = 320px
+$mq__xsmall: 30em; // 30x16 = 480px
+$mq__xsmall-min: ($mq__xsmall+0.0625); // 481px
+$mq__small: 37.5em; // 37.5x16 = 600px
+$mq__small-min: ($mq__small+0.0625); // 601px
+$mq__ipad-min: 47.938em; // 767px
+$mq__ipad: 48em; // 768px
+$mq__medium: 50em; // 50x16 = 800px
+$mq__medium-min: ($mq__medium+0.0625); // 801px
+$mq__large: 56.1875em; // 56.18x16 = 899px
+$mq__large-min: ($mq__large+0.0625); // 900px
+$mq__dlarge: 64em; // 64x16   = 1024px
+$mq__dlarge-min: ($mq__dlarge + 0.0625); // 64x16 + 1   = 1025px
+$mq__mlarge: 90em; // 90x16   = 1440px
+$mq__mlarge-min: ($mq__mlarge + 0.0625); // 90x16 + 1   = 1441px
+$mq__xlarge: 100em; // 100x16   = 1600px
+$mq__small-Max: 99.9375em; // 99.0375x16   = 1599px
+$screen: unquote("only screen");
+$internetExplorer: unquote("(-ms-high-contrast: none), (-ms-high-contrast: active)");
+$landscape: unquote("#{$screen} and (orientation: landscape)");
+$portrait: unquote("#{$screen} and (orientation: portrait)");
+$x-small: unquote("#{$screen} and (max-width: #{$mq__xsmall})");
+$small: unquote("#{$screen} and (min-width: #{$mq__xsmall-min}) and (max-width: #{$mq__small})");
+$mobile-small: unquote("#{$screen} and (max-width: #{$mq__iphone-se-min})");
+$mobile: unquote("#{$screen} and (max-width: #{$mq__small})");
+$below-ipad: unquote("#{$screen} and (max-width: #{$mq__ipad-min})");
+$ipad-and-above: unquote("#{$screen} and (min-width: #{$mq__ipad})");
+$tablet-and-below: unquote("#{$screen} and (max-width: #{$mq__medium})"); // < 800px
+$tablet-above: unquote("#{$screen} and (min-width: #{$mq__medium-min})");
+$tablet-medium-and-below: unquote("#{$screen} and (max-width: #{$mq__medium})");
+$tablet-large-and-below: unquote("#{$screen} and (max-width: #{$mq__large})");
+$tablet: unquote("#{$screen} and (min-width: #{$mq__small-min}) and (max-width: #{$mq__large})");
+$tablet-and-above: unquote("#{$screen} and (min-width: #{$mq__small-min})");
+$desktop-and-below: unquote("#{$screen} and (max-width: #{$mq__large})");
+$desktop-and-below-landscape: unquote("#{$screen} and (max-width: #{$mq__large}) and (orientation: landscape)");
+$desktop: unquote("#{$screen} and (min-width: #{$mq__medium-min}) and (max-width: #{$mq__large})");
+$desktop-medium: unquote("#{$screen} and (min-width: #{$mq__large-min}) and (max-width: #{$mq__mlarge})");
+$above-desktop-medium: unquote("#{$screen} and (min-width: #{$mq__mlarge-min})");
+$desktop-and-above: unquote("#{$screen} and (min-width: #{$mq__large-min})"); // > 899px
+$xlarge-and-below: $desktop-and-below;
+$xlarge: unquote("#{$screen} and (min-width: #{$mq__large-min}) and (max-width: #{$mq__xlarge})");
+$xlarge-and-above: unquote("#{$screen} and (min-width: #{$mq__large-min})");
+$retina: unquote("#{$screen} and (-webkit-min-device-pixel-ratio: 2), #{$screen} and (min--moz-device-pixel-ratio: 2), #{$screen} and (-o-min-device-pixel-ratio: 2/1), #{$screen} and (min-device-pixel-ratio: 2), #{$screen} and (min-resolution: 192dpi), #{$screen} and (min-resolution: 2dppx)");
+$between-desktop-tablet: unquote("#{$screen} and (min-width: #{$mq__medium-min}) and (max-width: 64em)"); // 800px - 1024px
+$above-tablet-and-below-desktop: unquote("#{$screen} and (min-width: #{$mq__large-min}) and (max-width: 64em)"); // 900px - 1024px
+$tablet-and-between-desktop-tablet: unquote("#{$screen} and (min-width: #{$mq__small-min}) and (max-width: 64em)"); // 601px - 1024px
+$below-desktop-tablet: unquote("#{$screen} and (max-width: 63.938em)"); // <1024px
+$desktop-tablet-and-above: unquote("#{$screen} and (min-width: 64em)"); // >=1024px
+$tablet-max: unquote("#{$screen} and (max-width: 79.938em)"); // < 1279px
+$desktop-tablet-above-and-tablet-max: unquote("#{$screen} and (min-width: 64em) and (max-width: 79.938em)"); // 1024px - 1279px
+$desktop-min: unquote("#{$screen} and (min-width: 80em)"); // http://gs.statcounter.com/screen-resolution-stats/desktop/worldwide
+$small: unquote("#{$screen} and (max-width: 20em)");
+$desktop-tablet-landscape: unquote("#{$screen} and (min-width: 64em) and (max-width: #{$mq__small-Max})"); // 1024px - 1599px
+$above-desktop-tablet-landscape: unquote("#{$screen} and (min-width: #{$mq__dlarge-min}) and (max-width: #{$mq__small-Max})"); // 1025px - 1599px
+$above-large-desktop: unquote("#{$screen} and (min-width: #{$mq__xlarge})"); // > 1600px
+$desktop-above-medium: unquote("#{$screen} and (min-width: #{$mq__mlarge})"); // > 1440px
+$desktop-below-medium: unquote("#{$screen} and (max-width: #{$mq__mlarge})"); // < 1440px
+$desktop-and-tablet-max: unquote("#{$screen} and (min-width: 56.20em) and (max-width: 82.875em)"); // 900px - 1326px
+$desktop-tablet-above-and-mini-desktop: unquote("#{$screen} and (min-width: #{$mq__large}) and (max-width: 79.938em)"); // 899px - 1279px
+$print: unquote("print");
+$circle-tile-multiple :46;
+$product-tile_multiple: 41;
+$product-tile-mobile_multiple: 40;
+$marketing-tile_width_multiple: 41;
+$marketing-tile_height_multiple: 51;
+$carousel_mobile_break: 667px;
+$carousel_ipad_break: 767px;
+$carousel_tablet_break: 1024px;
+$carousel_desktop_break: 1440px;
+$pdp_tablet_break: 899px;
+$marketing_mobile_break: 899px;
+$desktop_max_break: 1600px;
+
+// global paddings
+$padding-multiple: 8px;
+
+//modal zIndex
+$modal-maxZIndex: 99;
+$back-to-top-zIndex: 98;
+$component-mini-modal-zIndex: 9;
+$header-zIndex: 20;
+$inline-modal-zIndex: 3;
+$byo-modal-maxZIndex: 100;
+$toast-zIndex: 101;
+$inline-modal-zIndex-mobile: 105;
+$istatus-flyout-zIndex: 9;
+$maxZIndex: 999;
+$quantity-count-delay: 150;
+
+// Variables related to materialize input
+$placeholder-text-color: $boulder;
+$input-border: 1px solid $black;
+$input-border-color: $boulder;
+$input-height : $font-size-16;
+$input-font-size : $font-size-14;
+$input-margin: 0;
+$input-padding: 6px 0;
+$input-disabled-color: $dim-gray;
+$input-disabled-border: $dim-gray;
+$input-focus-color: $black;
+$input-success-color: $black;
+$input-error-color: $red;
+$input-invalid-border: 1px solid $red;
+$gutter-width: 16px;
+$input-icon-size: $font-size-16;
+$medium-and-down: $desktop-and-below;
+$small-and-down: $tablet-and-below;
+$input-background: $transparent;
+$input-focus-border-color: $transparent;
+$dropdown-item-height: 42px;
+$byo-transition-time: 400ms;
+
+// Default Variables
+
+// Slick icon entity codes outputs the following
+// "\2190" outputs ascii character "←"
+// "\2192" outputs ascii character "→"
+// "\2022" outputs ascii character "•"
+
+$slick-font-path: "./fonts/" !default;
+$slick-font-family: "tiffany-icons" !default;
+$slick-loader-path: "./" !default;
+$slick-arrow-color: $black !default;
+$slick-arrow-color-new: #767676;
+$slick-dot-color: #959595 !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\e91c" !default;
+$slick-next-character: "\e922" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 30px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0 !default;

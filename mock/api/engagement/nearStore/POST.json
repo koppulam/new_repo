@@ -1,0 +1,161 @@
+{
+    "resultDto": [
+        {
+            "store": {
+                "storeId": 682,
+                "companyId": 1,
+                "storeName": "New York-5th Avenue",
+                "address1": "727 Fifth Avenue ",
+                "address2": "Between Fifth Avenue and 57th Street",
+                "address3": "",
+                "city": "New York",
+                "region": "NY",
+                "postalCode": "10022",
+                "country": "United States",
+                "phone": "212 755 8000",
+                "email": "newyork-5th-avenue@tiffany.com",
+                "extraInformation": "The Blue Box Cafe is located on the fourth floor. 212 605 4270<br><br>  Mon.–Sat.: 10:00AM–5:30PM *Last seating is at 5:30PM. <br>  Sun.: 12:00PM–4:30PM *Last seating is at 4:30PM.<br><br>  <a class=\"mobile\" href=\"/Mobile/Locations/EventDetail.aspx?eventid=1063#\">Learn More</a>  <a class=\"desktop\" href=\"/Locations/EventDetail.aspx?eventid=1063#\">Learn More</a>      <br><style> dateLocation{display:none}</style><br><style> dateLocation{display:none}</style>      ",
+                "searchKeywords": "212 755 8000|central park|NYC|Tiffany Cafe|Tiffany blue box cafe|Cafe|breakfast at Tiffany|5th avenue café",
+                "storePhoto": "/shared/images/Stores/727store.jpg",
+                "visibleDate": "2008-08-01T00:00:00",
+                "geoCodeLattitude": "40.7629678",
+                "geoCodeLongitude": "-73.97395670000003",
+                "dateCreated": "2008-09-12T14:39:51.22",
+                "dateLastModified": "2018-10-31T08:01:54.003",
+                "storeNumber": 1,
+                "mapLevel": 1,
+                "useCustomGeoCode": true,
+                "storePriorityTypeId": 1,
+                "mipsstoreNumber": "1",
+                "isocountryCode": 840,
+                "flagshipStoreUrl": "",
+                "aboutThisStore": "",
+                "isFlagshipStore": false,
+                "storeSiteAttributes": []
+            },
+            "storeHours": [
+                {
+                    "storeId": 682,
+                    "storeHourTypeId": 1,
+                    "storeHours": "<br>Mon.-Sat.: 10:00AM - 7:00PM<br>Sun.: 12:00PM - 6:00PM<br><br> July 4th Store Hours<br>12:00 PM – 6:00 PM<br>",
+                    "storeHrSiteAttributes": []
+                },
+                {
+                    "storeId": 682,
+                    "storeHourTypeId": 2,
+                    "storeHours": "",
+                    "storeHrSiteAttributes": []
+                }
+            ],
+            "storeServices": [
+                {
+                    "storeID": 682,
+                    "storeServiceTypeId": 2,
+                    "storeServiceTypeDisplayName": "Online Appointment Booking",
+                    "storeConsultationEmail": "personal.shopping@tiffany.com",
+                    "isDefaultStoreService": false,
+                    "isAtThisLocationService": false,
+                    "appointmentTypeID": 2,
+                    "isAvailable": true
+                },
+                {
+                    "storeID": 682,
+                    "storeServiceTypeId": 5,
+                    "storeServiceTypeDisplayName": "In-Store Pick Up",
+                    "storeConsultationEmail": "",
+                    "isDefaultStoreService": false,
+                    "isAtThisLocationService": false,
+                    "isAvailable": true
+                },
+                {
+                    "storeID": 682,
+                    "storeServiceTypeId": 6,
+                    "storeServiceTypeDisplayName": "Personal Shopping",
+                    "isDefaultStoreService": false,
+                    "isAtThisLocationService": false,
+                    "isAvailable": true
+                },
+                {
+                   "storeID": 682,
+                    "storeServiceTypeId": 7,
+                    "storeServiceTypeDisplayName": "Jewelry and Gift Engraving",
+                    "isDefaultStoreService": false,
+                    "isAtThisLocationService": false,
+                    "isAvailable": true
+                },
+                {
+                    "storeID": 682,
+                    "storeServiceTypeId": 8,
+                    "storeServiceTypeDisplayName": "Leather Embossing & Monogramming",
+                    "isDefaultStoreService": false,
+                    "isAtThisLocationService": false,
+                    "isAvailable": true
+                },
+                {
+                    "storeID": 682,
+                    "storeServiceTypeId": 9,
+                    "storeServiceTypeDisplayName": "Glass and Crystal Etching",
+                    "isDefaultStoreService": false,
+                    "isAtThisLocationService": false,
+                    "isAvailable": true
+                },
+                {
+                    "storeID": 682,
+                    "storeServiceTypeId": 1,
+                    "storeServiceTypeDisplayName": "Watch Repair & Sales",
+                    "isDefaultStoreService": true,
+                    "isAtThisLocationService": false,
+                    "isAvailable": true
+                },
+                {
+                    "storeID": 682,
+                    "storeServiceTypeId": 3,
+                    "storeServiceTypeDisplayName": "Real Time Inventory",
+                   "isDefaultStoreService": false,
+                    "isAtThisLocationService": false,
+                    "isAvailable": true
+                }
+            ],
+            "storeSeoAttributes": [
+                {
+                    "storeId": 682,
+                    "siteId": 1,
+                    "pageTitle": "New York 5th Avenue Jewelry Store",
+                    "pageH1tag": "New York 5th Avenue Jewelry Store",
+                    "description": "Shop Tiffany & Co. New York-5th Avenue - the world's premier jeweler since 1837. Discover the finest selection of diamond jewelry, engagement rings, and gifts.",
+                    "canonicalTagUrl": "",
+                    "metaKeywords": "",
+                    "canonicalUrlkeyword": "new-york-5th-avenue"
+                }
+            ],
+            "events": [
+                {
+                    "siteId": 1,
+                    "events": [
+                        {
+                            "eventId": 1063,
+                            "storeId": 682,
+                            "title": "The Blue Box Cafe",
+                            "eventStartDatetime": "2017-11-10T00:00:00",
+                            "visibleStartDatetime": "2017-11-09T16:00:00",
+                            "visibleEndDatetime": "2025-11-10T09:00:00",
+                            "description": "<div class=\"container\">  <div class=\"store-event-details__wrapper\">      <div class=\"store-event-details__rte\">          <h2 class=\"heading\">The Blue Box Cafe</h2>          <div itemscope itemtype=\"https://schema.org/Restaurant\"> <br> <span itemprop=\"description\"> Tiffany is proud to present The Blue Box Cafe, located on the 4th floor of our New York flagship store. Serving American classics made with the highest quality, regionally sourced ingredients, the menu will evolve through the seasons for a refined take on signature New York dishes reinvented to be uniquely Tiffany. </span> <br> <br> <span itemprop=\"openingHours\" content=\"Mo-Sa 10:00-17:30\"> Monday – Saturday 10:00AM – 5:30PM <br> Last seating at 5:30PM </span> <br> <br> <span itemprop=\"openingHours\" content=\"Su 12:00-16:30\"> Sunday 12:00PM – 4:30PM<br> Last seating at 4:30PM </span>              <div itemprop=\"address\" itemscope itemtype=\"https://schema.org/PostalAddress\"> 727 Fifth Avenue <br> New York, NY 10022 </div>          </div> <a href=\"#\" class=\"btn\" id=\"resyButton-jqboqqn8\" data-interaction-context data-interaction-type=\"make-reservation\">MAKE A RESERVATION</a> <br> <br>          <div itemprop=\"address\" itemscope itemtype=\"https://schema.org/PostalAddress\"> For more information,<br> please contact <span itemprop=\"telephone\" content=\"+2126054270\">212 605 4270</span> <br> Reservations are available exclusively through Resy. <br> We are unable to accommodate reservations made by phone. </div>      </div>      <div class=\"store-event-details__image\"> <img src=\"http://media.tiffany.com/is/image/Tiffany/mobile-event1063\" style=\"width:100%\" class=\"mobile\"> </div>  </div>  <script>      var noClick = document.querySelector(\".text-container\");      if (noClick != null) {          noClick.className += \" no-click\";      }      resyWidget.config({          \"venueId\": 1814,          \"apiKey\": \"appCl6pM0QHDUIXoD5cE0JS8QasVWDJH\",          \"replace\": true      });      document.querySelector(\"#resyButton-jqboqqn8\").addEventListener(\"click\", openResy);        function openResy() {          resyWidget.openModal();      }  </script>  </div>",
+                            "showMarketingLink": false,
+                            "marketingLinkText": "",
+                            "marketingLinkUrl": "",
+                            "showRsvpLink": false,
+                            "rsvpEmail": "",
+                            "imagePath": "/Events/Detail/detail_1063.jpg",
+                            "dateCreated": "2017-11-02T18:08:41.207",
+                            "dateLastModified": "2018-10-31T08:01:34.317",
+                            "eventStartTime": "",
+                            "eventTimeZone": "Eastern Standard Time",
+                            "shortDescription": "Tiffany is proud to present The Blue Box Cafe, located on the 4th floor of our New York flagship store. ",
+                            "eventSiteAttributes": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

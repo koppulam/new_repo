@@ -1,0 +1,274 @@
+<div class="tiffany-aem">
+    {{> sign-out}}
+    <footer class="footer app-js__footer row">
+        {{#with footer.footerData}}
+        <div class="footer__line-1">
+        </div>
+        <div class="footer__top-wrapper">
+            <div class="footer__top-wrapper_left-wrapper mobile-footer">
+                <div class="footer__top-wrapper_left-wrapper_col">
+                    {{#if isDrawer}}
+                    {{#each link-column-mobile}}
+                    <div class="{{#is @index 0}}first-drawer{{/is}}">
+                        {{> link-list linkList = this id = @index}}
+                    </div>
+                    {{/each}}
+                    {{else}}
+                    {{#each noDrawerList}}
+                    <h4 class="link-list__container_title noDrawer">
+                        <a href="{{url}}" class="cta-content" {{#if newTab}}target="_blank"{{/if}}>{{label}}</a>
+                    </h4>
+                    {{/each}}
+                    {{/if}}
+                </div>
+            </div>
+            <div class="footer__top-wrapper_left-wrapper desktop-footer">
+                {{#each link-column-desktop}}
+                <div class="footer__top-wrapper_left-wrapper_col">
+                    {{> link-list linkList = this id1 = @index }}
+                </div>
+                {{/each}}
+            </div>
+            <div class="footer__top-wrapper_right-wrapper">
+                <input type="checkbox" class="css-dropdown__trigger" id="footer-email" {{#if active}}checked{{/if}}/>
+                    <label class="css-dropdown__text-button {{checkboxClassName}}" aria-label="{{label}}" for="footer-email">
+                <h4 class="footer__top-wrapper_right-wrapper_title">
+                    {{email-column.title}}
+                </h4>
+                <span class="css-dropdown__arrow icon-Down"></span>
+                </label>
+
+                <form class="css-dropdown__content">
+                    <p class="footer__top-wrapper_right-wrapper_desc">
+                        {{email-column.desc}}
+                    </p>
+                    <div class="footer__top-wrapper_right-wrapper_email-wrapper material-input">
+                        <input class="footer__top-wrapper_right-wrapper_email-wrapper_email-input" name="UserEmail" id="UserEmail" type="email" autocomplete="email" required/>
+                        <label for="UserEmail" class="footer__top-wrapper_right-wrapper_email-wrapper_email-label">Enter your e-mail address</label>
+                    </div>
+
+                    <button type="submit" class="footer__top-wrapper_right-wrapper_signup-button btn btn--outline" data-url="{{email-cta.ctaLink}}" title="{{email-cta.ctaText}}" {{#if email-cta.newTab}}target="_blank"{{/if}} rel="noopener noreferrer" tabindex="0">
+                        {{email-cta.ctaText}}
+                    </button>
+                </form>
+                <div class="footer__bottom-wrapper_right-container_item" tabindex="-1" aria-label="{{logo.label}}">
+                    {{#each social-links}}
+                    <div class="footer__bottom-wrapper_right-container_item_social-icons" aria-label="{{../logo.label}}">
+                        {{#if isWeChat}}
+                            <button type="button" aria-label="{{label}} "title="{{label}}" tabindex="0" class="footer__wechat cta">
+                                <span class="cta-content hover-cta">
+                                    <img src="{{icon}}" alt="{{label}}" />
+                                </span>
+                            </button>
+                            <div class="footer__overlay">
+                                <div class="footer__overlay_popup">
+                                    <button type="button" class="footer__overlay_popup_close cta" aria-label="Click to close popup">
+                                        <img src="./icons/close.svg" alt="Close image" />
+                                    </button>
+                                    <div class="footer__popup-container">
+                                        <span class="footer__popup-container_title">{{popUpData.logoTitle}}</span>
+                                        <div class="footer__popup-container_qrcode">
+                                            <img src="{{popUpData.QRCodeImage}}" alt="{{popUpData.QRCodeImageAlt}}" ></img>
+                                        </div>
+                                        <span class="footer__popup-container_desc">{{popUpData.desc}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {{else}}
+                            <a href="{{logo.cta.ctaLink}}" aria-label="{{label}} "title="{{label}}" {{#if logo.cta.newTab}}target="_blank" {{/if}} tabindex="0" class="cta">
+                                <span tabindex="-1" class="cta-content hover-cta">
+                                    <img src="{{icon}}" alt="{{label}}" />
+                                </span>
+                            </a>
+                        {{/if}}
+                    </div>
+                    {{/each}}
+                </div>
+            <div class="china-desktop" >
+                {{#is china-text1.show}}
+                <div class="footer-policies-data">
+                    <a href="{{china-text1.ctaLink}}" {{#if china-text1.newTab}}target="_blank"{{/if}} aria-label="{{china-text1.text}}">
+                        <span class="bottom-image">
+                            <img src="{{china-text1.icon}}" alt="{{china-text1.alttext}}" />
+                        </span>
+                        <span>{{china-text1.text}}</span>
+                    </a>
+                </div>
+                {{/is}}
+                {{#is china-text2.show}}
+                <div class="footer-policies-data">
+                    <a href="{{china-text2.ctaLink}}" {{#if china-text1.newTab}}target="_blank"{{/if}} aria-label="{{china-text2.text}}">
+                        <span class="bottom-image">
+                            <img src="{{china-text2.icon}}" alt="{{china-text2.alttext}}" />
+                        </span>
+                        <span>{{china-text2.text}}</span>
+                    </a>
+                </div>
+                {{/is}}
+                {{#is china-text3.show}}
+                <div class="footer-policies-data">
+                    <a href="{{china-text3.ctaLink}}" {{#if china-text3.newTab}}target="_blank"{{/if}} aria-label="{{china-text3.text}}">
+                        <span class="bottom-image">
+                            <img src="{{china-text3.icon}}" alt="{{china-text3.alttext}}" />
+                        </span>
+                        <span>{{china-text3.text}}</span>
+                    </a>
+                </div>
+                {{/is}}
+            </div>
+
+            </div>
+        </div>
+        <div class="footer__bottom-wrapper">
+            <div class="footer__bottom-wrapper_container">
+                <div class="footer__bottom-wrapper_left-container">
+                    <div class="css-dropdown__text-button {{checkboxClassName}} footer__bottom-wrapper_left-container_toggle hover-cta" tabindex="0" role="button" aria-expanded="false">
+                        <label for="footer-global" class="footer__bottom-wrapper_left-container_title">
+                            {{location-column.label}}
+                        </span>
+                        <span class="css-dropdown__arrow icon-Dropdown footer__bottom-wrapper_left-container_arrow"></span>
+                    </div>
+                    <div class="choose-country">
+                        <div class="choose-country__container">
+                            <input type="checkbox" class="css-dropdown__trigger choose-country__container_checkbox" id="footer-global" {{#if active}}checked{{/if}}/>
+                            <div class="css-dropdown__content choose-country__content hide">
+                                {{#each location-dropDown}}
+                                    <div class="choose-country__bottom-wrapper">
+                                        {{> link-list linkList = this id=@index type="choose-country" }}
+                                    </div>
+                                {{/each}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom-wrapper_middle-container">
+                    <span class="footer__bottom-wrapper_middle-container_logo" tabindex="-1" class="cta-content">
+                        {{logo.desktopIcon}}
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom-wrapper_right-container mobile-social-links">
+            <div class="footer__bottom-wrapper_right-container_item" tabindex="-1" aria-label="{{logo.label}}">
+                {{#each social-links}}
+                <div class="footer__bottom-wrapper_right-container_item_social-icons" aria-label="{{../logo.label}}">
+                    {{#if isWeChat}}
+                        <button type="button" aria-label="{{label}} "title="{{label}}" tabindex="0" class="footer__wechat cta">
+                            <img src="{{icon}}" alt="{{label}}" />
+                        </button>
+                        <div class="footer__overlay">
+                            <div class="footer__overlay_popup">
+                                <button type="button" class="footer__overlay_popup_close cta" aria-label="Click to close popup">
+                                    <img src="./icons/close.svg" alt="Close image" />
+                                </button>
+                                <div class="footer__popup-container">
+                                    <span class="footer__popup-container_title">{{popUpData.logoTitle}}</span>
+                                    <div class="footer__popup-container_qrcode">
+                                        <img src="{{popUpData.QRCodeImage}}" alt="{{popUpData.QRCodeImageAlt}}" ></img>
+                                    </div>
+                                    <span class="footer__popup-container_desc">{{popUpData.desc}}</span>
+                                </div>
+                            </div>
+                        </div>
+                        {{else}}
+                        <a href="{{logo.cta.ctaLink}}" aria-label="{{label}} "title="{{label}}" {{#if logo.cta.newTab}}target="_blank" {{/if}} tabindex="0" class="cta">
+                            <span tabindex="-1" class="cta-content">
+                                <img src="{{icon}}" alt="{{label}}" />
+                            </span>
+                        </a>
+                        {{/if}}
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        <div class="choose-country">
+            <div class="choose-country__container">
+                <input type="checkbox" class="css-dropdown__trigger" id="footer-global" {{#if active}}checked{{/if}}/>
+                    <div class="css-dropdown__content choose-country__content">
+                {{#each location-dropDown}}
+                <div class="choose-country__bottom-wrapper">
+                    {{> link-list linkList = this id=@index type="choose-country" }}
+                </div>
+                {{/each}}
+            </div>
+        </div>
+</div>
+<div class="footer__bottom-wrapper_right-container mobile-social-links">
+    <div class="footer__bottom-wrapper_right-container_item" tabindex="-1" aria-label="{{logo.label}}">
+        {{#each social-links}}
+        <div class="footer__bottom-wrapper_right-container_item_social-icons" aria-label="{{../logo.label}}">
+            {{#if isWeChat}}
+            <button type="button" aria-label="{{label}} "title="{{label}}" tabindex="0" class="footer__wechat cta">
+                <img src="{{icon}}" alt="{{label}}" />
+            </button>
+            <div class="footer__overlay">
+                <div class="footer__overlay_popup">
+                    <button type="button" class="footer__overlay_popup_close" aria-label="Click to close popup">
+                        <span class="cta-content hover-cta">
+                            <img src="./icons/close.svg" alt="Close image" />
+                        </span>
+                    </button>
+                    <div class="footer__popup-container">
+                        <span class="footer__popup-container_title">{{popUpData.logoTitle}}</span>
+                        <div class="footer__popup-container_qrcode">
+                            <img src="{{popUpData.QRCodeImage}}" alt="{{popUpData.QRCodeImageAlt}}" ></img>
+                        </div>
+                        <span class="footer__popup-container_desc">{{popUpData.desc}}</span>
+                    </div>
+                </div>
+            </div>
+            {{else}}
+            <a href="{{logo.cta.ctaLink}}" aria-label="{{label}} "title="{{label}}" {{#if logo.cta.newTab}}target="_blank" {{/if}} tabindex="0" class="cta-underline cta">
+                <span tabindex="-1" class="cta-content">
+                    <img src="{{icon}}" alt="{{label}}" />
+                </span>
+            </a>
+            {{/if}}
+        </div>
+        {{/each}}
+    </div>
+</div>
+<div class="footer__bottom-wrapper_middle-container mobile-logo">
+    <span class="footer__bottom-wrapper_middle-container_logo" tabindex="-1" class="cta-content">
+        {{logo.desktopIcon}}
+    </span>
+</div>
+{{/with}}
+{{#with footer.china-text}}
+<div class="footer__bottom-wrapper_right-container_item china-mobile">
+    {{#if china-text1.show}}
+    <div class="footer-policies-data">
+        <a href="{{china-text1.ctaLink}}" {{#if china-text1.newTab}}target="_blank"{{/if}} aria-label="{{china-text1.text}}">
+            <span class="bottom-image">
+                <img src="{{china-text1.icon}}" alt="{{china-text1.alttext}}" />
+            </span>
+            <span>{{china-text1.text}}</span>
+        </a>
+    </div>
+    {{/if}}
+    {{#if china-text2.show}}
+    <div class="footer-policies-data">
+        <a href="{{china-text2.ctaLink}}" {{#if china-text1.newTab}}target="_blank"{{/if}} aria-label="{{china-text2.text}}">
+            <span class="bottom-image">
+                <img src="{{china-text2.icon}}" alt="{{china-text2.alttext}}" />
+            </span>
+            <span>{{china-text2.text}}</span>
+        </a>
+    </div>
+    {{/if}}
+    {{#if china-text3.show}}
+    <div class="footer-policies-data">
+        <a href="{{china-text3.ctaLink}}" {{#if china-text3.newTab}}target="_blank"{{/if}} aria-label="{{china-text3.text}}">
+            <span class="bottom-image">
+                <img src="{{china-text3.icon}}" alt="{{china-text3.alttext}}" />
+            </span>
+            <span>{{china-text3.text}}</span>
+        </a>
+    </div>
+    {{/if}}
+</div>
+{{/with}}
+</footer>
+</div>

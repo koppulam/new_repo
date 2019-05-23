@@ -1,0 +1,133 @@
+{
+    "eligibleEngravings": {
+        "url": "api/engraving/eligibleEngravings",
+        "url1": "https://dev-api.tiffco.net/ibmdev/dev01/servicingssystemapi/api/system/v1/servicings/item/services",
+        "method": "post",
+        "payload": {
+            "assortmentId": "101",
+            "siteId": "1",
+            "priceMarketId": "1",
+            "Sku": "60879729"
+        }
+    },
+    "custom": {
+        "label": "Custom Engraving",
+        "component": "CUSTOM_COMPONENT",
+        "heading": "Copy to explain custom engravings",
+        "orderBy": "3",
+        "options": [
+            {
+                "thumbnail": {
+                    "altText": "Earring custom engrave",
+                    "defaultSrc": "http://test1-aem.edev.tiffany.com:8080/content/dam/tiffany/images/product-images/2x2-images/20140417_CB_Earrings_Tile3_Spring_2x2Promo_US_CA_UK_AU_EU_INTL_earrings_perfect_together_2x2.png",
+                    "hiddenOnError": true
+                },
+                "preview": {
+                    "altText": "",
+                    "defaultSrc": "http://test1-aem.edev.tiffany.com:8080/",
+                    "hiddenOnError": true
+                },
+                "heading": "",
+                "description": "",
+                "isDescriptionRTE": false
+            },
+            {
+                "thumbnail": {
+                    "altText": "Tiffany Pearl Engraving",
+                    "defaultSrc": "http://test1-aem.edev.tiffany.com:8080/content/dam/tiffany/images/product-images/2x2-images/20131020_MC_Tiffany_Pearls_2x2Promo_US_UK_CA_AU_EU_INTL_Tiffany_Pearls_collection_2x2.png",
+                    "hiddenOnError": true
+                },
+                "preview": {
+                    "altText": "",
+                    "defaultSrc": "http://test1-aem.edev.tiffany.com:8080/",
+                    "hiddenOnError": true
+                },
+                "heading": "",
+                "description": "",
+                "isDescriptionRTE": false
+            },
+            {
+                "thumbnail": {
+                    "altText": "Ring custom engrave",
+                    "defaultSrc": "http://test1-aem.edev.tiffany.com:8080/content/dam/tiffany/images/product-images/2x2-images/20131114_CB_Key_Rings_Browse_Grid_Tile01_2x2Promo_US_v1_Key_Rings_Charming_Suprises_2x2.png",
+                    "hiddenOnError": true
+                },
+                "preview": {
+                    "altText": "",
+                    "defaultSrc": "http://test1-aem.edev.tiffany.com:8080/",
+                    "hiddenOnError": true
+                },
+                "heading": "",
+                "description": "",
+                "isDescriptionRTE": false
+            },
+            {
+                "thumbnail": {
+                    "altText": "Earring custom engrave",
+                    "defaultSrc": "http://test1-aem.edev.tiffany.com:8080/content/dam/tiffany/images/product-images/2x2-images/20150331_CB_CRM_Wedding_Bands2_2x2Promo_US_20150331_Wedding_Bands_2x2_v2.png",
+                    "hiddenOnError": true
+                },
+                "preview": {
+                    "altText": "",
+                    "defaultSrc": "http://test1-aem.edev.tiffany.com:8080/",
+                    "hiddenOnError": true
+                },
+                "heading": "",
+                "description": "",
+                "isDescriptionRTE": false
+            }
+        ],
+        "helpConfig": {
+            "informationTextRTE": "<div class='tiffany-rte'><p>See it in Store or Call <span class=\"text-phnumber\">567889999999</span></p>\r\n</div>",
+            "telephoneNumber": "800-843-32690"
+        },
+        "cta": {
+            "text": "Go to home",
+            "link": "http://dev1-aem.edev.tiffany.com:8080/home/",
+            "target": ""
+        }
+    },
+    "previewConfig": {
+        "sources": [],
+        "defaultSrc": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-charmstag-60879729_982868_ED.jpg?&op_usm=2.0,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&",
+        "isLazyLoad": true,
+        "altText": "Tiffany Charms:Tag",
+        "customClass": "product-preview-image",
+        "smallImage": {
+            "src": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-charmstag-60879729_982868_ED.jpg?&op_usm=2.0,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&",
+            "additionalProperties": {}
+        },
+        "largeImage": {
+            "src": "//media.tiffany.com/is/image/TiffanyDev/EcomItemL/tiffany-charmstag-60879729_982868_ED.jpg?&op_usm=2.0,1.0,6.0&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&",
+            "width": 2000,
+            "height": 2000,
+            "additionalProperties": {}
+        },
+        "additionalProperties": {}
+    },
+    "customActions": {
+        "calls": [
+            {
+                "addToCartConfig": {
+                    "currency": "$",
+                    "mysid2Life": 7300,
+                    "method": "post",
+                    "payload": {
+                        "assortmentId": 101,
+                        "siteId": 1
+                    },
+                    "url": "https://dev-api.tiffco.net/ibmdev/dev01/shoppingbagsprocessapi/api/process/v1/shoppingbags/item/sku-ecom/add"
+                },
+                "updateCartConfig": {
+                    "url": "https://dev-api.tiffco.net/ibmdev/dev01/shoppingbagsprocessapi/api/process/v1/shoppingbags/item/update",
+                    "method": "post",
+                    "payload": {
+                        "assortmentId": 101,
+                        "siteId": 1,
+                        "Sku": "60879729"
+                    }
+                }
+            }
+        ]
+    }
+}

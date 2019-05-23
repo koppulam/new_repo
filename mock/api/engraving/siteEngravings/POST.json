@@ -1,0 +1,818 @@
+{
+    "resultDto": [
+        {
+            "serviceType": "Sizing",
+            "serviceTypeCode": 16,
+            "styleGroups": [
+                {
+                    "groupId": 9,
+                    "groupDescription": "RINGSIZE",
+                    "groupDisplayOrder": 1,
+                    "groupStyleImageName": "default_vnt",
+                    "groupStyleImagePreset": "EngravePreviewOptionsSquare",
+                    "groupStyleImagePresetSelected": "EngravePreviewOptionsSquareSelected",
+                    "groupStyleImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<styleCode>_<itemServiceTypeId>_text?scl=1}}&$text1l=<initial1>&$text1c=<initial2>&$text1r=<initial3>&wid=500&$<preset>$",
+                    "styles": [
+                        {
+                            "styleName": "4",
+                            "styleNameLowerCase": "4",
+                            "styleDescription": "4",
+                            "styleCode": 378,
+                            "styleDisplayOrder": 1,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "4.5",
+                            "styleNameLowerCase": "4.5",
+                            "styleDescription": "4.5",
+                            "styleCode": 379,
+                            "styleDisplayOrder": 2,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "5",
+                            "styleNameLowerCase": "5",
+                            "styleDescription": "5",
+                            "styleCode": 380,
+                            "styleDisplayOrder": 3,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "5.5",
+                            "styleNameLowerCase": "5.5",
+                            "styleDescription": "5.5",
+                            "styleCode": 381,
+                            "styleDisplayOrder": 4,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "6",
+                            "styleNameLowerCase": "6",
+                            "styleDescription": "6",
+                            "styleCode": 382,
+                            "styleDisplayOrder": 5,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "6.5",
+                            "styleNameLowerCase": "6.5",
+                            "styleDescription": "6.5",
+                            "styleCode": 383,
+                            "styleDisplayOrder": 6,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "7",
+                            "styleNameLowerCase": "7",
+                            "styleDescription": "7",
+                            "styleCode": 384,
+                            "styleDisplayOrder": 7,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "7.5",
+                            "styleNameLowerCase": "7.5",
+                            "styleDescription": "7.5",
+                            "styleCode": 385,
+                            "styleDisplayOrder": 8,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "8",
+                            "styleNameLowerCase": "8",
+                            "styleDescription": "8",
+                            "styleCode": 386,
+                            "styleDisplayOrder": 9,
+                            "isTrueType": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "serviceType": "MachineEngraving",
+            "serviceTypeCode": 1,
+            "serviceTypeDisplayOrder": "1",
+            "serviceShowCaseStyleCode": "202",
+            "styleGroups": [
+                {
+                    "groupId": 1,
+                    "groupDescription": "ALL",
+                    "groupDisplayOrder": 1,
+                    "groupStyleImageName": "default_vnt",
+                    "groupStyleImagePreset": "EngravePreviewOptionsSquare",
+                    "groupStyleImagePresetSelected": "EngravePreviewOptionsSquareSelected",
+                    "groupStyleImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<styleCode>_<itemServiceTypeId>_text?scl=1}}&$text1l=<initial1>&$text1c=<initial2>&$text1r=<initial3>&wid=500&$<preset>$",
+                    "styles": [
+                        {
+                            "styleName": "American_Typewriter",
+                            "styleNameLowerCase": "american_typewriter",
+                            "styleDescription": "American Typewriter",
+                            "styleCode": 290,
+                            "styleDisplayOrder": 1,
+                            "isTrueType": true
+                        },
+                        {
+                            "styleName": "Block",
+                            "styleNameLowerCase": "block",
+                            "styleDescription": "Block",
+                            "styleCode": 202,
+                            "styleDisplayOrder": 2,
+                            "isTrueType": true
+                        },
+                        {
+                            "styleName": "Roman",
+                            "styleNameLowerCase": "roman",
+                            "styleDescription": "Roman",
+                            "styleCode": 201,
+                            "styleDisplayOrder": 3,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Script",
+                            "styleNameLowerCase": "script",
+                            "styleDescription": "Script",
+                            "styleCode": 204,
+                            "styleDisplayOrder": 4,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "FrenchScript",
+                            "styleNameLowerCase": "frenchscript",
+                            "styleDescription": "French Script",
+                            "styleCode": 203,
+                            "styleDisplayOrder": 5,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "ItalicRoman",
+                            "styleNameLowerCase": "italicroman",
+                            "styleDescription": "Italic Roman",
+                            "styleCode": 205,
+                            "styleDisplayOrder": 6,
+                            "isTrueType": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "serviceType": "Monogramming",
+            "serviceTypeCode": 150,
+            "serviceTypeDisplayOrder": "2",
+            "serviceShowCaseStyleCode": "212",
+            "styleGroups": [
+                {
+                    "groupId": 3,
+                    "groupDescription": "ALL",
+                    "groupDisplayOrder": 1,
+                    "groupStyleImageName": "default_vnt",
+                    "groupStyleImagePreset": "EngravePreviewOptionsSquare",
+                    "groupStyleImagePresetSelected": "EngravePreviewOptionsSquareSelected",
+                    "groupStyleImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<styleCode>_<itemServiceTypeId>_text?scl=1}}&$text1l=<initial1>&$text1c=<initial2>&$text1r=<initial3>&wid=500&$<preset>$",
+                    "styles": [
+                        {
+                            "styleName": "Monogramming_American_Typewriter",
+                            "styleNameLowerCase": "monogramming_american_typewriter",
+                            "styleDescription": "American Typewriter",
+                            "styleCode": 240,
+                            "styleDisplayOrder": 1,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Monogramming_Roman",
+                            "styleNameLowerCase": "monogramming_roman",
+                            "styleDescription": "Roman",
+                            "styleCode": 212,
+                            "styleDisplayOrder": 2,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Monogramming_Script",
+                            "styleNameLowerCase": "monogramming_script",
+                            "styleDescription": "Script",
+                            "styleCode": 214,
+                            "styleDisplayOrder": 3,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Monogramming_Roman_Script",
+                            "styleNameLowerCase": "monogramming_roman_script",
+                            "styleDescription": "Roman/Script",
+                            "styleCode": 211,
+                            "styleDisplayOrder": 4,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Monogramming_Block",
+                            "styleNameLowerCase": "monogramming_block",
+                            "styleDescription": "Block",
+                            "styleCode": 213,
+                            "styleDisplayOrder": 5,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Monogramming_Round",
+                            "styleNameLowerCase": "monogramming_round",
+                            "styleDescription": "Round",
+                            "styleCode": 215,
+                            "styleDisplayOrder": 6,
+                            "isTrueType": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "serviceType": "HandEngraving",
+            "serviceTypeCode": 15,
+            "serviceTypeDisplayOrder": "3",
+            "serviceShowCaseStyleCode": "204",
+            "styleGroups": [
+                {
+                    "groupId": 2,
+                    "groupDescription": "ALL",
+                    "groupDisplayOrder": 1,
+                    "groupStyleImageName": "default_vnt",
+                    "groupStyleImagePreset": "EngravePreviewOptionsSquare",
+                    "groupStyleImagePresetSelected": "EngravePreviewOptionsSquareSelected",
+                    "groupStyleImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<styleCode>_<itemServiceTypeId>_text?scl=1}}&$text1l=<initial1>&$text1c=<initial2>&$text1r=<initial3>&wid=500&$<preset>$",
+                    "styles": [
+                        {
+                            "styleName": "American_Typewriter",
+                            "styleNameLowerCase": "american_typewriter",
+                            "styleDescription": "American Typewriter",
+                            "styleCode": 290,
+                            "styleDisplayOrder": 1,
+                            "isTrueType": true
+                        },
+                        {
+                            "styleName": "Block",
+                            "styleNameLowerCase": "block",
+                            "styleDescription": "Block",
+                            "styleCode": 202,
+                            "styleDisplayOrder": 2,
+                            "isTrueType": true
+                        },
+                        {
+                            "styleName": "Roman",
+                            "styleNameLowerCase": "roman",
+                            "styleDescription": "Roman",
+                            "styleCode": 201,
+                            "styleDisplayOrder": 3,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Script",
+                            "styleNameLowerCase": "script",
+                            "styleDescription": "Script",
+                            "styleCode": 204,
+                            "styleDisplayOrder": 4,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "FrenchScript",
+                            "styleNameLowerCase": "frenchscript",
+                            "styleDescription": "French Script",
+                            "styleCode": 203,
+                            "styleDisplayOrder": 5,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "ItalicRoman",
+                            "styleNameLowerCase": "italicroman",
+                            "styleDescription": "Italic Roman",
+                            "styleCode": 205,
+                            "styleDisplayOrder": 6,
+                            "isTrueType": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "serviceType": "MachineSymbolEngraving",
+            "serviceTypeCode": 11,
+            "serviceTypeDisplayOrder": "4",
+            "serviceShowCaseStyleCode": "751",
+            "styleGroups": [
+                {
+                    "groupId": 4,
+                    "groupDescription": "ALL SYMBOLS",
+                    "groupDisplayOrder": 1,
+                    "groupStyleImageName": "default_vnt",
+                    "groupStyleImagePreset": "EngravePreviewOptionsSquare",
+                    "groupStyleImagePresetSelected": "EngravePreviewOptionsSquareSelected",
+                    "groupStyleImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<itemServiceTypeId>_text?scl=1}}&$text1c=<StyleName>&$<preset>$",
+                    "groupStyleSymbolImageUrl": "https://media.tiffany.com/is/image/tiffanyRender?src=ir{tiffanyRender/<imageName>?obj=symbol&show&&decal&src=is{TiffanyIntranet/<itemServiceTypeId>_text?scl=1}}&$text1c=<StyleName>&$<preset>$",
+                    "engravingSymbolImageOptionURL": "https://media.tiffany.com/is/image/TiffanyDev/<itemServiceTypeId>_text_options?&$text1c=<StyleName>&$<preset>$",
+                    "styles": [
+                        {
+                            "styleName": "Tco_Logo",
+                            "styleNameLowerCase": "tco_logo",
+                            "styleDescription": "T&Co. Logo",
+                            "styleCode": 751,
+                            "styleDisplayOrder": 1,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Diamond",
+                            "styleNameLowerCase": "diamond",
+                            "styleDescription": "Diamond",
+                            "styleCode": 753,
+                            "styleDisplayOrder": 2,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Lock",
+                            "styleNameLowerCase": "lock",
+                            "styleDescription": "T&Co. Lock",
+                            "styleCode": 754,
+                            "styleDisplayOrder": 3,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Tco_Coffee_Cup",
+                            "styleNameLowerCase": "tco_coffee_cup",
+                            "styleDescription": "T&Co. Coffee",
+                            "styleCode": 756,
+                            "styleDisplayOrder": 4,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Ampersand",
+                            "styleNameLowerCase": "ampersand",
+                            "styleDescription": "Ampersand",
+                            "styleCode": 750,
+                            "styleDisplayOrder": 5,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Peace",
+                            "styleNameLowerCase": "peace",
+                            "styleDescription": "Peace",
+                            "styleCode": 659,
+                            "styleDisplayOrder": 6,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Clover",
+                            "styleNameLowerCase": "clover",
+                            "styleDescription": "Clover",
+                            "styleCode": 652,
+                            "styleDisplayOrder": 7,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Horseshoe",
+                            "styleNameLowerCase": "horseshoe",
+                            "styleDescription": "Horseshoe",
+                            "styleCode": 658,
+                            "styleDisplayOrder": 8,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Mars",
+                            "styleNameLowerCase": "mars",
+                            "styleDescription": "Mars",
+                            "styleCode": 660,
+                            "styleDisplayOrder": 9,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Venus",
+                            "styleNameLowerCase": "venus",
+                            "styleDescription": "Venus",
+                            "styleCode": 661,
+                            "styleDisplayOrder": 10,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Broken_Heart",
+                            "styleNameLowerCase": "broken_heart",
+                            "styleDescription": "Broken Heart",
+                            "styleCode": 651,
+                            "styleDisplayOrder": 11,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Apple",
+                            "styleNameLowerCase": "apple",
+                            "styleDescription": "Apple",
+                            "styleCode": 653,
+                            "styleDisplayOrder": 12,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Keyhole",
+                            "styleNameLowerCase": "keyhole",
+                            "styleDescription": "Keyhole",
+                            "styleCode": 656,
+                            "styleDisplayOrder": 13,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Lovestruck",
+                            "styleNameLowerCase": "lovestruck",
+                            "styleDescription": "Lovestruck",
+                            "styleCode": 650,
+                            "styleDisplayOrder": 14,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Lightning_Bolt",
+                            "styleNameLowerCase": "lightning_bolt",
+                            "styleDescription": "Lightning Bolt",
+                            "styleCode": 655,
+                            "styleDisplayOrder": 15,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Anchor",
+                            "styleNameLowerCase": "anchor",
+                            "styleDescription": "Anchor",
+                            "styleCode": 657,
+                            "styleDisplayOrder": 16,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Star",
+                            "styleNameLowerCase": "star",
+                            "styleDescription": "Star",
+                            "styleCode": 654,
+                            "styleDisplayOrder": 17,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Aries",
+                            "styleNameLowerCase": "aries",
+                            "styleDescription": "Aries",
+                            "styleCode": 368,
+                            "styleDisplayOrder": 18,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Taurus",
+                            "styleNameLowerCase": "taurus",
+                            "styleDescription": "Taurus",
+                            "styleCode": 369,
+                            "styleDisplayOrder": 19,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Gemini",
+                            "styleNameLowerCase": "gemini",
+                            "styleDescription": "Gemini",
+                            "styleCode": 370,
+                            "styleDisplayOrder": 20,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Cancer",
+                            "styleNameLowerCase": "cancer",
+                            "styleDescription": "Cancer",
+                            "styleCode": 371,
+                            "styleDisplayOrder": 21,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Leo",
+                            "styleNameLowerCase": "leo",
+                            "styleDescription": "Leo",
+                            "styleCode": 372,
+                            "styleDisplayOrder": 22,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Virgo",
+                            "styleNameLowerCase": "virgo",
+                            "styleDescription": "Virgo",
+                            "styleCode": 373,
+                            "styleDisplayOrder": 23,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Libra",
+                            "styleNameLowerCase": "libra",
+                            "styleDescription": "Libra",
+                            "styleCode": 374,
+                            "styleDisplayOrder": 24,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Scorpio",
+                            "styleNameLowerCase": "scorpio",
+                            "styleDescription": "Scorpio",
+                            "styleCode": 375,
+                            "styleDisplayOrder": 25,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Sagittarius",
+                            "styleNameLowerCase": "sagittarius",
+                            "styleDescription": "Sagittarius",
+                            "styleCode": 376,
+                            "styleDisplayOrder": 26,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Capricorn",
+                            "styleNameLowerCase": "capricorn",
+                            "styleDescription": "Capricorn",
+                            "styleCode": 377,
+                            "styleDisplayOrder": 27,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Aquarius",
+                            "styleNameLowerCase": "aquarius",
+                            "styleDescription": "Aquarius",
+                            "styleCode": 366,
+                            "styleDisplayOrder": 28,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Pisces",
+                            "styleNameLowerCase": "pisces",
+                            "styleDescription": "Pisces",
+                            "styleCode": 367,
+                            "styleDisplayOrder": 29,
+                            "isTrueType": false
+                        }
+                    ]
+                },
+                {
+                    "groupId": 5,
+                    "groupDescription": "ICONS",
+                    "groupDisplayOrder": 2,
+                    "groupStyleImageName": "default_vnt",
+                    "groupStyleImagePreset": "EngravePreviewOptionsSquare",
+                    "groupStyleImagePresetSelected": "EngravePreviewOptionsSquareSelected",
+                    "groupStyleImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<itemServiceTypeId>_text?scl=1}}&$text1c=<StyleName>&$<preset>$",
+                    "groupStyleSymbolImageUrl": "https://media.tiffany.com/is/image/tiffanyRender?src=ir{tiffanyRender/<imageName>?obj=symbol&show&&decal&src=is{TiffanyIntranet/<itemServiceTypeId>_text?scl=1}}&$text1c=<StyleName>&$<preset>$",
+                    "engravingSymbolImageOptionURL": "https://media.tiffany.com/is/image/TiffanyDev/<itemServiceTypeId>_text_options?&$text1c=<StyleName>&$<preset>$",
+                    "styles": [
+                        {
+                            "styleName": "Tco_Logo",
+                            "styleNameLowerCase": "tco_logo",
+                            "styleDescription": "T&Co. Logo",
+                            "styleCode": 751,
+                            "styleDisplayOrder": 1,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Diamond",
+                            "styleNameLowerCase": "diamond",
+                            "styleDescription": "Diamond",
+                            "styleCode": 753,
+                            "styleDisplayOrder": 2,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Lock",
+                            "styleNameLowerCase": "lock",
+                            "styleDescription": "T&Co. Lock",
+                            "styleCode": 754,
+                            "styleDisplayOrder": 3,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Tco_Coffee_Cup",
+                            "styleNameLowerCase": "tco_coffee_cup",
+                            "styleDescription": "T&Co. Coffee",
+                            "styleCode": 756,
+                            "styleDisplayOrder": 4,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Ampersand",
+                            "styleNameLowerCase": "ampersand",
+                            "styleDescription": "Ampersand",
+                            "styleCode": 750,
+                            "styleDisplayOrder": 5,
+                            "isTrueType": false
+                        }
+                    ]
+                },
+                {
+                    "groupId": 6,
+                    "groupDescription": "EMBLEMS",
+                    "groupDisplayOrder": 3,
+                    "groupStyleImageName": "default_vnt",
+                    "groupStyleImagePreset": "EngravePreviewOptionsSquare",
+                    "groupStyleImagePresetSelected": "EngravePreviewOptionsSquareSelected",
+                    "groupStyleImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<itemServiceTypeId>_text?scl=1}}&$text1c=<StyleName>&$<preset>$",
+                    "groupStyleSymbolImageUrl": "https://media.tiffany.com/is/image/tiffanyRender?src=ir{tiffanyRender/<imageName>?obj=symbol&show&&decal&src=is{TiffanyIntranet/<itemServiceTypeId>_text?scl=1}}&$text1c=<StyleName>&$<preset>$",
+                    "engravingSymbolImageOptionURL": "https://media.tiffany.com/is/image/TiffanyDev/<itemServiceTypeId>_text_options?&$text1c=<StyleName>&$<preset>$",
+                    "styles": [
+                        {
+                            "styleName": "Peace",
+                            "styleNameLowerCase": "peace",
+                            "styleDescription": "Peace",
+                            "styleCode": 659,
+                            "styleDisplayOrder": 1,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Clover",
+                            "styleNameLowerCase": "clover",
+                            "styleDescription": "Clover",
+                            "styleCode": 652,
+                            "styleDisplayOrder": 2,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Horseshoe",
+                            "styleNameLowerCase": "horseshoe",
+                            "styleDescription": "Horseshoe",
+                            "styleCode": 658,
+                            "styleDisplayOrder": 3,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Mars",
+                            "styleNameLowerCase": "mars",
+                            "styleDescription": "Mars",
+                            "styleCode": 660,
+                            "styleDisplayOrder": 4,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Venus",
+                            "styleNameLowerCase": "venus",
+                            "styleDescription": "Venus",
+                            "styleCode": 661,
+                            "styleDisplayOrder": 5,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Broken_Heart",
+                            "styleNameLowerCase": "broken_heart",
+                            "styleDescription": "Broken Heart",
+                            "styleCode": 651,
+                            "styleDisplayOrder": 6,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Apple",
+                            "styleNameLowerCase": "apple",
+                            "styleDescription": "Apple",
+                            "styleCode": 653,
+                            "styleDisplayOrder": 7,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Keyhole",
+                            "styleNameLowerCase": "keyhole",
+                            "styleDescription": "Keyhole",
+                            "styleCode": 656,
+                            "styleDisplayOrder": 8,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Lovestruck",
+                            "styleNameLowerCase": "lovestruck",
+                            "styleDescription": "Lovestruck",
+                            "styleCode": 650,
+                            "styleDisplayOrder": 9,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Lightning_Bolt",
+                            "styleNameLowerCase": "lightning_bolt",
+                            "styleDescription": "Lightning Bolt",
+                            "styleCode": 655,
+                            "styleDisplayOrder": 10,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Anchor",
+                            "styleNameLowerCase": "anchor",
+                            "styleDescription": "Anchor",
+                            "styleCode": 657,
+                            "styleDisplayOrder": 11,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Star",
+                            "styleNameLowerCase": "star",
+                            "styleDescription": "Star",
+                            "styleCode": 654,
+                            "styleDisplayOrder": 12,
+                            "isTrueType": false
+                        }
+                    ]
+                },
+                {
+                    "groupId": 7,
+                    "groupDescription": "ASTROLOGY",
+                    "groupDisplayOrder": 4,
+                    "groupStyleImageName": "default_vnt",
+                    "groupStyleImagePreset": "EngravePreviewOptionsSquare",
+                    "groupStyleImagePresetSelected": "EngravePreviewOptionsSquareSelected",
+                    "groupStyleImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<itemServiceTypeId>_text?scl=1}}&$text1c=<StyleName>&$<preset>$",
+                    "groupStyleSymbolImageUrl": "https://media.tiffany.com/is/image/tiffanyRender?src=ir{tiffanyRender/<imageName>?obj=symbol&show&&decal&src=is{TiffanyIntranet/<itemServiceTypeId>_text?scl=1}}&$text1c=<StyleName>&$<preset>$",
+                    "engravingSymbolImageOptionURL": "https://media.tiffany.com/is/image/TiffanyDev/<itemServiceTypeId>_text_options?&$text1c=<StyleName>&$<preset>$",
+                    "styles": [
+                        {
+                            "styleName": "Aries",
+                            "styleNameLowerCase": "aries",
+                            "styleDescription": "Aries",
+                            "styleCode": 368,
+                            "styleDisplayOrder": 1,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Taurus",
+                            "styleNameLowerCase": "taurus",
+                            "styleDescription": "Taurus",
+                            "styleCode": 369,
+                            "styleDisplayOrder": 2,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Gemini",
+                            "styleNameLowerCase": "gemini",
+                            "styleDescription": "Gemini",
+                            "styleCode": 370,
+                            "styleDisplayOrder": 3,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Cancer",
+                            "styleNameLowerCase": "cancer",
+                            "styleDescription": "Cancer",
+                            "styleCode": 371,
+                            "styleDisplayOrder": 4,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Leo",
+                            "styleNameLowerCase": "leo",
+                            "styleDescription": "Leo",
+                            "styleCode": 372,
+                            "styleDisplayOrder": 5,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Virgo",
+                            "styleNameLowerCase": "virgo",
+                            "styleDescription": "Virgo",
+                            "styleCode": 373,
+                            "styleDisplayOrder": 6,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Libra",
+                            "styleNameLowerCase": "libra",
+                            "styleDescription": "Libra",
+                            "styleCode": 374,
+                            "styleDisplayOrder": 7,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Scorpio",
+                            "styleNameLowerCase": "scorpio",
+                            "styleDescription": "Scorpio",
+                            "styleCode": 375,
+                            "styleDisplayOrder": 8,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Sagittarius",
+                            "styleNameLowerCase": "sagittarius",
+                            "styleDescription": "Sagittarius",
+                            "styleCode": 376,
+                            "styleDisplayOrder": 9,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Capricorn",
+                            "styleNameLowerCase": "capricorn",
+                            "styleDescription": "Capricorn",
+                            "styleCode": 377,
+                            "styleDisplayOrder": 10,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Aquarius",
+                            "styleNameLowerCase": "aquarius",
+                            "styleDescription": "Aquarius",
+                            "styleCode": 366,
+                            "styleDisplayOrder": 11,
+                            "isTrueType": false
+                        },
+                        {
+                            "styleName": "Pisces",
+                            "styleNameLowerCase": "pisces",
+                            "styleDescription": "Pisces",
+                            "styleCode": 367,
+                            "styleDisplayOrder": 12,
+                            "isTrueType": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

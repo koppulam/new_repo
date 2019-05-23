@@ -1,0 +1,201 @@
+
+{
+    "upcomingEvents": {
+        "title": "Upcoming Events Component",
+        "heading": "Upcoming Events",
+        "images": [
+            {
+                "id": "1",
+                "imageSrc": "./images/event1.png",
+                "defaultSrc": "./images/event1.png",
+                "isLazyLoad": true,
+                "altText": "Sample",
+                "customClass": "",
+                "ctaText": "Learn more",
+                "ctaLink": "/",
+                "ctaTarget": "_self",
+                "ctaArrow": "icon-Right",
+                "isCustomCta": false,
+                "eventName": "Event One",
+                "eventTime": "Friday, July 8 at 2pm",
+                "eventLocation": "New York - Wall Street",
+                "eventDescription": "Lorem ipsum dolor sit amet, dicat diem aeterno aliquip eu eos, ad quo dictas et convenire eclat reprehendunt. Solet intellegat voluptaria sed ad."
+            },
+            {
+                "id": "2",
+                "imageSrc": "./images/event2.png",
+                "defaultSrc": "./images/event2.png",
+                "isLazyLoad": true,
+                "altText": "Sample1",
+                "customClass": "",
+                "ctaText": "Learn more",
+                "ctaLink": "/",
+                "ctaTarget": "_blank",
+                "ctaArrow": "icon-Right",
+                "isCustomCta": false,
+                "eventName": "Event Two",
+                "eventTime": "Friday, July 8 at 2pm",
+                "eventLocation": "New York - Wall Street",
+                "eventDescription": "Lorem ipsum dolor sit amet, dicat diem aeterno aliquip eu eos, ad quo dictas et convenire eclat reprehendunt. Solet intellegat voluptaria sed ad."
+            },
+            {
+                "id": "3",
+                "imageSrc": "./images/event3.png",
+                "defaultSrc": "./images/event3.png",
+                "isLazyLoad": true,
+                "altText": "Sample1",
+                "customClass": "",
+                "ctaText": "Learn more",
+                "ctaLink": "/",
+                "ctaTarget": "_self",
+                "ctaArrow": "icon-Right",
+                "isCustomCta": false,
+                "eventName": "Event Three",
+                "eventTime": "Friday, July 8 at 2pm",
+                "eventLocation": "New York - Wall Street",
+                "eventDescription": "Lorem ipsum dolor sit amet, dicat diem aeterno aliquip eu eos, ad quo dictas et convenire eclat reprehendunt. Solet intellegat voluptaria sed ad."
+            }
+        ]
+    },
+    "marketingContentCarousel": [
+        {
+            "heading": "Full Width Store Event",
+            "description": "Lorem ipsum dolor sit amet, dicat diem aeterno aliquip eu eos, ad quo dictas et convenire reprehendunt. Solet intellegat voluptaria sed ad.",
+            "ctaText": "Register",
+            "ctaLink": "/",
+            "ctaTarget": "_new",
+            "cta2Text": "",
+            "cta2Link": "/",
+            "cta2Target": "_new",
+            "desktopSrc": "./images/fullWidthEventTile.png",
+            "mobileSrc": "./images/fullWidthEventTile.png",
+            "imageAlt": "At Your Service",
+            "isLazyLoad": true,
+            "imageAlignment": "right",
+            "isMarketingBrowsegrid" : true
+        },
+        {
+            "heading": "Full Width Store Event",
+            "description": "Lorem ipsum dolor sit amet, dicat diem aeterno aliquip eu eos, ad quo dictas et convenire reprehendunt. Solet intellegat voluptaria sed ad.",
+            "ctaText": "Register",
+            "ctaLink": "/",
+            "ctaTarget": "_new",
+            "cta2Text": "",
+            "cta2Link": "/",
+            "cta2Target": "_new",
+            "desktopSrc": "./images/fullWidthEventTile.png",
+            "mobileSrc": "./images/fullWidthEventTile.png",
+            "imageAlt": "At Your Service",
+            "isLazyLoad": true,
+            "imageAlignment": "right",
+            "isMarketingBrowsegrid" : true
+        },
+        {
+            "heading": "Full Width Store Event",
+            "description": "Lorem ipsum dolor sit amet, dicat diem aeterno aliquip eu eos, ad quo dictas et convenire reprehendunt. Solet intellegat voluptaria sed ad.",
+            "ctaText": "Register",
+            "ctaLink": "/",
+            "ctaTarget": "_new",
+            "cta2Text": "",
+            "cta2Link": "/",
+            "cta2Target": "_new",
+            "desktopSrc": "./images/fullWidthEventTile.png",
+            "mobileSrc": "./images/fullWidthEventTile.png",
+            "imageAlt": "At Your Service",
+            "isLazyLoad": true,
+            "imageAlignment": "right",
+            "isMarketingBrowsegrid" : true
+        }
+    ],
+    "marketingContentCarousel1": [
+        {
+            "heading": "At Your Service",
+            "subheading": "Diamond engagement ring consultation",
+            "description": "Lorem ipsum dolor sit amet, vidisse appareat recteque sea ei, facete propriae laboramus an vis, dico praesent ex sed. Delenit laoreet persequeris usu an.",
+            "ctaText": "Learn more",
+            "ctaLink": "/",
+            "ctaTarget": "_new",
+            "cta2Text": "",
+            "cta2Link": "/",
+            "cta2Target": "_new",
+            "desktopSrc": "./images/blueBoxCafe.png",
+            "mobileSrc": "./images/blueBoxCafe.png",
+            "imageAlt": "At Your Service",
+            "isLazyLoad": true,
+            "imageAlignment": "left",
+            "isMarketingBrowsegrid" : true
+        },
+        {
+            "heading": "At Your Service",
+            "subheading": "Diamond engagement ring consultation",
+            "description": "Lorem ipsum dolor sit amet, vidisse appareat recteque sea ei, facete propriae laboramus an vis, dico praesent ex sed. Delenit laoreet persequeris usu an.",
+            "ctaText": "Learn more",
+            "ctaLink": "/",
+            "ctaTarget": "_new",
+            "cta2Text": "",
+            "cta2Link": "/",
+            "cta2Target": "_new",
+            "desktopSrc": "./images/blueBoxCafe.png",
+            "mobileSrc": "./images/blueBoxCafe.png",
+            "imageAlt": "At Your Service",
+            "isLazyLoad": true,
+            "imageAlignment": "left",
+            "isMarketingBrowsegrid" : true
+        },
+        {
+            "heading": "At Your Service",
+            "subheading": "Diamond engagement ring consultation",
+            "description": "Lorem ipsum dolor sit amet, vidisse appareat recteque sea ei, facete propriae laboramus an vis, dico praesent ex sed. Delenit laoreet persequeris usu an.",
+            "ctaText": "Learn more",
+            "ctaLink": "/",
+            "ctaTarget": "_new",
+            "cta2Text": "",
+            "cta2Link": "/",
+            "cta2Target": "_new",
+            "desktopSrc": "./images/blueBoxCafe.png",
+            "mobileSrc": "./images/blueBoxCafe.png",
+            "imageAlt": "At Your Service",
+            "isLazyLoad": true,
+            "imageAlignment": "left",
+            "isMarketingBrowsegrid" : true
+        }
+    ],
+    "blueBoxCafe": {
+        "imageAlignment": "left",
+        "reservationBtn": true,
+        "heading": "The Blue Box Cafe",
+        "description": "Lorem ipsum dolor sit amet, dicat diem aeterno aliquip eu eos, ad quo dictas et convenire reprehendunt. Solet intellegat voluptaria sed ad.",
+        "ctaText": "Make reservation",
+        "ctaLink": "/",
+        "ctaTarget": "_new",
+        "desktopSrc": "./images/blueBoxCafe.png",
+        "mobileSrc": "./images/blueBoxCafe.png",
+        "imageAlt": "The Blue Box Cafe",
+        "isLazyLoad": true,
+        "venueId": 123
+    },
+    "patekPhilippe": {
+        "imageAlignment": "right",
+        "reservationBtn": false,
+        "heading": "The Patek Philippe Boutique",
+        "description": "Lorem ipsum dolor sit amet, dicat diem aeterno aliquip eu eos, ad quo dictas et convenire reprehendunt. Solet intellegat voluptaria sed ad.",
+        "ctaText": "Learn More",
+        "ctaLink": "/",
+        "ctaTarget": "_new",
+        "desktopSrc": "./images/patekPhilippeBoutique.png",
+        "mobileSrc": "./images/patekPhilippeBoutique.png",
+        "imageAlt": "The Patek Philippe Boutique",
+        "isLazyLoad": true
+    },
+    "staticMapMarker": {
+        "mapcenter" : {
+            "lat": 21.291884,
+            "lng": -157.84429
+        },
+        "radius": 50,
+        "markerat": {
+            "lat": 21.291884,
+            "lng": -157.84429
+        }
+    }
+}

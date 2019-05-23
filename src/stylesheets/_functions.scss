@@ -1,0 +1,8 @@
+/// Returns the multiple value
+/// @param {Number} $multiple - Number to multiply with default padding unit
+/// @return {String} - Padding
+@function getUnitValue($multiple) {
+    @if type-of($multiple) == 'number' {
+        @return $padding-multiple * $multiple;
+    }
+}

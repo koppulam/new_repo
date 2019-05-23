@@ -1,0 +1,349 @@
+// ****************************************
+// modal -styles
+// ****************************************
+.modal__wrapper {
+
+    .tiffany-modal.has-input-elements {
+        .modal-content {
+            @extend .modal-with-inputs;
+        }
+    }
+
+    &.ash-overlay {
+        @extend .col__full;
+        position: fixed;
+        z-index: $modal-maxZIndex + 3;
+        top: 0;
+        height: 100%;
+        background-color: $tiffanyBackdrop;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .modal {
+        .modal-content {
+            @extend .col__full;
+            position: relative;
+            top: getUnitValue(10);
+            z-index: $modal-maxZIndex;
+            max-width: getUnitValue(157);
+            margin: auto;
+            background: $white;
+            border: 1px solid $suva-gray;
+            outline: none;
+            overflow: auto;
+            max-height: calc(100vh - 160px);
+            transition: all 600ms ease-out;
+        }
+    }
+
+    .search-overlay {
+        @extend .col__full;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        z-index: $modal-maxZIndex + 2;
+    }
+
+    .add-chain-modal,.edit-charm-modal {
+        position: fixed;
+        top: getUnitValue(8);
+        bottom: 0;
+        height: calc(100% - #{getUnitValue(10)});
+        z-index: $modal-maxZIndex;
+        background: $white;
+        margin: 0 getUnitValue(21);
+        width: calc(100% - #{getUnitValue(43)});
+        border: solid 1px $suva-gray;
+        .modal-content {
+            height: 100%;
+            .add-chain__container {
+                height: 100%;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+        @include MediaQueries($desktop-and-below) {
+            top: 0;
+            width: 100%;
+            margin: 0;
+            height: 100%;
+        }
+    }
+    .engraving-in-modal {
+        .modal-content {
+            @include MediaQueries($desktop-and-below) {
+                top: 0;
+                max-height: 100%;
+                height: 100%;
+                position: absolute;
+            }
+        }
+    }
+
+    .edit-charm-modal {
+        top: getUnitValue(14);
+        height: calc(100% - #{getUnitValue(20)});
+
+        @include MediaQueries($desktop-and-below) {
+            top: getUnitValue(10);
+            width: calc(100% - #{getUnitValue(7)});
+            margin: auto;
+            height: calc(100% - #{getUnitValue(13)});
+            margin: 0;
+            left: getUnitValue(3.5);
+        }
+    }
+
+    .start-creation-modal {
+        @extend .col__full;
+        position: fixed;
+        top: getUnitValue(17);
+        z-index: $modal-maxZIndex;
+        border: none;
+
+        @include MediaQueries($desktop-and-below) {
+            top: getUnitValue(13);
+        }
+
+        .modal-content {
+            max-width: getUnitValue(85);
+            margin: auto;
+            position: relative;
+            background: $white;
+            border: solid 1px $suva-gray;
+            outline: none;
+
+            @include MediaQueries($desktop-and-below) {
+                margin: 0 getUnitValue(3);
+            }
+        }
+    }
+
+    .reset-creation-modal {
+        @extend .start-creation-modal;
+    }
+
+    .ring-unavailable-modal {
+        @extend .col__full;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: $modal-maxZIndex;
+        border: none;
+        height: getUnitValue(38);
+
+        .icon-Close {
+            text-align: right;
+            font-size: $font-size-16;
+            padding: 0;
+            top: getUnitValue(2);
+            right: getUnitValue(2);
+            cursor: pointer;
+            position: absolute;
+            border: 0;
+            background-color: transparent;
+            .keyboard--focussed & {
+                &:focus {
+                    border: 1px solid $bondiBlue !important;
+                }
+            }
+        }
+
+        .modal-content {
+            height: auto;
+            width: getUnitValue(60);
+            margin: auto;
+            position: relative;
+            background: $white;
+            border: solid 1px $suva-gray;
+            outline: none;
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            height: getUnitValue(34);
+
+            .modal-content {
+                width: getUnitValue(39);
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &.clasp-overlay {
+        @extend .col__full;
+        position: fixed;
+        z-index: $toast-zIndex + 1;
+        top: 0;
+        height: 100%;
+        background-color: $dim-white-shade;
+    }
+
+    .clasp-modal,
+    .size-modal {
+        @extend .col__full;
+        position: fixed;
+        z-index: $modal-maxZIndex + 3;
+        height: 100%;
+        overflow-y: hidden;
+
+        .modal-content {
+            outline: none;
+            overflow-y: auto;
+            height: 100%;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .select-material__clasp-modal,
+        .select-material__size-modal {
+            margin: getUnitValue(20) auto 0;
+            max-width: getUnitValue(85);
+            background: $white;
+            border: 1px solid $suva-gray;
+            padding: getUnitValue(2);
+            position: relative;
+
+            @include MediaQueries($desktop-and-below) {
+                margin-top: getUnitValue(8);
+                max-width: getUnitValue(38);
+                border-color: $black;
+            }
+        }
+        .select-material__size-modal {
+            .icon-Close {
+                text-align: right;
+                font-size: $font-size-24;
+                padding:  0 0 getUnitValue(2);
+                top: getUnitValue(2);
+                right: getUnitValue(2);
+                cursor: pointer;
+                position: absolute;
+                border: 0;
+                background-color: transparent;
+
+                @include MediaQueries($desktop-and-below) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .select-material__clasp-modal {
+            padding: getUnitValue(6) getUnitValue(12);
+            @include MediaQueries($desktop-and-below) {
+                padding: getUnitValue(5) getUnitValue(2) getUnitValue(4);
+            }
+        }
+
+        .select-material__size-modal {
+            max-width: getUnitValue(42.25);
+        }
+        .hover-container {
+            max-width: getUnitValue(42.25);
+            max-height: getUnitValue(73);
+            height: auto;
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #939393;
+            left: -5px;
+            right: -5px;
+            z-index: 4;
+            transform: translateY(10%);
+
+            .select-size{
+                margin-right: getUnitValue(4);
+                padding-right: 0;
+            }
+            .select-size__heading {
+                width: calc(100% - 16px);
+            }
+            .select-size__radio-group {
+                max-height: getUnitValue(50);
+            }
+
+            .icon-Close {
+                text-align: right;
+                font-size: $font-size-16;
+                margin: 0;
+                padding: getUnitValue(2);
+                top: 0;
+                right: 0;
+                cursor: pointer;
+                position: absolute;
+                border: 0;
+                background-color: transparent;
+                z-index: 105;
+            }
+            &__item {
+                &__description {
+                    max-height: none;
+                }
+                &__slide-picture {
+                    @extend .btn;
+                    background-color: transparent;
+                }
+                .image-section > picture {
+                    min-width: getUnitValue(32);
+                    min-height: getUnitValue(32);
+                }
+                &_button {
+                    @extend .col__full;
+                    margin: getUnitValue(2) getUnitValue(4) getUnitValue(4);
+                }
+            }
+        }
+    }
+
+    .full-screen {
+        @extend .col__full, .tf-g, .tf-g__middle;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        background: $snow;
+        z-index: 1;
+
+        &.pdp-image-preview {
+            z-index: $modal-maxZIndex;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: getUnitValue(2);
+            right: getUnitValue(4);
+            z-index: 2;
+            height: getUnitValue(3);
+            width: getUnitValue(3);
+            color: $black;
+            background: none;
+            border: none;
+            font-size: 24px;
+        }
+
+        .modal-content {
+            @extend .col__full;
+        }
+
+        &.preview {
+            .preview-container {
+                overflow: auto;
+
+                .product-preview-image.full-view {
+                    width: 100vh;
+                }
+            }
+        }
+
+        &.more-like-this {
+            @extend .tf-g, .tf-g__middle, .tf-g__center;
+            background-color: rgba($white, 0.7);
+            z-index: $inline-modal-zIndex-mobile;
+            height: 100%;
+        }
+    }
+}

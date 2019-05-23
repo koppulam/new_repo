@@ -1,0 +1,132 @@
+@keyframes swinging {
+    0%{transform: rotate(10deg);}
+    25%{transform: rotate(-5deg);}
+    50%{transform: rotate(3deg)}
+    75%{transform: rotate(-3deg);}
+    100%{transform: rotate(0deg);}
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(-15px);
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+    }
+
+    to {
+        transform: translateX(0);
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+    }
+}
+
+@keyframes bottom-to-top {
+    from {
+        transform: translateY(15px);
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+    }
+
+    to {
+        transform: translateY(0);
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@for $i from 0 through 3 {
+    @keyframes en-card-#{$i}-move {
+        0% {margin-left: $i*25%;}
+       100% {margin-left: 0px;}
+    }
+}
+
+@keyframes en-card-fade {
+    0% {opacity: 0; display: none;}
+    1% {opacity: 0; display: block;}
+   100% {opacity: 1; display: block;}
+}
+
+@keyframes dec-qty-enter {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-50%) translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+@keyframes dec-qty-leave {
+    0% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+@keyframes inc-qty-enter {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-50%) translateY(0);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+@keyframes inc-qty-leave {
+    0% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-50%) translateY(-100%);
+    }
+}
+
+.dummy-key-frame {
+    &__swinging {
+        animation-name: swinging
+    }
+    &__slide-in-right {
+        animation-name: slide-in-right
+    }
+    &__fade-in {
+        animation-name: fade-in
+    }
+    &__bottom-to-top {
+        animation-name: bottom-to-top
+    }
+    @for $i from 0 through 3 {
+       &__en-card-#{$i}-move {
+           animation-name: en-card-#{$i}-move
+       }
+    }
+    &__en-card-fade {
+        animation-name: en-card-fade
+    }
+}

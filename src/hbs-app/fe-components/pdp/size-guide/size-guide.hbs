@@ -1,0 +1,76 @@
+<article class="size-guide app-js__size-guide">
+    <div class="size-guide__container custom-scroll">
+        <button type="button" class="size-guide__container_close" aria-label="Size guide close button"><img src="./icons/close.svg" alt="Close image" /></button>
+        <h1 class="size-guide__container_heading">{{sizeGuide.title}}</h1>
+        <div class="size-guide__container_itemlist" aria-label="tab navigation">
+            <ul class="size-guide__container_itemlist_items" role="tablist">
+                {{#each sizeGuide.headings}}
+                    <li class="size-guide__container_itemlist_items_item" data-pointer="{{type}}" role="presentation">
+                        <a href="{{link}}" class="size-guide__container_itemlist_items_item_link {{#if ../isModel}}is-model{{/if}} {{#if @first}}active{{/if}}" role="tab" {{#if @first}}aria-selected="true"{{else}}aria-selected="false"{{/if}}>{{title}}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="size-guide__container_mobileitemlist" style="visibility:hidden;">
+            <select class="size-guide__container_mobileitemlist_items">
+                {{#each sizeGuide.headings}}
+                    <option value={{type}} data-page="{{link}}" class="size-guide__container_mobileitemlist_item" {{#if selected}}selected="selected"{{/if}}>{{title}}</option>
+                {{/each}}
+            </select>
+            <span class="icon-Dropdown"></span>
+        </div>
+        <div class="size-guide__contentswrap">
+            {{#each sizeGuide.sizes}}
+                <div class="size-guide__content size-guide__content-{{type}} {{#if @first}}{{else}}hide{{/if}}" data-content="{{type}}" data-heading="{{sizeGuideTitle}}">
+                    <div class="content_left">
+                        <div class="content_left_us-size custom-scroll">
+                            <div class="us-size_table" role="table" aria-label="size guide table">
+                                <div role="rowgroup" class="us-size_table_rowgroup">
+                                    <div role="row" class="us-size_table_rowheader">
+                                        {{#each sizeList.title}}
+                                            <div role="columnheader" class="{{#if @first}}us-size_table_leftcolumn{{else}}us-size_table_rightcolumn{{/if}}">{{this}}</div>
+                                        {{/each}}
+                                    </div>
+                                </div>
+                                <div role="rowgroup" class="us-size_table_rowgroup">                                    
+                                    {{#each sizeList.listOfSizes}}
+                                        <div role="row" class="us-size_table_row">
+                                            {{#each listSize as |list listindex|}}  
+                                                {{#if @first}}                                              
+                                                    <div role="cell" class="us-size_table_leftcolumn">{{list}}</div> 
+                                                {{/if}}                                              
+                                            {{/each}}
+                                        <div role="cell" class="us-size_table_rightcolumn">
+                                            {{#each listSize as |list listindex|}}
+                                                {{#unless @first}}
+                                                    <span class="us-size_table_rightcolumn-{{@listindex}}">{{list}}</span>
+                                                {{/unless}}
+                                            {{/each}}
+                                        </div> 
+                                    {{/each}}                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_left_find-your-fit">
+                            <h3 class="find-your-fit_header header3">
+                                <span>Find your fit</span>
+                            </h3>
+                            <p class="find-your-fit_text">{{this.fyftext}}</p>
+                            <a class="find-your-fit_link cta" href={{fyflink}} tabindex="0" target=" ">
+                                <span class="cta-content button_cta_text">
+                                    <span class="cta-text" tabindex="-1">View & download complete guide</span>
+                                </span>
+                                <span class="icon-right" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_imagecontainer">
+                        <div class="content_imagecontainer_wrap">
+                            <img src={{imageurl}}>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</article>

@@ -1,0 +1,34 @@
+{
+    "resultDto": [
+        {
+            "sku": "60409293 ",
+            "distributionStoreNumber": "403",
+            "totalInTransit": 0,
+            "onHand": 1,
+            "reserved": 0,
+            "available": 1,
+            "isAssorted": true,
+            "productIntransitInventoryDto": []
+        },
+        {
+            "sku": "60409293 ",
+            "distributionStoreNumber": "53",
+            "totalInTransit": 0,
+            "onHand": 1,
+            "reserved": 0,
+            "available": 1,
+            "isAssorted": false,
+            "productIntransitInventoryDto": []
+        },
+        {
+            "sku": "60409293 ",
+            "distributionStoreNumber": "9205",
+            "totalInTransit": 0,
+            "onHand": 1,
+            "reserved": 0,
+            "available": 1,
+            "isAssorted": true,
+            "productIntransitInventoryDto": []
+        }
+    ]
+}

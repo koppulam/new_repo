@@ -1,0 +1,397 @@
+.grid-page {
+
+    &.container-centered {
+        @include MediaQueries($above-large-desktop) {
+            margin: 0 auto;
+            padding: 0 getUnitValue(6.5);
+        }
+
+        @include MediaQueries($mobile) {
+            padding-bottom: 0;
+        }
+
+        .content-tile {
+            .browse-grid-header {
+                padding-bottom: 0;
+                line-height: 1.25;
+            }
+        }
+
+        .content-tile .browse-grid-header {
+            line-height: 1.25;
+        }
+    }
+
+    &.search-grid-page {
+        @include MediaQueries($desktop-and-below) {
+            padding-bottom: getUnitValue(1);
+        }
+    }
+
+    &.engagement-grid-page {
+        &.container {
+            padding-bottom: 0;
+        }
+    }
+
+    &.browse-grid-page,
+    &.engagement-grid-page,
+    &.search-grid-page {
+        @include MediaQueries($desktop-and-below) {
+            margin: 0;
+            .filter-icon-mobile {
+                padding-left: 0;
+            }
+            .sort-clear-container {
+                padding-right: 0;
+            }
+        }
+    }
+    &.browse-grid-page,
+    &.engagement-grid-page {
+        min-height: getUnitValue(50);
+    }
+
+    &.engagement-grid-page {
+        .sort-clear-container {
+
+            .selected-filters--show {
+                margin-top: getUnitValue(8);
+            }
+        }
+        .designer-main-wrapper {
+            width: calc(100vw - 72px);
+        }
+
+        .designer-container {
+            overflow-y: visible;
+            width: calc(100vw - 72px);
+
+            &__options {
+                @include MediaQueries($desktop-and-above) {
+                    &:first-child {
+                        padding-left: getUnitValue(0);
+                    }
+                }
+
+                &_item {
+                    margin-right: getUnitValue(4);
+                }
+            }
+            &__preview {
+                //Commented as per BUG-2077
+                // padding-left: getUnitValue(9.5);
+
+                &_label {
+                    font-size: $font-size-12;
+                }
+            }
+        }
+    }
+
+    &__found-text {
+        margin-top: getUnitValue(4);
+        margin-bottom: getUnitValue(2);
+
+        @include font($font-size-14, $font-weight-light, $black, 1, false);
+        @include font-family($font_santral_light);
+
+        p, b, h5 {
+            font-size: $font-size-14;
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: getUnitValue(2) getUnitValue(2) 0 getUnitValue(2);
+            line-height: getUnitValue(3);
+        }
+
+        &_term {
+            display: inline-block;
+            padding: 0 5px;
+
+            @include MediaQueries($desktop-and-above) {
+                @include font($font-size-14, $font-weight-600, $black, 1, false);
+                @include font-family($font_santral_regular);
+
+            }
+        }
+    }
+
+    &__grid-holder {
+        .marketing-product-tiles {
+            padding-bottom: 0;
+            padding-top: 0;
+
+            @include MediaQueries($below-desktop-tablet){
+                margin-top: 0;
+            }
+
+            .product-tile {
+                height: auto;
+
+                &__body {
+                    @include MediaQueries($desktop-tablet-and-above) {
+                        max-height: getUnitValue(46);
+                    }
+
+                    &.tile-buttons {
+                        @include MediaQueries($mobile) {
+                            min-height: getUnitValue(5);
+                        }
+                    }
+                }
+
+                &__details_name {
+
+                    @include MediaQueries($tablet-and-below)  {
+                        @include font($font-size-12, $font-weight-normal, $black, 1.67, false);
+                        @include font-family($font_santral_regular);
+
+                    }
+                }
+            }
+        }
+    }
+
+    &__pagination{
+        @extend .col__full, .display__inline-block;
+        @include font($font-size-12, $font-weight-normal, $black, 1.83, 0);
+        @include font-family($font_santral_regular);
+
+        @include MediaQueries($below-desktop-tablet) {
+            margin-bottom: 0;
+            padding: 0 getUnitValue(2) getUnitValue(1) getUnitValue(2);
+        }
+        .browse-grid-heading{
+            @extend .display__inline;
+            @include font($font-size-12, $font-weight-normal, $black, 1.83, 0);
+            @include font-family($font_santral_regular);
+            padding-left: 4px;
+        }
+    }
+
+    &__loading{
+        @extend .col__full, .tf-g__center;
+        @include font($font-size-12, $font-weight-normal, $black, 1.33, 0);
+        @include font-family($font_santral_regular);
+        margin-top: getUnitValue(1);
+
+        @include MediaQueries($below-desktop-tablet) {
+            margin-bottom: getUnitValue(3);
+        }
+    }
+
+    .show-more {
+        @extend .tf-g, .tf-g__center;
+        margin-top: getUnitValue(3);
+
+        @include MediaQueries($desktop-and-below) {
+            margin-top: getUnitValue(2);
+        }
+        .icon-dropdown-down {
+            margin-left: getUnitValue(1);
+        }
+    }
+
+    .scroll_to_top_button {
+        @extend .tf-g, .tf-g__center;
+        margin-top: getUnitValue(4);
+        padding-bottom: getUnitValue(2);
+        &_img {
+            @extend .show__inline-block;
+            margin-left: getUnitValue(1);
+
+            picture {
+                @extend .show__inline-block;
+                height:10px;
+                width:10px;
+                font-size: $font-size-12;
+
+            }
+
+            .ios & {
+                position: relative;
+                top: -2px;
+            }
+
+            @include MediaQueries($desktop-and-below) {
+                vertical-align: middle;
+            }
+        }
+        .cta-text {
+            @include font($font-size-14, $font-weight-light, $black, false, 0);
+
+            @include font-family($font_santral_light);
+
+            @include MediaQueries($desktop-and-below) {
+                font-size: $font-size-14;
+                @include font-family($font_santral_regular);
+            }
+        }
+
+        .cta {
+            padding: 0;
+        }
+
+        .icon-Go-to-Top {
+            margin-left: getUnitValue(1);
+            @include MediaQueries($desktop-and-below) {
+                font-size: $font-size-12;
+            }
+        }
+    }
+
+    @include MediaQueries($desktop-and-above) {
+        min-height: getUnitValue(30);
+    }
+}
+
+.marketing-content-picture-tile,
+.text-with-image-marketing-carousel {
+    a.cta {
+        @include MediaQueries($tablet-and-below) {
+            font-weight: bold;
+        }
+    }
+}
+
+.layout_2x2 {
+    .text-with-image-marketing-carousel {
+        @include MediaQueries($mobile) {
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: getUnitValue(7);
+            padding-top: getUnitValue(7) !important;
+        }
+    }
+}
+.search-page,
+.browse-page,
+.store-list-page {
+    .hero-banner:first-child {
+        padding-bottom: 0;
+    }
+}
+.browse-page {
+
+    .hero-banner {
+        .text-with-image {
+            margin-bottom: 0;
+
+            @include MediaQueries($mobile) {
+                margin-bottom: 0;
+
+                &__text {
+                    padding-top: 0;
+                }
+
+                &.mobile-padding {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .three-tile-carousel {
+        .content-tile & {
+            @include MediaQueries($desktop-and-below) {
+                padding-left: getUnitValue(2) !important;
+                padding-right: getUnitValue(2) !important;
+            }
+        }
+    }
+
+    @include MediaQueries($tablet-and-below) {
+        .hero-banner {
+            .text-with-image {
+                padding-bottom: 0;
+
+                &__text {
+                    padding-top: 0;
+                }
+
+                .content-tile {
+                    padding: 16px 16px 0 16px !important;
+
+                    .heading, .subheading,
+                    .description {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .marketing-content-picture-tile {
+        @include MediaQueries($mobile) {
+            padding-top: getUnitValue(7) !important;
+            padding-bottom: getUnitValue(7);
+        }
+
+        .content-tile {
+            padding: 0 getUnitValue(2) 0 !important;
+
+            .heading {
+                font-size: $font-size-40;
+                line-height: getUnitValue(6);
+
+                .tiffany-rte {
+                    padding-bottom: 0;
+                    font-size: $font-size-40;
+                    line-height: getUnitValue(6);
+                }
+            }
+            a.cta {
+                @extend .cta;
+            }
+        }
+
+        a.cta {
+            .cta-content {
+                @include font($font-size-14, $font-weight-normal, $black, 1.71, 0);
+            }
+        }
+    }
+
+    .layout_1x1 {
+        @include MediaQueries($desktop-tablet-and-above) {
+            .marketing-content-picture-tile {
+                .content-tile {
+                    padding: 5% !important;
+                }
+            }
+        }
+    }
+}
+
+/*** Hot fix added for FWMH Components text containers ***/
+
+@include MediaQueries($desktop-and-above){
+    .banner-landing {
+        .hero-banner {
+            .content-tile {
+                top: 0 !important;
+                display: flex !important;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+
+                .browse-grid-header {
+                    line-height: 1.25 !important;
+                    font-size: $font-size-32 !important;
+                }
+            }
+        }
+    }
+}
+
+@include MediaQueries($desktop-and-below){
+    .banner-landing {
+        .hero-component {
+            //changed this as per comments from Joon and Steve
+            padding-bottom: 32px !important;
+        }
+    }
+}

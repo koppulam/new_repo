@@ -1,0 +1,4467 @@
+{
+  "resultDto": {
+    "searchEngine": "1",
+    "numofRecords": 622,
+    "minPrice": "395.00",
+    "maxPrice": "23000.00",
+    "currentStateURL": "/jewelry/items/rings/sort-relevance",
+    "canonicalURL": "/jewelry/items/rings",
+    "imageUrlFormat": "https://media.tiffany.com/is/image/TiffanyIntranet/<Preset>/<ImagePrefix>-<ImageName>.jpg?defaultImage=NoImageAvailableInternal&&",
+    "imagePreset": "EcomBrowseM",
+    "dimensions": [
+      {
+        "endecaDimensionId": 5,
+        "groupName": "Materials",
+        "dimensionValues": [
+          {
+            "name": "Gold",
+            "id": 101323339,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 142,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "gold"
+          },
+          {
+            "name": "Platinum",
+            "id": 101323340,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 212,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "platinum"
+          },
+          {
+            "name": "Rose Gold",
+            "id": 101607567,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 147,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "rose-gold"
+          },
+          {
+            "name": "RUBEDO  metal",
+            "id": 101746884,
+            "displayOrder": "6",
+            "isMultiSelect": true,
+            "count": 8,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "rubedo-metal"
+          },
+          {
+            "name": "Stainless Steel",
+            "id": 101323342,
+            "displayOrder": "7",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "stainless-steel"
+          },
+          {
+            "name": "Sterling Silver",
+            "id": 101323338,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 104,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "sterling-silver"
+          },
+          {
+            "name": "Titanium",
+            "id": 101323343,
+            "displayOrder": "8",
+            "isMultiSelect": true,
+            "count": 13,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "titanium"
+          },
+          {
+            "name": "White Gold",
+            "id": 101323341,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 42,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "white-gold"
+          },
+          {
+            "name": "Yellow Gold",
+            "id": 1014245061,
+            "displayOrder": "25",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "yellow-gold"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 22,
+        "groupName": "Color",
+        "dimensionValues": [
+          {
+            "name": "Platinum",
+            "id": 1014244944,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "platinum"
+          },
+          {
+            "name": "Rose Gold",
+            "id": 1014244945,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "rose-gold"
+          },
+          {
+            "name": "Yellow Gold",
+            "id": 1014244946,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "yellow-gold"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 3,
+        "groupName": "Collections",
+        "dimensionValues": [
+          {
+            "name": "Carved Stone",
+            "id": 1012580398,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "elsa-peretti-carved-stone",
+            "categoryId": 2580398
+          },
+          {
+            "name": "Olive Leaf",
+            "id": 1012590357,
+            "displayOrder": "26",
+            "isMultiSelect": true,
+            "count": 10,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso-olive-leaf",
+            "categoryId": 2590357
+          },
+          {
+            "name": "Jean Schlumberger Rope",
+            "id": 1012632049,
+            "displayOrder": "42",
+            "isMultiSelect": true,
+            "count": 5,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "jean-schlumberger-rope",
+            "categoryId": 2632049
+          },
+          {
+            "name": "Cat Island",
+            "id": 1012646111,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "elsa-peretti-cat-island",
+            "categoryId": 2646111
+          },
+          {
+            "name": "Schlumberger Lynn",
+            "id": 1012648227,
+            "displayOrder": "43",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "schlumberger-lynn",
+            "categoryId": 2648227
+          },
+          {
+            "name": "Bean®",
+            "id": 101297646,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "elsa-peretti-bean",
+            "categoryId": 297646
+          },
+          {
+            "name": "Diamonds by the Yard®",
+            "id": 101297647,
+            "displayOrder": "7",
+            "isMultiSelect": true,
+            "count": 7,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "elsa-peretti-diamonds-by-the-yard",
+            "categoryId": 297647
+          },
+          {
+            "name": "Elsa Peretti® Open Heart Jewelry",
+            "id": 101297648,
+            "displayOrder": "8",
+            "isMultiSelect": true,
+            "count": 7,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "elsa-peretti-open-heart",
+            "categoryId": 297648
+          },
+          {
+            "name": "Other Peretti® Designs",
+            "id": 101297652,
+            "displayOrder": "16",
+            "isMultiSelect": true,
+            "count": 27,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "elsa-peretti-other-peretti-designs",
+            "categoryId": 297652
+          },
+          {
+            "name": "Loving Heart",
+            "id": 101297689,
+            "displayOrder": "22",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso-loving-heart",
+            "categoryId": 297689
+          },
+          {
+            "name": "Sugar Stacks",
+            "id": 101297694,
+            "displayOrder": "27",
+            "isMultiSelect": true,
+            "count": 23,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso-sugar-stacks",
+            "categoryId": 297694
+          },
+          {
+            "name": "Other Designs",
+            "id": 101297704,
+            "displayOrder": "38",
+            "isMultiSelect": true,
+            "count": 4,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso-other-picasso-designs",
+            "categoryId": 297704
+          },
+          {
+            "name": "Jean Schlumberger Sixteen Stone",
+            "id": 1013000435,
+            "displayOrder": "41",
+            "isMultiSelect": true,
+            "count": 11,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "jean-schlumberger-sixteen-stone",
+            "categoryId": 3000435
+          },
+          {
+            "name": "Color by the Yard",
+            "id": 1013053507,
+            "displayOrder": "6",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "elsa-peretti-color-by-the-yard",
+            "categoryId": 3053507
+          },
+          {
+            "name": "Quintessential Schlumberger",
+            "id": 101316254,
+            "displayOrder": "44",
+            "isMultiSelect": true,
+            "count": 11,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "quintessential-schlumberger",
+            "categoryId": 316254
+          },
+          {
+            "name": "Paloma’s Groove™",
+            "id": 101316259,
+            "displayOrder": "36",
+            "isMultiSelect": true,
+            "count": 11,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "gifts-for-him-palomas-groove",
+            "categoryId": 316259
+          },
+          {
+            "name": "Men’s Designs & Accessories",
+            "id": 101316261,
+            "displayOrder": "24",
+            "isMultiSelect": true,
+            "count": 10,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso-mens-designs-accessories",
+            "categoryId": 316261
+          },
+          {
+            "name": "Schlumberger® Enamel",
+            "id": 101566421,
+            "displayOrder": "40",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "schlumberger-enamel",
+            "categoryId": 566421
+          },
+          {
+            "name": "Modern Heart",
+            "id": 101641480,
+            "displayOrder": "25",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso-modern-heart",
+            "categoryId": 641480
+          },
+          {
+            "name": "Graffiti",
+            "id": 101648346,
+            "displayOrder": "15",
+            "isMultiSelect": true,
+            "count": 13,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso-graffiti",
+            "categoryId": 648346
+          },
+          {
+            "name": "Melody",
+            "id": 101718897,
+            "displayOrder": "10",
+            "isMultiSelect": true,
+            "count": 18,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso-melody",
+            "categoryId": 718897
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 28,
+        "groupName": "Diamond Cut",
+        "dimensionValues": [
+          {
+            "name": "Excellent",
+            "id": 1014244991,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 9,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "excellent"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 27,
+        "groupName": "Diamond Shape",
+        "dimensionValues": [
+          {
+            "name": "Cushion",
+            "id": 1014244988,
+            "displayOrder": "7",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "cushion"
+          },
+          {
+            "name": "Emerald",
+            "id": 1014244989,
+            "displayOrder": "8",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "emerald"
+          },
+          {
+            "name": "Heart",
+            "id": 1014244987,
+            "displayOrder": "6",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "heart"
+          },
+          {
+            "name": "Oval",
+            "id": 1014244986,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "oval"
+          },
+          {
+            "name": "Pear",
+            "id": 1014244985,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "pear"
+          },
+          {
+            "name": "Princess",
+            "id": 1014244984,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "princess"
+          },
+          {
+            "name": "Round Brilliant",
+            "id": 1014244982,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "round-brilliant"
+          },
+          {
+            "name": "TRUE",
+            "id": 1014244983,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "true"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 23,
+        "groupName": "Online Exclusive",
+        "dimensionValues": [
+          {
+            "name": "No",
+            "id": 1014244964,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "no"
+          },
+          {
+            "name": "Yes",
+            "id": 1014244963,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 6,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "yes"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 2,
+        "groupName": "Designers & Collections",
+        "dimensionValues": [
+          {
+            "name": "Tiffany Enchant®",
+            "id": 1011638643,
+            "displayOrder": "16",
+            "isMultiSelect": true,
+            "count": 7,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-enchant",
+            "categoryId": 1638643
+          },
+          {
+            "name": "Tiffany Soleste®",
+            "id": 1011666181,
+            "displayOrder": "30",
+            "isMultiSelect": true,
+            "count": 34,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-soleste",
+            "categoryId": 1666181
+          },
+          {
+            "name": "Tiffany Infinity",
+            "id": 1012605744,
+            "displayOrder": "23",
+            "isMultiSelect": true,
+            "count": 9,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "2",
+            "urluniqueId": "tiffany-infinity",
+            "categoryId": 2605744
+          },
+          {
+            "name": "Tiffany Aria",
+            "id": 1012632089,
+            "displayOrder": "8",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-aria",
+            "categoryId": 2632089
+          },
+          {
+            "name": "Tiffany Cobblestone",
+            "id": 1012653697,
+            "displayOrder": "15",
+            "isMultiSelect": true,
+            "count": 6,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-cobblestone",
+            "categoryId": 2653697
+          },
+          {
+            "name": "Tiffany Celebration® Rings",
+            "id": 101287462,
+            "displayOrder": "13",
+            "isMultiSelect": true,
+            "count": 91,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "celebration-rings",
+            "categoryId": 287462
+          },
+          {
+            "name": "Elsa Peretti®",
+            "id": 101288187,
+            "displayOrder": "9",
+            "isMultiSelect": true,
+            "count": 96,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "2",
+            "urluniqueId": "elsa-peretti",
+            "categoryId": 288187
+          },
+          {
+            "name": "Paloma Picasso®",
+            "id": 101288189,
+            "displayOrder": "10",
+            "isMultiSelect": true,
+            "count": 82,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "paloma-picasso",
+            "categoryId": 288189
+          },
+          {
+            "name": "Tiffany & Co. Schlumberger®",
+            "id": 101288190,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 27,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "jean-schlumberger",
+            "categoryId": 288190
+          },
+          {
+            "name": "Tiffany 1837®",
+            "id": 101288191,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 23,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-1837",
+            "categoryId": 288191
+          },
+          {
+            "name": "The Atlas® Collection",
+            "id": 101288192,
+            "displayOrder": "6",
+            "isMultiSelect": true,
+            "count": 27,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "2",
+            "urluniqueId": "the-atlas-collection",
+            "categoryId": 288192
+          },
+          {
+            "name": "Etoile",
+            "id": 101288194,
+            "displayOrder": "18",
+            "isMultiSelect": true,
+            "count": 7,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "etoile",
+            "categoryId": 288194
+          },
+          {
+            "name": "Return to Tiffany®",
+            "id": 101288196,
+            "displayOrder": "20",
+            "isMultiSelect": true,
+            "count": 9,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "rtt",
+            "categoryId": 288196
+          },
+          {
+            "name": "Tiffany Jazz™",
+            "id": 101288197,
+            "displayOrder": "24",
+            "isMultiSelect": true,
+            "count": 8,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-jazz",
+            "categoryId": 288197
+          },
+          {
+            "name": "Tiffany Legacy®",
+            "id": 101288199,
+            "displayOrder": "26",
+            "isMultiSelect": true,
+            "count": 8,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-legacy",
+            "categoryId": 288199
+          },
+          {
+            "name": "Tiffany T",
+            "id": 1013240509,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 50,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-t",
+            "categoryId": 3240509
+          },
+          {
+            "name": "Tiffany HardWear",
+            "id": 1013691980,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 20,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "2",
+            "urluniqueId": "tiffany-hardwear",
+            "categoryId": 3691980
+          },
+          {
+            "name": "Tiffany Fleur de Lis",
+            "id": 1013744142,
+            "displayOrder": "17",
+            "isMultiSelect": true,
+            "count": 4,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "fleur-de-lis",
+            "categoryId": 3744142
+          },
+          {
+            "name": "Tiffany Paper Flowers™",
+            "id": 1013878882,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 6,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-paper-flowers",
+            "categoryId": 3878882
+          },
+          {
+            "name": "Tiffany True",
+            "id": 1014017421,
+            "displayOrder": "68",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-true",
+            "categoryId": 4017421
+          },
+          {
+            "name": "Tiffany Setting",
+            "id": 1014017434,
+            "displayOrder": "67",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-setting",
+            "categoryId": 4017434
+          },
+          {
+            "name": "Tiffany Harmony",
+            "id": 1014017435,
+            "displayOrder": "69",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-harmony",
+            "categoryId": 4017435
+          },
+          {
+            "name": "Tiffany Novo Engagement Collection",
+            "id": 1014017436,
+            "displayOrder": "70",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-novo-engagement-collection",
+            "categoryId": 4017436
+          },
+          {
+            "name": "Tiffany Soleste Engagement Collection",
+            "id": 1014017437,
+            "displayOrder": "71",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-soleste-engagement-collection",
+            "categoryId": 4017437
+          },
+          {
+            "name": "Tiffany Notes",
+            "id": 101471074,
+            "displayOrder": "28",
+            "isMultiSelect": true,
+            "count": 5,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-notes",
+            "categoryId": 471074
+          },
+          {
+            "name": "Tiffany Victoria®",
+            "id": 101473573,
+            "displayOrder": "37",
+            "isMultiSelect": true,
+            "count": 4,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "2",
+            "urluniqueId": "tiffany-victoria",
+            "categoryId": 473573
+          },
+          {
+            "name": "Tiffany Beads",
+            "id": 101554142,
+            "displayOrder": "11",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-beads",
+            "categoryId": 554142
+          },
+          {
+            "name": "Tiffany Circlet",
+            "id": 101574694,
+            "displayOrder": "14",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-circlet",
+            "categoryId": 574694
+          },
+          {
+            "name": "Tiffany Metro",
+            "id": 101579740,
+            "displayOrder": "29",
+            "isMultiSelect": true,
+            "count": 4,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-metro",
+            "categoryId": 579740
+          },
+          {
+            "name": "Tiffany Yellow Diamonds",
+            "id": 101649502,
+            "displayOrder": "7",
+            "isMultiSelect": true,
+            "count": 5,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-yellow-diamonds",
+            "categoryId": 649502
+          },
+          {
+            "name": "Tiffany Bezet",
+            "id": 101661664,
+            "displayOrder": "12",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "layoutID": "1",
+            "urluniqueId": "tiffany-bezet",
+            "categoryId": 661664
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 26,
+        "groupName": "Diamond Clarity",
+        "dimensionValues": [
+          {
+            "name": "IF",
+            "id": 1014244977,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "if"
+          },
+          {
+            "name": "VS1",
+            "id": 1014244978,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "vs1"
+          },
+          {
+            "name": "VS2",
+            "id": 1014244979,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "vs2"
+          },
+          {
+            "name": "VVS1",
+            "id": 1014244980,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "vvs1"
+          },
+          {
+            "name": "VVS2",
+            "id": 1014244981,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "vvs2"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 4,
+        "groupName": "Price Ranges",
+        "dimensionValues": [
+          {
+            "name": "$1,000 - $2,000",
+            "id": 1011020,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 135,
+            "selected": "NO",
+            "minPrice": "1000",
+            "maxPrice": "1999.99",
+            "urluniqueId": "price-1000-2000"
+          },
+          {
+            "name": "$2,000 - $5,000",
+            "id": 1012050,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 158,
+            "selected": "NO",
+            "minPrice": "2000",
+            "maxPrice": "4999.99",
+            "urluniqueId": "price-2000-5000"
+          },
+          {
+            "name": "$250 & Under",
+            "id": 1010025,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 22,
+            "selected": "NO",
+            "maxPrice": "249.99",
+            "urluniqueId": "price-0-250"
+          },
+          {
+            "name": "$250 - $500",
+            "id": 1012550,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 59,
+            "selected": "NO",
+            "minPrice": "250",
+            "maxPrice": "499.99",
+            "urluniqueId": "price-250-500"
+          },
+          {
+            "name": "$5,000 & Over",
+            "id": 1015000,
+            "displayOrder": "6",
+            "isMultiSelect": true,
+            "count": 131,
+            "selected": "NO",
+            "minPrice": "5000",
+            "urluniqueId": "price-5000-above"
+          },
+          {
+            "name": "$500 - $1,000",
+            "id": 1015010,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 117,
+            "selected": "NO",
+            "minPrice": "500",
+            "maxPrice": "999.99",
+            "urluniqueId": "price-500-1000"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 6,
+        "groupName": "Gemstones",
+        "dimensionValues": [
+          {
+            "name": "Aquamarines",
+            "id": 101323354,
+            "displayOrder": "7",
+            "isMultiSelect": true,
+            "count": 7,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "aquamarines"
+          },
+          {
+            "name": "Colored Diamonds",
+            "id": 1012531876,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 14,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "colored-diamonds"
+          },
+          {
+            "name": "Colored Gemstones",
+            "id": 101323357,
+            "displayOrder": "10",
+            "isMultiSelect": true,
+            "count": 44,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "colored-gemstones"
+          },
+          {
+            "name": "Diamonds",
+            "id": 101323351,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 344,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "diamonds"
+          },
+          {
+            "name": "No Gemstone",
+            "id": 1013625968,
+            "displayOrder": "11",
+            "isMultiSelect": true,
+            "count": 179,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "no-gemstone"
+          },
+          {
+            "name": "Onyx",
+            "id": 101323356,
+            "displayOrder": "9",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "onyx"
+          },
+          {
+            "name": "Pearls",
+            "id": 101323352,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 7,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "pearls"
+          },
+          {
+            "name": "Rubies",
+            "id": 1013826247,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 14,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "rubies"
+          },
+          {
+            "name": "Sapphires",
+            "id": 101323353,
+            "displayOrder": "6",
+            "isMultiSelect": true,
+            "count": 36,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "sapphires"
+          },
+          {
+            "name": "Tanzanites",
+            "id": 1011664798,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 7,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "tanzanites"
+          },
+          {
+            "name": "Turquoise",
+            "id": 101323355,
+            "displayOrder": "8",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "turquoise"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 25,
+        "groupName": "Diamond Color",
+        "dimensionValues": [
+          {
+            "name": "D",
+            "id": 1014244970,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "d"
+          },
+          {
+            "name": "E",
+            "id": 1014244971,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "e"
+          },
+          {
+            "name": "F",
+            "id": 1014244972,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "f"
+          },
+          {
+            "name": "G",
+            "id": 1014244973,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "g"
+          },
+          {
+            "name": "H",
+            "id": 1014244974,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "h"
+          },
+          {
+            "name": "I",
+            "id": 1014244975,
+            "displayOrder": "6",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "i"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 9,
+        "groupName": "Gender",
+        "dimensionValues": [
+          {
+            "name": "Female",
+            "id": 1014244966,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 4,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "female"
+          },
+          {
+            "name": "Male",
+            "id": 1014244965,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 4,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "male"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 24,
+        "groupName": "Setting",
+        "dimensionValues": [
+          {
+            "name": "Halo",
+            "id": 1014244969,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "halo"
+          },
+          {
+            "name": "Solitaire",
+            "id": 1014244967,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "solitaire"
+          },
+          {
+            "name": "Three-stone",
+            "id": 1014244968,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "three-stone"
+          }
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 1,
+        "groupName": "Categories",
+        "dimensionValues": [
+          
+        ],
+        "isHidden": false
+      },
+      {
+        "endecaDimensionId": 14,
+        "groupName": "GemStoneColor",
+        "dimensionValues": [
+          {
+            "name": "Black",
+            "id": 1013044788,
+            "displayOrder": "1",
+            "isMultiSelect": true,
+            "count": 11,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "black"
+          },
+          {
+            "name": "Blue",
+            "id": 1013044789,
+            "displayOrder": "2",
+            "isMultiSelect": true,
+            "count": 47,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "blue"
+          },
+          {
+            "name": "Brown",
+            "id": 1013620947,
+            "displayOrder": "3",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "brown"
+          },
+          {
+            "name": "Colorless",
+            "id": 1013620948,
+            "displayOrder": "4",
+            "isMultiSelect": true,
+            "count": 289,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "colorless"
+          },
+          {
+            "name": "Gray",
+            "id": 1013836318,
+            "displayOrder": "5",
+            "isMultiSelect": true,
+            "count": 1,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "gray"
+          },
+          {
+            "name": "Green",
+            "id": 1013044790,
+            "displayOrder": "6",
+            "isMultiSelect": true,
+            "count": 11,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "green"
+          },
+          {
+            "name": "Multicolored",
+            "id": 1013044791,
+            "displayOrder": "7",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "multicolored"
+          },
+          {
+            "name": "Orange",
+            "id": 1013044792,
+            "displayOrder": "8",
+            "isMultiSelect": true,
+            "count": 2,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "orange"
+          },
+          {
+            "name": "Pink",
+            "id": 1013044793,
+            "displayOrder": "9",
+            "isMultiSelect": true,
+            "count": 23,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "pink"
+          },
+          {
+            "name": "Purple",
+            "id": 1013044794,
+            "displayOrder": "10",
+            "isMultiSelect": true,
+            "count": 3,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "purple"
+          },
+          {
+            "name": "Red",
+            "id": 1013044795,
+            "displayOrder": "11",
+            "isMultiSelect": true,
+            "count": 15,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "red"
+          },
+          {
+            "name": "White",
+            "id": 1013044796,
+            "displayOrder": "12",
+            "isMultiSelect": true,
+            "count": 7,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "white"
+          },
+          {
+            "name": "Yellow",
+            "id": 1013044797,
+            "displayOrder": "13",
+            "isMultiSelect": true,
+            "count": 8,
+            "selected": "NO",
+            "lineBreakGroupID": "0",
+            "urluniqueId": "yellow"
+          }
+        ],
+        "isHidden": false
+      }
+    ],
+    "products": [
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "36821078",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-two-narrow-ring-GRP09677",
+        "imageURL": "tiffany-ttwo-narrow-ring-36821078_986966_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "36821078",
+        "mipsDescription": "18Y T TWO DI NRW RG 6 18Y/GLD",
+        "name": "Tiffany T Two narrow ring in 18k gold with diamonds.",
+        "posDescription": "18Y T TWO DI NRW RG 6 18Y/GLD",
+        "price": "2550.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP09677",
+        "title": "Tiffany T:Two Narrow Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "Two Narrow Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttwo-narrow-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "1",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          "Rose Gold"
+        ],
+        "setting": [
+          "Three-stone"
+        ],
+        "diamondShape": [
+          "TRUE"
+        ],
+        "diamondCut": [
+          "Excellent"
+        ],
+        "diamondColor": [
+          "E"
+        ],
+        "diamondClarity": [
+          "VS1"
+        ],
+        "caratWeight": "2.000000",
+        "onlineExclusive": "Yes",
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "gender": "Female",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,550.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "36821078_980895_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "36821078_986966_ED_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "36821078_985851_SV_2_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "23429446",
+        "displayOrder": 0,
+        "friendlyUrl": "/engagement/womens-wedding-bands/tiffany-co-schlumberger-sixteen-stone-ring-GRP02194",
+        "imageURL": "tiffany-co-schlumbergersixteen-stone-ring-23429446_935242_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": false,
+        "isServiceable": false,
+        "leafDefaultSku": "23429446",
+        "mipsDescription": "PLAT 16STONE DI SA RG 4 PLAT 9",
+        "name": "Tiffany & Co. Schlumberger® Sixteen Stone ring with diamonds and sapphires.",
+        "posDescription": "PLAT 16STONE DI SA RG 4 PLAT 9",
+        "price": "8900.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP02194",
+        "title": "Tiffany & Co. Schlumberger®:Sixteen Stone Ring",
+        "titleSplit": [
+          "Tiffany & Co. Schlumberger®",
+          "Sixteen Stone Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-co-schlumbergersixteen-stone-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "2",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$8,900.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "23429446_958168_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "23429446_935242_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "27897908",
+        "displayOrder": 0,
+        "friendlyUrl": "/engagement/mens-wedding-bands/tiffany-co-band-ring-GRP05172",
+        "imageURL": "tiffany-coband-ring-27897851_934898_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": false,
+        "isServiceable": false,
+        "leafDefaultSku": "27897908",
+        "mipsDescription": "18R DI TCO 3MM RG 6 .",
+        "name": "Tiffany & Co.® band ring in 18k rose gold with diamonds, 3 mm wide.",
+        "posDescription": "18R DI TCO 3MM RG 6 .",
+        "price": "1150.00",
+        "sharpen": "1.00,1.00,6.00",
+        "sharpenL": "1.00,1.00,6.00",
+        "sku": "GRP05172",
+        "title": "Tiffany & Co.®:Band Ring",
+        "titleSplit": [
+          "Tiffany & Co.®",
+          "Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-coband-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "3",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$1,150.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "27897835_956528_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "27897851_934898_ED_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "27897908_956529_SV_2"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "37587532",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-fleur-de-lis-band-ring-GRP09615",
+        "imageURL": "tiffany-fleur-de-lisband-ring-37587435_972733_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "37587532",
+        "mipsDescription": "PTDIXMNFLRDL BNDRG 6",
+        "name": "Tiffany Fleur de Lis band ring in platinum with diamonds, extra mini.",
+        "posDescription": "PTDIXMNFLRDL BNDRG 6",
+        "price": "2450.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP09615",
+        "title": "Tiffany Fleur de Lis:Band Ring",
+        "titleSplit": [
+          "Tiffany Fleur de Lis",
+          "Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-fleur-de-lisband-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "4",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          "Rose Gold"
+        ],
+        "setting": [
+          "Halo"
+        ],
+        "diamondShape": [
+          "Oval"
+        ],
+        "diamondCut": [
+          "Excellent"
+        ],
+        "diamondColor": [
+          "H"
+        ],
+        "diamondClarity": [
+          "VVS2"
+        ],
+        "caratWeight": "4.000000",
+        "onlineExclusive": "Yes",
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "gender": "Male",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,450.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "37587435_980996_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "37587435_972733_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "21623636",
+        "displayOrder": 0,
+        "friendlyUrl": "/engagement/mens-wedding-bands/tiffany-essential-band-double-milgrain-ring-GRP01739",
+        "imageURL": "tiffany-essential-banddouble-milgrain-ring-21623512_921522_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": false,
+        "isServiceable": true,
+        "leafDefaultSku": "21623636",
+        "mipsDescription": "PT TIFF ESNTL DBL MG 6MM 6.5",
+        "name": "Tiffany Essential Band double milgrain ring in platinum, 6 mm wide.",
+        "posDescription": "PT TIFF ESNTL DBL MG 6MM 6.5",
+        "price": "2325.00",
+        "sharpen": "1.00,1.00,6.00",
+        "sharpenL": "1.00,1.00,6.00",
+        "sku": "GRP01739",
+        "title": "Tiffany Essential Band:Double Milgrain Ring",
+        "titleSplit": [
+          "Tiffany Essential Band",
+          "Double Milgrain Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-essential-banddouble-milgrain-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "5",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          "Yellow Gold"
+        ],
+        "setting": [
+          "Solitaire"
+        ],
+        "diamondShape": [
+          "Heart"
+        ],
+        "diamondCut": [
+          "Excellent"
+        ],
+        "diamondColor": [
+          "I"
+        ],
+        "diamondClarity": [
+          "IF"
+        ],
+        "caratWeight": "1.300000",
+        "onlineExclusive": "Yes",
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "gender": "Female",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,325.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "21623474_958162_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "21623512_921522_ED_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "21623474_958161_SV_2_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62499745",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/wedding-bands/tiffany-classic-milgrain-wedding-band-ring-GRP10450",
+        "imageURL": "tiffany-classicmilgrain-wedding-band-ring-62499478_985058_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": true,
+        "isServiceable": true,
+        "leafDefaultSku": "62499745",
+        "mipsDescription": "18R/PT TIFF CLASS MG 4MM 6",
+        "name": "Tiffany Classic™ milgrain wedding band ring in platinum and 18k rose gold, 4 mm",
+        "posDescription": "18R/PT TIFF CLASS MG 4MM 6",
+        "price": "1525.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10450",
+        "title": "Tiffany Classic™:Milgrain Wedding Band Ring",
+        "titleSplit": [
+          "Tiffany Classic™",
+          "Milgrain Wedding Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-classicmilgrain-wedding-band-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "6",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$1,525.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62499478_986299_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62499478_985058_ED_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62499478_986361_SV_2_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "14767479",
+        "displayOrder": 0,
+        "friendlyUrl": "/engagement/mens-wedding-bands/tiffany-classic-wedding-band-ring-GRP00362",
+        "imageURL": "tiffany-classicwedding-band-ring-14767061_941236_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": false,
+        "isServiceable": false,
+        "leafDefaultSku": "14767479",
+        "mipsDescription": "18Y TIFF CLASSIC 4.5MM 6",
+        "name": "Tiffany Classic™ wedding band ring in 18k gold, 4.5 mm wide.",
+        "posDescription": "18Y TIFF CLASSIC 4.5MM 6",
+        "price": "950.00",
+        "sharpen": "1.00,1.00,6.00",
+        "sharpenL": "1.00,1.00,6.00",
+        "sku": "GRP00362",
+        "title": "Tiffany Classic™:Wedding Band Ring",
+        "titleSplit": [
+          "Tiffany Classic™",
+          "Wedding Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-classicwedding-band-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "7",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          "Platinum"
+        ],
+        "setting": [
+          "Three-stone"
+        ],
+        "diamondShape": [
+          "Cushion"
+        ],
+        "diamondCut": [
+          "Excellent"
+        ],
+        "diamondColor": [
+          "D"
+        ],
+        "diamondClarity": [
+          "VS1"
+        ],
+        "caratWeight": "5.000000",
+        "onlineExclusive": "No",
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "gender": "Male",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$950.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "14767061_984153_SV_2_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "14767061_980725_ED_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "14767061_958269_SV_1_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "14767061_980720_SV_3_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "14767061_980483_SV_4_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "14767061_984156_SV_5_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "33130759",
+        "displayOrder": 0,
+        "friendlyUrl": "/engagement/mens-wedding-bands/tiffany-co-band-ring-GRP07648",
+        "imageURL": "tiffany-co-band-ring-33130759_941274_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": false,
+        "isServiceable": true,
+        "leafDefaultSku": "33130759",
+        "mipsDescription": "PT DI TCO 4MM RG 6 .",
+        "name": "Tiffany & Co.® band ring in platinum with diamonds, 4 mm.",
+        "posDescription": "PT DI TCO 4MM RG 6 .",
+        "price": "1925.00",
+        "sharpen": "1.00,1.00,6.00",
+        "sharpenL": "1.00,1.00,6.00",
+        "sku": "GRP07648",
+        "title": "Tiffany & Co.® Band Ring",
+        "titleSplit": [
+          "Tiffany & Co.® Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-co-band-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "8",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          "Rose Gold"
+        ],
+        "setting": [
+          "Solitaire"
+        ],
+        "diamondShape": [
+          "Emerald"
+        ],
+        "diamondCut": [
+          "Excellent"
+        ],
+        "diamondColor": [
+          "E"
+        ],
+        "diamondClarity": [
+          "VS2"
+        ],
+        "caratWeight": "6.000000",
+        "onlineExclusive": "No",
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "gender": "Female",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$1,925.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "33130759_956544_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "33130759_941274_ED_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "33130759_956545_SV_2_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "13482284",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/wedding-bands/etoile-five-row-band-ring-GRP00081",
+        "imageURL": "etoilefive-row-band-ring-13482241_934847_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": false,
+        "isServiceable": false,
+        "leafDefaultSku": "13482284",
+        "mipsDescription": "PT Pave Etoile 5 Row 6 PLATINU",
+        "name": "Etoile five-row band ring with pavé diamonds in platinum.",
+        "posDescription": "PT Pave Etoile 5 Row 6 PLATINU",
+        "price": "16625.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP00081",
+        "title": "Etoile:Five-row Band Ring",
+        "titleSplit": [
+          "Etoile",
+          "Five-row Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "etoilefive-row-band-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "9",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$16,625.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "13482241_958268_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "13482241_934847_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61626654",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-paper-flowers-diamond-open-flower-ring-GRP10396",
+        "imageURL": "tiffany-paper-flowersdiamond-open-flower-ring-61626638_984481_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "61626654",
+        "mipsDescription": "PT DI MD PFWR OPN RG 6",
+        "name": "Tiffany Paper Flowers™ diamond open flower ring in platinum.",
+        "posDescription": "PT DI MD PFWR OPN RG 6",
+        "price": "5500.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10396",
+        "title": "Tiffany Paper Flowers™:Diamond Open Flower Ring",
+        "titleSplit": [
+          "Tiffany Paper Flowers™",
+          "Diamond Open Flower Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-paper-flowersdiamond-open-flower-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "10",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          "Yellow Gold"
+        ],
+        "setting": [
+          "Halo"
+        ],
+        "diamondShape": [
+          "Round Brilliant"
+        ],
+        "diamondCut": [
+          "Excellent"
+        ],
+        "diamondColor": [
+          "F"
+        ],
+        "diamondClarity": [
+          "VVS1"
+        ],
+        "caratWeight": "5.000000",
+        "onlineExclusive": "No",
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "gender": "Male",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$5,500.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "61626638_984482_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61626638_984481_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61624996",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-paper-flowers-diamond-flower-ring-GRP10408",
+        "imageURL": "tiffany-paper-flowersdiamond-flower-ring-61624961_984437_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "61624996",
+        "mipsDescription": "PT DI SM PFWR CLSTR RG 6",
+        "name": "Tiffany Paper Flowers™ diamond flower ring in platinum.",
+        "posDescription": "PT DI SM PFWR CLSTR RG 6",
+        "price": "7000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10408",
+        "title": "Tiffany Paper Flowers™:Diamond Flower Ring",
+        "titleSplit": [
+          "Tiffany Paper Flowers™",
+          "Diamond Flower Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-paper-flowersdiamond-flower-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "11",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$7,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "61624961_984438_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61624961_984437_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61625461",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-paper-flowers-diamond-and-tanzanite-open-flower-ring-GRP10557",
+        "imageURL": "tiffany-paper-flowersdiamond-and-tanzanite-open-flower-ring-61625429_988455_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "61625461",
+        "mipsDescription": "PT DI TANZ PFWR OPN BNDRG 6",
+        "name": "Tiffany Paper Flowers™ diamond and tanzanite open flower ring in platinum.",
+        "posDescription": "PT DI TANZ PFWR OPN BNDRG 6",
+        "price": "9500.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10557",
+        "title": "Tiffany Paper Flowers™:Diamond and Tanzanite Open Flower Ring",
+        "titleSplit": [
+          "Tiffany Paper Flowers™",
+          "Diamond and Tanzanite Open Flower Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-paper-flowersdiamond-and-tanzanite-open-flower-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "12",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$9,500.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61625429_988455_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61625216",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-paper-flowers-diamond-cluster-ring-GRP10397",
+        "imageURL": "tiffany-paper-flowersdiamond-cluster-ring-61625216_984439_ED",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "61625216",
+        "mipsDescription": "PT DI PFWR 3CLSTR RG 6",
+        "name": "Tiffany Paper Flowers™ diamond cluster ring in platinum.",
+        "posDescription": "PT DI PFWR 3CLSTR RG 6",
+        "price": "14000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10397",
+        "title": "Tiffany Paper Flowers™:Diamond Cluster Ring",
+        "titleSplit": [
+          "Tiffany Paper Flowers™",
+          "Diamond Cluster Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-paper-flowersdiamond-cluster-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "13",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$14,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "61625194_984440_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61625216_984439_ED"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61625836",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-paper-flowers-diamond-and-tanzanite-flower-ring-GRP10409",
+        "imageURL": "tiffany-paper-flowersdiamond-and-tanzanite-flower-ring-61625801_985071_ED_M",
+        "isGroup": true,
+        "isNewProduct": false,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "61625836",
+        "mipsDescription": "PT DI TANZ SM PFWR CLSTR RG 6",
+        "name": "Tiffany Paper Flowers™ diamond and tanzanite flower ring in platinum.",
+        "posDescription": "PT DI TANZ SM PFWR CLSTR RG 6",
+        "price": "6000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10409",
+        "title": "Tiffany Paper Flowers™:Diamond and Tanzanite<br>Flower Ring",
+        "titleSplit": [
+          "Tiffany Paper Flowers™",
+          "Diamond and Tanzanite<br>Flower Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-paper-flowersdiamond-and-tanzanite-flower-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "14",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$6,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "61625801_984456_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61625801_985071_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61698280",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-paper-flowers-diamond-open-flower-ring-GRP10558",
+        "imageURL": "tiffany-paper-flowersdiamond-open-flower-ring-61698248_989063_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "61698280",
+        "mipsDescription": "PT DI MN PFWR OPN RG 6",
+        "name": "Tiffany Paper Flowers™ diamond open flower ring in platinum.",
+        "posDescription": "PT DI MN PFWR OPN RG 6",
+        "price": "4000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10558",
+        "title": "Tiffany Paper Flowers™:Diamond Open Flower Ring",
+        "titleSplit": [
+          "Tiffany Paper Flowers™",
+          "Diamond Open Flower Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-paper-flowersdiamond-open-flower-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "15",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$4,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61698248_989063_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62858826",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/palomas-melody-five-band-ring-GRP10670",
+        "imageURL": "palomas-melodyfive-band-ring-62858761_986866_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62858826",
+        "mipsDescription": "18W BLKSP DI MELODY RING 6",
+        "name": "Paloma's Melody five-band ring in 18k white gold with diamonds and spinels.",
+        "posDescription": "18W BLKSP DI MELODY RING 6",
+        "price": "23000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10670",
+        "title": "Paloma's Melody:Five-band Ring",
+        "titleSplit": [
+          "Paloma's Melody",
+          "Five-band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "palomas-melodyfive-band-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "16",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$23,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62858761_986866_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61590145",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/atlas-pierced-narrow-ring-GRP10537",
+        "imageURL": "atlaspierced-narrow-ring-61590064_987509_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": true,
+        "leafDefaultSku": "61590145",
+        "mipsDescription": "18R RU NRW PRCD ATL RG6",
+        "name": "Atlas® pierced narrow ring in 18k rose gold with rubies.",
+        "posDescription": "18R RU NRW PRCD ATL RG6",
+        "price": "850.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10537",
+        "title": "Atlas®:Pierced Narrow Ring",
+        "titleSplit": [
+          "Atlas®",
+          "Pierced Narrow Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "atlaspierced-narrow-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "17",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$850.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61590064_987509_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62270233",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/atlas-pierced-narrow-ring-GRP10538",
+        "imageURL": "atlaspierced-narrow-ring-62270152_987516_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62270233",
+        "mipsDescription": "18Y RU NRW PRCD ATL RG6",
+        "name": "Atlas® pierced narrow ring in 18k gold with rubies.",
+        "posDescription": "18Y RU NRW PRCD ATL RG6",
+        "price": "850.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10538",
+        "title": "Atlas®:Pierced Narrow Ring",
+        "titleSplit": [
+          "Atlas®",
+          "Pierced Narrow Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "atlaspierced-narrow-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "18",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$850.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62270152_987516_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "60760950",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-aria-open-ring-GRP10539",
+        "imageURL": "tiffany-ariaopen-ring-60760918_986838_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "60760950",
+        "mipsDescription": "PTDI DBL ARIA OPEN RG 6",
+        "name": "Tiffany Aria open ring in platinum.",
+        "posDescription": "PTDI DBL ARIA OPEN RG 6",
+        "price": "2200.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10539",
+        "title": "Tiffany Aria:Open Ring",
+        "titleSplit": [
+          "Tiffany Aria",
+          "Open Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ariaopen-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "19",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,200.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "60760950_985867_SV_1"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "60760918_986838_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62721308",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-aria-open-ring-GRP10541",
+        "imageURL": "tiffany-ariaopen-ring-62721219_986864_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62721308",
+        "mipsDescription": "18RDI DBL ARIA OPEN RG 6",
+        "name": "Tiffany Aria open ring in 18k rose gold.",
+        "posDescription": "18RDI DBL ARIA OPEN RG 6",
+        "price": "2000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10541",
+        "title": "Tiffany Aria:Open Ring",
+        "titleSplit": [
+          "Tiffany Aria",
+          "Open Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ariaopen-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "20",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62721219_986312_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62721219_986864_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62272651",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-two-chain-ring-GRP10617",
+        "imageURL": "tiffany-ttwo-chain-ring-62272619_986855_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62272651",
+        "mipsDescription": "18Y DI T CHAIN RING 6",
+        "name": "Tiffany T Two chain ring in 18k gold with diamonds.",
+        "posDescription": "18Y DI T CHAIN RING 6",
+        "price": "850.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10617",
+        "title": "Tiffany T:Two Chain Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "Two Chain Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttwo-chain-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "21",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$850.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuAlternateView",
+            "mediaTypeID": 1093,
+            "url": "62272619_986854_AV_1_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62272619_986896_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62272619_986855_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62272767",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-two-chain-ring-GRP10618",
+        "imageURL": "tiffany-ttwo-chain-ring-62272724_986857_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62272767",
+        "mipsDescription": "18R DI T CHAIN RING 6",
+        "name": "Tiffany T Two chain ring in 18k rose gold with diamonds.",
+        "posDescription": "18R DI T CHAIN RING 6",
+        "price": "850.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10618",
+        "title": "Tiffany T:Two Chain Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "Two Chain Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttwo-chain-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "22",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$850.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuAlternateView",
+            "mediaTypeID": 1093,
+            "url": "62272724_986856_AV_1_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62272724_986897_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62272724_986857_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62272872",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-two-chain-ring-GRP10619",
+        "imageURL": "tiffany-ttwo-chain-ring-62272821_986859_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62272872",
+        "mipsDescription": "18W DI T CHAIN RING 6",
+        "name": "Tiffany T Two chain ring in 18k white gold with diamonds.",
+        "posDescription": "18W DI T CHAIN RING 6",
+        "price": "850.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10619",
+        "title": "Tiffany T:Two Chain Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "Two Chain Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttwo-chain-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "23",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$850.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuAlternateView",
+            "mediaTypeID": 1093,
+            "url": "62272821_986858_AV_1_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62272821_986898_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62272821_986859_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "63102687",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/palomas-graffiti-x-wire-ring-GRP10588",
+        "imageURL": "palomas-graffitix-wire-ring-63102598_986875_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "63102687",
+        "mipsDescription": "SS DI GRAF X WIRE RG 6",
+        "name": "Paloma's Graffiti X wire ring in sterling silver with a diamond.",
+        "posDescription": "SS DI GRAF X WIRE RG 6",
+        "price": "395.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10588",
+        "title": "Paloma's Graffiti:X Wire Ring",
+        "titleSplit": [
+          "Paloma's Graffiti",
+          "X Wire Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "palomas-graffitix-wire-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "24",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$395.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "63102598_986875_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "63102474",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/palomas-graffiti-x-wire-ring-GRP10587",
+        "imageURL": "palomas-graffitix-wire-ring-63102385_986874_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "63102474",
+        "mipsDescription": "18R DI GRAF X WR RG 6",
+        "name": "Paloma's Graffiti X wire ring in 18k rose gold with a diamond.",
+        "posDescription": "18R DI GRAF X WR RG 6",
+        "price": "600.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10587",
+        "title": "Paloma's Graffiti:X Wire Ring",
+        "titleSplit": [
+          "Paloma's Graffiti",
+          "X Wire Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "palomas-graffitix-wire-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "25",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$600.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "63102385_986874_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62508787",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-true-wide-ring-GRP10567",
+        "imageURL": "tiffany-ttrue-wide-ring-62508493_988652_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62508787",
+        "mipsDescription": "18Y T TRU WD INTLK RG6",
+        "name": "Tiffany T True wide ring in 18k gold, 5.5 mm wide.",
+        "posDescription": "18Y T TRU WD INTLK RG6",
+        "price": "1350.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10567",
+        "title": "Tiffany T:True Wide Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "True Wide Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttrue-wide-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "26",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$1,350.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62508493_988652_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "63064319",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-true-wide-ring-GRP10610",
+        "imageURL": "tiffany-ttrue-wide-ring-63064319_989757_ED",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "63064319",
+        "mipsDescription": "18R T TRU WD INTLK RG6",
+        "name": "Tiffany T True wide ring in 18k rose gold, 5.5 mm wide.",
+        "posDescription": "18R T TRU WD INTLK RG6",
+        "price": "1350.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10610",
+        "title": "Tiffany T:True Wide Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "True Wide Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttrue-wide-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "27",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$1,350.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "63064319_989757_ED"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62509252",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-true-wide-ring-GRP10611",
+        "imageURL": "tiffany-ttrue-wide-ring-62509252_988653_ED",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62509252",
+        "mipsDescription": "18W T TRU WD INTLK RG6",
+        "name": "Tiffany T True wide ring in 18k white gold, 5.5 mm wide.",
+        "posDescription": "18W T TRU WD INTLK RG6",
+        "price": "1350.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10611",
+        "title": "Tiffany T:True Wide Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "True Wide Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttrue-wide-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "28",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$1,350.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62509252_988653_ED"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "38051296",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-victoria-ring-GRP10551",
+        "imageURL": "tiffany-victoriaring-38051296_986832_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "38051296",
+        "mipsDescription": "PT DI VIC PRL RG 6",
+        "name": "Tiffany Victoria® ring in platinum with a freshwater pearl and diamonds.",
+        "posDescription": "PT DI VIC PRL RG 6",
+        "price": "5200.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10551",
+        "title": "Tiffany Victoria®:Ring",
+        "titleSplit": [
+          "Tiffany Victoria®",
+          "Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-victoriaring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "29",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$5,200.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "38051296_985865_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "38051296_986832_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62731060",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-novo-round-ring-GRP10522",
+        "imageURL": "tiffany-novoround-ring-62730978_987998_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62731060",
+        "mipsDescription": "PT RDDI TIFF NOVO 6",
+        "name": "Tiffany Novo® round ring in platinum with a round brilliant diamond.",
+        "posDescription": "PT RDDI TIFF NOVO 6",
+        "price": "2350.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10522",
+        "title": "Tiffany Novo®:Round Ring",
+        "titleSplit": [
+          "Tiffany Novo®",
+          "Round Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-novoround-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "30",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,350.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62730978_986313_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62730978_987998_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62644389",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-novo-horizon-ring-GRP10523",
+        "imageURL": "tiffany-novohorizon-ring-62644281_987994_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62644389",
+        "mipsDescription": "PT SAPPH EC NOVO HORIZ 6",
+        "name": "Tiffany Novo® Horizon ring in platinum with a sapphire and diamonds.",
+        "posDescription": "PT SAPPH EC NOVO HORIZ 6",
+        "price": "2250.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10523",
+        "title": "Tiffany Novo®:Horizon Ring",
+        "titleSplit": [
+          "Tiffany Novo®",
+          "Horizon Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-novohorizon-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "31",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,250.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62644281_986305_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62644281_987994_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62644532",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-novo-horizon-ring-GRP10524",
+        "imageURL": "tiffany-novohorizon-ring-62644443_987995_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62644532",
+        "mipsDescription": "18R PK SA TIFF NOVO HORIZ 6",
+        "name": "Tiffany Novo® Horizon ring in 18k rose gold with a pink sapphire and diamonds.",
+        "posDescription": "18R PK SA TIFF NOVO HORIZ 6",
+        "price": "2000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10524",
+        "title": "Tiffany Novo®:Horizon Ring",
+        "titleSplit": [
+          "Tiffany Novo®",
+          "Horizon Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-novohorizon-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "32",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62644443_986306_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62644443_987995_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62644680",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-novo-horizon-ring-GRP10525",
+        "imageURL": "tiffany-novohorizon-ring-62644591_987996_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62644680",
+        "mipsDescription": "18Y TSAVORITE NOVO HORIZON 6",
+        "name": "Tiffany Novo® Horizon ring in 18k gold with a tsavorite and diamonds.",
+        "posDescription": "18Y TSAVORITE NOVO HORIZON 6",
+        "price": "2000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10525",
+        "title": "Tiffany Novo®:Horizon Ring",
+        "titleSplit": [
+          "Tiffany Novo®",
+          "Horizon Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-novohorizon-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "33",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62644591_986307_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62644591_987996_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62644842",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-novo-horizon-ring-GRP10526",
+        "imageURL": "tiffany-novohorizon-ring-62644745_987997_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62644842",
+        "mipsDescription": "18R RUBY NOVO HORIZON 6",
+        "name": "Tiffany Novo® Horizon ring in 18k rose gold with a ruby and diamonds.",
+        "posDescription": "18R RUBY NOVO HORIZON 6",
+        "price": "2250.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10526",
+        "title": "Tiffany Novo®:Horizon Ring",
+        "titleSplit": [
+          "Tiffany Novo®",
+          "Horizon Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-novohorizon-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "34",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,250.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62644745_986308_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62644745_987997_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62272430",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-two-chain-ring-GRP10514",
+        "imageURL": "tiffany-ttwo-chain-ring-62272430_983890_ED",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62272430",
+        "mipsDescription": "18R T TWO CHAIN RING 6",
+        "name": "Tiffany T Two chain ring in 18k rose gold.",
+        "posDescription": "18R T TWO CHAIN RING 6",
+        "price": "450.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10514",
+        "title": "Tiffany T:Two Chain Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "Two Chain Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttwo-chain-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "35",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$450.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuAlternateView",
+            "mediaTypeID": 1093,
+            "url": "62272392_983891_AV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62272430_983890_ED"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "62272325",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/tiffany-t-two-chain-ring-GRP10513",
+        "imageURL": "tiffany-ttwo-chain-ring-62272287_983888_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "62272325",
+        "mipsDescription": "18Y T TWO CHAIN RING 6",
+        "name": "Tiffany T Two chain ring in 18k gold.",
+        "posDescription": "18Y T TWO CHAIN RING 6",
+        "price": "450.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10513",
+        "title": "Tiffany T:Two Chain Ring",
+        "titleSplit": [
+          "Tiffany T",
+          "Two Chain Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-ttwo-chain-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "36",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$450.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuAlternateView",
+            "mediaTypeID": 1093,
+            "url": "62272287_983889_AV_1_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "62272287_986270_SV_1_M"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "62272287_983888_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "60940282",
+        "displayOrder": 0,
+        "friendlyUrl": "/engagement/womens-wedding-bands/tiffany-legacy-band-ring-GRP10515",
+        "imageURL": "tiffany-legacyband-ring-60940282_985050_ED",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "60940282",
+        "mipsDescription": "PTDIRU TIFFLEGACY FC2MM RG 6",
+        "name": "Tiffany Legacy® band ring in platinum with diamonds and rubies, 2 mm wide.",
+        "posDescription": "PTDIRU TIFFLEGACY FC2MM RG 6",
+        "price": "3000.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10515",
+        "title": "Tiffany Legacy®:Band Ring",
+        "titleSplit": [
+          "Tiffany Legacy®",
+          "Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-legacyband-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "37",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$3,000.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "60940282_985872_SV_1"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "60940282_985050_ED"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61300481",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/elsa-peretti-marquise-band-ring-GRP10492",
+        "imageURL": "elsa-perettimarquise-band-ring-61300406_985193_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "61300481",
+        "mipsDescription": "PT MQ DI .17EA BD RG 6",
+        "name": "Elsa Peretti® marquise band ring in platinum with a diamond.",
+        "posDescription": "PT MQ DI .17EA BD RG 6",
+        "price": "2800.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10492",
+        "title": "Elsa Peretti®:Marquise Band Ring",
+        "titleSplit": [
+          "Elsa Peretti®",
+          "Marquise Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "elsa-perettimarquise-band-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "38",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,800.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61300406_985193_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "61300058",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/rings/elsa-peretti-marquise-band-ring-GRP10491",
+        "imageURL": "elsa-perettimarquise-band-ring-61299955_985192_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": false,
+        "leafDefaultSku": "61300058",
+        "mipsDescription": "PT MQ DI .07EA BD RG 6",
+        "name": "Elsa Peretti® marquise band ring in platinum with a diamond.",
+        "posDescription": "PT MQ DI .07EA BD RG 6",
+        "price": "1700.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10491",
+        "title": "Elsa Peretti®:Marquise Band Ring",
+        "titleSplit": [
+          "Elsa Peretti®",
+          "Marquise Band Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "elsa-perettimarquise-band-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "39",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$1,700.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "61299955_985192_ED_M"
+          }
+        ]
+      },
+      {
+        "additionalImageUrls": [
+          
+        ],
+        "crop": "0.10,0.10,0.80,0.80",
+        "defaultSku": "60985855",
+        "displayOrder": 0,
+        "friendlyUrl": "/jewelry/wedding-bands/tiffany-essential-band-satin-finish-ring-GRP10494",
+        "imageURL": "tiffany-essential-bandsatin-finish-ring-60985561_987507_ED_M",
+        "isGroup": true,
+        "isNewProduct": true,
+        "isRelevance": true,
+        "isServiceable": true,
+        "leafDefaultSku": "60985855",
+        "mipsDescription": "PTDI TIFESNTL SATIN 5MM 6",
+        "name": "Tiffany Essential Band satin finish ring in platinum with a diamond.",
+        "posDescription": "PTDI TIFESNTL SATIN 5MM 6",
+        "price": "2950.00",
+        "sharpen": "1.75,1.00,6.00",
+        "sharpenL": "1.75,1.00,6.00",
+        "sku": "GRP10494",
+        "title": "Tiffany Essential Band:Satin Finish Ring",
+        "titleSplit": [
+          "Tiffany Essential Band",
+          "Satin Finish Ring"
+        ],
+        "isPurchasable": true,
+        "showEmailWhenAvailable": false,
+        "formattedTitle": "tiffany-essential-bandsatin-finish-ring",
+        "isLowInventory": false,
+        "sortOrderEndeca": "40",
+        "isMotifEnabled": false,
+        "groupMemberImageUrls": [
+          
+        ],
+        "color": [
+          
+        ],
+        "setting": [
+          
+        ],
+        "diamondShape": [
+          
+        ],
+        "diamondCut": [
+          
+        ],
+        "diamondColor": [
+          
+        ],
+        "diamondClarity": [
+          
+        ],
+        "isAvailableOnline": false,
+        "department": "-1",
+        "class": "-1",
+        "style": "-1",
+        "parentGroups": [
+          
+        ],
+        "isIRExperience": false,
+        "formattedPrice": "$2,950.00",
+        "prodImageUrlSet": [
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "60985855_986354_SV_1"
+          },
+          {
+            "mediaType": "SkuStraightOn",
+            "mediaTypeID": 1092,
+            "url": "60985561_987507_ED_M"
+          },
+          {
+            "mediaType": "SkuSeeitOnView",
+            "mediaTypeID": 1098,
+            "url": "60985561_986883_SV_2_M"
+          }
+        ]
+      }
+    ]
+  }
+}

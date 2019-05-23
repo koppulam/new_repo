@@ -1,0 +1,77 @@
+// ****************************************
+// css-dropdown
+// ****************************************
+
+.css-dropdown {
+    @extend .display__block;
+
+    &__trigger {
+        @extend .hide-from__screen;
+        @extend .hide;
+        appearance: none;
+    }
+
+    &__arrow,
+    &__button {
+        pointer-events: auto;
+        cursor: pointer;
+    }
+
+    &__text-button {
+        @extend .display__block;
+    }
+
+    &__arrow {
+        @extend .display__inline-block;
+        position: relative;
+        transition: transform 0.3s;
+    }
+
+    &__content {
+        @extend .display__none;
+        margin-top: getUnitValue(2);
+
+        @include MediaQueries($tablet-large-and-below) {
+            margin: 0 0 0 getUnitValue(3);
+        }
+    }
+
+    
+
+    // active state
+    &__trigger:checked ~ .link-list__container_title label &__arrow,
+    &__text-button:checked + .link-list__container_title label &__arrow {
+        transform: rotate(-180deg);
+    }
+
+    &__trigger:checked ~ &__content,
+    &__text-button:checked ~ &__content,
+    &__toggle-btn:checked ~ &__content {
+        @extend .display__block;
+    }
+}
+
+// seconday style
+.css-dropdown.is-secondary {
+    line-height: 1.6;
+    margin: 15px 0 0;
+    text-align: left;
+
+    .css-dropdown__text-button {
+        text-decoration: underline;
+    }
+
+    .css-dropdown__arrow::after {
+        margin: 3px 0 0 6px;
+        color: inherit;
+        position: static;
+    }
+
+    .css-dropdown__trigger:checked ~ .css-dropdown__arrow::after {
+        margin: 0 0 4px 6px;
+    }
+
+    .css-dropdown__content {
+        margin-top: 10px;
+    }
+}

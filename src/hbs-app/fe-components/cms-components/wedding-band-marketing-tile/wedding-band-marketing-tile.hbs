@@ -1,0 +1,92 @@
+<article class="wedding-band-marketing-tile app-js__wedding-band-marketing-tile">
+
+    <div class="wedding-band-marketing-tile_text">
+        {{> content-tile
+        textAlignment = contentTile.textAlignment
+        heading = contentTile.heading
+        description = contentTile.description
+        description2 = contentTile.description2
+        }}
+    </div>
+
+    <div class="wedding-band-marketing-tile_background-image">
+        {{> picture
+        isLazyLoad = backgroundImage.isLazyLoad
+        desktopSrc = backgroundImage.desktopSrc
+        mobileSrc = backgroundImage.mobileSrc
+        altText = backgroundImage.imageAlt
+        }}
+    </div>
+
+    <div class="wedding-band-marketing-tile_hero-image">
+        {{#each heroImage}}
+        <div class="hero-image_{{@index}} wedding-band-marketing-tile_hero-image_item {{#compare @index ">" 0}}hide{{/compare}}">
+            {{> picture
+            isLazyLoad = isLazyLoad
+            desktopSrc = desktopSrc
+            mobileSrc = mobileSrc
+            altText = imageAlt
+            }}
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="wedding-band-marketing-tile_sku-image">
+        <div class="wedding-band-marketing-tile_sku-image_container sku-images-{{skuImages.length}}" aria-label="tab navigation" role="tablist">
+            {{#each skuImages}}
+            <div aria-label="sku-image_{{@index}}" class="sku-image_{{@index}} wedding-band-marketing-tile_sku-image_container_item {{#compare @index "===" 0}}active-sku-image{{/compare}}"
+                data-interaction-context="" data-interaction-type="love-engagement:perfect-pair" tabindex="0" data-interaction-name={{@index}} role="tab" {{#if @first}}aria-selected="true"{{else}}aria-selected="false"{{/if}}>
+                {{> picture
+                isLazyLoad = isLazyLoad
+                desktopSrc = imageSrc
+                mobileSrc = imageSrc
+                altText = imageAlt
+                }}
+                <div class="cta-link {{#compare @index ">" 0}}hide{{/compare}}">
+                    <a class="cta" href="#ctaLink1" tabindex="0" target="{{ctaTarget}}">
+                        <span class="cta-content button_cta_text">
+                            <span class="cta-text" tabindex="-1">{{ctaText}}</span>
+                        </span>
+                        <span class="icon-dropdown-right"></span>
+                    </a>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+
+    <div class="wedding-band-marketing-tile_mobile_text">
+        {{> content-tile
+        textAlignment = mobileContentTile.textAlignment
+        heading = mobileContentTile.heading
+        description = mobileContentTile.description
+        }}
+    </div>
+    <div class="wedding-band-marketing-tile_mobile-hero-images">
+        {{#each mobileHeroImages}}
+        <div class="wedding-band-marketing-tile_mobile-hero-images_item">
+            {{> picture
+            isLazyLoad = isLazyLoad
+            desktopSrc = desktopSrc
+            mobileSrc = mobileSrc
+            altText = imageAlt
+            }}
+
+            <div class="wedding-band-marketing-tile_mobile-hero-images_text">
+                <div class="description">
+                    <p>{{description2}}</p>
+                </div>
+                <div class="cta-link">
+                    <a class="cta" href="#ctaLink1" tabindex="0" target="{{ctaTarget}}">
+                        <span class="cta-content button_cta_text">
+                            <span class="cta-text" tabindex="-1">{{ctaText}}</span>
+                        </span>
+                        <span class="icon-dropdown-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+</article>

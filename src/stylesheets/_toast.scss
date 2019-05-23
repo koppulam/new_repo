@@ -1,0 +1,77 @@
+// ****************************************
+// modal -styles
+// ****************************************
+.toast {
+    @extend .hide;
+}
+
+.toast-container {
+    @extend .tf-g, .tf-g__col;
+    position: absolute;
+    z-index: $toast-zIndex;
+    
+    &.top {
+        @extend .col__full;
+        top: 0;
+        left: 0;
+    }
+
+    &.bottom {
+        @extend .col__full;
+        bottom: 0;
+        left: 0;
+    }
+
+    &.reverse {
+        @extend .tf-g__col--reverse;
+    }
+    
+    &.isFixed {
+        position: fixed;
+    }
+
+    .toast {
+        @extend .show;
+        @include font($font-size-12, $font-weight-normal, $black, 1.33, false);
+        @include font-family($font_santral_regular);
+        background: $tiffanyBlue;
+        padding: getUnitValue(2);
+        margin-bottom: getUnitValue(1);
+        transition: all 0.75s ease-out;
+        
+        &.message-only {
+            text-align: center;
+
+            &.left {
+                text-align: left;
+            }
+
+            &.right {
+                text-align: right;
+            }
+        }
+
+        &.fade-out {
+            opacity: 0;
+        }
+        // Adding below colors only as reference
+        &.warn {
+            background: $monza;
+        }
+
+        &.error {
+            background: $monza;
+        }
+    }
+
+    .close-toast {
+        @extend .icon, .icon-Close;
+        padding: 0;
+        position: absolute;
+        right: getUnitValue(2);
+        top: getUnitValue(2);
+        font-size: $font-size-10;
+        background: transparent;
+        border: none;
+    }
+}

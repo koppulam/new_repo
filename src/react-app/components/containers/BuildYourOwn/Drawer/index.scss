@@ -1,0 +1,338 @@
+.drawer {
+    @extend .tf-g, .tf-g__end, .tf-g__col, .col__full;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 440px;
+    height: getUnitValue(7);
+    transition: height 800ms linear;
+
+    @include MediaQueries($desktop-and-below) {
+        z-index: 10;
+    }
+
+    &.opened {
+        height: 100%;
+        z-index: $header-zIndex;
+        @include MediaQueries($desktop-tablet-and-above) {
+            z-index: 15;
+        }
+    }
+
+    &-container {
+        height: 0;
+        background: $white;
+        transition: height 500ms linear;
+        &.opened {
+            height: calc(100% - #{getUnitValue(7)});
+            .drawer__modal {
+                visibility: visible;
+                padding: getUnitValue(3) getUnitValue(3) 0 getUnitValue(5);
+            }
+        }
+    }
+
+    &__modal {
+        @extend .tiffany-blue-custom-scroll-bar;
+        border: 1px solid $whisper;
+        border-bottom: 0;
+        background-color: $white;
+        position: relative;
+        overflow-y: hidden;
+        height: 100%;
+        visibility: hidden;
+        transition: padding linear 500ms;
+
+        .ios & {
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .ps {
+            height: 100%;
+            padding-right: getUnitValue(2);
+
+            .ps__rail-x {
+                @extend .hide;
+            }
+        }
+
+        &_top-section {
+            @extend .tf-g, .tf-g__between;
+            padding-bottom: getUnitValue(1);
+
+            &_heading {
+                @include font($font-size-14, false, $black, 1.71, false);
+                @include font-family($font_santral_regular);
+                font-weight: $font-weight-600;
+            }
+
+            &_close {
+                @include font($font-size-12, false, $black, 2, false);
+                @include font-family($font_santral_light);
+                font-weight: $font-weight-light;
+                background: transparent;
+                border: 0;
+                padding: 0;
+                cursor: pointer;
+            }
+        }
+
+        &_items {
+            border-top: 1px solid $whisper;
+
+            &_image {
+                padding: getUnitValue(2) 0 getUnitValue(2.5);
+                display: flex;
+
+                &_container {
+                    img {
+                        width: getUnitValue(11);
+                        height: getUnitValue(11);
+                        margin-right: getUnitValue(3);
+                        max-width: none;
+                    }
+                }
+
+                &_details {
+                    @extend .col__full;
+                    text-align: left;
+
+                    .wrapper {
+                        min-height: getUnitValue(8);
+                    }
+
+                    &_title,
+                    &_size,
+                    &_price {
+                        @include font($font-size-12, false, $black, 1.33, false);
+                        @include font-family($font_santral_regular);
+                        padding-bottom: getUnitValue(1);
+                    }
+
+                    &_title {
+                        @extend .col__full;
+                        position: relative;
+                        padding-right: getUnitValue(1);
+
+                        .icon-Close,
+                        .count {
+                            @include font($font-size-12, $font-weight-light, $black, 1.33, false);
+                            float: right;
+                            @include font-family($font_santral_light);
+                        }
+
+                        .icon-Close {
+                            cursor: pointer;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+
+                            .keyboard--focussed & {
+                                &:focus {
+                                    border: 1px solid $bondiBlue;
+                                }
+                            }
+                        }
+                    }
+
+                    &_chain {
+                        @extend .col__full;
+                        @include font($font-size-12, false, $black, 1.33, false);
+                        @include font-family($font_santral_regular);
+                        margin-top: getUnitValue(1);
+                        padding: getUnitValue(1) 0;
+                        border: 1px solid $whisper;
+                        border-width: 1px 0 0;
+                        background: transparent;
+                        cursor: pointer;
+
+                        .cta-content {
+                            @extend .hover-cta;
+                            float: left;
+                        }
+
+                        .icon-Add {
+                            font-size: $font-size-12;
+                            color: $black;
+                            float: right;
+                        }
+                    }
+
+                    &_actions {
+                        @extend .col__full, .tf-g, .tf-g__between, .tf-g__middle;
+
+                        .cta-actions {
+                            @extend .tf-g,.tf-g__between, .col__full;
+
+                            .wishlist {
+                                margin-top: getUnitValue(1);
+                            }
+                        }
+
+                        &-container {
+                            @extend .tf-g,.tf-g__col;
+                        }
+
+                        .cta {
+                            display: block;
+                            background: transparent;
+                            cursor: pointer;
+                            text-align: left;
+
+                            .cta-content {
+                                @include font($font-size-12, false, $black, 2, false);
+                                @include font-family($font_santral_regular);
+                            }
+
+                            .icon-dropdown-right-arrow {
+                                font-size: $font-size-16;
+                                line-height: 1.5;
+                                color: $black;
+                            }
+                        }
+
+                        .wishlist {
+                            margin: 0;
+                            width: getUnitValue(2);
+                            height: getUnitValue(2);
+                        }
+                    }
+                }
+            }
+
+            &.save-design {
+                .drawer__modal_items_image_container {
+                    @extend .col-8-12;
+                    text-align: left;
+                }
+                .drawer__modal_items_image_details {
+                    @extend .col-4-12;
+                    align-self: flex-end;
+                    text-align: right;
+                    &_btn {
+                        @extend .btn, .btn-primary;
+                        padding: getUnitValue(1) getUnitValue(3);
+                        height: auto;
+                    }
+                }
+                .drawer__modal_items_image_container_label {
+                    @include font($font-size-12, $font-weight-light, $black, 1.33, false);
+                    @include font-family($font_santral_light);
+                }
+                .drawer__modal_items_image_container_input {
+                    @extend .col-10-12;
+                    @include font($font-size-14, $font-weight-normal, $black, 1.2, 0);
+                    height: getUnitValue(4);
+                    outline: none;
+                    margin-top: getUnitValue(1);
+                    text-align: center;
+                    @include font-family($font_sterling_display_roman);
+                    border: 1px solid $warm-gray;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    &__actions {
+        @extend .tf-g, .col__full;
+        @include MediaQueries($desktop-tablet-and-above) {
+            z-index: 9;
+        }
+
+        &_price {
+            @extend .btn, .btn-primary;
+            height: getUnitValue(7);
+            margin-right: 1px;
+            line-height: 1.71;
+            padding: getUnitValue(2) getUnitValue(2.5);
+            width: 168px;
+            cursor: pointer;
+            @include font-family($font_santral_regular);
+
+            .icon-Up,
+            .icon-Down {
+                color: $white;
+                font-size: $font-size-14;
+                padding-right: getUnitValue(1);
+            }
+            &:active, &:hover {
+                .icon-Up,
+                .icon-Down {
+                    color: $black;
+                }
+            }
+        }
+
+        &_add-to-bag {
+            @extend .btn, .btn-primary;
+            height: getUnitValue(7);
+            padding: 0;
+            margin: auto;
+            align-items: center;
+            width: 271px;
+            cursor: pointer;
+            @include font-family($font_santral_regular);
+
+            @include MediaQueries($desktop-and-below) {
+                &:hover {
+                    background-color: $black;
+                    color: $white;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    @include MediaQueries($desktop-and-below) {
+        width: 100%;
+        max-width: none;
+
+        &__modal {
+            padding: getUnitValue(1) getUnitValue(2) 0;
+        }
+
+        &__actions {
+            display: flex;
+            position: -webkit-sticky;
+            position: sticky;
+            bottom: 0;
+            
+            &_price {
+                width: calc(37% - 1px);
+                @include font-family($font_santral_semi_bold);
+                font-size: $font-size-14;
+            }
+
+            &_add-to-bag {
+                width: 63%;
+                @include font-family($font_santral_semi_bold);
+                font-size: $font-size-14;
+            }
+        }
+    }
+}
+
+.drawer-animation-enter,
+.drawer-animation-exit-done {
+    height: 0;
+}
+
+.drawer-animation-enter-active {
+    height: calc(100% - #{getUnitValue(8)});
+    transition: height 500ms linear;
+}
+
+.drawer-animation-enter-done {
+    height: calc(100% - #{getUnitValue(7)});
+}
+
+.drawer-animation-exit {
+    height: calc(100% - #{getUnitValue(8)});
+}
+
+.drawer-animation-exit-active {
+    height: 0;
+    transition: height 500ms linear;
+}

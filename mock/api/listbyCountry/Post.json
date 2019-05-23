@@ -1,0 +1,1177 @@
+{
+    "resultDto":[
+       {
+          "storeDisplayGroupsId":2548,
+          "storeGroupTypeId":2,
+          "groupingWebDisplayText":"NSW",
+          "displayOrder":1,
+          "stores":[
+             {
+                "store":{
+                   "storeId":652,
+                   "companyId":1,
+                   "storeName":"Sydney Pitt St",
+                   "address1":"90 King Street",
+                   "address2":"",
+                   "address3":"",
+                   "city":"Sydney",
+                   "region":"NSW",
+                   "postalCode":"2000",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"Sydney|Pitt Street|Sydney, Australia|Australia|",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2008-08-01T00:00:00",
+                   "geoCodeLattitude":"-33.8686244",
+                   "geoCodeLongitude":"151.207897",
+                   "dateCreated":"2008-09-12T14:39:51.143",
+                   "dateLastModified":"2018-06-11T23:16:16.71",
+                   "mapLevel":1,
+                   "useCustomGeoCode":false,
+                   "storePriorityTypeId":1,
+                   "mipsstoreNumber":"73",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":true,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":652,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Wed:10:00AM-6:00PM<br>Thu.:10:00AM-8:00PM<br>Fri:10:00AM-6:00PM<br>Sat.:10:00AM-6:00PM<br>Sun.:11:00AM-5:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":652,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":652,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":652,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":652,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":652,
+                      "siteId":1,
+                      "pageTitle":"Sydney Jewellery Store",
+                      "pageH1tag":"Sydney Jewellery Store",
+                      "description":"Shop Tiffany & Co. Sydney - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellery, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"sydney"
+                   }
+                ],
+                "events":[
+
+                ]
+             },
+             {
+                "store":{
+                   "storeId":848,
+                   "companyId":1,
+                   "storeName":"Tiffany & Co. - T Galleria Sydney<br>(Duty Free Only)",
+                   "address1":"The Rocks",
+                   "address2":"155 George Street",
+                   "address3":"",
+                   "city":"Sydney",
+                   "region":"NSW",
+                   "postalCode":"2000",
+                   "country":"Australia",
+                   "phone":"61-2-8243-8666",
+                   "email":"",
+                   "extraInformation":"Duty Free Shopping.<br>Owned and operated by an authorized Tiffany & Co. retailer.",
+                   "searchKeywords":"ASIA & PACIFIC|AUSTRALIA|TIFFANY & CO.  DFS GALLERIA|Sydney, Australia|155 George Street|Sydney, 2000|Australia  ",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2008-08-01T00:00:00",
+                   "geoCodeLattitude":"-33.860667",
+                   "geoCodeLongitude":"151.208363",
+                   "dateCreated":"2008-09-12T14:39:51.843",
+                   "dateLastModified":"2017-05-18T13:41:51.493",
+                   "mapLevel":1,
+                   "useCustomGeoCode":true,
+                   "storePriorityTypeId":3,
+                   "mipsstoreNumber":"     ",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":848,
+                      "storeHourTypeId":1,
+                      "storeHours":"Open Daily: 11:00am-7:00pm",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":848,
+                      "storeHourTypeId":2,
+                      "storeHours":"Open Daily: 11:00am-7:00pm",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":848,
+                      "siteId":1,
+                      "pageTitle":"",
+                      "pageH1tag":"",
+                      "description":"",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"tiffany-co-dfs-galleria-sydneyduty-free-only"
+                   }
+                ],
+                "events":[
+
+                ]
+             },
+             {
+                "store":{
+                   "storeId":1298,
+                   "companyId":1,
+                   "storeName":"Westfield Bondi Junction",
+                   "address1":"Level 4, 500 Oxford Street",
+                   "address2":"",
+                   "address3":"",
+                   "city":"Bondi Junction",
+                   "region":"NSW",
+                   "postalCode":"2022",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2012-11-26T16:00:00",
+                   "geoCodeLattitude":"-33.8923724",
+                   "geoCodeLongitude":"151.25057779999997",
+                   "dateCreated":"2012-11-26T16:02:46.307",
+                   "dateLastModified":"2018-06-11T23:20:08.14",
+                   "mapLevel":1,
+                   "useCustomGeoCode":false,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"528",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":1298,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Wed.:9:30AM-6:00PM<br>Thu.:9:30AM-9:00PM<br>Fri.:9:30AM-7:00PM<br>Sat.:9:30AM-6:00PM<br>Sun.: 10:00AM-6:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":1298,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":1298,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1298,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1298,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":1298,
+                      "siteId":1,
+                      "pageTitle":"Westfield Bondi Junction Jewellery Store",
+                      "pageH1tag":"Westfield Bondi Junction Jewellery Store",
+                      "description":"Shop Tiffany & Co. Westfield Bondi Junction - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellery, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"westfield-bondi-junction"
+                   }
+                ],
+                "events":[
+
+                ]
+             },
+             {
+                "store":{
+                   "storeId":1379,
+                   "companyId":1,
+                   "storeName":"Sydney International Airport",
+                   "address1":"Shop L6, Luxury Promenade",
+                   "address2":"T1 International Terminal, Sydney (Kingsford Smith) Airport",
+                   "address3":"",
+                   "city":"Mascot ",
+                   "region":"NSW",
+                   "postalCode":"2020",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"SalesServiceAustralia@Tiffany.com",
+                   "extraInformation":"",
+                   "searchKeywords":"",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2016-05-09T09:00:00",
+                   "geoCodeLattitude":"-33.9399183",
+                   "geoCodeLongitude":"151.1730877",
+                   "dateCreated":"2016-05-10T10:14:49.247",
+                   "dateLastModified":"2018-05-29T00:46:18.15",
+                   "mapLevel":1,
+                   "useCustomGeoCode":true,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"586",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":1379,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Sun.: 6:00AM-09:30PM<br> ",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":1379,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":1379,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1379,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1379,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":1379,
+                      "siteId":1,
+                      "pageTitle":"Sydney International Airport Jewellery Store",
+                      "pageH1tag":"Sydney International Airport Jewellery Store",
+                      "description":"Shop Tiffany & Co. Sydney International Airport - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellry, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"sydney-international-airport"
+                   }
+                ],
+                "events":[
+
+                ]
+             },
+             {
+                "store":{
+                   "storeId":1406,
+                   "companyId":1,
+                   "storeName":"Westfield Sydney",
+                   "address1":"Level 4, Shop 4029/31",
+                   "address2":"Cnr Pitt and Market Street",
+                   "address3":"",
+                   "city":"Sydney",
+                   "region":"NSW",
+                   "postalCode":"2000",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2017-07-21T09:00:00",
+                   "geoCodeLattitude":"-33.8700461",
+                   "geoCodeLongitude":"151.20885969999995",
+                   "dateCreated":"2017-07-13T10:02:55.31",
+                   "dateLastModified":"2018-06-11T23:16:33.193",
+                   "mapLevel":1,
+                   "useCustomGeoCode":true,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"606",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":1406,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Wed.: 9:30AM-6:30PM<br>Thu.: 9:30AM-9:00PM<br>Fri.-Sat.: 9:30AM-6:30PM<br>Sun.: 10:00AM-6:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":1406,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":1406,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1406,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":1406,
+                      "siteId":1,
+                      "pageTitle":"Westfield Sydney Jewellery Store",
+                      "pageH1tag":"Westfield Sydney Jewellery Store",
+                      "description":"Shop Tiffany & Co. Westfield Sydney - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellry, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"westfield-sydney"
+                   }
+                ],
+                "events":[
+
+                ]
+             }
+          ]
+       },
+       {
+          "storeDisplayGroupsId":2549,
+          "storeGroupTypeId":2,
+          "groupingWebDisplayText":"VIC",
+          "displayOrder":2,
+          "stores":[
+             {
+                "store":{
+                   "storeId":741,
+                   "companyId":1,
+                   "storeName":"Melbourne Collins Street",
+                   "address1":"267 Collins Street",
+                   "address2":"",
+                   "address3":"",
+                   "city":"Melbourne",
+                   "region":"VIC",
+                   "postalCode":"3000",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"Melbourne Collins Street|Collins Street|Melbourne Victoria|Melbourne, Australia|Melbourne|Australia|",
+                   "storePhoto":"/shared/images/Stores/846.jpg",
+                   "visibleDate":"2008-08-01T00:00:00",
+                   "geoCodeLattitude":"-37.8135365",
+                   "geoCodeLongitude":"144.97224010000002",
+                   "dateCreated":"2008-09-12T14:39:51.343",
+                   "dateLastModified":"2018-06-11T23:16:55.77",
+                   "mapLevel":1,
+                   "useCustomGeoCode":false,
+                   "storePriorityTypeId":1,
+                   "mipsstoreNumber":"75",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":true,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":741,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Thu.:10:00AM-6:00PM<br>Fri.: 10:00AM-7:00PM<br>Sat.:10:00AM-6:00PM<br>Sun.:11:00AM-5:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":741,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":741,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":741,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":741,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":741,
+                      "siteId":1,
+                      "pageTitle":"Melbourne Collins Street Jewellery Store",
+                      "pageH1tag":"Melbourne Collins Street Jewellery Store",
+                      "description":"Shop Tiffany & Co. Melbourne Collins Street - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellery, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"melbourne-collins-street"
+                   }
+                ],
+                "events":[
+
+                ]
+             },
+             {
+                "store":{
+                   "storeId":1420,
+                   "companyId":1,
+                   "storeName":"Melbourne International Airport",
+                   "address1":"Terminal 2 Departures",
+                   "address2":"Melbourne International Airport",
+                   "address3":"",
+                   "city":"Melbourne Airport",
+                   "region":"VIC",
+                   "postalCode":"3045",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2017-11-30T13:30:00",
+                   "geoCodeLattitude":"-37.669105",
+                   "geoCodeLongitude":"144.840845",
+                   "dateCreated":"2017-11-21T11:36:54.627",
+                   "dateLastModified":"2018-02-22T09:01:11.33",
+                   "mapLevel":1,
+                   "useCustomGeoCode":true,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"608",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":1420,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br> Mon. - Sun.: 6:00AM-10:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":1420,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":1420,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1420,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1420,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":1420,
+                      "siteId":1,
+                      "pageTitle":"Melbourne Airport Jewellery Store",
+                      "pageH1tag":"Melbourne Airport Jewellery Store",
+                      "description":"Shop Tiffany & Co. Melbourne Airport - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellry, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"melbourne-airport"
+                   }
+                ],
+                "events":[
+
+                ]
+             }
+          ]
+       },
+       {
+          "storeDisplayGroupsId":2550,
+          "storeGroupTypeId":2,
+          "groupingWebDisplayText":"QLD",
+          "displayOrder":3,
+          "stores":[
+             {
+                "store":{
+                   "storeId":788,
+                   "companyId":1,
+                   "storeName":"Brisbane - QueensPlaza",
+                   "address1":"226 Queen Street",
+                   "address2":"",
+                   "address3":" ",
+                   "city":"Brisbane",
+                   "region":"QLD",
+                   "postalCode":"4000",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"Queens Plaza|Queen Street|Brisbane|Brisbane, Australia|Australia|",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2008-08-01T00:00:00",
+                   "geoCodeLattitude":"-27.4682769",
+                   "geoCodeLongitude":"153.02611079999997",
+                   "dateCreated":"2008-09-12T14:39:51.61",
+                   "dateLastModified":"2018-05-09T20:08:43.03",
+                   "mapLevel":1,
+                   "useCustomGeoCode":false,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"431",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":788,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Thur.:10:00AM-6:00PM<br>Fri.: 10:00AM-9:00PM<br>Sat.:10:00AM-5:00PM<br>Sun.:10:30AM-5:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":788,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":788,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":788,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":788,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":788,
+                      "siteId":1,
+                      "pageTitle":"Brisbane - QueensPlaza Jewellery Store",
+                      "pageH1tag":"Brisbane - QueensPlaza Jewellery Store",
+                      "description":"Shop Tiffany & Co. Brisbane - Queens Plaza - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellery, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"brisbane-queensplaza"
+                   }
+                ],
+                "events":[
+
+                ]
+             },
+             {
+                "store":{
+                   "storeId":1380,
+                   "companyId":1,
+                   "storeName":"Gold Coast Pacific Fair",
+                   "address1":"Pacific Fair Shopping Center ",
+                   "address2":"CNR Hooker & Sunshine Blvds ",
+                   "address3":"",
+                   "city":"Broad Beach",
+                   "region":"QLD",
+                   "postalCode":"4218",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"SalesServiceAustralia@Tiffany.com",
+                   "extraInformation":"",
+                   "searchKeywords":"",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2016-05-09T09:00:00",
+                   "geoCodeLattitude":"-28.0356124",
+                   "geoCodeLongitude":"153.4177984",
+                   "dateCreated":"2016-05-10T10:34:57.15",
+                   "dateLastModified":"2018-05-09T20:09:09.8",
+                   "mapLevel":1,
+                   "useCustomGeoCode":true,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"587",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":1380,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Wed: 10:00AM-6:00PM<br>  Thu.: 10:00AM-9:00PM<br>Fri.: 10:00AM-6:00PM <br>Sat.- Sun.:10:00AM-5:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":1380,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":1380,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1380,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1380,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":1380,
+                      "siteId":1,
+                      "pageTitle":"Gold Coast Pacific Fair Jewellery Store",
+                      "pageH1tag":"Gold Coast Pacific Fair Jewellery Store",
+                      "description":"Shop Tiffany & Co. Gold Coast Pacific Fair - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellry, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"gold-coast-pacific-fair"
+                   }
+                ],
+                "events":[
+
+                ]
+             }
+          ]
+       },
+       {
+          "storeDisplayGroupsId":2551,
+          "storeGroupTypeId":2,
+          "groupingWebDisplayText":"WA",
+          "displayOrder":4,
+          "stores":[
+             {
+                "store":{
+                   "storeId":983,
+                   "companyId":1,
+                   "storeName":"Perth",
+                   "address1":"37 King Street",
+                   "address2":"",
+                   "address3":"",
+                   "city":"Perth",
+                   "region":"WA",
+                   "postalCode":"6000",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"Australia|Perth|Perth, Australia| Perth Australia|",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2008-08-01T00:00:00",
+                   "geoCodeLattitude":"-31.95226",
+                   "geoCodeLongitude":"115.85481000000004",
+                   "dateCreated":"2008-09-12T14:39:52.173",
+                   "dateLastModified":"2018-06-08T00:04:35.597",
+                   "mapLevel":1,
+                   "useCustomGeoCode":false,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"457",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":983,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Thu.:9:30AM-5:30PM<br>Fri.: 9:30AM-7:00PM<br>Sat.:10:00AM-5:00PM<br>Sun.:11:00AM-5:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":983,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":983,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":983,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":983,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":983,
+                      "siteId":1,
+                      "pageTitle":"Perth Jewellery Store",
+                      "pageH1tag":"Perth Jewellery Store",
+                      "description":"Shop Tiffany & Co. Perth - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellery, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"perth"
+                   }
+                ],
+                "events":[
+
+                ]
+             }
+          ]
+       },
+       {
+          "storeGroupTypeId":3,
+          "groupingWebDisplayText":"Chadstone",
+          "stores":[
+             {
+                "store":{
+                   "storeId":1016,
+                   "companyId":1,
+                   "storeName":"Chadstone Shopping Centre",
+                   "address1":"1341 Dandenong Road",
+                   "address2":"",
+                   "address3":"",
+                   "city":"Chadstone",
+                   "region":"VIC ",
+                   "postalCode":"3148",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2009-11-16T00:00:00",
+                   "geoCodeLattitude":"-37.8865814",
+                   "geoCodeLongitude":"145.082407",
+                   "dateCreated":"2009-11-16T10:51:30.613",
+                   "dateLastModified":"2018-06-17T22:52:37.807",
+                   "mapLevel":1,
+                   "useCustomGeoCode":false,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"478",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":1016,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Wed.:9:00AM-5:30PM<br>Thu.-Fri.:9:00AM-9:00PM<br>Sat.:9:00AM-7:00PM<br>Sun.:10:00AM-5:00PM<br>",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":1016,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":1016,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1016,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1016,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":1016,
+                      "siteId":1,
+                      "pageTitle":"Chadstone Shopping Centre Jewellery Store",
+                      "pageH1tag":"Chadstone Shopping Centre Jewellery Store",
+                      "description":"Shop Tiffany & Co. Chadstone Shopping Centre - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellery, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"chadstone-shopping-centre"
+                   }
+                ],
+                "events":[
+
+                ]
+             }
+          ]
+       },
+       {
+          "storeDisplayGroupsId":2552,
+          "storeGroupTypeId":2,
+          "groupingWebDisplayText":"SA",
+          "displayOrder":5,
+          "stores":[
+             {
+                "store":{
+                   "storeId":1344,
+                   "companyId":1,
+                   "storeName":"Adelaide",
+                   "address1":"210 North Terrace",
+                   "address2":"",
+                   "address3":"",
+                   "city":"Adelaide",
+                   "region":"SA",
+                   "postalCode":"5000",
+                   "country":"Australia",
+                   "phone":"1800 829 152",
+                   "email":"",
+                   "extraInformation":"",
+                   "searchKeywords":"",
+                   "storePhoto":"/shared/images/stores/store_location.jpg",
+                   "visibleDate":"2014-09-16T00:00:00",
+                   "geoCodeLattitude":"-34.9214372",
+                   "geoCodeLongitude":"138.6031523",
+                   "dateCreated":"2014-09-16T10:49:06.84",
+                   "dateLastModified":"2018-06-11T23:19:02.577",
+                   "mapLevel":1,
+                   "useCustomGeoCode":true,
+                   "storePriorityTypeId":2,
+                   "mipsstoreNumber":"564",
+                   "isocountryCode":36,
+                   "flagshipStoreUrl":"",
+                   "isFlagshipStore":false,
+                   "storeSiteAttributes":[
+
+                   ]
+                },
+                "storeHours":[
+                   {
+                      "storeId":1344,
+                      "storeHourTypeId":1,
+                      "storeHours":"<br>Mon. - Thu.: 10:00AM-6:00PM<br>Fri.: 10:00AM-9:00PM<br>Sat.:10:00AM-5:00PM<br>Sun.:11:00AM-5:00PM<br> ",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   },
+                   {
+                      "storeId":1344,
+                      "storeHourTypeId":2,
+                      "storeHours":"",
+                      "storeHrSiteAttributes":[
+
+                      ]
+                   }
+                ],
+                "storeServices":[
+                   {
+                      "storeID":1344,
+                      "storeServiceTypeId":1,
+                      "storeServiceTypeDisplayName":"Watch Repair & Sales",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":true,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1344,
+                      "storeServiceTypeId":2,
+                      "storeServiceTypeDisplayName":"Online Appointment Booking",
+                      "storeConsultationEmail":"SalesServiceAustralia@Tiffany.com",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "appointmentTypeID":2,
+                      "isAvailable":true
+                   },
+                   {
+                      "storeID":1344,
+                      "storeServiceTypeId":3,
+                      "storeServiceTypeDisplayName":"Real Time Inventory",
+                      "storeConsultationEmail":"",
+                      "isDefaultStoreService":false,
+                      "isAtThisLocationService":false,
+                      "isAvailable":true
+                   }
+                ],
+                "storeSeoAttributes":[
+                   {
+                      "storeId":1344,
+                      "siteId":1,
+                      "pageTitle":"Adelaide Jewellery Store",
+                      "pageH1tag":"Adelaide Jewellery Store",
+                      "description":"Shop Tiffany & Co. Adelaide - the world's premier jeweller since 1837. Discover the finest selection of diamond jewellery, engagement rings, and gifts.",
+                      "canonicalTagUrl":"",
+                      "metaKeywords":"",
+                      "canonicalUrlkeyword":"adelaide"
+                   }
+                ],
+                "events":[
+
+                ]
+             }
+          ]
+       }
+    ]
+ }

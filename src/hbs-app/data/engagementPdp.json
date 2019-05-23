@@ -1,0 +1,97 @@
+{
+    "weddingBandConfig":{
+        "contentTile": {
+            "heading": "The perfect pair",
+            "description": "When the time comes, we offer beautiful wedding bands that complement your engagement ring.",
+            "description2": "1 carat shown",
+            "textAlignment": "tf-g__center"
+        },
+        "mobileContentTile": {
+            "heading": "The perfect pair",
+            "description": "When the time comes, we offer beautiful wedding bands that complement your engagement ring.",
+            "textAlignment": "tf-g__center"
+        },
+        "backgroundImage":{
+            "desktopSrc": "images/photo_2018-10-15_18-37-48.jpg",
+            "mobileSrc": "images/b377e69ce399ed0b598226bff4335a742fc06f5c.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        },
+        "heroImage":[{
+            "desktopSrc": "images/photo_2018-10-15_18-37-39.jpg",
+            "mobileSrc": "images/2x2Grid.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        },{
+            "desktopSrc": "images/e637f88609fa6caa858511be07a364d212fa1c99.png",
+            "mobileSrc": "images/b377e69ce399ed0b598226bff4335a742fc06f5c.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        },{
+            "desktopSrc": "images/ways-3.png",
+            "mobileSrc": "images/b377e69ce399ed0b598226bff4335a742fc06f5c.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        },{
+            "desktopSrc": "images/ways-1.png",
+            "mobileSrc": "images/b377e69ce399ed0b598226bff4335a742fc06f5c.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        }],
+        "mobileHeroImages":[{
+            "desktopSrc": "images/2x2Grid.png",
+            "mobileSrc": "images/2x2Grid.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        },{
+            "desktopSrc": "images/ways-1.png",
+            "mobileSrc": "images/ways-1.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        },{
+            "desktopSrc": "images/events1.png",
+            "mobileSrc": "images/events1.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        },{
+            "desktopSrc": "images/9b6e99186c647fa653cbf4692dd9ac4e5ea0ae42.png",
+            "mobileSrc": "images/9b6e99186c647fa653cbf4692dd9ac4e5ea0ae42.png",
+            "imageAlt": "sample",
+            "isLazyLoad": false
+        }],
+        "skuImages":[
+            {
+                "imageSrc": "images/photo_2018-10-15_18-37-52.jpg",
+                "imageAlt": "sample",
+                "isLazyLoad": false,
+                "ctaTarget":"_blank",
+                "description2": "1 carat shown",
+                "ctaText":"View band details"
+            },
+            {
+                "imageSrc": "images/photo_2018-10-15_18-37-52.jpg",
+                "imageAlt": "sample",
+                "isLazyLoad": false,
+                "description2": "1 carat shown",
+                "ctaText":"View band details",
+                "ctaTarget":"_blank"
+            },
+            {
+                "imageSrc": "images/photo_2018-10-15_18-37-52.jpg",
+                "imageAlt": "sample",
+                "isLazyLoad": false,
+                "description2": "1 carat shown",
+                "ctaText":"View band details",
+                "ctaTarget":"_blank"
+            },
+            {
+                "imageSrc": "images/photo_2018-10-15_18-37-52.jpg",
+                "imageAlt": "sample",
+                "isLazyLoad": false,
+                "description2": "1 carat shown",
+                "ctaText":"View band details",
+                "ctaTarget":"_blank"
+            }
+        ]
+    }
+}

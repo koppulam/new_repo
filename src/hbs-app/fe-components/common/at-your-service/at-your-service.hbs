@@ -1,0 +1,103 @@
+<article class="at-your-service app-js__at-your-service">
+    <div class="at-your-service__container padding-bottom-56">
+        <h2 class="at-your-service__container_title">{{atYourService.heading}}</h2>
+        <p class="at-your-service__container_description">{{atYourService.description}}</p>
+        {{#if atYourService.chatLabel}}
+            <div class="at-your-service__container_services services-1">
+                <div class="at-your-service__container_services_category chat_service" id="at-your-service-chat">
+                    <button class="btn-primary at-your-service__container_services_category_chat_btn"> 
+                        {{atYourService.chatLabel}}
+                    </button>
+                </div>
+            </div>
+        {{else}}
+            <div class="at-your-service__container_services services-{{atYourService.services.length}}">
+                {{#each atYourService.services}}
+                    <div class="at-your-service__container_services_category {{customClass}}">
+                        {{#if isPhoneNumber}}
+                            {{#if imageicon}}
+                                <div class="at-your-service__container_services_category_icon">
+                                    <a href="{{ctaLink}}" class="at-your-service__container_services_category_icon_link" tabindex="0">
+                                        <img class="product-tile__body_icon-img" src="{{imageicon}}" alt="{{imageicon_alt}}" />
+                                    </a>
+                                </div>
+                            {{/if}}
+                        {{/if}}
+                        {{#if isContactService}}
+                            {{#if imageicon}}
+                                <div class="at-your-service__container_services_category_icon" >
+                                    <a href="{{ctaLink}}" class="at-your-service__container_services_category_icon_link" tabindex="0">
+                                        <img class="product-tile__body_icon-img" src="{{imageicon}}" alt="{{imageicon_alt}}" />
+                                    </a>
+                                </div>
+                            {{/if}}
+                        {{/if}}
+                        {{#if isAppointmentService}}
+                            {{#if imageicon}}
+                                <div class="at-your-service__container_services_category_icon" >
+                                    <a href="{{ctaLink}}" class="at-your-service__container_services_category_icon_link" tabindex="0">
+                                        <img class="product-tile__body_icon-img" src="{{imageicon}}" alt="{{imageicon_alt}}" />
+                                    </a>
+                                </div>
+                            {{/if}}
+                        {{/if}}
+                        {{#if isEmail}}
+                            <tiffany-email-cta config="atYourService" />
+                        {{/if}}
+
+                        {{#if ctaText}}
+                            <div class="at-your-service__container_services_category_link">
+                                {{#is ctaType "phoneNumber"}}
+                                <a href="tel: {{number}}" class="cta" tabindex="0"
+                                    data-interaction-context="" data-interaction-type="love-engagement:service"
+                                    data-interaction-name="phone:{{number}}">
+                                    <span class="cta-content">
+                                        <span class="cta-text" tabIndex="-1">{{ctaText}}</span>
+                                    </span>
+                                </a>
+                                {{/is}}
+                                {{#is customClass "appointment_service"}}
+                                <a href="{{ctaLink}}"
+                                    class="cta" tabindex="0"
+                                    data-interaction-context=""
+                                    data-interaction-type="love-engagement:service"
+                                    data-interaction-name="make-an-appointment">
+                                    <span class="cta-content">
+                                        <span class="cta-text" tabIndex="-1">{{ctaText}}</span>
+                                    </span>
+                                </a>
+                                {{/is}}
+                                {{#is customClass "chat_service"}}
+                                <div class="chat_service_wrapper">
+                                    <div class="at-your-service__container_services_category_icon">
+                                        <a href="{{ctaLink}}" class="at-your-service__container_services_category_icon_link" tabindex="0">
+                                            <img class="product-tile__body_icon-img" src="{{imageicon}}" alt="{{imageicon_alt}}" />
+                                        </a>
+                                    </div>
+                                    <a href="{{ctaLink}}"
+                                        class="cta" tabindex="0"
+                                        data-interaction-context=""
+                                        data-interaction-type="love-engagement:service"
+                                        data-interaction-name="chat:diamond-expert">
+                                        <span class="cta-content">
+                                            <span class="cta-text" tabIndex="-1">{{ctaText}} This is chat Div</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                {{/is}}
+                                {{#is customClass "contact_service"}}
+                                <a class="cta" href="{{ctaLink}}" tabindex="0">
+                                    <span class="cta-content">
+                                        <span class="cta-text" tabindex="-1">{{ctaText}}</span>
+                                    </span>
+                                    <span class="icon-dropdown-right"></span>
+                                </a>
+                                {{/is}}
+                            </div>
+                        {{/if}}
+                    </div>
+                {{/each}}
+            </div>
+        {{/if}}
+    </div>
+</article>

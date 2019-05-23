@@ -1,0 +1,34 @@
+/****
+****/
+.description_form {
+    @extend .tf-g;
+    
+    .pdp_form {
+        @extend .tf-g, .tf-g__col, .col__full;
+
+        @include MediaQueries($tablet-and-above) {
+           justify-content: space-between;
+            min-height: 400px;
+
+            @media screen {
+                justify-content: space-between;
+                min-height: 400px;
+                width: 100%;  
+            }
+        }
+
+        @include MediaQueries($between-desktop-tablet) {
+            min-height: auto;
+        }
+    }
+    .pdf_form__findStore {
+        @extend .cta, .btn, .hide__mobile;
+        @include font($font-size-16, false, false, 1.5, false);
+        background: none;
+        padding: 0;
+        &_label{
+            margin-right: getUnitValue(1);
+        }
+    }
+}
+

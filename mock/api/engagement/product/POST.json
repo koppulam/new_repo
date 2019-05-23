@@ -1,0 +1,350 @@
+{
+    "resultDto": {
+        "group": {
+            "group": {
+                "sku": "GRP10572",
+                "selectedSku": "31421055",
+                "siteId": 1,
+                "assortmentId": 101,
+                "additionalInfo": "Additional Information text",
+                "class": "32",
+                "companyId": 1,
+                "department": 170,
+                "isGroup": true,
+                "lineListFormatTypeId": 1,
+                "longDescription": "1Plat Round Daimond Pendant.2Plat Round Daimond Pendant.3Plat Round Daimond.4Pendant Plat Round Daimond.5Pendant Plat Round Daimond.6Pendant Plat Round Daimond.7Pendant Plat Round Daimond.8Pendant Plat Round.Daimond Pendant.9Plat Round Daimond.10Pendant Plat Round Daimond Pendant",
+                "isLowInventory": true,
+                "isPurchasable": true,
+                "isRemoveFromAssortment": false,
+                "shortDescription": "Plat Round Daimond Pendant",
+                "isShowInEmployeeBrowse": true,
+                "isShowInEmployeeSearch": true,
+                "isShowInBrowse": true,
+                "isShowInSearch": true,
+                "showInBrowseAndSearchStartTime": "2018-08-31T06:24:33",
+                "title": "Engagement:Plat Round Diamon Pendant",
+                "specifications": "specification 1; specification 2; specification 3",
+                "lineListLabel": "ALSO AVAILABLE",
+                "isPartialShip": false,
+                "isSoldIr": false,
+                "taxabilityCode": " ",
+                "style": "31",
+                "isShownonpurchasableitemprice": true,
+                "dateCreated": "2018-08-31T05:55:04.36",
+                "dateUpdated": "2018-09-11T09:15:21.057",
+                "canonicalCategoryId": 4359101,
+                "canonicalCategoryUrlUniqueId": "test-engagement-category",
+                "canonicalCategoryName": "Test Engagement category",
+                "canonicalMasterCategoryId": 148203,
+                "canonicalMasterCategoryUrlUniqueId": "engagement",
+                "canonicalMasterCategoryName": "Love & Engagement",
+                "categoryId": 4359101,
+                "titleSplit": [
+                    "Engagement",
+                    "Plat Round Diamon Pendant"
+                ],
+                "discontinuedWithInventory": false,
+                "isServiceable": false,
+                "isBYOEnabled": false,
+                "isNew": true,
+                "isBOPS": false,
+                "itemMasterNumber": "40300171",
+                "caratWeight": "1.0",
+                "minCaratWeight":0.5,
+                "maxCaratWeight":2.5,
+                "lowerPriceLimit":1000,
+                "upperPriceLimit":3000,
+                "diamondColor": [
+                    "D",
+                    "E",
+                    "F"
+                ],
+                "diamondClarity": [
+                    "IF",
+                    "VVS1",
+                    "VVS2",
+                    "VS1"
+                ],
+                "diamondShape": [
+                    "Round Brilliant",
+                    "True",
+                    "Princess",
+                    "Pear",
+                    "Heart"
+                ],
+                "diamondCut": [
+                    "Excellent"
+                ],
+                "isSpinsetAvailable": false,
+                "price": 1670,
+                "formattedPrice": "$1,670.00",
+                "minPrice": 1530,
+                "formattedMinPrice": "$1,530.00",
+                "isPriceAvailable": true,
+                "styleDescription": "Plat Rd Dia Pendant",
+                "departmentDescription": "SOLITAIRE JEWELRY ROUND",
+                "classDescription": "RD DIA .18CT - .22CT",
+                "showChooseDiamond": true
+            },
+            "groupAttributes": {
+                "sku": "GRP10506",
+                "siteId": 1,
+                "assortmentId": 101,
+                "groupTypeID": 1,
+                "groupDropDownLabel": "Size",
+                "useGroupDefaultItemAdditionalInfo": true,
+                "useGroupDefaultItemLongDescription": true,
+                "useGroupDefaultItemMedia": true,
+                "useGroupDefaultItemShortDescription": true,
+                "useGroupDefaultItemTitle": true,
+                "useGroupDefaultItemSpecifications": true,
+                "dateLastModified": "2018-09-11T09:16:38.163",
+                "groupDefaultItemSku": "31421055",
+                "groupCustomTypeId": 0,
+                "groupDefaultSkuInRetailMode": "31421055 ",
+                "useDefaultItemCustomMedia": false,
+                "existLowInventoryItem": false,
+                "hidePurchasewithLowInventoryItem": true,
+                "isColorSwatch": false
+            },
+            "groupItems": [
+                {
+                    "sku": "31421055",
+                    "longDescription": "Plat Round Daimond Pendant",
+                    "shortDescription": "Plat Round Daimond Pendant",
+                    "title": "Plat Round Diamon Pendant",
+                    "linkText": "Small",
+                    "itemMedia": {
+                        "imageUrlFormat": "http://media.tiffany.com/is/image/TiffanyDev/<Preset>/<ImagePrefix>-<ImageName>.jpg?&op_usm=<MediaPreset>&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&(http://media.tiffany.com/is/image/TiffanyDev/%3CPreset%3E/%3CImagePrefix%3E-%3CImageName%3E.jpg?&op_usm=%3CMediaPreset%3E&$cropN=%3CMediaCrop%3E&defaultImage=NoImageAvailableInternal&&')",
+                        "noImageUrlFormat": "http://media.tiffany.com/is/image/TiffanyDev/<Preset>/noimage.jpg?defaultImage=NoImageAvailableInternal&& (http://media.tiffany.com/is/image/TiffanyDev/%3CPreset%3E/noimage.jpg?defaultImage=NoImageAvailableInternal&&)  ",
+                        "imagePreset": "EcomItemL",
+                        "noImagePreset": "EcomItemL2",
+                        "imagePrefix": "tiffanyandco",
+                        "pkbAppSavedItemPreset": "EcomBrowseL",
+                        "colorSwatchImageUrlFormat": "http://media.tiffany.com/is/image/Tiffany/<Preset>/PMAIMG/<mediaFileName> (http://media.tiffany.com/is/image/Tiffany/%3CPreset%3E/PMAIMG/%3CmediaFileName%3E')",
+                        "itemMedia": [
+                            {
+                                "sku": "31421055",
+                                "assortmentId": 101,
+                                "displayOrder": 1,
+                                "mediaFileName": "14001557_872574_ED_M",
+                                "mediaTypeID": 1092,
+                                "mediaTypeName": "SkuStraightOn",
+                                "removeFromAssortment": false,
+                                "isIntranet": false,
+                                "isVisible": true,
+                                "dateLastModified": "2018-08-14T06:42:17.55"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "friendlyURL": "/engagement/test-engagement-category/item-GRP10506/plat-round-diamon-pendant-31421055",
+            "canonicalURL": "/engagement/test-engagement-category/item-GRP10506/plat-round-diamon-pendant-31421055",
+            "searchAttributes": [
+                {
+                    "searchAttributeId": 323351,
+                    "searchAttributeName": "Diamonds",
+                    "displayOrder": 1,
+                    "urluniqueId": "diamonds",
+                    "endecaDvalId": "101323351",
+                    "endecaDimensionId": 6,
+                    "endecaDimensionName": "Gemstones"
+                },
+                {
+                    "searchAttributeId": 4359073,
+                    "searchAttributeName": "Male",
+                    "displayOrder": 1,
+                    "urluniqueId": "male",
+                    "endecaDvalId": "1014359073",
+                    "endecaDimensionId": 9,
+                    "endecaDimensionName": "Gender"
+                },
+                {
+                    "searchAttributeId": 4359092,
+                    "searchAttributeName": "D",
+                    "displayOrder": 1,
+                    "urluniqueId": "d",
+                    "endecaDvalId": "1014359092",
+                    "endecaDimensionId": 22,
+                    "endecaDimensionName": "Color"
+                },
+                {
+                    "searchAttributeId": 4359093,
+                    "searchAttributeName": "E",
+                    "displayOrder": 2,
+                    "urluniqueId": "e",
+                    "endecaDvalId": "1014359093",
+                    "endecaDimensionId": 22,
+                    "endecaDimensionName": "Color"
+                },
+                {
+                    "searchAttributeId": 4359075,
+                    "searchAttributeName": "Solitaire",
+                    "displayOrder": 1,
+                    "urluniqueId": "solitaire",
+                    "endecaDvalId": "1014359075",
+                    "endecaDimensionId": 24,
+                    "endecaDimensionName": "Setting"
+                },
+                {
+                    "searchAttributeId": 4359076,
+                    "searchAttributeName": "Three-stone",
+                    "displayOrder": 2,
+                    "urluniqueId": "three-stone",
+                    "endecaDvalId": "1014359076",
+                    "endecaDimensionId": 24,
+                    "endecaDimensionName": "Setting"
+                },
+                {
+                    "searchAttributeId": 4359067,
+                    "searchAttributeName": "D",
+                    "displayOrder": 1,
+                    "urluniqueId": "d",
+                    "endecaDvalId": "1014359067",
+                    "endecaDimensionId": 25,
+                    "endecaDimensionName": "Diamond Color"
+                },
+                {
+                    "searchAttributeId": 4359068,
+                    "searchAttributeName": "E",
+                    "displayOrder": 2,
+                    "urluniqueId": "e",
+                    "endecaDvalId": "1014359068",
+                    "endecaDimensionId": 25,
+                    "endecaDimensionName": "Diamond Color"
+                },
+                {
+                    "searchAttributeId": 4359079,
+                    "searchAttributeName": "VVS1",
+                    "displayOrder": 2,
+                    "urluniqueId": "vvs1",
+                    "endecaDvalId": "1014359079",
+                    "endecaDimensionId": 26,
+                    "endecaDimensionName": "Diamond Clarity"
+                },
+                {
+                    "searchAttributeId": 4359080,
+                    "searchAttributeName": "VVS2",
+                    "displayOrder": 3,
+                    "urluniqueId": "vvs2",
+                    "endecaDvalId": "1014359080",
+                    "endecaDimensionId": 26,
+                    "endecaDimensionName": "Diamond Clarity"
+                },
+                {
+                    "searchAttributeId": 4359083,
+                    "searchAttributeName": "Round Brilliant",
+                    "displayOrder": 1,
+                    "urluniqueId": "round-brilliant",
+                    "endecaDvalId": "1014359083",
+                    "endecaDimensionId": 27,
+                    "endecaDimensionName": "Diamond Shape"
+                },
+                {
+                    "searchAttributeId": 4359091,
+                    "searchAttributeName": "Excellent",
+                    "displayOrder": 1,
+                    "urluniqueId": "excellent",
+                    "endecaDvalId": "1014359091",
+                    "endecaDimensionId": 28,
+                    "endecaDimensionName": "Diamond Cut"
+                }
+            ],
+            "isSpinsetAvailable": false,
+            "siteId": 1
+        },
+        "groupPrice": {
+            "sku": "GRP10506",
+            "priceMarketId": 1,
+            "price": 1670,
+            "formattedPrice": "$1,670.00",
+            "siteId": 1
+        },
+        "groupItemMedia": [],
+        "lineListedItems": [
+            {
+            "linkText": "Rose Gold",
+            "listEntryDisplayOrder":2,
+            "canonicalURL": "/jewelry/bracelets/oval-link-bracelet-GRP09033/oval-link-bracelet-36667338"
+            },
+            {
+            "linkText": "Yellow Gold",
+            "listEntryDisplayOrder":1,
+            "canonicalURL": "/jewelry/bracelets/oval-link-bracelet-GRP09033/oval-link-bracelet-36667338"
+            },
+            {
+            "linkText": "White Gold",
+            "listEntryDisplayOrder":3,
+            "canonicalURL": "/jewelry/bracelets/oval-link-bracelet-GRP09033/oval-link-bracelet-36667338"
+            }
+        ],
+        "itemMedia": {
+            "imageUrlFormat": "http://media.tiffany.com/is/image/TiffanyDev/<Preset>/<ImagePrefix>-<ImageName>.jpg?&op_usm=<MediaPreset>&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&",
+            "noImageUrlFormat": "http://media.tiffany.com/is/image/TiffanyDev/<Preset>/noimage.jpg?defaultImage=NoImageAvailableInternal&& ",
+            "imagePreset": "EcomItemL",
+            "noImagePreset": "EcomItemL2",
+            "pkbAppSavedItemPreset": "EcomBrowseL",
+            "imagePrefix": "plat-round-diamon-pendant",
+            "colorSwatchImageUrlFormat": "http://media.tiffany.com/is/image/Tiffany/<Preset>/PMAIMG/<mediaFileName>",
+            "itemMedia": [
+                {
+                    "sku": "31421055",
+                    "assortmentId": 101,
+                    "displayOrder": 1,
+                    "mediaFileName": "14001557_872574_ED_M",
+                    "mediaTypeID": 1092,
+                    "mediaTypeName": "SkuStraightOn",
+                    "removeFromAssortment": false,
+                    "isIntranet": false,
+                    "isVisible": true,
+                    "dateLastModified": "2018-08-14T06:42:17.55",
+                    "mediaType": 1092
+                }
+            ],
+            "mediaCropping": [
+                {
+                    "sku": "31421055 ",
+                    "mediaTypeId": 1092,
+                    "left": 0.1,
+                    "top": 0.1,
+                    "scale": 0.8,
+                    "dateLastModified": "2018-09-11T09:13:45.877"
+                }
+            ],
+            "mediaPreset": [
+                {
+                    "sku": "31421055 ",
+                    "mediaPresetTypeName": "EcomBrowseM",
+                    "scene7PresentName": "EcomBrowseM",
+                    "mediaPresettypeId": 1,
+                    "unSharpMaskAmount": 1,
+                    "unSharpMaskRadius": 1,
+                    "unSharpMaskThreshold": 6,
+                    "dateLastModified": "2018-09-11T09:13:45.877"
+                }
+            ]
+        },
+        "customExperienceTypes": [
+            {
+                "assortmentID": 101,
+                "customExperienceTypeID": 2,
+                "sku": "GRP10506 "
+            }
+        ],
+        "customModuleTypes": [],
+        "itemMediaStitchPositions": [],
+        "itemServices": {},
+        "categoryBasedDimensions": [],
+        "itemCategories": [
+            {
+                "categoryId": 4359101,
+                "endecaDvalId": "1014359101",
+                "categoryName": "Test Engagement category",
+                "urlUniqueId": "test-engagement-category",
+                "canonicalMasterCategoryId": 148203,
+                "canonicalMasterCategoryUrlUniqueId": "engagement"
+            }
+        ]
+    }
+}

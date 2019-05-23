@@ -1,0 +1,5 @@
+.pdp-price-details{
+    @include font($font-size-14, $font-weight-normal, $black, 1.71, normal);
+    @include font-family($font_santral_regular);
+    padding-top: getUnitValue(1);
+}

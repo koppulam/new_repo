@@ -1,0 +1,115 @@
+// ****************************************
+// store-locator
+// ****************************************
+
+.store-marketing-tile {
+
+    .content-band--30x70, .content-band--70x30 {
+        @extend .tf-g;
+        @include MediaQueries($desktop-and-below) {
+            padding-left: 0;
+            padding-bottom: getUnitValue(8);
+            .band-item {
+                .content-tile {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .content-band--30x70 {
+        @include MediaQueries($desktop-and-below) {
+            flex-direction: column-reverse;
+        }
+
+        .band-item {
+
+            a {
+                @extend .display__inline-block;
+                max-width: 100%;
+
+                &:focus {
+                    border: 2px solid $bondiBlue !important;
+                }
+            }
+
+            &:nth-child(1) {
+                @extend .col-4-12;
+                @include MediaQueries($desktop-above-medium){
+
+                    .content-tile {
+                        padding-left: 0;
+                    }
+
+                    .description {
+                        max-width: getUnitValue(42);
+                    }
+                }
+            }
+
+            &:nth-child(2) {
+                @extend .col-8-12;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .content-band--70x30 {
+
+        .band-item {
+
+            body.ie & {
+                .ie__fullwidth {
+                    width: 100%;
+                }
+            }
+            &:nth-child(1) {
+                @extend .col-8-12;
+
+                @include MediaQueries($below-desktop-tablet) {
+                    padding-right: 8px;
+                }
+
+            }
+
+            &:nth-child(2) {
+                @extend .col-4-12;
+
+                @include MediaQueries($desktop-above-medium){
+                    .content-tile{
+                        margin-left: 0;
+                        padding-left: 0;
+                        .description {
+                            max-width: getUnitValue(42);
+                        }
+                    }
+                }
+            }
+
+            & a:focus {
+                border: 2px solid $bondiBlue !important;
+            }
+        }
+    }
+
+    .content-tile {
+
+        .heading {
+            padding-bottom: getUnitValue(2);
+        }
+    }
+}
+
+.marketing-carousel__body_image {
+    @include MediaQueries($desktop-and-above) {
+        .content-tile {
+            .description {
+                max-width: getUnitValue(50);
+            }
+        }
+    }
+}
+

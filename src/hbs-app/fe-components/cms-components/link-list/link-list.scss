@@ -1,0 +1,63 @@
+// ****************************************
+// link-list
+// ****************************************
+
+.link-list {
+    @extend .tf-g, .tf-g__col;
+
+    &__container {
+
+        &_title {
+            @include font($font-size-14, $font-weight-600, $black, 24px, normal);
+            @include font-family($font_santral_semi_bold);
+            padding-bottom: 0;
+
+            @include MediaQueries($xlarge-and-below) {
+                display: inline;
+            }
+        }
+
+        &_links {
+            line-height: 1;
+            margin-bottom: getUnitValue(2);
+            
+            @include MediaQueries($xlarge-and-below) {
+                @include font($font-size-12, $font-weight-normal, $black, 16px, normal);
+                margin-bottom: getUnitValue(3);
+                font-size: $font-size-12 !important;
+                padding: 0 !important;
+
+                &:first-child {
+                    padding-top: getUnitValue(3) !important;
+                }
+
+                &:last-child {
+                    padding-bottom: 0;  
+                    margin-bottom: 0;
+                }
+            }
+            
+            .cta {
+                @include font-family($font_santral_regular);
+                border: none;
+                font-size: $font-size-12 !important;
+                line-height: 1.33;
+
+                @include MediaQueries($xlarge-and-below) {
+                    @include font-family($font_santral_regular, $important);
+                    padding-bottom: 0;
+                    padding-top: getUnitValue(2);
+                    padding-left: getUnitValue(7);
+
+                    &:first-child {
+                        padding-top: 0;
+                    }
+                }
+
+                @include MediaQueries($xlarge-and-below) {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}

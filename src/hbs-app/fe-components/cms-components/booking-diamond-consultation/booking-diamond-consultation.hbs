@@ -1,0 +1,86 @@
+<article class="booking-diamond-consultation app-js__booking-diamond-consultation">
+    <div class="booking-diamond-content">
+        <h3 class="booking-diamond-consultation_heading">
+            {{storeVisit.heading}}
+        </h3>
+        <p class="booking-diamond-consultation_desc">
+            {{storeVisit.description}}
+        </p>
+        <form class="booking-diamond-form">
+            <div class="booking-diamond-form_country-select icon-downArrow">
+                <select class="booking-diamond-form_regions-select">
+                    {{#each storeVisit.countries}}
+                    <option value={{value}} data-statelabel={{statelabel}}>{{name}}</option>
+                    {{/each}}
+                </select>
+                <label class="booking-diamond-form_label">{{storeVisit.countrylabel}}</label>
+            </div>
+            <div class="booking-diamond-form_state-select icon-downArrow hide">
+                <select class="booking-diamond-form_regions-state-select">
+                    <option value='0'>{{storeVisit.states}}</option>
+                </select>
+                <label class="booking-diamond-form_label label-state-select"></label>
+            </div>
+            <div class="booking-diamond-form_store-select icon-downArrow hide">
+                <select class="booking-diamond-form_regions-store-select">
+                    <option value='0'>{{storeVisit.store}}</option>
+                </select>
+                <label class="booking-diamond-form_label">{{storeVisit.storelabel}}</label>
+            </div>
+            <button type="button" disabled class="booking-diamond-form_buttons_store-visit" data-defaultregionlabel="Schedule a store visit">
+                {{storeVisit.ctaText}}
+            </button>
+            <input type="hidden" class="booking-diamond-form_redirect-url" value="http://tiffany.com" data-target="_blank" >
+        </form>
+
+    </div>
+    <div class="booking-diamond-content">
+        <h3 class="booking-diamond-consultation_heading">
+            {{storeInfo.heading}}
+        </h3>
+        <p class="booking-diamond-consultation_desc">
+            {{storeInfo.description}}
+        </p>
+        <ul>
+            {{#each storeInfo.services}}
+            <li class="booking-diamond-consultation_list">
+                {{#if isPhoneNumber}}
+                <a href="tel: {{number}}" target="_blank" class="cta_diamond">
+                    <img class="booking-diamond-consultation_icons" src="{{imageicon}}" alt="{{imageicon_alt}}">
+                    <span class="diamond-cta">
+                        <span class="">{{ctaText}}</span>
+                        <span class="icon-Right"></span>
+                    </span>
+                </a>
+                {{else}}
+                <a href="#" target="_blank" class="cta_diamond">
+                    <img class="booking-diamond-consultation_icons" src="{{imageicon}}" alt="{{imageicon_alt}}">
+                    <span class="diamond-cta">
+                        <span class="">{{ctaText}}</span>
+                        <span class="icon-Right"></span>
+                    </span>
+                </a>
+                {{/if}}
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</article>
+<article class="booking-diamond-consultation app-js__booking-diamond-consultation">
+    <div class="booking-diamond-content">
+        <h3 class="booking-diamond-consultation_heading">
+            {{storeVisit.heading}}
+        </h3>
+        <p class="booking-diamond-consultation_desc">
+            {{storeVisit.description}}
+        </p>
+    </div>
+    <div class="booking-diamond-consultation__store-image">
+        {{> picture
+        isLazyLoad = true
+        desktopSrc = bookingStoreImage.imageSrc
+        mobileSrc = bookingStoreImage.mobileSrc
+        altText = bookingStoreImage.imageAlt
+        }}
+    </div>
+</article>

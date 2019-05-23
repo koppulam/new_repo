@@ -1,0 +1,139 @@
+<article class="store-information app-js__store-information">
+    <div class="store-information__info">
+        <div class="store-information__info_img">
+            <div class="text-with-image__image">
+                <div class="store-image">
+                    {{> picture
+                        desktopSrc = './images/storeInfoImagesdfasdfs.png'
+                        mobileSrc  = './images/storeInfoImagesdfsdf.png'
+                        isLazyLoad = true
+                    }}
+                </div>
+            </div>
+            <div class="store-information__info-buttons">
+                {{!-- <button type="button" class="btn--outline">
+                    Book Appointment
+                </button> --}}
+                <button type="button" class="store-information__info_img_link cta" arai-label="Set as my store" data-mipsStoreNumber="30" tabindex="0">
+                    <span class="cta-content">
+                        <span class="cta-text" tabindex="-1">Set as my store &nbsp; </span>
+                    </span>
+                    <span class="store-information__info_img_link_icon">
+                        <img src="https://media.tiffany.com/is/content/tiffanydmdt3/saved-store_default-1?wid=64&hei=96" altText="${savedIcon.altText}" />
+                    </span>
+                </button>
+
+                <div class="store-information__stores-nearby hide">
+                    <label class="heading">Nearby Stores</label>
+                    <a class="nearby cta hide" href="#"
+                        data-currentlat="40.7127753"
+                        data-currentlang="-74.0059728"
+                        data-lat="40.7956049"
+                        data-lang="-73.67385480000002">
+                        <span class="cta-content">
+                            <span class="cta-text" tabindex="-1">New York - Soho </span>
+                        </span>
+                        <span class="icon-dropdown-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="store-information__info_services">
+            <h1 class="heading">New York - Fifth Avenue</h1>
+            <p class="store-information__flagship_store">Flagship Store</p>
+            <p class="store-information__mips hide">MIPS: #1</p>
+
+            <div class="store-address">
+                <a href="http://maps.google.com/maps?q=40.7956049,-73.67385480000002 (Tiffany New York - Fifth Avenue)&amp;mrt=loc&amp;t=m" class="cta-underline cta" tabindex="0">
+                    <span class="cta-content">
+                        <span class="cta-text" tabindex="-1">727 Fifth Avenue</span>
+                        <span class="cta-text" tabindex="-1">New York, NY 10022</span>
+                    </span>
+                </a>
+            </div>
+
+
+            <p class="store-timings">
+                Monday-Saturday  11am-7pm
+                <br>
+                Sunday  11am-6pm
+                <br>
+                Sunday  11am-5pm
+                <br>
+               Mother’s Day Store Hours  11am-6pm
+            </p>
+
+            <p class="store-contact">
+                <a class="tel-link cta" href="tel:2127558000" tabindex="0">
+                    <span class="cta-content">
+                        <span class="cta-text" tabindex="-1">(212) 755-8000</span>
+                    </span>
+                </a><br>
+                <a class="email-link cta" href="mailto:email@email.com" tabindex="0">
+                    <span class="cta-content">
+                        <span class="cta-text" tabindex="-1">Email Store</span>
+                    </span>
+                </a>
+            </p>
+
+            <div class="store-service">
+                <p class="heading">Services</p>
+                <ul>
+                    <li>Diamond engagement ring consultation</li>
+                    <li>Jewelry cleaning and repair</li>
+                    <li>Jewelry and gift engraving</li>
+                    <li>Leather embossing and monogramming</li>
+                    <li>Watch repair and sales</li>
+                    <li>Glass and crystal etching</li>
+                    <li>Personal shopping</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="store-information__map" tabindex="0">
+        <tiffany-maps mapcenter="40.7629678" markeratlat="40.7629678" markeratlng="-73.97395670000003" zoomlevel="14"></tiffany-maps>
+        {{!-- <img src="//maps.googleapis.com/maps/api/staticmap?size=512x512&zoom=14&center=40.7629678,-73.97395670000003&markers=color:0x81d8d0%7Clabel:S%7C40.7629678,-73.97395670000003&style=feature:administrative%7Celement:labels.text.fill%7Ccolor:#6195a0&style=feature:administrative.province%7Celement:geometry.stroke%7Cvisibility:off&style=feature:landscape%7Celement:geometry%7Clightness:0%7Ccolor:#f5f5f2%7Cgamma:1&style=feature:landscape.man_made%7Celement:all%7Clightness:-3%7Cgamma:1.00&style=feature:landscape.natural.terrain%7Celement:all%7Cvisibility:off&style=feature:poi%7Celement:all%7Cvisibility:off&style=feature:poi.park%7Celement:geometry.fill%7Ccolor:#bae5ce%7Cvisibility:on&style=feature:road%7Celement:all%7Csaturation:-100%7Clightness:45%7Cvisibility:simplified&style=feature:road.highway%7Celement:all%7Cvisibility:simplified&style=feature:road.highway%7Celement:geometry.fill%7Ccolor:#ffffff%7Cvisibility:simplified&style=feature:road.highway%7Celement:labels.text%7Ccolor:#4e4e4e&style=feature:road.arterial%7Celement:labels.text.fill%7Ccolor:#787878&style=feature:road.arterial%7Celement:labels.icon%7Cvisibility:off&style=feature:transit%7Celement:all%7Cvisibility:off&style=feature:transit.station.airport%7Celement:labels.icon%7Chue:#0a00ff%7Csaturation:-77%7Cgamma:0.57%7Clightness:0&style=feature:transit.station.rail%7Celement:labels.text.fill%7Ccolor:#43321e&style=feature:transit.station.rail%7Celement:labels.icon%7Chue:#ff6c00%7Clightness:4%7Cgamma:0.75%7Csaturation:-68&style=feature:water%7Celement:all%7Ccolor:#eaf6f8%7Cvisibility:on&style=feature:water%7Celement:geometry.fill%7Ccolor:#c7eced&style=feature:water%7Celement:labels.text.fill%7Clightness:-49%7Csaturation:-53%7Cgamma:0.79&key=AIzaSyDzmvetT2mjP8T3eCG1B0PRoj6unAMIkKY"> --}}
+    </div>
+    <div class="store-information__bottom">
+        <div class="store-information__store-service store-information__bottom-mobile">
+            <p class="heading">Services</p>
+            <ul>
+                <li>Diamond engagement ring consultation</li>
+                <li>Jewelry cleaning and repair</li>
+                <li>Jewelry and gift engraving</li>
+                <li>Leather embossing and monogramming</li>
+                <li>Watch repair and sales</li>
+                <li>Glass and crystal etching</li>
+                <li>Personal shopping</li>
+            </ul>
+        </div>
+        <div class="store-information__info-buttons store-information__bottom-mobile">
+            <button type="button" class="btn--outline">
+                Book Appointment
+            </button>
+            <button type="button" class="store-information__info_img_link" arai-label="Set as my store" data-mipsStoreNumber="30">
+                <span class="cta-content">
+                    <span class="cta-text" tabindex="-1">Set as my store</span>
+                </span>
+                <span class="store-information__info_img_link_icon icon-Wishlist-Option-1"></span>
+            </button>
+
+            <div class="store-information__stores-nearby hide">
+                <label class="heading">Nearby Stores</label>
+                <a class="nearby cta hide" href="#"
+                    data-currentlat="40.7127753"
+                    data-currentlang="-74.0059728"
+                    data-lat="40.7956049"
+                    data-lang="-73.67385480000002">
+                    <span class="cta-content">
+                        <span class="cta-text" tabindex="-1">New York - Soho </span>
+                    </span>
+                    <span class="icon-dropdown-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</article>

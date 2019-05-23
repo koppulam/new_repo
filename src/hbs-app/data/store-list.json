@@ -1,0 +1,79 @@
+{
+    "storeListConfig": {
+        "states": [
+            {
+                "heading": "Arizona",
+                "stateId": "az",
+                "list": [
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    },
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    },
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    },
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    },
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    }
+                ]
+            },
+            {
+                "heading": "California",
+                "stateId": "ca",
+                "list": [
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    },
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    },
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    },
+                    {
+                        "storeName": "Scottsdale Fashion Square",
+                        "address": "7014 East Camelback Road <br> Scottsdale, AZ 85251",
+                        "phoneNumber": "(480) 496-9100",
+                        "email": "test@tiffany.com"
+                    }
+                ]
+            }
+        ]
+    },
+    "filtersConfig": {
+        "regionsList": [
+            {
+                "name": "United States"
+            }
+        ]
+    }
+}

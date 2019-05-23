@@ -1,0 +1,56 @@
+// ****************************************
+// chat-overlay
+// ****************************************
+
+.chat-overlay {
+	@extend .tf-g__center;
+	position: relative;
+	padding: 24px;
+	min-width: 360px;
+	border: 1px solid $black;
+	background-color: $white;
+
+	.chat-overlay {
+		&__title {
+			@include font($font-size-32, $font-weight-normal, $black, 1.25, normal);
+			@include font-family($font_sterling_display_roman);
+			padding-bottom: getUnitValue(1);
+		}
+
+		&__description {
+			p {
+				@include font($font-size-14, $font-weight-light, $black, 1.71, normal);
+				@include font-family($font_santral_light);
+			}
+			padding-bottom: 32px;
+		}
+
+		&__chat-btn {
+			@include font($font-size-14, $font-weight-light, $black, 1.14, normal);
+			@include font-family($font_santral_regular);
+			min-width: 208px;
+
+			&.btn-primary {
+				padding: 16px;
+				color: $white;
+
+				&:hover {
+					color: $black;
+				}
+			}
+		}
+
+		&__close-btn {
+			position: absolute;
+			top: 16px;
+			right: 16px;
+			padding: 0;
+			background: transparent;
+
+			img {
+				width: 24px;
+				height: 24px;
+			}
+		}
+	}
+}

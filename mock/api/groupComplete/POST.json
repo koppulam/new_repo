@@ -1,0 +1,421 @@
+{
+    "resultDto": {
+      "group": {
+        "group": {
+          "sku": "GRP02985",
+          "selectedSku": "25508335",
+          "siteId": 1,
+          "assortmentId": 101,
+          "additionalInfo": "",
+          "class": "93",
+          "companyId": 1,
+          "department": 130,
+          "discontinuedWithInventory": false,
+          "isGroup": true,
+          "lineListFormatTypeId": 1,
+          "longDescription": "Chain in 18k rose gold, 18\" long.",
+          "isLowInventory": false,
+          "isPurchasable": true,
+          "isRemoveFromAssortment": false,
+          "shortDescription": "Chain in 18k rose gold, 18\" long.",
+          "isShowInEmployeeBrowse": true,
+          "isShowInEmployeeSearch": true,
+          "isShowInBrowse": true,
+          "isShowInSearch": true,
+          "showInBrowseAndSearchStartTime": "2009-09-10T15:11:36",
+          "title": "18k Rose Gold Chain",
+          "specifications": "",
+          "lineListLabel": "ALSO AVAILABLE",
+          "isPartialShip": false,
+          "isSoldIr": false,
+          "taxabilityCode": " ",
+          "style": "52344",
+          "mipsDescription": "18R PENDANT CHAIN 18IN",
+          "posDescription": "18R PENDANT CHAIN 18IN",
+          "isShownonpurchasableitemprice": true,
+          "dateUpdated": "2018-02-15T19:06:23.98",
+          "urluniqueId": "18k-rose-gold-chain",
+          "canonicalCategoryId": 287465,
+          "canonicalCategoryUrlUniqueId": "necklaces-pendants",
+          "canonicalCategoryName": "Necklaces & Pendants",
+          "canonicalMasterCategoryId": 148204,
+          "canonicalMasterCategoryUrlUniqueId": "jewelry",
+          "canonicalMasterCategoryName": "Jewelry",
+          "groupCustomTypeName": "Unknown",
+          "titleSplit": [
+            "18k Rose Gold Chain"
+          ],
+          "isBYOEnabled": true,
+          "isPriceAvailable": true,
+          "price": 250,
+          "hidePurchaseWithLowInventoryItem": true,
+          "showNonPurchasableItemPrice": false,
+          "groupCustomType": 0,
+          "formattedPrice": "$250.00",
+          "measuringYourWristLinkVisible": false,
+          "isRingSizeVisible": false,
+          "isRingSizeChartVisible": false,
+          "isRingSizeGuideVisible": false,
+          "styleDescription": "18R PENDANT CHAIN",
+          "classDescription": "GOLD PENDANT CHAINS",
+          "departmentDescription": "GOLD CHARMS & KEYS",
+          "isNew": false,
+          "isServiceable": true,
+          "isFIISEnabled": true,
+          "isSpinsetAvailable": false,
+          "shippingType": 2,
+          "maxQuantityLimit": 5,
+          "isBOPS": true
+        },
+        "groupAttributes": {
+          "sku": "GRP02985",
+          "siteId": 1,
+          "assortmentId": 101,
+          "groupTypeID": 1,
+          "groupDropDownLabel": "Chain Length",
+          "useGroupDefaultItemAdditionalInfo": true,
+          "useGroupDefaultItemLongDescription": true,
+          "useGroupDefaultItemMedia": true,
+          "useGroupDefaultItemShortDescription": true,
+          "useGroupDefaultItemTitle": true,
+          "useGroupDefaultItemSpecifications": true,
+          "dateLastModified": "2018-03-27T06:44:19.343",
+          "groupDefaultItemSku": "25508327",
+          "groupCustomTypeId": 0,
+          "groupDefaultSkuInRetailMode": "25508327 ",
+          "useDefaultItemCustomMedia": false,
+          "existLowInventoryItem": false,
+          "hidePurchasewithLowInventoryItem": true,
+          "isColorSwatch": false
+        },
+        "groupItems": [
+          {
+            "groupSku": "GRP02985",
+            "memberSku": "25508327",
+            "linkText": "16 IN",
+            "removeFromAssortment": false,
+            "displayOrder": 1,
+            "department": 130,
+            "maxQuantityLimit": 5,
+            "friendlyURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508327",
+            "canonicalURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508327"
+          },
+          {
+            "groupSku": "GRP02985",
+            "memberSku": "25508335",
+            "linkText": "18 IN",
+            "removeFromAssortment": false,
+            "displayOrder": 2,
+            "department": 130,
+            "maxQuantityLimit": 5,
+            "friendlyURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508335",
+            "canonicalURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508335"
+          },
+          {
+            "groupSku": "GRP02985",
+            "memberSku": "25508343",
+            "linkText": "20 IN",
+            "removeFromAssortment": false,
+            "displayOrder": 3,
+            "department": 130,
+            "maxQuantityLimit": 5,
+            "friendlyURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508343",
+            "canonicalURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508343"
+          },
+          {
+            "groupSku": "GRP02985",
+            "memberSku": "25508351",
+            "linkText": "24 IN",
+            "removeFromAssortment": false,
+            "displayOrder": 4,
+            "department": 130,
+            "maxQuantityLimit": 5,
+            "friendlyURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508351",
+            "canonicalURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508351"
+          },
+          {
+            "groupSku": "GRP02985",
+            "memberSku": "25508378",
+            "linkText": "30 IN",
+            "removeFromAssortment": true,
+            "displayOrder": 5,
+            "department": 130,
+            "maxQuantityLimit": 5,
+            "friendlyURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508378",
+            "canonicalURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508378"
+          },
+          {
+            "groupSku": "GRP02985",
+            "memberSku": "25508386",
+            "linkText": "36 IN",
+            "removeFromAssortment": false,
+            "displayOrder": 6,
+            "department": 130,
+            "maxQuantityLimit": 5,
+            "friendlyURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508386",
+            "canonicalURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985/18k-rose-gold-chain-25508386"
+          }
+        ],
+        "friendlyURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985",
+        "canonicalURL": "/jewelry/necklaces-pendants/18k-rose-gold-chain-GRP02985",
+        "searchAttributes": [
+          {
+            "searchAttributeId": 607567,
+            "searchAttributeName": "Rose Gold",
+            "displayOrder": 5,
+            "urluniqueId": "rose-gold",
+            "endecaDvalId": "101607567",
+            "endecaDimensionId": 5,
+            "endecaDimensionName": "Materials"
+          },
+          {
+            "searchAttributeId": 3625968,
+            "searchAttributeName": "No Gemstone",
+            "displayOrder": 11,
+            "urluniqueId": "no-gemstone",
+            "endecaDvalId": "1013625968",
+            "endecaDimensionId": 6,
+            "endecaDimensionName": "Gemstones"
+          }
+        ],
+        "isSpinsetAvailable": false,
+        "siteId": 1
+      },
+      "groupPrice": {
+        "sku": "GRP02985",
+        "priceMarketId": 1,
+        "price": 250,
+        "siteId": 1
+      },
+      "groupItemMedia": [
+        
+      ],
+      "lineListedItems": [
+        {
+          "parentSku": "GRP02985",
+          "lineListedSku": "37690082",
+          "assortmentId": 101,
+          "linkText": "Tiffany Victoria® key pendant only",
+          "listEntryDisplayOrder": 1,
+          "dateLastModified": "2018-04-26T02:51:10.15"
+        }
+      ],
+      "itemRuleResult": {
+        "errorMessageType": 0,
+        "showAddToShoppingBag": true,
+        "showSaveForLater": true,
+        "showPrice": true,
+        "showSupplementalLinks": true,
+        "showType1Dropdown": true,
+        "showNotPurchasableLink": false,
+        "showEmailThisItem": false,
+        "showEmailWhenAvailable": false,
+        "isEligibleForBYO": false,
+        "isBOPSEnabled": true,
+        "showFIISLink": true
+      },
+      "itemMedia": {
+        "imageUrlFormat": "http://media.tiffany.com/is/image/Tiffany/<Preset>/<ImagePrefix>-<ImageName>.jpg?&op_usm=<MediaPreset>&$cropN=<MediaCrop>&defaultImage=NoImageAvailableInternal&&",
+        "noImageUrlFormat": "http://media.tiffany.com/is/image/Tiffany/<Preset>/noimage.jpg?defaultImage=NoImageAvailableInternal&& ",
+        "imagePreset": "EcomItemL",
+        "noImagePreset": "EcomItemL2",
+        "pkbAppSavedItemPreset": "EcomBrowseL",
+        "imagePrefix": "18k-rose-gold-chain",
+        "colorSwatchImageUrlFormat": "http://media.tiffany.com/is/image/Tiffany/<Preset>/PMAIMG/<mediaFileName>",
+        "itemMedia": [
+          {
+            "sku": "25508335",
+            "assortmentId": 101,
+            "displayOrder": 1,
+            "mediaFileName": "25508327_925896_ED_M",
+            "mediaTypeID": 1092,
+            "mediaTypeName": "SkuStraightOn",
+            "removeFromAssortment": false,
+            "isIntranet": false,
+            "isVisible": true,
+            "dateLastModified": "2017-10-06T14:02:33.233",
+            "mediaType": 1092,
+            "siteId": 1
+          },
+          {
+            "sku": "25508335",
+            "assortmentId": 101,
+            "displayOrder": 1,
+            "mediaFileName": "25508327_975915_FP_M",
+            "mediaTypeID": 1122,
+            "mediaTypeName": "Fixture Preview",
+            "removeFromAssortment": false,
+            "isIntranet": false,
+            "isVisible": true,
+            "dateLastModified": "2017-10-06T20:32:32.307",
+            "mediaType": 1122,
+            "siteId": 1
+          }
+        ],
+        "mediaCropping": [
+          {
+            "sku": "25508335 ",
+            "mediaTypeId": 1092,
+            "left": 0.1,
+            "top": 0.1,
+            "scale": 0.8,
+            "dateLastModified": "2018-04-30T03:49:52.667"
+          }
+        ],
+        "mediaPreset": [
+          {
+            "sku": "25508335 ",
+            "mediaPresetTypeName": "EcomBrowseM",
+            "scene7PresentName": "EcomBrowseM",
+            "mediaPresettypeId": 1,
+            "unSharpMaskAmount": 1,
+            "unSharpMaskRadius": 1,
+            "unSharpMaskThreshold": 6,
+            "dateLastModified": "2018-04-30T03:49:52.667"
+          }
+        ]
+      },
+      "customExperienceTypes": [
+        
+      ],
+      "customModuleTypes": [
+        {
+          "assortmentID": 101,
+          "customModuleTypeId": 1,
+          "sku": "GRP02985 "
+        }
+      ],
+      "customItemType": {
+        "assortmentID": 101,
+        "customItemTypeID": 1,
+        "sku": "GRP02985 "
+      },
+      "customMountType": [
+        {
+          "assortmentID": 101,
+          "customMountTypeID": 1,
+          "sku": "GRP02985 "
+        }
+      ],
+      "itemMediaStitchPositions": [
+        {
+          "sku": "GRP02985 ",
+          "mediaId": 3812575,
+          "sequenceNumber": 1,
+          "xcoordinates": 325,
+          "ycoordinates": 167,
+          "dateLastModified": "2017-10-26T05:28:47.24"
+        },
+        {
+          "sku": "GRP02985 ",
+          "mediaId": 3812575,
+          "sequenceNumber": 2,
+          "xcoordinates": 541,
+          "ycoordinates": 167,
+          "dateLastModified": "2017-10-26T05:28:47.24"
+        },
+        {
+          "sku": "GRP02985 ",
+          "mediaId": 3812575,
+          "sequenceNumber": 3,
+          "xcoordinates": 757,
+          "ycoordinates": 167,
+          "dateLastModified": "2017-10-26T05:28:47.24"
+        },
+        {
+          "sku": "GRP02985 ",
+          "mediaId": 3812575,
+          "sequenceNumber": 4,
+          "xcoordinates": 974,
+          "ycoordinates": 167,
+          "dateLastModified": "2017-10-26T05:28:47.24"
+        },
+        {
+          "sku": "GRP02985 ",
+          "mediaId": 3812575,
+          "sequenceNumber": 5,
+          "xcoordinates": 1190,
+          "ycoordinates": 167,
+          "dateLastModified": "2017-10-26T05:28:47.24"
+        },
+        {
+          "sku": "GRP02985 ",
+          "mediaId": 3812575,
+          "sequenceNumber": 6,
+          "xcoordinates": 1407,
+          "ycoordinates": 167,
+          "dateLastModified": "2017-10-26T05:28:47.24"
+        }
+      ],
+      "itemServices": {
+        
+      },
+      "categoryBasedDimensions": [
+        {
+          "categoryId": 287465,
+          "endecaDvalId": "101287465",
+          "categoryName": "Necklaces & Pendants",
+          "endecaDimensionId": 1,
+          "endecaDimensionName": "Categories",
+          "superCategoryId": "1013633780",
+          "superCategoryUrlUniqueId": "jewelry",
+          "superCategoryName": "Jewelry",
+          "displayOrder": 2281,
+          "urlUniqueId": "necklaces-pendants"
+        }
+      ],
+      "itemCategories": [
+        {
+          "categoryId": 287465,
+          "endecaDvalId": "101287465",
+          "categoryName": "Necklaces & Pendants",
+          "urlUniqueId": "necklaces-pendants",
+          "canonicalMasterCategoryId": 148204,
+          "canonicalMasterCategoryUrlUniqueId": "jewelry"
+        },
+        {
+          "categoryId": 298241,
+          "endecaDvalId": "101298241",
+          "categoryName": "Wall Street",
+          "urlUniqueId": "wall-street",
+          "canonicalMasterCategoryUrlUniqueId": "jewlery"
+        },
+        {
+          "categoryId": 479592,
+          "endecaDvalId": "101479592",
+          "categoryName": "Fifth Avenue In-Store Pickup",
+          "urlUniqueId": "fifth-avenue-in-store-pickup",
+          "canonicalMasterCategoryUrlUniqueId": "jewlery"
+        },
+        {
+          "categoryId": 479593,
+          "endecaDvalId": "101479593",
+          "categoryName": "New York City In-Store Pickup",
+          "urlUniqueId": "wall-street-or-fifth-avenue",
+          "canonicalMasterCategoryUrlUniqueId": "jewlery"
+        },
+        {
+          "categoryId": 488435,
+          "endecaDvalId": "101488435",
+          "categoryName": "Chains and Cords",
+          "urlUniqueId": "chains-and-cords",
+          "canonicalMasterCategoryUrlUniqueId": "jewlery"
+        },
+        {
+          "categoryId": 1639183,
+          "endecaDvalId": "1011639183",
+          "categoryName": "Soho in-store pick up",
+          "urlUniqueId": "soho-in-store-pick-up",
+          "canonicalMasterCategoryUrlUniqueId": "jewlery"
+        },
+        {
+          "categoryId": 3838627,
+          "endecaDvalId": "1013838627",
+          "categoryName": "Rose Gold Jewelry",
+          "urlUniqueId": "rose-gold-jewelry",
+          "canonicalMasterCategoryId": 148204,
+          "canonicalMasterCategoryUrlUniqueId": "jewelry"
+        }
+      ]
+    }
+  }

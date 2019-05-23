@@ -1,0 +1,71 @@
+
+{
+    "storeDetails": {
+          "storeId": 639,
+          "companyId": 1,
+          "storeName": "New York - Fifth Avenue",
+          "address1": "727 Fifth Avenue",
+          "address2": "",
+          "address3": "",
+          "city": "New York",
+          "region": "NY",
+          "postalCode": "10022",
+          "country": "United States",
+          "phone": "(212) 755-8000",
+          "email": "alamoana@tiffany.com",
+          "extraInformation": "",
+          "searchKeywords": "Ala Moana|Ala Moana Boulevard|Ala Moana Center|Hawaii|Honolulu|USA|Honolulu, HI|Honolulu, Hawaii|96814|hawa|ala|moana|US|united states|hono|lulu|HI|",
+          "storePhoto": "\/stores\/honolulu_ala.jpg",
+          "visibleDate": "2008-08-01T00:00:00",
+          "geoCodeLattitude": "21.291884",
+          "geoCodeLongitude": "-157.84429",
+          "dateCreated": "2008-09-12T14:39:50.97",
+          "dateLastModified": "2018-07-03T15:55:51.72",
+          "mapLevel": 1,
+          "useCustomGeoCode": true,
+          "storePriorityTypeId": 2,
+          "mipsstoreNumber": "30",
+          "isocountryCode": 840,
+          "flagshipStoreUrl": "",
+          "isFlagshipStore": true,
+          "storeSiteAttributes": [
+
+          ]
+        },
+        "storeHours":
+        {
+            "storeId": 639,
+            "storeHourTypeId": 1,
+            "storeHours": "<br>Mon.-Sat.: 9:30AM - 9:00PM<br>Sun.: 10:00AM - 7:00PM <br><br><br><br>July 4th Store Hours<br>9:30 AM \u2013 7:00 PM<br>"
+        }
+        ,
+        "services": [{
+                "serviceId": 1,
+                "serviceName": "Diamond engagement ring consultation"
+            },
+            {
+                "serviceId": 2,
+                "serviceName": "Jewelry cleaning and repair"
+            },
+            {
+                "serviceId": 3,
+                "serviceName": "Jewelry and gift engraving"
+            },
+            {
+                "serviceId": 4,
+                "serviceName": "Leather embossing and monogramming"
+            },
+            {
+                "serviceId": 5,
+                "serviceName": "Watch repair and sales"
+            },
+            {
+                "serviceId": 6,
+                "serviceName": "Glass and crystal etching"
+            },
+            {
+                "serviceId": 7,
+                "serviceName": "Personal shopping"
+            }
+        ]
+}

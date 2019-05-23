@@ -1,0 +1,220 @@
+{{> choose-country}}
+{{> banner}}
+<header class="header header__sticky app-js__header tiffany-aem">
+    <div class="splash-container splash-desktop"></div>
+    {{#with header.items}}
+    <div class="stick header__nav-container">
+        <div class="left-container splash-desktop">
+            <div class="left-container_item">
+                <button type="button" class="btn header__menu" data-icon="true" data-icon-name="hamburger" aria-label="{{menu.label}}"></button>
+                <div class="ie-button btn header__menu header__menu_ie" tabindex="0" aria-role="button" aria-label="{{menu.label}}">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+
+            <div class="left-container_item cta-content">
+                <button type="button" class="btn header__search" data-icon="true" data-icon-name="searchicon" aria-label="{{search.label}}"></button>                
+            </div>
+
+            <div class="left-container_item store-locator-wrapper col-sm__hide">
+               <div role="link" tabindex="0" data-src="{{store.cta.ctaLink}}" data-target="{{store.cta.newTab}}" class="btn header__storeLocator" data-icon="true" data-icon-name="storeLocator" aria-label="{{store.label}}"></div>
+            </div>
+        </div>
+
+        <div class="center-container splash-desktop">
+            <a href="{{logo.cta.ctaLink}}" title="{{logo.label}}" {{#if logo.cta.newTab}}target="_blank"{{/if}} tabindex="0" class="cta-underline">
+                <span class="cta-content">
+                    <span class="cta-text" tabindex="-1">
+                        {{#if logo.mobileIcon}}
+                            <img src="{{logo.mobileIcon}}" alt="{{logo.label}}" class="logo-mobile"/>
+                        {{/if}}
+                        {{#if logo.desktopIcon}}
+                            <img src="{{logo.desktopIcon}}" alt="{{logo.label}}" class="logo-desktop"/>
+                        {{/if}}
+                    </span>
+                </span>
+            </a>
+        </div>
+
+        <div class="right-container splash-desktop">
+
+            <tiffany-header-flyout type="account" navname="account" animtimer="2000" text="{{account.cta.ctaText}}" link="{{account.cta.ctaLink}}" activeicon="{{account.icon}}" label="{{account.label}}" newtab="{{account.cta.newTab}}" icon="{{account.icon}}"></tiffany-header-flyout>
+
+            {{#is wishlist.isnotEstorePage}}
+                <div role="button" class="right-container_item" data-type="wishlist">
+                    <tiffany-header-flyout type="wishlist" animtimer="2000" link="{{wishlist.cta.ctaLink}}" activeicon="{{wishlist.icon}}"
+                        label="{{wishlist.label}}" navname="wishlist" newtab="{{wishlist.cta.newTab}}" icon="{{wishlist.icon}}"></tiffany-header-flyout>
+                </div>
+            {{/is}}
+
+            <div role="button" aria-label="{{shoppingBag.label}}" class="right-container_item">
+                <tiffany-header-flyout type="shoppingbag" navname="shoppingbag" animtimer="5000" link="{{shoppingBag.cta.ctaLink}}" activeicon="{{shoppingBag.icon}}" label="{{shoppingBag.label}}" newtab="{{shoppingBag.cta.newTab}}" icon="{{shoppingBag.icon}}"></tiffany-header-flyout>
+            </div>
+        </div>
+    </div>
+    {{/with}}
+
+    <div class="header__backdrop"></div>
+    <nav class="header__flyout" tabindex="-1">
+        <div class="header__flyout_logo-container">
+            <button type="button" class="close_menu btn" aria-label="{{header.flyoutMenuItems.closeLabel}}">
+            </button>
+            {{#if header.items.logo.isLogoVisible}}
+                <div class="flyout-logo">
+                    <a href="{{header.items.logo.cta.ctaLink}}" title="{{header.items.logo.label}}" {{#if header.items.logo.cta.newTab}}target="_blank"{{/if}} tabindex="0">
+                        <span tabindex="-1" class="cta-content">
+                            {{#if header.items.logo.mobileIcon}}
+                                <img src="{{header.items.logo.mobileIcon}}" alt="{{header.items.logo.label}}" class="logo-mobile"/>
+                            {{/if}}
+                        </span>
+                    </a>
+                </div>
+            {{/if}}
+        </div>
+        <div class="header__flyout_content">
+            <div class="wrapper custom-scroll force-ios-custom-scroll">
+                {{#each header.flyoutMenuItems.topLevelItems}}
+                    <div class="{{#if subList}}has-sub-menu{{/if}}">
+                        <span class="icon-Right"></span>
+                        <div class="flyout-item flyout_top-item--{{@index}}">
+                            {{#if isSeparator}}
+                                <div class="flyout-separator"></div>
+                            {{else}}
+                                {{#if ../cta}}
+                                    <a href="{{cta.ctaLink}}" title="{{text}}" class="cta top-level-item {{#if ../../subList}}sub-menu-btn{{/if}}" tabindex="0" {{#if cta.newTab}}target="_blank"{{/if}}>
+                                        <span class="cta-content">
+                                            <span class="cta-text" tabindex="-1">{{text}}</span>
+                                        </span>
+                                    </a>
+                                {{else}}
+                                    <div role="button" aria-label="{{text}}" class="cta top-level-item {{#if ../../subList}}sub-menu-btn{{/if}}" tabindex="0">
+                                        <span class="cta-content">
+                                            <span class="cta-text" tabindex="-1">{{text}}</span>
+                                        </span>
+                                    </div>
+                                {{/if}}
+                            {{/if}}
+                        </div>
+                        {{#if imageOnHover}}
+                            <div class="flyout-image-hover">
+                                <a class="cta" href="{{imageOnHover.cta.ctaLink}}" title="{{imageOnHover.cta.ctaText}}" {{#if imageOnHover.cta.newTab}}target="_blank"{{/if}} tabindex="-1">
+                                    {{> picture
+                                        isLazyLoad = imageOnHover.image.lazyLoad
+                                        desktopSrc = imageOnHover.image.src
+                                        altText    = imageOnHover.image.altText
+                                    }}
+                                </a>
+                                <div class="hover-image-content">
+                                    {{#if imageOnHover.description}}
+                                        <h1 class="hover-image-content-desc">{{imageOnHover.description}}</h1>
+                                    {{/if}}
+                                    {{#if imageOnHover.cta}}
+                                        <a class="cta" href="{{imageOnHover.cta.ctaLink}}" title="{{imageOnHover.cta.ctaText}}" {{#if imageOnHover.cta.newTab}}target="_blank"{{/if}} tabindex="0">
+                                            <span class="hover-image-content-cta cta-content" tabindex="-1">
+                                                {{imageOnHover.cta.ctaText}}
+                                            </span>
+                                        </a>
+                                    {{/if}}
+                                </div>
+                            </div>
+                        {{/if}}
+                        {{#if subList}}
+                            <div class="header__sub-menu">
+                                <div class="header__sub-menu_container">
+                                    <div class="mobile-title">
+                                        <span class="icon-Left"></span>
+                                        <span class="sub-menu-cat">{{text}}</span>
+                                    </div>
+                                    <div class="header__sub-menu-links custom-scroll force-ios-custom-scroll">
+                                        {{#each subList}}
+                                            <div class="col">
+                                                <h3 class="title-text sub-menu-link sub-menu-link--0">
+                                                {{titleText}}
+                                                </h3>
+                                                <nav class="sub-menu-col">
+                                                    <ul class="sub-menu-list">
+                                                        {{#each links}}
+                                                            <li class="sub-menu-link sub-menu-link--{{@index}}">
+                                                                <a class="cta sub-menu-item {{#if isBold}}is-bold{{/if}}" href="{{ctaLink}}" title="{{ctaText}}" {{#if newTab}}target="_blank"{{/if}} tabindex="0">
+                                                                    <span class="sub-menu-item-link cta-content" tabindex="-1">
+                                                                        {{ctaText}}
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                        {{/each}}
+                                                    </ul>
+                                                </nav>
+                                                <div class="col_separator"></div>
+                                            </div>
+                                        {{/each}}
+                                    </div>
+                                    {{#if ../subMenuImage}}
+                                        <div class="header__sub-menu_image">
+                                            <a class="cta" href="{{subMenuImage.cta.ctaLink}}" title="{{subMenuImage.cta.ctaText}}" {{#if subMenuImage.cta.newTab}}target="_blank"{{/if}} tabindex="-1">
+                                                {{> picture
+                                                    isLazyLoad = subMenuImage.image.lazyLoad
+                                                    desktopSrc = subMenuImage.image.src
+                                                    altText    = subMenuImage.image.altText
+                                                }}
+                                            </a>
+                                            <div class="header__sub-menu_image_content">
+                                                {{#if subMenuImage.description}}
+                                                    <h1 class="header__sub-menu_image_content-desc">{{subMenuImage.description}}</h1>
+                                                {{/if}}
+                                                {{#if subMenuImage.cta}}
+                                                    <a class="cta" href="{{subMenuImage.cta.ctaLink}}" title="{{subMenuImage.cta.ctaText}}" {{#if subMenuImage.cta.newTab}}target="_blank"{{/if}} tabindex="0">
+                                                        <span class="header__sub-menu_image_content-cta cta-content" tabindex="-1">
+                                                            {{subMenuImage.cta.ctaText}}
+                                                        </span>
+                                                    </a>
+                                                {{/if}}
+                                            </div>
+                                        </div>
+                                    {{/if}}
+                                </div>
+                            </div>
+                        {{/if}}
+                    </div>
+                {{/each}}
+                {{#with header.items}}
+                    <div class="remaining-links-mobile">
+                        <div class="remaining-links-mobile_item">
+                            <a href="{{account.cta.ctaLink}}" title="{{account.label}}" tabindex="0" {{#if account.cta.newTab}}target="_blank"{{/if}}>
+                                <span class="cta-content" tabindex="-1">
+                                    <div class="remaining-links-mobile_item_icon">
+                                        <img src="{{account.icon}}" alt="{{account.label}}" />
+                                    </div>
+                                    {{account.cta.ctaText}}
+                                </span>
+                            </a>
+                        </div>
+                        <div class="remaining-links-mobile_item">
+                            <a href="{{store.cta.ctaLink}}" title="{{store.label}}" tabindex="0" {{#if store.cta.newTab}}target="_blank"{{/if}}>
+                                <span class="cta-content" tabindex="-1">
+                                    <div class="remaining-links-mobile_item_icon">
+                                        <img src="{{store.icon}}" alt="{{store.label}}" />
+                                    </div>
+                                    {{store.cta.ctaText}}
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                {{/with}}
+            </div>
+
+            {{#if header.items.logo.isLogoVisible}}
+                <div class="flyout-logo-desktop">
+                    <a href="{{header.items.logo.cta.ctaLink}}" title="{{header.items.logo.label}}" {{#if header.items.logo.cta.newTab}}target="_blank"{{/if}} tabindex="0">
+                        <span tabindex="-1" class="cta-content">
+                            {{#if header.items.logo.desktopIcon}}
+                                <img src="{{header.items.logo.desktopIcon}}" alt="{{header.items.logo.label}}" class="logo-desktop"/>
+                            {{/if}}
+                        </span>
+                    </a>
+                </div>
+            {{/if}}
+        </div>
+    </nav>
+</header>

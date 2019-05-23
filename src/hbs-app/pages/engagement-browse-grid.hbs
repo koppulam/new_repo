@@ -1,0 +1,18 @@
+---
+title: Engagement browse Grid Page
+type: page
+layout: grid
+description: Engagement browse grid page for App
+sortOrder: 0
+---
+
+<div class="wrapper">
+    <div class="hero-banner container">
+        {{> text-with-image
+            browse-grid.heroBannerBrowseGridVariation
+        }}
+    </div>
+
+    <tiffany-grid config="searchConfig" type="BROWSE"  noSearchConfig="noSearchConfig" popularProductConfig="popularProductConfig" popularProductConfigType="SKU"></tiffany-grid>
+
+</div>

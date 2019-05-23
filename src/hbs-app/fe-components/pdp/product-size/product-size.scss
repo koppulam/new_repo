@@ -1,0 +1,46 @@
+// ****************************************
+// product-size
+// ****************************************
+
+.product-size {
+    @include MediaQueries($desktop-and-below) {
+        display: flex;
+        order: 1;
+    }
+
+    &__modifier {
+        @include font($font-size-16, $font-weight-normal, $black, 1.5, 0);
+        padding: getUnitValue(3) 0;
+        border-top: 1px solid $black;
+        margin-top: getUnitValue(2);
+        position: relative;
+        @include font-family($font_santral_regular);
+
+        @include MediaQueries($desktop-and-below) {
+            border-top: none;
+            padding: getUnitValue(2) 0;
+            margin-top: 0;
+
+            select {
+                border: 0 !important;
+                appearance: none;
+                background:none;
+                text-overflow: "";
+            }
+
+        }
+
+        ul.list {
+            width: 100%;
+
+            li {
+                @extend .col-20-percent;
+                float: left;
+                text-align: center !important;
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+                border: 1px solid $grayshade;
+            }
+        }
+    }
+}

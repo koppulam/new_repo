@@ -1,0 +1,54 @@
+// ****************************************
+// editorial-carousel
+// ****************************************
+
+.editorial-carousel {
+
+    .content-band--60x40 {
+        padding-bottom: getUnitValue(1);
+        
+        .band-item {
+            &:nth-child(1) {
+                padding-right: 36px;
+                padding-left: 0;
+            }
+        }
+    }
+
+    .content-band--40x60 {
+        &.content-with-image {
+            padding-bottom: getUnitValue(1) !important;
+        }
+        .band-item {
+            &:nth-child(1) {
+                padding-left: 0 !important;
+            }
+
+            &:nth-child(2) {
+                padding-right: 0 !important;
+            }
+        }
+    }
+
+    &__holder {
+        @extend .tf-g;
+
+        .product-tile {
+            @extend .col-3-12;
+            padding-right: getUnitValue(1);
+
+            @include MediaQueries($tablet-and-below){
+                margin-right: getUnitValue(1);
+                padding-right: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        @include MediaQueries($desktop-and-below) {
+            padding-left: 0;
+        }
+    }
+}

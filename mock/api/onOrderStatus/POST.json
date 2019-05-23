@@ -1,0 +1,25 @@
+{
+    "resultDto": [
+        {
+            "poNumber": "30747970",
+            "poLocation": "50",
+            "onOrder": 3,
+            "reserved": 0,
+            "available": 3,
+            "expectedDate": "2018-03-30T00:00:00",
+            "countryOfOriginCode": "840",
+            "countryOfOriginName": "US"
+        },
+        {
+            "poNumber": "30748223",
+            "poLocation": "50",
+            "onOrder": 1,
+            "reserved": 0,
+            "available": 1,
+            "expectedDate": "2018-03-26T00:00:00",
+            "countryOfOriginCode": "840",
+            "countryOfOriginName": "US"
+        }
+    ]
+}
+ 

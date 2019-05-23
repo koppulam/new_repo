@@ -1,0 +1,5 @@
+export default {
+    TOGGLE_MINI_PDP: 'TOGGLE_MINI_PDP',
+    SET_MINI_PDP_DATA: 'SET_MINI_PDP_DATA',
+    OPEN_MINI_PDP: 'OPEN_MINI_PDP'
+};

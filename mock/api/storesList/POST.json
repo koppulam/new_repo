@@ -1,0 +1,325 @@
+{
+    "resultDto": [
+      {
+        "store": {
+          "storeId": 639,
+          "companyId": 1,
+          "storeName": "Honolulu - Ala Moana Center",
+          "address1": "1450 Ala Moana Boulevard",
+          "address2": "",
+          "address3": "",
+          "city": "Honolulu",
+          "region": "HI",
+          "postalCode": "96814",
+          "country": "United States",
+          "phone": "808 943 6677",
+          "email": "alamoana@tiffany.com",
+          "extraInformation": "",
+          "searchKeywords": "Ala Moana|Ala Moana Boulevard|Ala Moana Center|Hawaii|Honolulu|USA|Honolulu, HI|Honolulu, Hawaii|96814|hawa|ala|moana|US|united states|hono|lulu|HI|",
+          "storePhoto": "\/stores\/honolulu_ala.jpg",
+          "visibleDate": "2008-08-01T00:00:00",
+          "geoCodeLattitude": "21.291884",
+          "geoCodeLongitude": "-157.84429",
+          "dateCreated": "2008-09-12T14:39:50.97",
+          "dateLastModified": "2018-07-03T15:55:51.72",
+          "mapLevel": 1,
+          "useCustomGeoCode": true,
+          "storePriorityTypeId": 2,
+          "mipsstoreNumber": "30",
+          "isocountryCode": 840,
+          "flagshipStoreUrl": "",
+          "isFlagshipStore": true,
+          "storeSiteAttributes": [
+
+          ]
+        },
+        "storeHours": [
+          {
+            "storeId": 639,
+            "storeHourTypeId": 1,
+            "storeHours": "<br>Mon.-Sat.: 9:30AM - 9:00PM<br>Sun.: 10:00AM - 7:00PM <br><br><br><br>July 4th Store Hours<br>9:30 AM \u2013 7:00 PM<br>"
+          },
+          {
+            "storeId": 639,
+            "storeHourTypeId": 2,
+            "storeHours": "  "
+          }
+        ]
+      },
+      {
+        "store": {
+          "storeId": 640,
+          "companyId": 1,
+          "storeName": "Americana Manhasset",
+          "address1": "1980 Northern Boulevard",
+          "address2": "",
+          "address3": "",
+          "city": "Manhasset",
+          "region": "NY",
+          "postalCode": "11030",
+          "country": "United States",
+          "phone": "516 869 0800",
+          "email": "manhasset@tiffany.com",
+          "extraInformation": "",
+          "searchKeywords": "516 869 0800",
+          "storePhoto": "\/stores\/manhasset.jpg",
+          "visibleDate": "2008-08-01T00:00:00",
+          "geoCodeLattitude": "40.7956049",
+          "geoCodeLongitude": "-73.67385480000001",
+          "dateCreated": "2008-09-12T14:39:50.97",
+          "dateLastModified": "2018-07-03T10:51:14.973",
+          "mapLevel": 1,
+          "useCustomGeoCode": false,
+          "storePriorityTypeId": 2,
+          "mipsstoreNumber": "35",
+          "isocountryCode": 840,
+          "flagshipStoreUrl": "",
+          "isFlagshipStore": false,
+          "storeSiteAttributes": [
+
+          ]
+        },
+        "storeHours": [
+          {
+            "storeId": 640,
+            "storeHourTypeId": 1,
+            "storeHours": "<br>Mon.-Wed.: 10:00AM - 6:00PM<br> Thurs.-Sat.: 10:00AM - 7:00PM<br>Sun.: 12:00PM - 6:00PM<br><br>July 4th Store Hours<br>12:00 PM \u2013 5:00 PM<br>"
+          },
+          {
+            "storeId": 640,
+            "storeHourTypeId": 2,
+            "storeHours": "  "
+          }
+        ]
+      },
+      {
+        "store": {
+          "storeId": 641,
+          "companyId": 1,
+          "storeName": "Zurich",
+          "address1": "Bahnhofstrasse 14",
+          "address2": "8001 Z\u00fcrich",
+          "address3": "",
+          "city": "Zurich",
+          "region": "HI",
+          "postalCode": "",
+          "country": "Switzerland",
+          "phone": "41-(0)44-211 10 10",
+          "email": "",
+          "extraInformation": "",
+          "searchKeywords": "Zurich|Bahnhofstrasse|Zurich, Switzerland|Switzerland|Europe|",
+          "storePhoto": "\/stores\/zurich.jpg",
+          "visibleDate": "2008-08-01T00:00:00",
+          "geoCodeLattitude": "47.3684417",
+          "geoCodeLongitude": "8.540045599999985",
+          "dateCreated": "2008-09-12T14:39:50.97",
+          "dateLastModified": "2017-12-27T11:38:01.973",
+          "mapLevel": 1,
+          "useCustomGeoCode": false,
+          "storePriorityTypeId": 2,
+          "mipsstoreNumber": "83",
+          "isocountryCode": 756,
+          "flagshipStoreUrl": "",
+          "isFlagshipStore": true,
+          "storeSiteAttributes": [
+
+          ]
+        },
+        "storeHours": [
+          {
+            "storeId": 641,
+            "storeHourTypeId": 1,
+            "storeHours": "Mon-Fri: 10:00-18:30<br>Sat: 10:00-18:00<br>Sun: Closed<br><br>31 Dec: Closed<br>1 & 2 Jan: Closed"
+          },
+          {
+            "storeId": 641,
+            "storeHourTypeId": 2,
+            "storeHours": "Mon-Sat: 10:00-18:00<br>Sun: 11:00-18:00<br><br>"
+          }
+        ]
+      },
+      {
+        "store": {
+          "storeId": 642,
+          "companyId": 1,
+          "storeName": "Bal Harbour Shops",
+          "address1": "9700 Collins Avenue",
+          "address2": "",
+          "address3": "",
+          "city": "Bal Harbour",
+          "region": "FL",
+          "postalCode": "33154",
+          "country": "United States",
+          "phone": "305 864 1801",
+          "email": "balharbour@tiffany.com",
+          "extraInformation": "",
+          "searchKeywords": "Bal Harbor|Bal Harbour|Bal Harbour, FL|FL|Florida|United States|US|USA|Bal Harbour, Florida|Fla|Bal Harbour, Fla|Miami|Miami, Florida|Miami, FL|Miami, FLA|Collins Avenue|33154|",
+          "visibleDate": "2008-08-01T00:00:00",
+          "geoCodeLattitude": "25.8887092",
+          "geoCodeLongitude": "-80.12401499999998",
+          "dateCreated": "2008-09-12T14:39:50.97",
+          "dateLastModified": "2018-07-03T15:37:30.727",
+          "mapLevel": 1,
+          "useCustomGeoCode": false,
+          "storePriorityTypeId": 2,
+          "mipsstoreNumber": "17",
+          "isocountryCode": 840,
+          "flagshipStoreUrl": "",
+          "isFlagshipStore": false,
+          "storeSiteAttributes": [
+
+          ]
+        },
+        "storeHours": [
+          {
+            "storeId": 642,
+            "storeHourTypeId": 1,
+            "storeHours": "<br>Mon.-Sat.: 10:00AM - 9:00PM<br>Sun.: 12:00PM - 6:00PM<br><br><br> July 4th Store Hours<br>12:00 PM \u2013 6:00 PM<br>"
+          },
+          {
+            "storeId": 642,
+            "storeHourTypeId": 2,
+            "storeHours": ""
+          }
+        ]
+      },
+      {
+        "store": {
+          "storeId": 643,
+          "companyId": 1,
+          "storeName": "Las Vegas - Bellagio",
+          "address1": "3600 Las Vegas Blvd. South",
+          "address2": "",
+          "address3": "",
+          "city": "Las Vegas",
+          "region": "HI",
+          "postalCode": "89109",
+          "country": "United States",
+          "phone": "702 697 5400",
+          "email": "bellagio@tiffany.com",
+          "extraInformation": "  ",
+          "searchKeywords": "Bellagio|Las Vegas|Las Vegas Blvd.|Las Vegas, Nevada|Nevada|United States|US|USA|Las Vegas,NV|Las Vegas, NV|Lasvegas, NV|89109|Las Vegas NV|NV|",
+          "storePhoto": "\/stores\/las_vegas.jpg",
+          "visibleDate": "2008-08-01T00:00:00",
+          "geoCodeLattitude": "36.1147004",
+          "geoCodeLongitude": "-115.17295790000003",
+          "dateCreated": "2008-09-12T14:39:50.97",
+          "dateLastModified": "2018-07-03T15:59:43.433",
+          "mapLevel": 1,
+          "useCustomGeoCode": false,
+          "storePriorityTypeId": 2,
+          "mipsstoreNumber": "29",
+          "isocountryCode": 840,
+          "flagshipStoreUrl": "",
+          "isFlagshipStore": true,
+          "storeSiteAttributes": [
+
+          ]
+        },
+        "storeHours": [
+          {
+            "storeId": 643,
+            "storeHourTypeId": 1,
+            "storeHours": "<br>Open Daily: 10:00AM \u2013 Midnight<br><br><br><br>July 4th Store Hours<br>10:00 AM \u2013 12:00 PM<br>"
+          },
+          {
+            "storeId": 643,
+            "storeHourTypeId": 2,
+            "storeHours": ""
+          }
+        ]
+      },
+      {
+        "store": {
+          "storeId": 644,
+          "companyId": 1,
+          "storeName": "Beverly Hills",
+          "address1": "210 North Rodeo Drive",
+          "address2": "",
+          "address3": "",
+          "city": "Beverly Hills",
+          "region": "CA",
+          "postalCode": "90210",
+          "country": "United States",
+          "phone": "310 273 8880",
+          "email": "beverlyhills@tiffany.com",
+          "extraInformation": "",
+          "searchKeywords": "90210|Beverly Hills|Beverly Hills, CA|california|Rodeo Drive|United States|US|USA|LA|Los Angeles|Los Angeles, CA|Los Angeles,CA|Los Angeles, California|90210|los angeles ca|Los Angeles California|CA|",
+          "storePhoto": "\/stores\/beverly_hills.jpg",
+          "visibleDate": "2008-08-01T00:00:00",
+          "geoCodeLattitude": "34.0673124",
+          "geoCodeLongitude": "-118.40086600000001",
+          "dateCreated": "2008-09-12T14:39:50.97",
+          "dateLastModified": "2018-07-03T15:47:49.987",
+          "mapLevel": 1,
+          "useCustomGeoCode": false,
+          "storePriorityTypeId": 2,
+          "mipsstoreNumber": "4",
+          "isocountryCode": 840,
+          "flagshipStoreUrl": "",
+          "isFlagshipStore": false,
+          "storeSiteAttributes": [
+
+          ]
+        },
+        "storeHours": [
+          {
+            "storeId": 644,
+            "storeHourTypeId": 1,
+            "storeHours": "<br>Mon.-Sat.: 10:00AM - 7:00PM<br>Sun.: 11:00AM - 6:00PM<br><br> <br>July 4th Store Hours<br>10:00 AM \u2013 6:00 PM<br>"
+          },
+          {
+            "storeId": 644,
+            "storeHourTypeId": 2,
+            "storeHours": "  "
+          }
+        ]
+      },
+      {
+        "store": {
+          "storeId": 645,
+          "companyId": 1,
+          "storeName": "Boca Raton",
+          "address1": "6000 Glades Road",
+          "address2": "",
+          "address3": "",
+          "city": "Boca Raton",
+          "region": "SA",
+          "postalCode": "33431",
+          "country": "United States",
+          "phone": "561 362 4334",
+          "email": "bocaraton@tiffany.com",
+          "extraInformation": "",
+          "searchKeywords": "Boca|Boca Raton|Florida|US|USA|United States|Boca Raton, Florida|Boca Raton, FL|Glades Road|33431|FL|",
+          "storePhoto": "\/stores\/boca_raton.jpg",
+          "visibleDate": "2008-08-01T00:00:00",
+          "geoCodeLattitude": "26.3659612",
+          "geoCodeLongitude": "-80.13428399999998",
+          "dateCreated": "2008-09-12T14:39:50.97",
+          "dateLastModified": "2018-07-03T15:38:01.703",
+          "mapLevel": 1,
+          "useCustomGeoCode": false,
+          "storePriorityTypeId": 2,
+          "mipsstoreNumber": "40",
+          "isocountryCode": 840,
+          "flagshipStoreUrl": "",
+          "isFlagshipStore": true,
+          "storeSiteAttributes": [
+
+          ]
+        },
+        "storeHours": [
+          {
+            "storeId": 645,
+            "storeHourTypeId": 1,
+            "storeHours": "<br>Mon.-Sat.: 10:00AM - 9:00PM<br>Sun.: 12:00PM - 6:00PM<br><br><br>July 4th Store Hours<br>10:00 AM \u2013 6:00 PM<br>"
+          },
+          {
+            "storeId": 645,
+            "storeHourTypeId": 2,
+            "storeHours": "  "
+          }
+        ]
+      }
+    ]
+}

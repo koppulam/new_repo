@@ -1,0 +1,96 @@
+<article
+    class="content-tile app-js__content-tile {{#if textAlignment}} {{textAlignment}}{{/if}}
+        {{#if ../isHeroBanner}} hide{{/if}}
+        {{#is isTextOverlay "true"}}adjust-position{{/is}}
+        {{#is isMobileTextOverlay "true"}} adjust-position-mobile {{/is}}
+        {{#is isInsetText "true"}} content-tile__inset-text{{/is}}
+        {{#is isMobileInsetText "true"}} content-tile__mobile_inset-text{{/is}}
+        {{#if width}}{{width}}{{/if}}
+        {{#if isFiftyFiftyInsetText}} content-tile__fifty_fiftyinset-text{{/if}}"
+
+    {{#isnt isInsetText "true"}}
+        data-pos-left="{{leftPos}}"
+        data-pos-top="{{topPos}}"
+    {{/isnt}}
+    {{#isnt isMobileInsetText "true"}}
+        data-mobile-pos-top="{{mobileTopPos}}"
+        data-mobile-pos-left="{{mobileLeftPos}}"
+    {{/isnt}}
+>
+
+    {{#if isMarketingBrowsegrid}}
+        <h2 class="heading {{#if smallerHeading}}smaller-heading{{/if}}  browse-grid-header {{#if colorLabel.length}}{{colorLabel}}{{/if}}">{{heading}}</h2>
+    {{else}}
+    {{#if isBrowseGrid}}
+        <h1 class="heading {{#if smallerHeading}}smaller-heading{{/if}}  browse-grid-header {{#if colorLabel.length}}{{colorLabel}}{{/if}}">{{heading}}</h1>
+    {{else}}
+        <h2 class="heading {{#if smallerHeading}}smaller-heading{{/if}} browse-grid-header {{#if colorLabel.length}}{{colorLabel}}{{/if}}">{{heading}}</h2>
+    {{/if}}
+    {{/if}}
+    {{#if subheading}}
+        <h3 class="subheading {{#if smallerHeading}}smaller-heading{{/if}} {{#if colorLabel.length}}{{colorLabel}}{{/if}}">{{subheading}}</h3>
+    {{/if}}
+    {{#if hasBorderTop}}
+         <p class="description-border"></p>
+    {{/if}}
+    {{#if description}}
+        <div class="description tiffany-rte {{#if colorLabel.length}}{{colorLabel}}{{/if}}">
+            <p>{{description}}{{description2}}</p>
+        </div>
+    {{/if}}
+    {{#if description2}}
+        <div class="second-description">
+            <p>{{description2}}</p>
+        </div>
+    {{/if}}
+    {{#if cta1Style}}
+        <div class="cta-link {{#is cta1Style "primary"}}content-tile-button{{/is}} {{#is cta1Style "secondary"}}content-tile-button{{/is}}">
+           <a {{#if cta1Video}}data-video="{{cta1Video}}" data-mobilesrc="https://media.tiffany.com/is/content/Tiffany/Spring_Campaign_Paper_Flowers_Focused_Anthem_NA_739x489" data-close-label="{{closeVideoLabel}}" data-video-title="{{cta1VideoTitle}}"{{/if}} class="cta {{cta1Style}} {{#if colorLabel.length}}{{colorLabel}}{{/if}}" href="https://media.tiffany.com/is/content/Tiffany/Spring_Campaign_Paper_Flowers_Focused_Anthem_NA_739x489" tabindex="0" target="{{ctaTarget}}">
+                <span class="cta-content button_cta_text {{#if colorLabel.length}}{{colorLabel}}{{/if}} {{#is cta1Style "primary"}}white-label{{/is}}">
+                    <span class="cta-text" tabindex="-1">{{ctaText}}</span>
+                    {{#is cta1Style "with-chevron"}}<span class="icon-dropdown-right {{#if colorLabel.length}}{{colorLabel}}{{/if}}"></span>{{/is}}
+                </span>
+            </a>
+        </div>
+    {{else if reservationBtn}}
+        <div class="cta-link">
+            <button type="button" class="cta reservation-btn {{#if colorLabel.length}}{{colorLabel}}{{/if}}">
+                <span class="cta-content">
+                    <span class="cta-text" tabindex="-1">{{ctaText}}</span>
+                    <span class="icon-dropdown-right"></span>
+                </span>
+            </button>
+        </div>
+    {{else}}
+        <div class="cta-link">
+            <a {{#if cta1Video}}data-video="{{cta1Video}}" data-close-label="{{closeVideoLabel}}" data-video-title="{{cta1VideoTitle}}"{{/if}} class="cta {{#if colorLabel.length}}{{colorLabel}}{{/if}}" href="https://media.tiffany.com/is/content/Tiffany/Spring_Campaign_Paper_Flowers_Focused_Anthem_NA_739x489" tabindex="0" target="{{ctaTarget}}">
+                <span class="cta-content">
+                    <span class="cta-text" tabindex="-1">{{ctaText}}</span>
+                     <span class="icon-dropdown-right"></span>
+                </span>
+            </a>
+        </div>
+    {{/if}}
+
+    {{#if cta2Style}}
+        <div class="cta-link {{#is cta2Style "primary"}}content-tile-button{{/is}} {{#is cta2Style "secondary"}}content-tile-button{{/is}}">
+            <a {{#if cta2Video}}data-video="{{cta2Video}}" data-close-label="{{closeVideoLabel}}" data-video-title="{{cta2VideoTitle}}"{{/if}} class="cta {{cta2Style}} col__full {{#if colorLabel.length}}{{colorLabel}}{{/if}}" href="https://www.youtube.com/watch?v=R5EU0FLlPeM" tabindex="0" target="{{cta2Target}}">
+                <span class="cta-content button_cta_text {{#if colorLabel.length}}{{colorLabel}}{{/if}} {{#is cta2Style "primary"}}white-label{{/is}}">
+                    <span class="cta-text" tabindex="-1">{{cta2Text}}</span>
+                    {{#is cta2Style "with-chevron"}}<span class="icon-dropdown-right {{#if colorLabel.length}}{{colorLabel}}{{/if}}"></span>{{/is}}
+                </span>
+            </a>
+        </div>
+    {{else}}
+    {{#if cta2Text}}
+        <div class="cta-link">
+            <a {{#if cta2Video}}data-video="{{cta2Video}}" data-close-label="{{closeVideoLabel}}" data-video-title="{{cta2VideoTitle}}"{{/if}} class="cta {{#if colorLabel.length}}{{colorLabel}}{{/if}}" href="https://www.youtube.com/watch?v=R5EU0FLlPeM" tabindex="0" target="{{cta2Target}}">
+                <span class="cta-content  {{#if colorLabel}} {{colorLabel}} {{/if}} ">
+                   <span class="cta-text" tabindex="-1">{{cta2Text}}</span>
+                   <span class="icon-dropdown-right {{#if colorLabel.length}}{{colorLabel}}{{/if}}"></span>
+                </span>
+            </a>
+        </div>
+    {{/if}}
+    {{/if}}
+</article>

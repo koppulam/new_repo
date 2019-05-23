@@ -1,0 +1,32 @@
+{
+    "resultDto": {
+        "itemEngravingImagePreview": {
+            "servicingImageName": "default_vnt",
+            "preset": "EngravePreviewVNT",
+            "presetMobile": "EngravePreviewMobileVNT",
+            "previewImageUrl": "https://media.tiffany.com/is/image/tiffanyRenderDev?src=ir{tiffanyRenderDev/<imageName>?obj=engrave&decal&src=is{TiffanyDev/<styleCode>_<itemServiceTypeId>_text?scl=1}}&$text1l=<initial1>&$text1c=<initial2>&$text1r=<initial3>&wid=500&$<preset>$"
+        },
+        "itemServicingOptions": [
+            {
+                "itemServiceTypeId": 1,
+                "unitPrice": 25,
+                "servicingQuantity": 1
+            },
+            {
+                "itemServiceTypeId": 11,
+                "unitPrice": 25,
+                "servicingQuantity": 1
+            },
+            {
+                "itemServiceTypeId": 15,
+                "unitPrice": 45,
+                "servicingQuantity": 1
+            },
+            {
+                "itemServiceTypeId": 150,
+                "unitPrice": 60,
+                "servicingQuantity": 1
+            }
+        ]
+    }
+}

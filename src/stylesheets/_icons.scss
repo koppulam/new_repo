@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'tiffany-icons';
+
+    src:  url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/icons.eot');
+    src:  url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/icons.eot?#iefix') format('embedded-opentype'),
+      url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/icons.ttf') format('truetype'),
+      url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/icons.woff') format('woff'),
+      url('/etc.clientlibs/tiffanynco-platform/clientlibs/main/resources/fonts/icons.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  [class^="icon-"], [class*=" icon-"], .icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'tiffany-icons' !important;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      color: $icon-gray;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-view:before {
+    content: "\e900";
+  }
+  .icon-Add:before {
+    content: "\e901";
+  }
+  .icon-Appointment:before {
+    content: "\e902";
+  }
+  .icon-bookmark-hover:before {
+    content: "\e903";
+  }
+  .icon-bookmark-hover .path2:before {
+    content: "\e904";
+    margin-left: -1em;
+  }
+  .icon-bookmark:before {
+    content: "\e905";
+  }
+  .icon-Clock:before {
+    content: "\e906";
+    color: $black;
+  }
+  .icon-Close:before {
+    content: "\e907";
+    color: $black;
+  }
+  .icon-Conceirge:before {
+    content: "\e908";
+  }
+  .icon-Down:before {
+    content: "\e909";
+  }
+  .icon-Drop-a-hint:before {
+    content: "\e90a";
+  }
+  .icon-Dropdown:before {
+    content: "\e90b";
+  }
+  .icon-dropdown-down:before {
+    content: "\e90c";
+    color: $black;
+      font-size:0.5rem;
+  }
+  .icon-dropdown-left:before {
+    content: "\e90d";
+    font-size: $font-size-12;
+      padding-right: getUnitValue(1);
+      color: $black;
+  }
+  .icon-dropdown-right:before {
+    @extend .icon-Right;
+    font-size: $font-size-8;
+    padding-left:getUnitValue(0.5);
+    color: $black;
+  }
+  .icon-dropdown-right-arrow:before {
+    @extend .icon-dropdown-right;
+    font-size: $font-size-12;
+    padding-left:getUnitValue(1);
+    color: $black;
+  }
+  .icon-dropdown-up:before {
+    content: "\e90f";
+    font-size:0.5rem;
+      color: $black;
+  }
+  .icon-Elipses:before {
+    content: "\e910";
+  }
+  .icon-Error:before {
+    content: "\e911";
+  }
+  .icon-facebook .path1:before {
+    content: "\e912";
+    color: rgb(255, 255, 255);
+  }
+  .icon-facebook .path2:before {
+    content: "\e913";
+  }
+  .icon-facebook .path3:before {
+    content: "\e914";
+  }
+  .icon-Go-to-Top:before {
+    content: "\e915";
+  }
+  .icon-Hamburger:before {
+    content: "\e916";
+  }
+  .icon-Info:before {
+    content: "\e917";
+    color: $filter-gray;
+  }
+  .icon-instagram .path1:before {
+    content: "\e918";
+    color: rgb(255, 255, 255);
+  }
+  .icon-instagram .path2:before {
+    content: "\e919";
+  }
+  .icon-instagram .path3:before {
+    content: "\e91a";
+  }
+  .icon-Kebab:before {
+    content: "\e91b";
+  }
+  .icon-Left:before {
+    content: "\e91c";
+  }
+  .icon-Location:before {
+    content: "\e91d";
+  }
+  .icon-pinterest-light .path1:before {
+    content: "\e91e";
+  }
+  .icon-pinterest-light .path2:before {
+    content: "\e91f";
+  }
+  .icon-pinterest-light .path3:before {
+    content: "\e920";
+  }
+  .icon-play-white:before {
+    content: "\e921";
+    color: #fff;
+  }
+  .icon-play-black:before {
+    content: "\e921";
+    color: $black;
+  }
+  .icon-Right:before {
+    content: "\e922";
+  }
+  .icon-saved-store_default:before {
+    content: "\e923";
+  }
+  .icon-saved-store_saved:before {
+    content: "\e924";
+  }
+  .icon-Search:before {
+    content: "\e925";
+    color: $black;
+  }
+  .icon-Share:before {
+    content: "\e926";
+  }
+  .icon-Shipping:before {
+    content: "\e927";
+  }
+  .icon-Shopping-Bag:before {
+    content: "\e928";
+    font-size: 1rem;
+  }
+  .icon-star:before {
+    content: "\e929";
+  }
+  .icon-Star_hover:before {
+    content: "\e92a";
+  }
+  .icon-Subtract:before {
+    content: "\e92b";
+  }
+  .icon-twitter .path1:before {
+    content: "\e92c";
+  }
+  .icon-twitter .path2:before {
+    content: "\e92d";
+  }
+  .icon-twitter .path3:before {
+    content: "\e92e";
+  }
+  .icon-Up:before {
+    content: "\e92f";
+  }
+  .icon-View-Large:before {
+    content: "\e930";
+  }
+  .icon-View-Small:before {
+    content: "\e931";
+  }
+  .icon-Wishlist-Option-1:before {
+    content: "\e932";
+    font-size: 1rem;
+  }
+  .icon-Wishlist-Option-2:before {
+    content: "\e933";
+    font-size: 1rem;
+  }
+  .icon-wish-list:before {
+    content: "\e934";
+    color: #e4e4e4;
+  }
+  .icon-wish-list-selected:before {
+    content: "\e935";
+    color: #f87878;
+  }
+  .icon-youtube-play .path1:before {
+    content: "\e936";
+  }
+  .icon-youtube-play .path2:before {
+    content: "\e937";
+  }
+  .icon-youtube-play .path3:before {
+    content: "\e938";
+  }
+  .icon-Zoom-In:before {
+    content: "\e939";
+  }
+  .icon-Zoom-Out:before {
+    content: "\e93a";
+  }
+  .icon-pdp-close:before {
+    @extend .icon-Close;
+    color: $icon-gray;
+    font-size: 1.5rem;
+  }
+
+  .icon-downArrow::after {
+    content: '';
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-top: 5px solid $black;
+  }
+
+  .icon-upArrow::after {
+    content: '';
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: 5px solid $black;
+  }
+
+  .icon-rightArrow {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 5px solid $black;
+  }
+
+  .icon-Search-Clock:before {
+    @extend .icon-Clock;
+    font-size: $font-size-12;
+  }
