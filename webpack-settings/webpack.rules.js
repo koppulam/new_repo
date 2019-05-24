@@ -14,6 +14,11 @@ module.exports = function getRules(options) {
                     cache: false
                 }
             },
+            // Vuew loader
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader'
+            },
             // Our Javascript/JSX (bundle into one)
             {
                 test: /\.(js|jsx)$/,
@@ -67,6 +72,10 @@ module.exports = function getRules(options) {
         ];
     } else {
         rules = [
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader'
+            },
             // ES-Lint on continuous build
             {
                 enforce: 'pre',
@@ -92,6 +101,15 @@ module.exports = function getRules(options) {
                     }
                 ]
             },
+            // this will apply to both plain `.css` files
+            // AND `<style>` blocks in `.vue` files
+            {
+                test: /\.css$/,
+                use: [
+                'vue-style-loader'
+                ]
+            },
+
             // SCSS-CSS extract to seperate file
             {
                 test: /\.(css|scss)$/,

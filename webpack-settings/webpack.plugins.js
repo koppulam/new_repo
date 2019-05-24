@@ -7,6 +7,8 @@ const assembleWebpack = require('assemble-webpack');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const cssnano = require('cssnano');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+
 
 const PROJECT_CONFIG = require('../project-config.js');
 
@@ -71,6 +73,7 @@ module.exports = function getPlugins(options) {
             ],
             helpers: `${JS_LIB}/utils/handlebars-helpers.js`
         }),
+        new VueLoaderPlugin(),
         new BrowserSyncPlugin(
             // BrowserSync options
             {

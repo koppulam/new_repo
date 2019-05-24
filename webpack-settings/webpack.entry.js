@@ -31,6 +31,8 @@ module.exports = function getEntriesConfig(options) {
         'lib/vendor/react-lazyload.js',
         'lib/vendor/react-contexify.js',
 
+        // vue
+        'vue',
         // React
         'react',
         'react-dom',
@@ -69,6 +71,8 @@ module.exports = function getEntriesConfig(options) {
         entries.globalReactComponents = ['./src/react-app/globalComps.js'];
     } else {
         entries.reactApp = ['./src/react-app/index.js'];
+
+        entries.vueApp = ['./src/vue-app/index.js'];
 
         // CSS compilation
         entries.globalStyles = ['./src/stylesheets/globals.scss', './src/clientlibs/css/global-styles.scss'];
