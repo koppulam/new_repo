@@ -10,7 +10,7 @@
     },
     "plugins": ["plugins/markdown"],
     "templates": {
-        "referenceTitle": "Tiffany Docs",
+        "referenceTitle": "General Docs",
         "disableSort": false
     },
     "opts": {

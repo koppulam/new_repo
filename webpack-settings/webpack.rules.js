@@ -137,7 +137,7 @@ module.exports = function getRules(options) {
                             loader: path.resolve(__dirname, '../src/lib/vendor/namespace-css-module-loader.js'),
                             options: {
                                 id: 'root',
-                                rootClass: 'tiffany-aem'
+                                rootClass: 'aem'
                             }
                         },
                         {

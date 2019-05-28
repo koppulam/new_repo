@@ -1,6 +1,6 @@
 (() => {
     const selectors = {
-        container: '.tiffany-aem > *',
+        container: '.general-aem > *',
         btn: 'button'
     };
     const classes = {

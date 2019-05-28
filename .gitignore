@@ -13,13 +13,11 @@ ui.apps/node_modules
 core/bin/pom.xml
 
 core/bin/target/classes/META-INF/MANIFEST.MF
-core/target/tiffanyco-platform.core-0.0.1-SNAPSHOT.jar
 core/bin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 core/bin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
 core/bin/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml
 core/bin/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
 
-ui.apps/src/main/content/jcr_root/apps/tiffanynco-platform/clientlibs/
 ui.apps.clientlibs/www-root/
 
 ui.apps/bin

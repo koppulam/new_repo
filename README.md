@@ -2,7 +2,7 @@
 
 ## What is this repository for?
 
-Code repo for **Tiffany FE Development**
+Code repo for **General VUE FE Development**
 
 ## Prerequisites
 
