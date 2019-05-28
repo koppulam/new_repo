@@ -7,9 +7,5 @@ Is it a complicated component and need more description? Continue describing you
 ## Usage
 
 ```html
-{{> css-dropdown
-    showHideBtnText="text link"
-    expandContent="test test test test test test test test test test test test test test test"
-    id="test1"
-}}
+{{> footer}}
 ```

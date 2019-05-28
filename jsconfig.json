@@ -4,12 +4,12 @@
       "allowSyntheticDefaultImports": false,
       "baseUrl": "./",
       "paths": {
-        "components/*": ["src/react-app/components/*"],
-        "actions/*": ["src/react-app/actions/*"],
-        "constants/*": ["src/react-app/constants/*"],
-        "config/*": ["src/react-app/config/*"],
-        "services/*": ["src/react-app/services/*"],
-        "types/*": ["src/react-app/types/*"]
+        "components/*": ["src/vue-app/components/*"],
+        "actions/*": ["src/vue-app/actions/*"],
+        "constants/*": ["src/vue-app/constants/*"],
+        "config/*": ["src/vue-app/config/*"],
+        "services/*": ["src/vue-app/services/*"],
+        "types/*": ["src/vue-app/types/*"]
       }
     },
     "exclude": ["node_modules", "dist"]

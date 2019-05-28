@@ -21,7 +21,7 @@ const PROJECT_CONFIG = require('./project-config.js');
 sass.compiler = require('node-sass');
 
 gulp.task('sass', () => {
-    return gulp.src(['./src/hbs-app/fe-components/components.scss', './src/react-app/react-components.scss'])
+    return gulp.src(['./src/hbs-app/fe-components/components.scss'])
         // .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         // .pipe(cssnano())
@@ -42,31 +42,31 @@ gulp.task('sass', () => {
 //         .pipe(gulp.dest('./www-root/css/')) //output folder
 // });
 
-gulp.task('fontSizeConversion', () => {
-    const processors = [
-        pxtorem({
-            rootValue: 10,
-            propList: ['font-size'],
-            replace: true,
-            mediaQuery: true
-        })
-    ];
+// gulp.task('fontSizeConversion', () => {
+//     const processors = [
+//         pxtorem({
+//             rootValue: 10,
+//             propList: ['font-size'],
+//             replace: true,
+//             mediaQuery: true
+//         })
+//     ];
 
-    gulp.src(['./www-root/css/bundle.globalHeader.css', './www-root/css/bundle.globalReactComponents.css'])
-        // To convert current rem values to px 1rem = 16px
-        .pipe(pixrem({
-            rootValue: '16px',
-            replace: true,
-            mediaQuery: true
-        }))
-        // To convert current px values to rem 1rem = 10px
-        .pipe(postcss(processors))
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('./www-root/css/'));
-});
+//     gulp.src(['./www-root/css/bundle.globalHeader.css', './www-root/css/bundle.globalReactComponents.css'])
+//         // To convert current rem values to px 1rem = 16px
+//         .pipe(pixrem({
+//             rootValue: '16px',
+//             replace: true,
+//             mediaQuery: true
+//         }))
+//         // To convert current px values to rem 1rem = 10px
+//         .pipe(postcss(processors))
+//         .pipe(rename({ suffix: '.min' }))
+//         .pipe(gulp.dest('./www-root/css/'));
+// });
 
 gulp.task('sass:watch', () => {
-    gulp.watch(['./src/hbs-app/fe-components/**/*.scss', './src/react-app/**/*.scss', './src/stylesheets/**/*.scss'], ['sass']);
+    gulp.watch(['./src/hbs-app/fe-components/**/*.scss', './src/vue-app/**/*.scss', './src/stylesheets/**/*.scss'], ['sass']);
 });
 
 gulp.task('ADA', () => {

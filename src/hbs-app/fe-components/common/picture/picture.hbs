@@ -1,4 +1,0 @@
-<picture>
-    <source media="(max-width: 900px)" {{#if isLazyLoad}}data-srcset={{mobileSrc}} class="load-lazily" {{else}} srcset={{mobileSrc}} {{/if}} onload="window.aos && window.aos.refresh()">
-    <img {{#if isLazyLoad}}data-src={{desktopSrc}} class="load-lazily" {{else}} src={{desktopSrc}} {{/if}} alt="{{altText}}" onload="window.aos && window.aos.refresh()">
-</picture>

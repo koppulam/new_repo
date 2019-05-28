@@ -67,20 +67,7 @@ module.exports = function getEntriesConfig(options) {
         'lib/utils/tiffany-ada.js'
     ];
 
-    if (options.globalComps) {
-        entries.globalReactComponents = ['./src/react-app/globalComps.js'];
-    } else {
-        entries.reactApp = ['./src/react-app/index.js'];
-
-        entries.vueApp = ['./src/vue-app/index.js'];
-
-        // CSS compilation
-        entries.globalStyles = ['./src/stylesheets/globals.scss', './src/clientlibs/css/global-styles.scss'];
-        entries.cmsComponents = ['./src/clientlibs/css/cms-components.scss'];
-        entries.browseGrid = ['./src/clientlibs/css/browse-grid.scss', './src/clientlibs/css/product-actions.scss', './src/clientlibs/css/build-your-own.scss'];
-        entries.pdp = ['./src/clientlibs/css/pdp.scss', './src/clientlibs/css/product-actions.scss', './src/clientlibs/css/engagement.scss', './src/clientlibs/css/sales-service.scss'];
-        entries.store = ['./src/clientlibs/css/store.scss'];
-    }
+    entries.vueApp = ['./src/vue-app/index.js'];
 
     return entries;
 };
