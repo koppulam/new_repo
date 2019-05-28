@@ -25,7 +25,7 @@ The client side application is comprised of the following technologies:
 
 *   BEM - Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development (http://getbem.com/)
 *   SASS - Sass is the most mature, stable, and powerful professional grade CSS extension language in the world (https://sass-lang.com/)
-*   JavaScript - We used Adroit framework and React JS
+*   JavaScript - We used Adroit framework and Vue JS
 
 #### Build Tools, Transpiler & Package Manager
 
@@ -162,11 +162,10 @@ Anything more to add?
 * Using "b-lazy" to lazy load videos and iframe videos
 
 
-## React Usage
+## Vue Usage
 
-* [React / Redux System Architecture](#react-redux-system-architecture)
+* [Vue / Vuex System Architecture](#vue-vuex-system-architecture)
 	* [Folder Structure](#folder-structure)
-	* [Site Specific Config](#site-specific-config)
 	* [Store](#store)
 	* [Actions](#actions)
 	* [Config](#config)
@@ -176,25 +175,21 @@ Anything more to add?
 	* [Util](#util)
 	* [Mock](#mock)
 * [Coding Conventions](#coding-conventions)
-	* [Conditional Class Names in JSX](#conditional-class-names-in-jsx)
-	* [Indenting JSX](#indenting-jsx)
-	* [Indenting Objects](#indenting-objects)
-	* [Wrap JSX in Parentheses when more than one line](#wrap-jsx-in-parentheses-when-more-than-one-line)
-	* [Ordering of methods inside react component](#ordering-of-methods-inside-react-component)
 
-## React / Redux System Architecture
+
+## Vue / Vuex System Architecture
 
 ### Folder Structure
 
 ```
-src/react-app/
+src/vue-app/
 |--- actions/
 |--- components/
 |--- |--- common
-|--- |--- pages
-|--- config/
+|--- |--- modules/
+|--- |--- |--- etc
 |--- constants
-|--- reducers
+|--- instances
 |--- store
 |--- mock/
 
@@ -202,12 +197,13 @@ src/react-app/
 
 ### Actions
 
-Actions are used to trigger changes to the redux state. We also make all calls to the API here.  A normal action is dispatched as:
+Actions are used to trigger changes to the vuex state. We also make all calls to the API here.  A normal action is dispatched as below :
 
 ```javascript
-export const example = () => (dispatch, getState) => {
-	dispatch({type: EXAMPLE_ACTION});
-};
+
+function example({ commit, state }, data) {
+	commit('EXAMPLE_ACTION', data);
+}
 ```
 
 However, we also make all our API calls in our actions files. We import from the API util, and pass in parameters based on the API call we are making.
@@ -215,31 +211,28 @@ However, we also make all our API calls in our actions files. We import from the
 Example:
 
 ```javascript
-export const login = (formData) => (dispatch, getState) => {
-	return dispatch(api({
+export const example = ({commit, state}, formData) => {
+	api({
 		method: 'post',
 		url: '/api/auth',
 		convertFromJson: true,
 		body: formData,
 		success: (resp) => {
 			if (resp.success) {
-				dispatch({
-					type: SIC.SIGNED_IN,
-					payload: {
+				commit('SIC.SIGNED_IN',
+					{
 						authenticated: resp.success,
 						guest: false
 					}
-				});
-				dispatch(getSession());
+				);
 			} else {
-				dispatch({
-					type: SIC.SIGN_IN_FAILED,
-					payload: {
+				commit('SIC.SIGN_IN_FAILED',
+					{
 						authenticated: false,
 						guest: true,
 						error: resp
 					}
-				});
+				);
 			}
 		}
 	}));
@@ -250,126 +243,48 @@ As you can see we have to pass a method, URL, and success function to the API fu
 
 ### Components
 
-Our components folder is broken down into three main subfolders.
-* Common - These are all our components without knowledge of the redux state. They should be highly reusable and take props to render.
-* Pages - These are actual pages that connect to redux. We connect them to pass in the redux data.
-
-### Config
-
-Settings that the application might need, that should live outside of components. For instance all possible enum values of a variable might be listed here. This way we can reference the config, instead of redefining the enum variables every time the variable is used.
+Components folder is broken down into two main subfolders.
+* Common - These are common reusable elements accross (link, picture, button, etc.)
+* modules - main modules on a page (header, footer, stores, pdp, etc.)
 
 ### Constants
 
-Unique constant name to be used by redux actions and reducers
+Unique constant name to be used by vue actions and store
 
 ### index.js
 
-Entry point of the application. Including setting up the redux store, and any other bootstrapping that is necessary.
+Entry point of the application. Including setting up the vuex store, and any other bootstrapping that is necessary.
 
-### Reducers
+### store
 
-The state of our application. We use combine reducers within every reducer, for easier code extension going forward.
+The state of application. Instead of maintaining every action and data on the main store we can break down into modules.
 
 ```javascript
-function signedIn(state = {}, action) {
-	switch (action.type) {
-		case SIC.SIGNED_IN:
-		case SIC.SIGN_IN_FAILED:
-			return action.payload;
-		case SIC.SIGN_IN_SUBMITTED:
-			return {};
-		default:
-			return state;
+	const moduleA = {
+		state: { ... },
+		mutations: { ... },
+		actions: { ... },
+		getters: { ... }
 	}
-}
+
+	const moduleB = {
+		state: { ... },
+		mutations: { ... },
+		actions: { ... }
+	}
+
+	const store = new Vuex.Store({
+		modules: {
+			a: moduleA,
+			b: moduleB
+		}
+	})
 ```
 
-### Store
-
-Store is configured in configure.js under store folder to be able expose to non react components and react components.
+More on modular store configuration and usage of getters, setters, actions can be found here https://vuex.vuejs.org/guide/modules.html 
 
 ## Coding Conventions
 
-### Conditional Class Names in JSX
+Adviced to follow styles guide principles given by default vue documentation
 
-We use the NPM classnames modules: https://www.npmjs.com/package/classnames
-
-Example:
-
-```
-className={classNames(
-	'foo',
-	{ bar: this.props.foo || this.props.bar }
-)}
-```
-
-### Indenting JSX
-
-Correct:
-
-```
-<Component
-	prop1={prop1}
-	prop2={prop2}
-/>
-```
-
-Incorrect:
-
-```
-<Component prop1={prop1} prop2={prop2} />
-```
-
-### Indenting Objects
-
-Correct:
-
-```
-{
-	key1: value1,
-	key2: value2
-}
-```
-
-Incorrect:
-
-```
-{key1: value2,
-key2: value2}
-```
-
-### Wrap JSX in Parentheses when more than one line
-
-Correct:
-
-```
-render() {
-	return (
-		<ComponentOne>
-			<ChildComponent>
-		</ComponentOne>
-	);
-}
-```
-
-Incorrect:
-
-```
-render() {
-	return <ComponentOne>
-			<ChildComponent>
-		</ComponentOne>;
-}
-```
-
-### Ordering of methods inside react component
-
-* Constructor
-* Lifecycle Methods
-* Click Handlers
-* Helper functions (Render helper functions)
-* Render
-
-### Mock
-
-We use mock files to simulate AEM data in dev environments
+https://vuejs.org/v2/style-guide/
