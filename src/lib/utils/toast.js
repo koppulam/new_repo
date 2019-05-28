@@ -4,10 +4,10 @@ import { findFirst, removeClass, addClass, hasClass, findAll } from 'lib/dom/dom
 const assign = require('lodash/assign');
 
 /**
- * @description Exposing TiffanyToast to window object need to create instance to create toast.
+ * @description Exposing Toast to window object need to create instance to create toast.
  * @returns {void}
  * @example
-    const testToast = new window.TiffanyToast({
+    const testToast = new window.Toast({
         type: 'error',
         customClass: 'my-toast-modifier',
         holder: 'page-wrap',
@@ -113,7 +113,7 @@ const assign = require('lodash/assign');
         }
     }
 
-    window.TiffanyToast = window.TiffanyToast || function (config) {
+    window.Toast = window.Toast || function (config) {
         /**
          * Create global element references
          */
@@ -138,10 +138,10 @@ const assign = require('lodash/assign');
     }
 
     /**
-     * @description method to show tiffany toast
+     * @description method to show  toast
      * @returns {void}
      */
-    TiffanyToast.prototype.show = function () {
+    Toast.prototype.show = function () {
         // throw warning if element is not present in DOM
         if (!this.holder) {
             console.warn('the holder is not valid please provide a available holder element');

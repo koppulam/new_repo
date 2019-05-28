@@ -1,4 +1,4 @@
 {
-	"presets": [["env", { "modules": false }], "react", "flow"],
-	"plugins": ["transform-object-rest-spread", "transform-class-properties", "syntax-dynamic-import", "transform-flow-strip-types"]
+	"presets": [["env", { "modules": false }]],
+	"plugins": ["transform-object-rest-spread", "transform-class-properties", "syntax-dynamic-import"]
 }

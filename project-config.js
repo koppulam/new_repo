@@ -5,8 +5,8 @@
  */
 
 // Application
-const APP_NAME = 'Tiffany Web Design';
-const APP_TITLE = 'Tiffany E-Store';
+const APP_NAME = 'General Web Design';
+const APP_TITLE = 'General E-Store';
 const VERSION = 'v1-0-0';
 
 // Source Code
@@ -31,19 +31,19 @@ const STYLESHEETS = `${SOURCE_ROOT_FOLDER}/stylesheets`;
 const ASSETS_SRC = `${SOURCE_ROOT_FOLDER}/assets`; // [Fonts, Images, Videos, Docs etc]
 
 // AEM Path to copy build files
-const AEM_SRC = '../ui.apps/src/main/content/jcr_root/apps/tiffanynco-platform/clientlibs/main'; // [Fonts, Images, Videos, Docs etc]
+const AEM_SRC = '../ui.apps/src/main/content/jcr_root/apps/general-platform/clientlibs/main'; // [Fonts, Images, Videos, Docs etc]
 
 // public AEM Path to copy dynamic bundled files
-const PUBLIC_AEM_SRC = '/etc/clientlibs/tiffanyco-platform/main/';
+const PUBLIC_AEM_SRC = '/etc/clientlibs/general-platform/main/';
 
 // public AEM Path to copy dynamic bundled files
-const AEM_CHUNK_SRC = '../ui.apps/src/main/content/jcr_root/etc/clientlibs/tiffanyco-platform/main/js';
+const AEM_CHUNK_SRC = '../ui.apps/src/main/content/jcr_root/etc/clientlibs/general-platform/main/js';
 
 // AEM Path to copy global files
-const AEM_GLOBAL_SRC = '../ui.apps/src/main/content/jcr_root/apps/tiffanynco-platform/clientlibs/global'; // [Fonts, Images, Videos, Docs etc]
+const AEM_GLOBAL_SRC = '../ui.apps/src/main/content/jcr_root/apps/general-platform/clientlibs/global'; // [Fonts, Images, Videos, Docs etc]
 
 // public AEM Path to copy global dynamic bundled files
-const PUBLIC_AEM_GLOBAL_SRC = '/apps/tiffanynco-platform/clientlibs/global/';
+const PUBLIC_AEM_GLOBAL_SRC = '/apps/general-platform/clientlibs/global/';
 
 
 // Generated Output Folder for Distribution
@@ -61,7 +61,7 @@ const OUTPUT_ASSETS_FOLDER = 'assets'; // Public Folder
  *    /site-name  => If site is hosted on Shared Machine
  *    /           => If site is hosted on Dedicated Machine
  */
-const APP_PUBLIC_PATH = 'tiffany-eStore';
+const APP_PUBLIC_PATH = 'General-eStore';
 
 // Webpack-Dev-Server
 const DEV_SERVER_HOST = 'localhost'; // Use 0.0.0.0 if wanted to access it over LAN using Machine IP address
